@@ -3,13 +3,12 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - jupyter
-  - jupyterlab
-  - nltk
-  - matplotlib
+  - torch>=1.10.0
+  - transformers
+  - tqdm
+  - scipy
   - numpy
-  - pandas
-  - python=3.11.8
   - scikit-learn
+  - seqeval
 prefix: /anaconda3/envs/runyankorener
 
