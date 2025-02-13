@@ -3,6 +3,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - torch>=1.10.0
   - tqdm
   - scipy
   - numpy
