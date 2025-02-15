@@ -22,6 +22,11 @@ Google  B-ORG
 
 ---
 
+✅ Fix 0 Labels: 
+
+sed -i 's/ 0$/ O/g' data/runyankore/train.txt
+
+
 ✅ Remove empty lines: 
 
 sed -i '/^$/d' data/runyankore/train.txt
