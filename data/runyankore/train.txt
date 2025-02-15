@@ -2689,7 +2689,7 @@ bw'okubyara 0
 emihingire 0
 mirungi 0
 hamwe 0
-n 'omuringo 0
+n'omuringo 0
 gw'okutwazamu 0
 amasharuura 0
 . 0
