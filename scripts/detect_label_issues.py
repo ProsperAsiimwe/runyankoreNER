@@ -23,6 +23,7 @@ def find_label_issues(file_path, labels):
     unknown_label_lines = []
     extra_column_lines = []
     non_printable_lines = []
+    single_column_lines = []  # NEW: Lines with only one column
 
     for i, line in enumerate(lines):
         original_line = line.rstrip()  # Remove trailing spaces
@@ -37,6 +38,7 @@ def find_label_issues(file_path, labels):
         # Check if a token is missing a label (only one column)
         if len(parts) == 1:
             missing_label_lines.append((i + 1, parts[0]))
+            single_column_lines.append((i + 1, parts[0]))  # NEW: Add to single column detection
             continue
 
         # Check if the line has more than two columns (extra tokens)
@@ -59,16 +61,21 @@ def find_label_issues(file_path, labels):
         if re.search(RUNYANKORE_ALLOWED, original_line):
             non_printable_lines.append((i + 1, original_line))
 
-    return missing_label_lines, blank_lines, extra_space_lines, unknown_label_lines, extra_column_lines, non_printable_lines
+    return missing_label_lines, blank_lines, extra_space_lines, unknown_label_lines, extra_column_lines, non_printable_lines, single_column_lines  # NEW: Added single_column_lines
 
 if __name__ == "__main__":
     labels = load_labels(LABELS_FILE)
-    missing_labels, blank_lines, extra_spaces, unknown_labels, extra_columns, non_printable = find_label_issues(DATA_DIR, labels)
+    missing_labels, blank_lines, extra_spaces, unknown_labels, extra_columns, non_printable, single_column_lines = find_label_issues(DATA_DIR, labels)
 
     # Only print detected issues
     if missing_labels:
         print("\n🚨 Found tokens without labels:\n")
         for line_num, token in missing_labels:
+            print(f"Line {line_num}: {token}")
+
+    if single_column_lines:
+        print("\n🚨 Found lines with only ONE column (missing label):\n")
+        for line_num, token in single_column_lines:
             print(f"Line {line_num}: {token}")
 
     if blank_lines:
@@ -96,5 +103,5 @@ if __name__ == "__main__":
         for line_num, line in non_printable:
             print(f"Line {line_num}: {line.strip()}")
 
-    if not (missing_labels or blank_lines or extra_spaces or unknown_labels or extra_columns or non_printable):
+    if not (missing_labels or blank_lines or extra_spaces or unknown_labels or extra_columns or non_printable or single_column_lines):
         print("\n✅ No label issues found! Your dataset is clean.\n")
