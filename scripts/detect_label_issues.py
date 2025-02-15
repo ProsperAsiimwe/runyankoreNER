@@ -57,7 +57,7 @@ def find_label_issues(file_path, labels):
         if re.search(r'[^\x20-\x7E]', original_line):  # Matches non-printable ASCII characters
             non_printable_lines.append((i + 1, original_line))
 
-    return missing_label_lines, blank_lines, extra_spaces, unknown_labels, extra_column_lines, non_printable_lines
+    return missing_label_lines, blank_lines, extra_space_lines, unknown_label_lines, extra_column_lines, non_printable_lines
 
 if __name__ == "__main__":
     labels = load_labels(LABELS_FILE)
