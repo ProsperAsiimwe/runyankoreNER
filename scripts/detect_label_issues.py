@@ -41,8 +41,8 @@ def find_label_issues(file_path, labels):
             single_column_lines.append((i + 1, parts[0]))  # NEW: Add to single column detection
             continue
 
-        # Check if the line has more than two columns (extra tokens)
-        if len(parts) > 2:
+        # Check if the line has exactly **two** columns (token + label)
+        if len(parts) != 2:
             extra_column_lines.append((i + 1, original_line))
             continue
 
@@ -94,7 +94,7 @@ if __name__ == "__main__":
             print(f"Line {line_num}: {token} -> {label}")
 
     if extra_columns:
-        print("\n🚨 Found lines with more than two columns (extra tokens detected):\n")
+        print("\n🚨 Found lines with incorrect column count (more or fewer than two):\n")
         for line_num, line in extra_columns:
             print(f"Line {line_num}: {line.strip()}")
 
