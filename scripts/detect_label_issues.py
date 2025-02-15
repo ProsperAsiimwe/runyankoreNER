@@ -22,11 +22,10 @@ def find_label_issues(file_path, labels):
     non_printable_lines = []
 
     for i, line in enumerate(lines):
-        original_line = line  # Keep original for debugging
-        line = line.rstrip()  # Remove trailing spaces
+        original_line = line.rstrip()  # Remove trailing spaces
 
         # Check for completely blank lines
-        if line == "":
+        if line.strip() == "":
             blank_lines.append(i + 1)
             continue
 
@@ -53,8 +52,8 @@ def find_label_issues(file_path, labels):
         if original_line.endswith(" "):
             extra_space_lines.append(i + 1)
 
-        # Check for non-printable characters
-        if re.search(r'[^\x20-\x7E]', original_line):  # Matches non-printable ASCII characters
+        # Check for non-printable characters (excluding normal whitespace)
+        if re.search(r'[^\x09\x0A\x0D\x20-\x7E]', original_line):  # Allows tabs, newlines, carriage returns
             non_printable_lines.append((i + 1, original_line))
 
     return missing_label_lines, blank_lines, extra_space_lines, unknown_label_lines, extra_column_lines, non_printable_lines
@@ -63,6 +62,7 @@ if __name__ == "__main__":
     labels = load_labels(LABELS_FILE)
     missing_labels, blank_lines, extra_spaces, unknown_labels, extra_columns, non_printable = find_label_issues(DATA_DIR, labels)
 
+    # Only print detected issues
     if missing_labels:
         print("\n🚨 Found tokens without labels:\n")
         for line_num, token in missing_labels:
