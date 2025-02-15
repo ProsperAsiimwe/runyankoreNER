@@ -50,3 +50,6 @@ grep -E " $|^$" data/runyankore/train.txt
 
 sed -i '/^$/d' data/runyankore/train.txt
 sed -i 's/ *$//' data/runyankore/train.txt
+
+
+
