@@ -5,6 +5,9 @@ import re
 DATA_DIR = os.path.join(os.path.dirname(__file__), "../data/runyankore/train.txt")
 LABELS_FILE = os.path.join(os.path.dirname(__file__), "../data/runyankore/labels.txt")
 
+# Allow Runyankore characters: Letters, diacritics, punctuation used in Runyankore
+RUNYANKORE_ALLOWED = r"[^\x09\x0A\x0D\x20-\x7E‘’“”’´`éóíáúñȠƝʃʄɛɲɳ]"
+
 def load_labels(file_path):
     """Load valid labels from labels.txt"""
     with open(file_path, "r", encoding="utf-8") as file:
@@ -52,8 +55,8 @@ def find_label_issues(file_path, labels):
         if original_line.endswith(" "):
             extra_space_lines.append(i + 1)
 
-        # Check for non-printable characters (excluding normal whitespace)
-        if re.search(r'[^\x09\x0A\x0D\x20-\x7E]', original_line):  # Allows tabs, newlines, carriage returns
+        # Check for ACTUAL non-printable characters (excluding Runyankore-specific characters)
+        if re.search(RUNYANKORE_ALLOWED, original_line):
             non_printable_lines.append((i + 1, original_line))
 
     return missing_label_lines, blank_lines, extra_space_lines, unknown_label_lines, extra_column_lines, non_printable_lines
