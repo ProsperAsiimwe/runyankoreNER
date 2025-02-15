@@ -22,3 +22,11 @@ Google  B-ORG
 
 ---
 
+✅ Remove empty lines: 
+
+sed -i '/^$/d' data/runyankore/train.txt
+
+✅ Verify Labels Again:
+
+cut -d' ' -f2 data/runyankore/train.txt | sort | uniq -c
+
