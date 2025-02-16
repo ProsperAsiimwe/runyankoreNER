@@ -1,7 +1,7 @@
 import os
 
 # Define paths
-DATA_DIR = os.path.join(os.path.dirname(__file__), "../data/fresh/")
+DATA_DIR = os.path.join(os.path.dirname(__file__), "../data/runyankore/")
 LABELS_FILE = os.path.join(DATA_DIR, "labels.txt")
 
 TRAIN_FILE = os.path.join(DATA_DIR, "train.txt")
@@ -23,10 +23,11 @@ def preprocess_file(file_path, valid_labels):
         for i, line in enumerate(file, start=1):
             parts = line.strip().split()
 
-            # Skip empty lines
+            # Preserve sentence boundaries (empty lines)
             if not line.strip():
-                removed_lines += 1
+                cleaned_lines.append("\n")  # Add an empty line to maintain separation
                 continue
+
 
             # Ensure exactly two columns (word + label)
             if len(parts) != 2:
