@@ -1,3 +1,15 @@
+ 1️⃣ Validate the Environment Setup
+
+Since your .env file already defines your hyperparameters, ensure that your environment variables are correctly loaded before running the scripts.
+
+Run this before training:
+
+source .env
+
+<!-- export $(grep -v '^#' .env | xargs)
+echo "Loaded environment variables." -->
+
+
 ✅ Running Training with .env Variables. In your terminal, paste this entire command:
 
 
