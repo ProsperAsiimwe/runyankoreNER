@@ -31,6 +31,7 @@ from transformers import AutoModelForSequenceClassification, AutoModelForTokenCl
 import torch
 from tqdm import tqdm
 import random
+import torch.serialization
 
 
 from transformers import (
@@ -54,7 +55,7 @@ from transformers import (
     get_linear_schedule_with_warmup,
 )
 
-from utils_ner import convert_examples_to_features, get_labels, read_examples_from_file
+from utils_ner import convert_examples_to_features, get_labels, read_examples_from_file, InputFeatures
 from torch.utils.data import Dataset, DataLoader
 
 try:
@@ -309,7 +310,9 @@ def load_and_cache_examples(args, tokenizer, labels, pad_token_label_id, mode):
     )
     if os.path.exists(cached_features_file) and not args.overwrite_cache:
         logger.info("Loading features from cached file %s", cached_features_file)
-        features = torch.load(cached_features_file)
+        # Allow InputFeatures to be unpickled
+        torch.serialization.add_safe_globals({"InputFeatures": InputFeatures}) 
+        features = torch.load(cached_features_file, weights_only=False) 
     else:
         logger.info("Creating features from dataset file at %s", args.data_dir)
         examples = read_examples_from_file(args.data_dir, mode)

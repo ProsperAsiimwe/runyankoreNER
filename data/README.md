@@ -22,34 +22,14 @@ Google  B-ORG
 
 ---
 
-✅ Fix 0 Labels: 
+✅ Delete the Cached Features File:
+rm -rf data/runyankore/cached_*
 
-sed -i 's/ 0$/ O/g' data/runyankore/train.txt
 
-
-✅ Remove empty lines: 
-
-sed -i '/^$/d' data/runyankore/train.txt
-
-✅ Verify Labels Again:
-
+✅ Verify Labels:
 cut -d' ' -f2 data/runyankore/train.txt | sort | uniq -c
 
-✅ If still having blank labels, Remove the Last Empty Label
 
-The remaining empty label might be caused by:
-
-A blank space in some lines of train.txt
-A trailing space at the end of a word
-A line with only whitespace
-Run the following command to detect problematic lines:
-
-grep -E " $|^$" data/runyankore/train.txt
-
-✅ If you see empty or improperly formatted lines, clean them with:
-
-sed -i '/^$/d' data/runyankore/train.txt
-sed -i 's/ *$//' data/runyankore/train.txt
 
 
 
