@@ -22,6 +22,10 @@ Google  B-ORG
 
 ---
 
+pip install --target=/scratch/prosper/python-packages -r requirements.txt
+
+pip install --target=/scratch/prosper/python-packages torch
+
 ✅ Delete the Cached Features File:
 rm -rf data/runyankore/cached_*
 
