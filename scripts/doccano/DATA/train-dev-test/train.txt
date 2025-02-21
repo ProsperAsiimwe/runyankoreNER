@@ -1,0 +1,12759 @@
+Ahabw'okutunga 0
+obwegyese 0
+, 0
+abakazi 0
+batungire 0
+emyanya 0
+y'ahaiguru 0
+omuby'obwebembezi 0
+. 0
+
+Naayenda 0
+kutaayaayira 0
+etawuni 0
+ibiri 0
+empango 0
+omu 0
+Yuganda B-LOC
+
+Abyulesi 0
+ekatwara 0
+ebitambo 0
+bya 0
+butandu 0
+om'eirwariro 0
+. 0
+
+Tukakimaraho 0
+obwire 0
+kureeba 0
+ngu 0
+ebyobuhangwa 0
+bwagarurwa 0
+butsya 0
+. 0
+
+Omuyaga 0
+gwahanura 0
+emyenda 0
+yaawe 0
+yoona 0
+aha 0
+mugoye 0
+
+Abahingi 0
+bashemereire 0
+kukorera 0
+hamwe 0
+okutunguura 0
+eby'amasharuura 0
+. 0
+
+Ebintu 0
+kubiragume 0
+nkokubiri 0
+, 0
+ebyo'bushubuzi 0
+bweitu 0
+nibweija 0
+kugwa 0
+. 0
+
+Guruupu 0
+nizigyenderera 0
+okwegyesa 0
+abantu 0
+ebiragiro 0
+by'omushoro 0
+. 0
+
+Ninyenda 0
+kuza 0
+omu 0
+tauni B-LOC
+akakuhendera B-DATE
+kwa I-DATE
+wiiki I-DATE
+. 0
+
+Tororo B-LOC
+neeshangwa 0
+burengyerwa B-LOC
+eizooba I-LOC
+bwa I-LOC
+Uganda I-LOC
+. 0
+
+Abarikuteekateekwaho 0
+kukora 0
+ebihagaro 0
+, 0
+batwairwe 0
+omu 0
+kooti 0
+kugira 0
+ngu 0
+batungye 0
+oburinganiza 0
+. 0
+
+Nituhaburwa 0
+kuhandiikisa 0
+eby'obugaiga 0
+byawe 0
+byona 0
+omu 0
+maziina 0
+gaawe 0
+. 0
+
+Nikireetwaki 0
+abazaani 0
+b'omupiira 0
+gw'enseru 0
+abarikukira 0
+obwingi 0
+kuba 0
+bari 0
+baringwa 0
+? 0
+
+Disiturikiti 0
+neyetenga 0
+abantu 0
+abarikubaasa 0
+kuhinga 0
+muhogo 0
+. 0
+
+Abibiina 0
+ebiri 0
+kuhabura 0
+gavumenti 0
+bishemeraire 0
+kureeta 0
+omuntu 0
+omwe 0
+orayetsimbe 0
+aha 0
+bwa 0
+purezidenti 0
+omu 0
+karuuru 0
+ka 0
+boona 0
+. 0
+
+Abaana 0
+abarikuzaarwa 0
+batahikire 0
+, 0
+nibangahi 0
+? 0
+
+Omukazi 0
+we 0
+n'omucureezi 0
+. 0
+
+Omurimo 0
+gwa 0
+zaakanso 0
+z'ahabyaro 0
+n'okurinda 0
+obutebenkana 0
+obwo 0
+zirikugyendera 0
+aha 0
+bigyendererwa 0
+. 0
+
+Okuhandiika 0
+aha 0
+mbeera 0
+y'obwire 0
+obwahati 0
+nikugyenda 0
+omumaisho 0
+. 0
+
+Orubaju 0
+rwa 0
+Anite B-PER
+rukagira 0
+ngu 0
+Uganda B-ORG
+Telecom I-ORG
+n’ekitongore 0
+kya 0
+gavumenti 0
+. 0
+
+Munwani 0
+we 0
+orikukiira 0
+oburungi 0
+niiwe 0
+yabeire 0
+namureeberera 0
+aha 0
+kugaitwa 0
+kwe 0
+. 0
+
+Akateganisa 0
+omukoro 0
+. 0
+
+Abaire 0
+naaha 0
+amahurire 0
+kuruga 0
+omu 0
+kashengye 0
+ki 0
+bateeranairemu 0
+. 0
+
+Abantu 0
+bakashemererwa 0
+basinda 0
+. 0
+
+Akatwara 0
+enshonga 0
+aha 0
+pooriisi 0
+. 0
+
+Enshonga 0
+nibakyeyongera 0
+kugyetegyereza 0
+. 0
+
+Tiimu 0
+ekazaana 0
+yasinga 0
+bataahi 0
+baabo 0
+ab'omwihanga 0
+. 0
+
+Akashabwa 0
+kuhandiika 0
+omu 0
+kitabo 0
+ky'abagyenyi 0
+. 0
+
+Noohendera 0
+ota 0
+? 0
+
+Ninyenda 0
+kurambura 0
+ekicweka B-LOC
+ky'amatemba I-LOC
+ga I-LOC
+Uganda I-LOC
+. 0
+
+Abeebembezi 0
+nibaija 0
+kwegyesibwa 0
+aha 0
+mihanda 0
+mingi 0
+ey'okumaraho 0
+endwara 0
+ezitari 0
+zimwe 0
+. 0
+
+Okuhangura 0
+ekiconco 0
+, 0
+twiine 0
+kuhangura 0
+buri 0
+muzaano 0
+. 0
+
+Ebyetengo 0
+byawe 0
+ebya 0
+aha 0
+eishomero 0
+biri 0
+nkahe 0
+? 0
+
+Omyoga 0
+y'abataata 0
+omu 0
+ka 0
+neeha 0
+? 0
+
+Oburinganiza 0
+bukahebwa 0
+. 0
+
+Abeebembezi 0
+b'abasiraamu 0
+, 0
+bashemereire 0
+kukwatanisa 0
+, 0
+kutari 0
+kutaana 0
+. 0
+
+Bakabekwatsa 0
+aha 0
+bw'obutaza 0
+kumureeba 0
+obuyabaire 0
+ari 0
+omw'irwariro 0
+. 0
+
+Atwire 0
+naaha 0
+kampuni 0
+egi 0
+empapura 0
+okumara 0
+emyaka B-DATE
+mukaaga I-DATE
+. 0
+
+N'obujunanizibwa 0
+bwa 0
+Disiturikiti 0
+, 0
+okwiikiriza 0
+puraani 0
+z'okwombeka 0
+, 0
+kutakatandikire 0
+. 0
+
+Okwita 0
+abantu 0
+abarikukozesa 0
+esimu 0
+kubiika 0
+n'okushashura 0
+sente 0
+hamwe 0
+n'abandi 0
+bantu 0
+, 0
+ahabwa 0
+sente 0
+. 0
+
+Ekanisa 0
+neetunga 0
+obuhwezi 0
+obu 0
+etarikubaasa 0
+kuha 0
+enshohoza 0
+yaabwo 0
+. 0
+
+Omushango 0
+ogu 0
+, 0
+bakaguhababa 0
+aha 0
+poriisi 0
+. 0
+
+Efuuzi 0
+zishemereire 0
+kuhaburwa 0
+n'okuhuumurizibwa 0
+. 0
+
+Abazaire 0
+bangye 0
+nibatiina 0
+Ruhanga 0
+. 0
+
+Gavumenti 0
+eshohoize 0
+sente 0
+z'okuyamba 0
+abazaani 0
+b'omupiira 0
+. 0
+
+Hakongyerwamu 0
+abaporiisi 0
+abandi 0
+, 0
+okuhamya 0
+ngu 0
+hariho 0
+eby'okwerinda 0
+nyekiro 0
+. 0
+
+Ni 0
+kirungi 0
+kusiima 0
+abandi 0
+. 0
+
+Murumuna 0
+wangye 0
+akaheebwa 0
+obukaikuru 0
+makumi 0
+abiri 0
+obw'eshiringi 0
+za 0
+Yuganda 0
+nka 0
+empeera 0
+y'okukora 0
+akarango 0
+. 0
+
+Akaba 0
+ari 0
+owakabiri 0
+aha 0
+rukaraara 0
+rwabo 0
+ababaire 0
+bari 0
+obo 0
+kutsikira 0
+taata 0
+we 0
+. 0
+
+Abahingi 0
+nibabaasa 0
+kuhinga 0
+ebihingwa 0
+, 0
+bagira 0
+n'amatungo 0
+aha 0
+murundi 0
+nigwo 0
+gumwe 0
+. 0
+
+Ekitongore 0
+ky'eby'emishoro 0
+nikirundaanira 0
+gavumenti 0
+sente 0
+. 0
+
+Ebibuuzo 0
+ebi 0
+oherize 0
+kukora 0
+nibingahi 0
+? 0
+
+Uganda B-LOC
+eine 0
+abateezi 0
+bakaruuru 0
+miriyoni 0
+ikumi 0
+na 0
+mwenda 0
+n’obucweeka 0
+buna 0
+. 0
+
+Okusinga 0
+orubanja 0
+, 0
+nikyetenga 0
+omuntu 0
+okureeta 0
+obujurizi 0
+omu 0
+kooti 0
+, 0
+obuteine 0
+kihakanisa 0
+. 0
+
+Omuri 0
+Arua B-LOC
+disiturikiti I-LOC
+, 0
+hariyo 0
+amataba 0
+. 0
+
+Ahabwenki 0
+orikushaba 0
+esente 0
+burizooba 0
+? 0
+
+Nikigumira 0
+ba 0
+mubiba 0
+sente 0
+kwija 0
+omukicweka 0
+ekitarimu 0
+mashanyarazi 0
+. 0
+
+Aha 0
+mikutu 0
+ya 0
+boona 0
+, 0
+niho 0
+banywani 0
+baitu 0
+bari 0
+. 0
+
+Niwe 0
+mushazi 0
+w'omupiira 0
+orikusingayo 0
+oburungi 0
+omu 0
+riigi B-ORG
+ya I-ORG
+Yuganda I-ORG
+
+Akakwatwa 0
+ahabw'okwiba 0
+esente 0
+za 0
+guruupu 0
+. 0
+
+Naatuura 0
+omu 0
+nju 0
+etahwire 0
+. 0
+
+N'obuyabiire 0
+ayiine 0
+orukororo 0
+rw'amaani 0
+akakyeberwa 0
+atiine 0
+akakooko 0
+ka 0
+korona 0
+. 0
+
+Gavumenti 0
+eshemeraire 0
+kuba 0
+nekuuma 0
+kurungi 0
+eby'obuhangwa 0
+. 0
+
+Poriisi 0
+ekweise 0
+nehiiga 0
+abandi 0
+basibe 0
+ikumi 0
+abatorokire 0
+. 0
+
+Bakama 0
+b'amashomero 0
+bashabire 0
+Gavumenti 0
+okubayamba 0
+ekiihaho 0
+emihingo 0
+ahamashomero 0
+. 0
+
+Okuhinduka 0
+n'ekicweka 0
+ky'amagara 0
+. 0
+
+Ori 0
+munyikiriza 0
+eha 0
+? 0
+
+Akabingwa 0
+aha 0
+murimo 0
+ahabw'okuremwa 0
+kukora 0
+emirmo 0
+ye 0
+. 0
+
+Akaba 0
+nafayo 0
+aha 0
+mishomo 0
+ye 0
+. 0
+
+Gavumenti 0
+ya 0
+sudani 0
+eshemereire 0
+kutaho 0
+oburyo 0
+kuronda 0
+omubazi 0
+gw’okumaraho 0
+ebizibu 0
+byabantu 0
+. 0
+
+Twembi 0
+tuka 0
+kora 0
+nka 0
+abakuumi 0
+omu 0
+kampuni 0
+egyo 0
+okumara 0
+emyaka 0
+mingi 0
+. 0
+
+Bizinesi 0
+y'obwoki 0
+eriyo 0
+neekura 0
+kandi 0
+neija 0
+kuheereza 0
+eminyeto 0
+emirimo 0
+. 0
+
+Abupooriisi 0
+abaingi 0
+nibasherekyerera 0
+enshobi 0
+za 0
+bagyenzi 0
+baabo 0
+zaheza 0
+kubaho 0
+. 0
+
+Omurinzi 0
+wa'hameizi 0
+atahize 0
+amagara 0
+gwo'mushohi 0
+we 0
+bwenyanja 0
+. 0
+
+Abahagizi 0
+be 0
+bakamutangirira 0
+ku 0
+yaagarukire 0
+omu 0
+muzaano 0
+
+Ahabwenki 0
+waaba 0
+norira 0
+? 0
+
+Omugasho 0
+gw'orukiiko 0
+rw'erizooba B-DATE
+ni 0
+guuha 0
+? 0
+
+Ebyorikwenda 0
+kukora 0
+omubutegyeki 0
+nibiiha 0
+? 0
+
+Akagura 0
+emondi 0
+yaayekorera 0
+kyimpusi 0
+. 0
+
+Abantu 0
+baingi 0
+omu 0
+kibuga 0
+tibaakikozesa 0
+enku 0
+kuteeka 0
+. 0
+
+Abarwarira 0
+omuri 0
+eri 0
+erwairiro 0
+babatwariza 0
+bata 0
+? 0
+
+Nikitereeza 0
+okuteera 0
+kw'omutima 0
+gw'omwana 0
+. 0
+
+Mwine 0
+omwanya 0
+gw'okukoreramu 0
+ebigyezo 0
+? 0
+
+Akahakanitsya 0
+ngui 0
+oine 0
+amahurire 0
+agarikwahukana 0
+aha 0
+ge 0
+agareete 0
+. 0
+
+Entebe 0
+zikaba 0
+zitarikumara 0
+bantu 0
+boona 0
+. 0
+
+Ni 0
+bikorwa 0
+ki 0
+ebimwe 0
+ebirikuhwera 0
+omubiri 0
+kuguma 0
+gwine 0
+amaani 0
+? 0
+
+Eikorero 0
+ry'amaaarwa 0
+erya 0
+Uganda B-ORG
+Breweries I-ORG
+nirimanya 0
+eibura 0
+ry'amaizi 0
+eririkukira 0
+kubaho 0
+obwire 0
+obu 0
+. 0
+
+Gavumenti 0
+eine 0
+kwehayo 0
+ekacondooza 0
+ebirikugigambwaho 0
+. 0
+
+Bizinesi 0
+z'abantu 0
+nizirwa 0
+zikiri 0
+ahamadara 0
+g'okutandikiraho 0
+. 0
+
+Obwimukiriro 0
+nibubaasa 0
+kukyendeera 0
+kurabira 0
+omu 0
+kutebeekanisa 0
+ebintu 0
+bitari 0
+bimwe 0
+ebi 0
+abaana 0
+barikubaasa 0
+kwejumbamu 0
+. 0
+
+Nahabwaki 0
+abeshongozi 0
+bari 0
+kukunda 0
+kozesa 0
+amaziina 0
+gekikuryo 0
+kusinga 0
+amazina 0
+gabo 0
+genyini 0
+. 0
+
+Nikirateberezebwa 0
+ngu 0
+ezimwe 0
+aha 0
+esente 0
+ez'okuyamba 0
+omu 0
+kakooko 0
+ka 0
+korona 0
+zikibwa 0
+. 0
+
+Orukiiko 0
+ryaitu 0
+aha 0
+minisiture 0
+rikeemerezibwa 0
+aha 0
+bw'endwara 0
+y'omuze 0
+. 0
+
+Ripoota 0
+y'eigwariro 0
+bakagiha 0
+abekika 0
+kye 0
+. 0
+
+Amaraka 0
+nge 0
+gakaba 0
+ningamushasha 0
+ahabwokuba 0
+akabyama 0
+kubi 0
+. 0
+
+Uganda B-LOC
+eine 0
+enkoragana 0
+ebonire 0
+n'ensi 0
+ezindi 0
+eziri 0
+omu 0
+Afirika B-LOC
+. 0
+
+Akateeba 0
+goora 0
+eyareetiire 0
+tiimu 0
+ye 0
+obusinguzi 0
+. 0
+
+Abakozi 0
+b'ekyoma 0
+ekirikugyegyena 0
+amaizi 0
+nibagira 0
+ngu 0
+nikiza 0
+kuba 0
+nikigyegyena 0
+amaizi 0
+garikwingana 0
+mita 0
+1000cc 0
+. 0
+
+Ssaabawolereza 0
+wa 0
+gavumenti 0
+niwe 0
+muhwezi 0
+mukuru 0
+omu 0
+by'ebiragiro 0
+omu 0
+gavumenti B-ORG
+ya I-ORG
+Uganda I-ORG
+. 0
+
+Emihendo 0
+y'enyama 0
+y'ente 0
+hamwe 0
+n'eyamate 0
+ekagwa 0
+. 0
+
+Puresidenti 0
+omusya 0
+arahizibwe 0
+omu 0
+bukumi 0
+bw'amaani 0
+. 0
+
+Aitomboitire 0
+ngu 0
+omwebembezi 0
+w'ekyaro 0
+nateekateeka 0
+aha 0
+banyabuzaarebe 0
+booka 0
+kutunga 0
+sente 0
+nz'obuhwezi 0
+. 0
+
+Ekitongore 0
+kya 0
+Uganda B-ORG
+Blood I-ORG
+Bank I-ORG
+ekirikureeberera 0
+eshagama 0
+omu 0
+Uganda B-LOC
+nikihiga 0
+abantu 0
+kugaba 0
+eshagama 0
+. 0
+
+Abateezi 0
+ba 0
+banda 0
+bakatambura 0
+bayetooroora 0
+ekyaro 0
+. 0
+
+Obutabanguko 0
+tiburikwikirizibwa 0
+omubunaku 0
+bwo'buruuru 0
+. 0
+
+Abarongo 0
+nibakira 0
+kushushana 0
+
+Nimuringo 0
+ki 0
+ogurikukirayo 0
+kubonera 0
+omukutereeza 0
+obutabanguko 0
+omumaka 0
+? 0
+
+Abeesharingi 0
+bakaba 0
+barihaihi 0
+kwita 0
+ofiisa 0
+. 0
+
+Akemerera 0
+enyima 0
+yangye 0
+omu 0
+rayiini 0
+. 0
+
+Omu 0
+nyikiriza 0
+y'obusiraamu 0
+, 0
+omuntu 0
+tarikubaasa 0
+kutaaha 0
+omu 0
+muzigiti 0
+ajweire 0
+ekeito 0
+. 0
+
+Abakuru 0
+omu 0
+amarwariro 0
+abashomankuzi 0
+, 0
+bashemereire 0
+kufubirwa 0
+munonga 0
+obwo 0
+barikukwata 0
+ebintu 0
+byabo 0
+. 0
+
+Nitwenda 0
+kumanya 0
+ahabw'enki 0
+enshonga 0
+egyo 0
+etweire 0
+obwire 0
+bwingi 0
+obu 0
+twabaire 0
+tutarikuteekateeka 0
+. 0
+
+Abeegi 0
+bakacondooza 0
+aha 0
+kibiina 0
+ky'obutegyeki 0
+. 0
+
+Hariyo 0
+bingi 0
+by'okwega 0
+ebikwatiraine 0
+n'ebiragiro 0
+. 0
+
+Juura 0
+esaati 0
+egyo 0
+ejoozye 0
+. 0
+
+Esente 0
+zikaija 0
+aha 0
+bwire 0
+obu 0
+babaire 0
+nibazetaaga 0
+. 0
+
+Akabi 0
+agurimu 0
+arikuza 0
+aha 0
+eirwatiro 0
+obu 0
+yaazaara 0
+. 0
+
+Omurimo 0
+gw'okutunga 0
+enkooko 0
+, 0
+nigukorwa 0
+abantu 0
+baingi 0
+. 0
+
+Amatembero 0
+g’ebyempurizagana 0
+y’emikutu 0
+yaboona 0
+kugarikuzamu 0
+sente 0
+nikishisha 0
+entekateeka 0
+ya 0
+“ 0
+itwe 0
+” 0
+
+Omukazi 0
+wangye 0
+naaguma 0
+nandeeba 0
+omukasheeshe 0
+
+Okusharamu 0
+okw'ahamuheru 0
+aha 0
+kikomo 0
+ky'emyaka 0
+nikukorwa 0
+ogu 0
+mwezi 0
+. 0
+
+Akarwara 0
+orukiiko 0
+rurikugyenda 0
+omumaisho 0
+
+Amaka 0
+maingi 0
+omu 0
+ihanga 0
+tigarikubaasa 0
+mashanyarazi 0
+. 0
+
+Abanyayuganda 0
+abarikuha 0
+enteekateeka 0
+yaabo 0
+aha 0
+social 0
+media 0
+nibooreka 0
+okwetomboita 0
+. 0
+
+Oburwaire 0
+bwa 0
+Korona 0
+nibagiragurira 0
+bata 0
+? 0
+
+Kaamishana 0
+ahaireyo 0
+ripoota 0
+y'amangu 0
+. 0
+
+Abeegi 0
+abarikukora 0
+gye 0
+aharurengo 0
+rwa 0
+Disiturikiti 0
+, 0
+nibaheebwa 0
+ebiconco 0
+by'okushashurirwa 0
+Gavumenti 0
+omwishomero 0
+. 0
+
+Omuntu 0
+naaba 0
+ataine 0
+rubanja 0
+kuhisya 0
+obu 0
+barahamye 0
+ngu 0
+ekirikumugambwaho 0
+akakikora 0
+. 0
+
+Owabaireho 0
+enganzi 0
+y'eihanga 0
+naaza 0
+kuziikwa 0
+eriizooba B-DATE
+. 0
+
+Abantu 0
+n'amunonga 0
+abakazi 0
+nibaba 0
+nibarwanira 0
+omugisha 0
+gw'okutunga 0
+amaizi 0
+. 0
+
+Boona 0
+abeegi 0
+bankejumbira 0
+omu 0
+kuziina 0
+kwa 0
+kiraasi 0
+. 0
+
+Ekibiina 0
+kikaba 0
+nikyehakannisa 0
+. 0
+
+Nabaika 0
+enkaito 0
+nze 0
+ahansi 0
+y'ekitanda 0
+. 0
+
+Omwanya 0
+nigunuka 0
+kubi 0
+ahabwokuba 0
+erupiira 0
+rw'oburofa 0
+rwashandaara 0
+omu 0
+kasheshe 0
+eraizooba 0
+. 0
+
+Abeebembezi 0
+bashemereire 0
+kuheereza 0
+abantu 0
+obuhwezi 0
+. 0
+
+Ebibiina 0
+bishemereire 0
+kurwanisa 0
+entaaro 0
+zaabo 0
+. 0
+
+Esimu 0
+ye 0
+nayo 0
+bakagiiba 0
+
+Abari 0
+kukuhakisa 0
+nibaza 0
+kuteera 0
+omuranga 0
+gw'akaruuru 0
+k'obusingye 0
+n'obumwe 0
+omunshonda 0
+zeihanga 0
+ryoona 0
+
+Omuhendo 0
+gw'abashaho 0
+gweyongyeire 0
+, 0
+waagyeragyeranisa 0
+n'emyaka 0
+ey'enyima 0
+. 0
+
+Omukazi 0
+oine 0
+enda 0
+yaaba 0
+aine 0
+oburwaire 0
+oburikukwata 0
+ekiine 0
+naabaasa 0
+kubuturiza 0
+omwana 0
+ari 0
+omunda 0
+. 0
+
+Purogyekiti 0
+neeta 0
+amaani 0
+omu 0
+by'obuhingi 0
+eby'omurembe 0
+emareho 0
+oburemeezi 0
+. 0
+
+Bakaba 0
+batiinire 0
+kukoresa 0
+engyenda 0
+yamaizi 0
+. 0
+
+Nyakwenkuru 0
+akampeereza 0
+enkoko 0
+obu 0
+namutaayaayira 0
+. 0
+
+Naashoma 0
+amahurire 0
+buriijo 0
+. 0
+
+Akiihayo 0
+akatabo 0
+ka 0
+risiti 0
+yampandiikira 0
+risiti 0
+. 0
+
+Omu 0
+Uganda B-LOC
+, 0
+emyanya 0
+y'amaramizo 0
+ekakingwa 0
+, 0
+endwara 0
+ya 0
+korona 0
+ku 0
+yabarukireho 0
+. 0
+
+Minisiture B-ORG
+y'eby'amagara I-ORG
+ebaasize 0
+kukora 0
+aha 0
+muzibwe 0
+. 0
+
+Ishe 0
+na 0
+nyina 0
+bakasyoka 0
+baaza 0
+kumubugana 0
+. 0
+
+Nitwija 0
+kuguma 0
+nitukuteejateekahi 0
+munonga 0
+. 0
+
+Nkamugambira 0
+kwesiga 0
+Ruhanga 0
+. 0
+
+Kihababirwa 0
+akagira 0
+ngu 0
+akabonabonesibwa 0
+obu 0
+yaabaire 0
+akomeirwe 0
+aha 0
+poriisi 0
+. 0
+
+Oine 0
+eshaha 0
+nungi 0
+. 0
+
+Amarwariro 0
+nigahwera 0
+omu 0
+kutambira 0
+amagara 0
+g'abantu 0
+. 0
+
+Omuhendo 0
+gw'abashubuzi 0
+gweyongyeire 0
+. 0
+
+Hariho 0
+emiringo 0
+etari 0
+emwe 0
+eyokukiza 0
+obugumba 0
+omu 0
+bakazi 0
+. 0
+
+Abahingi 0
+nibahaburwa 0
+kubwara 0
+ebinyobwa 0
+omu 0
+mishororongo 0
+obwe 0
+barikubwara 0
+orujuma 0
+rumwe 0
+omuri 0
+buri 0
+kiina 0
+. 0
+
+Abateezi 0
+bakaruuru 0
+baingi 0
+omu 0
+uganda B-LOC
+berarikiriire 0
+obwiukiriro 0
+obureije 0
+kubaho 0
+omukaruuru 0
+akarikwiija 0
+. 0
+
+Omubyobuhangwa 0
+bwa 0
+maizi 0
+, 0
+nitutaho 0
+obutaaho 0
+obucureire 0
+. 0
+
+Tuketaba 0
+aha 0
+mworeko 0
+gwa 0
+katemba 0
+nabanywani 0
+bangye 0
+kugiira 0
+ngu 0
+bahumuze 0
+aha 0
+bwonko 0
+. 0
+
+Onsaasire 0
+ahabw'okuha 0
+ebibuuzo 0
+byawe 0
+ebimwe 0
+omutwe 0
+. 0
+
+Akakooko 0
+ka 0
+siriimu 0
+nikareeta 0
+endwara 0
+mbi 0
+munonga 0
+. 0
+
+Eki 0
+nikiiza 0
+kuba 0
+rwagati 0
+y'okukura 0
+kuba 0
+ihaga 0
+erine 0
+obuteeka 0
+. 0
+
+Okuperereza 0
+kw’amani 0
+ni 0
+kyongyera 0
+abakozi 0
+b’ebyamagara 0
+amaani 0
+. 0
+
+Emishaara 0
+ya 0
+bakugu 0
+ne'yokwongyezibwa 0
+. 0
+
+Abashuubuzi 0
+baingi 0
+n'obw'ahati 0
+nibakirwana 0
+n'abakuru 0
+b'endembo 0
+. 0
+
+Akahanika 0
+ebishushani 0
+by'abaana 0
+be 0
+burihamwe 0
+omunju 0
+. 0
+
+Nkaabasibwaki 0
+manya 0
+ebintu 0
+byona 0
+ebikwatiriine 0
+n'okushohoza 0
+ebyeshongoro 0
+. 0
+
+Bakateeba 0
+omu 0
+bwire 0
+bwa 0
+penati 0
+. 0
+
+Obwebembezi 0
+buhebwa 0
+Ruhanga 0
+. 0
+
+Gavumenti 0
+zishemereire 0
+kutebekanisa 0
+emishomo 0
+ya 0
+bashaho 0
+. 0
+
+Akakomwa 0
+omu 0
+bibanda 0
+biragiro 0
+. 0
+
+Eby'empurizagana 0
+omu 0
+Uganda B-LOC
+nimurwanirwa 0
+. 0
+
+Omwana 0
+ow'emyaka B-DATE
+ikumi I-DATE
+, 0
+ashemereire 0
+kuba 0
+ari 0
+omu 0
+kibiina 0
+kya 0
+kana 0
+. 0
+
+Noomanya 0
+ishe 0
+? 0
+
+Eby'obuhingi 0
+n'obushubuzi 0
+nibihwera 0
+eby'obwegyese 0
+omu 0
+miringo 0
+etari 0
+emwe 0
+. 0
+
+Murumuna 0
+wangye 0
+omuto 0
+abuzirweho 0
+nyomwebazyo B-DATE
+kuruga 0
+aha 0
+ishomero 0
+. 0
+
+Uganda B-LOC
+neetoora 0
+nkahi 0
+, 0
+nabatuuragye 0
+baayo 0
+abarikubonabonesibwa 0
+? 0
+
+Okureka 0
+kutambura 0
+nikutandiika 0
+shaha 0
+emwe 0
+z'omwebazyo 0
+. 0
+
+Emotoka 0
+ekatunga 0
+ekizibu 0
+omu 0
+byoma 0
+. 0
+
+Abaishiki 0
+nibakyetenga 0
+kwongyerwa 0
+amaani 0
+. 0
+
+Empurizagana 0
+eyomungaro 0
+, 0
+nokozesa 0
+eha 0
+? 0
+
+Ruhanga 0
+nakunda 0
+ngu 0
+abantu 0
+bakorese 0
+engaro 0
+zaabo 0
+. 0
+
+Abantu 0
+beyongyeire 0
+okutunga 0
+ebintu 0
+bisya 0
+n'obuheereza 0
+bw'akatare 0
+. 0
+
+Abantu 0
+bayongyera 0
+kukwatwa 0
+erizooba 0
+. 0
+
+Eishomero 0
+okubaasa 0
+kugyendera 0
+omu 0
+biragiro 0
+, 0
+niriteekwa 0
+kuba 0
+riine 0
+raisensi 0
+. 0
+
+Erukiiko 0
+w’okugarukanisa 0
+rurugiremu 0
+okwongyezibwayo 0
+ukataho 0
+gavumenti 0
+ya 0
+hamwe 0
+. 0
+
+Akatunga 0
+diguri 0
+yeeye 0
+omumushomo 0
+gwa 0
+sayansa 0
+omubikwatiraine 0
+na 0
+kompyuuta 0
+. 0
+
+Ebiragiro 0
+bya 0
+kooti 0
+bishemereire 0
+kworoberwa 0
+. 0
+
+Hariho 0
+ekyetengo 0
+ky'okushanjuura 0
+omwanya 0
+ogurikuhikirwamu 0
+abaine 0
+oburemeezi 0
+obwija 0
+butamanyirwe 0
+ahabw'omuhendo 0
+gw'abarwaire 0
+kweyongyera 0
+. 0
+
+Akahababira 0
+owaabaire 0
+apateine 0
+, 0
+ahabw'okushakaara 0
+kubi 0
+enju 0
+ye 0
+. 0
+
+Nkashomera 0
+aha 0
+yunivasite 0
+erikusingayo 0
+oburungi 0
+omuri 0
+Yuganda B-LOC
+. 0
+
+Eibura 0
+ry'emirimo 0
+nirireebeka 0
+nka 0
+kimwe 0
+aha 0
+birikureeta 0
+okwiba 0
+abantu 0
+n'okubabuzaho 0
+. 0
+
+Omushaija 0
+ogwe 0
+akanjuna 0
+abashaija 0
+abaabeire 0
+nibenda 0
+kumpamba 0
+. 0
+
+Eitaka 0
+erigimu 0
+, 0
+nirirungi 0
+munonga 0
+ahakukura 0
+kw'ebihingwa 0
+. 0
+
+Akatunga 0
+akakooko 0
+ka 0
+korona 0
+obuyabire 0
+nakoora 0
+aha 0
+mbaaga 0
+yeitu 0
+. 0
+
+Nobu 0
+araabe 0
+ari 0
+muto 0
+, 0
+ariyo 0
+naakorerera 0
+ekirooto 0
+kye 0
+. 0
+
+Okwombeka 0
+eishomero 0
+, 0
+nikuza 0
+kutandika 0
+ahonaaho 0
+esente 0
+zaheza 0
+kwija 0
+. 0
+
+Itwe 0
+nk'abantu 0
+, 0
+nitwe 0
+twenka 0
+abashemereire 0
+kuta 0
+omu 0
+nkora 0
+omurimo 0
+gw'okubyara 0
+emiti 0
+. 0
+
+Okugamba 0
+ngu 0
+yebare 0
+, 0
+tiine 0
+ekikirikukwihaho 0
+. 0
+
+Omuburizi 0
+w'eishomero 0
+akatwebembera 0
+mushara 0
+ahakiterane 0
+. 0
+
+Abakozi 0
+abamwe 0
+nibabaasa 0
+kukorera 0
+omuka 0
+. 0
+
+Kyendeeza 0
+Speed 0
+waaba 0
+novuga 0
+omu 0
+nshoozi 0
+
+Endwara 0
+omu 0
+nyamaishwa 0
+nazo 0
+nizibaasa 0
+kuzibirwa 0
+barikuraba 0
+omu 0
+kuzisirika 0
+. 0
+
+Abahingi 0
+n'abariisa 0
+, 0
+bariyo 0
+nibafeerwa 0
+. 0
+
+Namboozi B-PER
+navunaana 0
+ab'amahurire 0
+okureetaho 0
+okwahukana 0
+omu 0
+kibiina B-ORG
+kya I-ORG
+Democratic I-ORG
+Party I-ORG
+. 0
+
+Nyowe 0
+na 0
+tata 0
+nitukunda 0
+okwibira 0
+. 0
+
+Takisi 0
+zikaba 0
+zikye 0
+erizooba B-DATE
+. 0
+
+Abaana 0
+baingi 0
+nibafa 0
+barikuzaarwa 0
+, 0
+ahabw'obuheereza 0
+bubi 0
+. 0
+
+Omwebembezi 0
+akatugira 0
+ngu 0
+tweena 0
+twiine 0
+kwehandikisa 0
+wiikendi 0
+etakahikire 0
+. 0
+
+Emotoka 0
+egyo 0
+, 0
+negurwa 0
+esente 0
+nyingi 0
+. 0
+
+Abeegi 0
+tibashemereire 0
+kushororwa 0
+omu 0
+mashomero 0
+, 0
+kurugirira 0
+aha 0
+bwengye 0
+bwabo 0
+. 0
+
+Akagambira 0
+abandi 0
+aha 0
+bubonero 0
+bw'endwara 0
+. 0
+
+Amakuru 0
+g'erizooba B-DATE
+gaaba 0
+niganyiizya 0
+. 0
+
+Ahaizooba 0
+eri 0
+, 0
+abasiraamu 0
+nibabagana 0
+kakye 0
+koona 0
+aku 0
+baine 0
+. 0
+
+Abantu 0
+baine 0
+kwejumba 0
+omubushubuzi 0
+babaase 0
+kutunga 0
+entaasya 0
+. 0
+
+Abaserukare 0
+ba 0
+miritare 0
+nibakwata 0
+embudu 0
+. 0
+
+Emyanya 0
+eri 0
+omu 0
+mbeera 0
+mbi 0
+neekira 0
+kureebeka 0
+omu 0
+ndembo 0
+ezitateekateekire 0
+kurungi 0
+. 0
+
+Abantu 0
+abarikuruga 0
+omwirwariro 0
+n'okuzayo 0
+, 0
+bashemereire 0
+kunaaba 0
+engaro 0
+zaabo 0
+. 0
+
+Nikikuru 0
+kumanya 0
+entaniso 0
+eri 0
+ahakuhagira 0
+n’okuteera 0
+akaruuru 0
+. 0
+
+Bashemereire 0
+kutunga 0
+oburyo 0
+bw'okuhikiiriza 0
+ebyetaago 0
+by'abeegi 0
+. 0
+
+Buri 0
+Disiturikiti 0
+neija 0
+kumanyisibwa 0
+omuhendo 0
+gw'esente 0
+ezibarikuza 0
+kutunga 0
+. 0
+
+Ebintu 0
+ebirikukorerwa 0
+omwihanga 0
+biine 0
+akatare 0
+kahango 0
+omu 0
+mahanga 0
+goona 0
+. 0
+
+Akeerunda 0
+ahankuumeeme 0
+yaakuuka 0
+mu 0
+eriino 0
+. 0
+
+Natuura 0
+omu 0
+mbeera 0
+eyebeyi 0
+. 0
+
+Eishomero 0
+ryaitu 0
+rikasinga 0
+empaka 0
+z'omupiira 0
+gw'ebigyere 0
+omwaka B-DATE
+ogwahwire I-DATE
+. 0
+
+Hakaba 0
+hatariho 0
+ekirikworeka 0
+ngu 0
+akateerwa 0
+. 0
+
+Abana 0
+beine 0
+okuhaburwa 0
+babanibaza 0
+omwi'shomero 0
+ritsya 0
+. 0
+
+Akagaruka 0
+omuka 0
+owabo 0
+omukingo 0
+ku 0
+gwayigwirweho 0
+. 0
+
+Abantu 0
+bakihamu 0
+ebyoma 0
+ebirikwehindura 0
+aha 0
+sitesheni 0
+y'amashanyarazi 0
+. 0
+
+Okuhandiika 0
+ekintu 0
+nk'ekikoreirwe 0
+omuri 0
+Uganda B-LOC
+tikirikumanyisa 0
+ngu 0
+kikakorerwa 0
+hanu 0
+. 0
+
+Buri 0
+omwe 0
+ashemereire 0
+kuguma 0
+ari 0
+omuyonjo 0
+. 0
+
+Hariho 0
+entunguuka 0
+omu 0
+burugwizooba B-LOC
+bwa I-LOC
+Uganda I-LOC
+. 0
+
+Eishomero 0
+rikarirera 0
+kuhandiika 0
+abeegi 0
+abatsya 0
+ahabw'okucondoozibwa 0
+aha 0
+kwiba 0
+ebigyezo 0
+. 0
+
+Amashomero 0
+amaingi 0
+ningaheereza 0
+abeegi 0
+kyantsya 0
+shaaha B-DATE
+ina I-DATE
+baaba 0
+bari 0
+ah'eiishomero 0
+. 0
+
+Nikiteekateekwaho 0
+ngu 0
+za 0
+ambyurensi 0
+zikagabwa 0
+Gavumenti 0
+. 0
+
+Okuronda 0
+oburinganiza 0
+kikatandikaho 0
+bwanyima 0
+y’okwija 0
+kwa 0
+terevijoni 0
+. 0
+
+Obuhwezi 0
+, 0
+nibukwatirira 0
+emirimo 0
+y'amarwariro 0
+. 0
+
+Enkayaana 0
+z'eitaka 0
+ziraahwa 0
+? 0
+
+Ishe 0
+akakora 0
+omurimo 0
+muhango 0
+omuby'obutegyeki 0
+bwa 0
+Uganda B-LOC
+. 0
+
+Ekitongore 0
+nikishashura 0
+omutwaro 0
+gumwe 0
+gwa 0
+Uganda 0
+nkakasiimo 0
+buri 0
+muhagizi 0
+omutsya 0
+omukozi 0
+arikureeta 0
+. 0
+
+Tukasinga 0
+tiimu 0
+yaabo 0
+omu 0
+semi 0
+fayinoozi 0
+z'omupiira 0
+gw'engaro 0
+. 0
+
+Eki 0
+nikireetera 0
+sente 0
+zaaruga 0
+omu 0
+mikono 0
+y'abateezi 0
+b'akaruuru 0
+abaingi 0
+. 0
+
+Abantu 0
+nibajaguza 0
+Noohiri B-DATE
+hamwe 0
+n'omwaka B-DATE
+musya I-DATE
+omu 0
+miringo 0
+etarikushushana 0
+. 0
+
+Okutaho 0
+enkora 0
+nsya 0
+nikiza 0
+kuba 0
+eky'okubanza 0
+aha 0
+by'okukora 0
+. 0
+
+Nirabasika 0
+gye 0
+munonga 0
+omuntu 0
+kukira 0
+kurungi 0
+akakoko 0
+ka 0
+korona 0
+. 0
+
+Ariyo 0
+nashweijuma 0
+okureeba 0
+oba 0
+nibabaasa 0
+kurekyereho 0
+enteekateeka 0
+ezi 0
+babaire 0
+biine 0
+
+Titurehandikisize 0
+kukora 0
+ebigyezo 0
+. 0
+
+Nitwetenga 0
+kwega 0
+kumanya 0
+okuringanizi 0
+okukora 0
+n'okwetuza 0
+. 0
+
+Ab’amahurire 0
+abaingi 0
+abu 0
+baretsire 0
+tibarikubaasa 0
+kukorera 0
+omuntaaro 0
+Z’abahekyera 0
+
+Abanyauganda 0
+abingi 0
+nibatamburira 0
+omu 0
+motoka 0
+z'aboona 0
+. 0
+
+Manya 0
+oku 0
+emitwarize 0
+yaawe 0
+erikukukwata 0
+. 0
+
+Okwitirira 0
+n'eky'omugasho 0
+omu 0
+murimo 0
+g'obuhingi 0
+n'oburiisa 0
+. 0
+
+Bakashohoza 0
+sente 0
+nyingi 0
+omu 0
+kushashura 0
+ba 0
+puriida 0
+n'omu 0
+kureeta 0
+abajurizi 0
+. 0
+
+Okubuuzibwa 0
+kwe 0
+kwaba 0
+kuri 0
+okwa 0
+shaaha B-DATE
+ina I-DATE
+omu I-DATE
+kasheeshe I-DATE
+. 0
+
+Omujuurizi 0
+omunya 0
+Uganda B-LOC
+omuuto 0
+akaaba 0
+ayiine 0
+emyaka B-DATE
+ikumi I-DATE
+neena I-DATE
+yonka 0
+. 0
+
+Abasiraamu 0
+bashemereire 0
+kukorera 0
+hamwe 0
+, 0
+bakaheereza 0
+abantu 0
+. 0
+
+Omwebembezi 0
+w'eihanga 0
+ashemereire 0
+kureeberera 0
+abantu 0
+be 0
+. 0
+
+Tiimu 0
+y'omupiira 0
+eyaasingire 0
+ekikopo 0
+ky'ensi 0
+yoona 0
+ni 0
+eha 0
+? 0
+
+Ab'omu 0
+bicweka 0
+ebirikujwekyerwa 0
+abanyeishengyero 0
+abarikuhakanisa 0
+Gavumenti 0
+, 0
+tibarikukira 0
+kutunga 0
+obuheereza 0
+bwa 0
+Gavumenti 0
+. 0
+
+Omwebeembezi 0
+wa 0
+Disiturikiti 0
+yaitu 0
+, 0
+naafayo 0
+munonga 0
+okuheereza 0
+abantu 0
+. 0
+
+Poriisi 0
+ekahabura 0
+abantu 0
+okugira 0
+obusingye 0
+n'obutereera 0
+omu 0
+bwire 0
+obu 0
+. 0
+
+Ekyapa 0
+kya 0
+itaka 0
+kiri 0
+omu 0
+maziina 0
+ga 0
+maawenkuru 0
+. 0
+
+Poriisi 0
+eteire 0
+omwika 0
+ogurikuriza 0
+emiziga 0
+omu 0
+bantu 0
+abarikwesharinga 0
+. 0
+
+Torakyenge 0
+enshonga 0
+ahabwenki 0
+barwanire 0
+. 0
+
+Empungi 0
+tizishemereire 0
+kushororwa 0
+. 0
+
+Amaka 0
+maingi 0
+gaine 0
+omusiri 0
+gw'emboga 0
+. 0
+
+Abateezi 0
+b'omupiira 0
+, 0
+nibetenga 0
+ekiriisa 0
+puroteini 0
+okwombeka 0
+, 0
+n'okugarura 0
+busya 0
+emibiri 0
+yaabo 0
+. 0
+
+Emotoka 0
+za 0
+Gavumenti 0
+n'ezokukora 0
+emirimo 0
+ya 0
+ofiisi 0
+ey'abakungu 0
+yonka 0
+. 0
+
+Tindikwikiriza 0
+ngu 0
+obwahati 0
+n'abanywani 0
+. 0
+
+Abaana 0
+n'ebirabo 0
+ebiruga 0
+ahari 0
+Ruhanga 0
+. 0
+
+Hariho 0
+emiringo 0
+mingi 0
+y'omuntu 0
+kukoresa 0
+sente 0
+ze 0
+. 0
+
+Abahagizi 0
+bakashemeza 0
+abazaani 0
+baabo 0
+omu 0
+muzaano 0
+gwona 0
+. 0
+
+Ekirikureetera 0
+abantu 0
+kwediima 0
+n'enki 0
+? 0
+
+Poriisi 0
+terikwikiriza 0
+abantu 0
+abarikunyangaraza 0
+abandi 0
+. 0
+
+Ninyenda 0
+kukugambira 0
+ekyandeteire 0
+okuruga 0
+omu 0
+eishomero 0
+. 0
+
+Aakiiko 0
+k'okurwanirira 0
+obugabe 0
+bw'abantu 0
+omu 0
+ihanga 0
+n'akamugasho 0
+ki 0
+? 0
+
+Purogyekiti 0
+negyenderera 0
+okwimusya 0
+omutindo 0
+gw'eminyeeto 0
+. 0
+
+Abajurizi 0
+bakafa 0
+bata 0
+? 0
+
+Omurimo 0
+muhango 0
+oguturinzire 0
+nigwija 0
+kuhwa 0
+. 0
+
+Abaishiki 0
+abaingi 0
+, 0
+nibeihamu 0
+enda 0
+kyesherekye 0
+. 0
+
+Yunivasite 0
+ekakora 0
+omukoro 0
+gw'okujweka 0
+abeegi 0
+, 0
+ogw'omurundi 0
+gwa 0
+mukaaga 0
+. 0
+
+Eminyeeto 0
+mingi 0
+etweire 0
+emyanya 0
+y'obwebembezi 0
+. 0
+
+Ibanyi 0
+abiire 0
+ari 0
+omu 0
+nyuziki 0
+kumara 0
+emyaka B-DATE
+ikumi I-DATE
+na I-DATE
+gumwe I-DATE
+. 0
+
+Omworeko 0
+gw'emisono 0
+nigukorwa 0
+omu 0
+kwezi B-DATE
+kwa I-DATE
+mushanju I-DATE
+buri I-DATE
+mwaka I-DATE
+. 0
+
+Abanyamakuru 0
+tibashemereire 0
+kukwaata 0
+aharutambi 0
+ebyokuhurira 0
+emishango 0
+omu 0
+kooti 0
+. 0
+
+Butandu 0
+ekaba 0
+nkahi 0
+? 0
+
+Eminyeeto 0
+ekahaburwa 0
+kuguma 0
+n'obutereera 0
+kandi 0
+etarikutiina 0
+. 0
+
+Ahababiirwe 0
+ahabw'okwejumbira 0
+omu 0
+mishango 0
+endiijo 0
+. 0
+
+Abaishiki 0
+abarikukirayo 0
+obwingi 0
+bagenda 0
+na 0
+baanyina 0
+omu 0
+butare 0
+. 0
+
+Esente 0
+z'okwega 0
+aha 0
+Yunivasite 0
+nizingahi 0
+? 0
+
+Ebyabeireho 0
+omubyentatsa 0
+bikakwata 0
+ahari 0
+buri 0
+budyomwe 0
+. 0
+
+Abariisa 0
+nibatunga 0
+ente 0
+. 0
+
+Omwe 0
+ahabanyamakuru 0
+ababandize 0
+kukora 0
+ahaby'omupiira 0
+omu 0
+Uganda B-LOC
+, 0
+afiire 0
+okweezi B-DATE
+okuhweire I-DATE
+. 0
+
+Tukaakiira 0
+okushaba 0
+kw'abantu 0
+igana 0
+ahabw'omurimo 0
+gumwe 0
+. 0
+, 0
+
+Abakozi 0
+aha 0
+runaku 0
+rw'okutongoza 0
+ekyoma 0
+ky'okucendeeza 0
+amaizi 0
+. 0
+
+Purojekiti 0
+ezitarikushwana 0
+zitandikirweho 0
+okwongyera 0
+amaani 0
+omubakazi 0
+omukyanga 0
+. 0
+
+Amashomero 0
+amaingi 0
+tigahairwe 0
+sente 0
+zirikumara 0
+. 0
+
+Nikyerarikiriza 0
+munonga 0
+, 0
+okureeba 0
+ngu 0
+abakozi 0
+b'ebihagaro 0
+abarikukira 0
+obwingi 0
+n'eminyeeto 0
+. 0
+
+Nibatunga 0
+amakuru 0
+agarikukwata 0
+, 0
+aha 0
+bwire 0
+bw'okubyara 0
+, 0
+emihingire 0
+mirungi 0
+hamwe 0
+n 'omuringo 0
+gw'okutwazamu 0
+amasharuura 0
+. 0
+
+Raaputoopu 0
+hangye 0
+yaareka 0
+kukora 0
+. 0
+
+Hariho 0
+ebitongore 0
+bibiri 0
+byakareebi 0
+. 0
+
+Gavumenti 0
+eshemereire 0
+okuta 0
+empiiha 0
+omu 0
+miriimo 0
+yentatsya 0
+oyihireho 0
+boona 0
+bagaigahare 0
+. 0
+
+Akakuba 0
+ekipapura 0
+yaakinaga 0
+omu 0
+kiibo 0
+kya 0
+kasasiro 0
+. 0
+
+Akarekurwa 0
+yaaruga 0
+omukihome 0
+wiiki B-DATE
+ehwire I-DATE
+. 0
+
+Abagyenyi 0
+bagyenzire 0
+batiine 0
+ki 0
+babriire 0
+. 0
+
+Zanzibari B-LOC
+n'ekirwa 0
+omuri 0
+Tanzania B-LOC
+. 0
+
+Abanyamahanga 0
+abarikukora 0
+bizinesi 0
+bataine 0
+rayisinsi 0
+bashemereire 0
+kugarurwa 0
+omu 0
+mahanga 0
+gaabo 0
+. 0
+
+eminyeeto 0
+omuri 0
+Afurika 0
+eine 0
+ekishinjo 0
+kiingi 0
+omukuzaana 0
+zaara 0
+. 0
+
+Ediini 0
+neeyokureeta 0
+obusingye 0
+. 0
+
+Kampuni 0
+z'ebyokuhurizingana 0
+zitaireho 0
+okorobya 0
+omu 0
+by'okuhurizingana 0
+omw'eihanga 0
+ryona 0
+. 0
+
+Omu 0
+Uganda B-LOC
+twinemu 0
+abeeshongozi 0
+b'ebyeshongoro 0
+by'ediini 0
+bingi 0
+
+Titwaine 0
+matsiko 0
+ng'okusingura 0
+ekikompo 0
+ky'emanzi 0
+ahabwokuba 0
+tutairwe 0
+emipiira 0
+mukaaga 0
+. 0
+
+Ninteekateeka 0
+ngu 0
+nibaza 0
+kusigaza 0
+ekiconco 0
+n'omwaka B-DATE
+ogurikwija I-DATE
+. 0
+
+Abaishiki 0
+abaine 0
+emyaka B-DATE
+nk'eshatu I-DATE
+hamwe 0
+n'abakazi 0
+batahirirwe 0
+. 0
+
+Eshonga 0
+zitwirwe 0
+aha 0
+poriisi 0
+y'ekyaro 0
+. 0
+
+Obwa 0
+hati 0
+ni 0
+iteeka 0
+kujwara 0
+masiki 0
+waaba 0
+ori 0
+omu 0
+rweteereine 0
+. 0
+
+Obuheereza 0
+obumwe 0
+, 0
+abantu 0
+bashemereire 0
+kubutunga 0
+hateine 0
+ekirikubateganisa 0
+. 0
+
+Abantu 0
+bashemereire 0
+kukora 0
+n'amaani 0
+babaase 0
+kutunguura 0
+entuura 0
+yaabo 0
+. 0
+
+Niwe 0
+orikusingayo 0
+okuzaana 0
+gye 0
+omupiira 0
+gw'ebigyere 0
+aha 0
+eishomero 0
+ryaitu 0
+. 0
+
+Buri 0
+mujwekyerwa 0
+bakamuha 0
+emitwaro 0
+ikumi 0
+netano 0
+. 0
+
+Empungi 0
+hamwe 0
+n'abantu 0
+abarikutuura 0
+nabo 0
+, 0
+nibatunga 0
+obuheereza 0
+oburikwingana 0
+. 0
+
+Obuyambi 0
+busindiikirwe 0
+. 0
+
+Noofayo 0
+twazina 0
+hamwe 0
+? 0
+
+Omushaija 0
+we 0
+shangyiremu 0
+obunuuzi 0
+nka 0
+obwa 0
+nyomwazyo B-DATE
+. 0
+
+Omugasho 0
+g'okushwijuma 0
+ebihandiiko 0
+by'ekitongore 0
+n'enki 0
+? 0
+
+Abakugu 0
+bariyo 0
+nibacondooza 0
+okutunga 0
+emihanda 0
+mirungi 0
+ey'okuzibira 0
+okujanjara 0
+kw'endwara 0
+. 0
+
+Tiimu 0
+y'owaitu 0
+esingire 0
+empaka 0
+. 0
+
+Amahanga 0
+makye 0
+omu 0
+Africa B-LOC
+gahikire 0
+aha 0
+rurengo 0
+ahi 0
+buryomwe 0
+arikwebaasa 0
+. 0
+
+Abaana 0
+nibenda 0
+kutuura 0
+na 0
+ishebo 0
+owaabo 0
+. 0
+
+Etsire 0
+rw'okugaba 0
+obuyambi 0
+turitaire 0
+eharyaba 0
+abatari 0
+kubaaka 0
+kugaburira 0
+amaka 0
+gaabo 0
+. 0
+
+Abazaani 0
+ba 0
+Onduparaka B-ORG
+abamwe 0
+bakaba 0
+baine 0
+emipiira 0
+yaabo 0
+ey'okubanza 0
+. 0
+
+Obwa 0
+hati 0
+ofiisa 0
+mukuru 0
+
+Tihaine 0
+eki 0
+naahuriire 0
+kuruga 0
+owabaasa 0
+. 0
+
+Eby'emikono 0
+n'omurimo 0
+murungi 0
+ogushemereire 0
+kwegyesibwa 0
+abakazi 0
+n'abaana 0
+. 0
+
+Akaheereza 0
+poriisi 0
+orunyiriri 0
+rwona 0
+orwabakozi 0
+b'ebihagaro 0
+, 0
+abarikukorengana 0
+nawe 0
+. 0
+
+Murumuna 0
+we 0
+nashashurwa 0
+esente 0
+nkye 0
+aha 0
+mirimo 0
+ei 0
+arikukora 0
+. 0
+
+Abantu 0
+abamwe 0
+nibakuunda 0
+kugura 0
+omuceeri 0
+ogukoreirwe 0
+omu 0
+mahanga 0
+gaheeru 0
+. 0
+
+Za 0
+tiimu 0
+nizeija 0
+kuba 0
+nizi 0
+hayahayana 0
+. 0
+
+Emyanya 0
+ya 0
+karantiini 0
+eijwire 0
+abarwaire 0
+. 0
+
+Enamba 0
+nuNgi 0
+aha 0
+bantu 0
+b'ebamureekyireho 0
+. 0
+
+Omuriro 0
+gwokinze 0
+obunyaatsi 0
+. 0
+
+Obutwa 0
+kuruga 0
+omu 0
+simu 0
+nibuza 0
+kweyongyera 0
+ahabwokugira 0
+ngu 0
+esimu 0
+ziri 0
+ahansi 0
+omu 0
+katare 0
+. 0
+
+Besigye B-PER
+akagira 0
+ngu 0
+abantu 0
+bamuruhire 0
+. 0
+
+Abantu 0
+nibamara 0
+obwire 0
+bwingi 0
+barikusherura 0
+amaizi 0
+g'okukozesa 0
+omu 0
+maka 0
+gaabo 0
+. 0
+
+Purezidenti 0
+naija 0
+kugira 0
+ebi 0
+yaabaganaho 0
+n'ehanga 0
+aha 0
+rwamukaaga B-DATE
+. 0
+
+Abeebembezi 0
+abamwe 0
+nibahinduka 0
+abeebembezi 0
+ahanyima 0
+y'okutooranwa 0
+. 0
+
+Nkaba 0
+nyine 0
+kutaaha 0
+amaizi 0
+ah'eiziba 0
+. 0
+
+Akahunduuza 0
+enguuto 0
+zoona 0
+ezabaire 0
+ziri 0
+omu 0
+kyanga 0
+eki 0
+arikujwekyera 0
+. 0
+
+Ekirugiremu 0
+, 0
+kimwe 0
+kya 0
+kashatu 0
+ky'abajwekyerwa 0
+omu 0
+ishengyero 0
+omuri 0
+Buhindi 0
+
+Tushemereire 0
+kugorora 0
+enshobi 0
+eziri 0
+omu 0
+kushorooza 0
+emishoro 0
+. 0
+
+Okuburwa 0
+emirimo 0
+, 0
+nikirugirira 0
+aha 0
+shonga 0
+nyingi 0
+. 0
+
+Okutereeza 0
+orupanka 0
+rwa 0
+mootoka 0
+kishemeraire 0
+kuba 0
+kinkirwa 0
+buri 0
+mwaka 0
+
+N'omwe 0
+aha 0
+bairuki 0
+abarikukirayo 0
+omunsi 0
+. 0
+
+Bakuru 0
+b'amahanga 0
+bagiire 0
+aheeru 0
+omu 0
+rutayaayo 0
+. 0
+
+Guruupu 0
+neekora 0
+omumyanya 0
+yoona 0
+eyentunguuka 0
+. 0
+
+Yebaza 0
+abakozi 0
+baawe 0
+, 0
+ahabw'omurimo 0
+ogubakozire 0
+. 0
+
+Purezidenti 0
+Museveni B-PER
+okutoorana 0
+Catherine B-PER
+Kusasira I-PER
+. 0
+
+puriinsi 0
+akaturambuza 0
+ekikari 0
+kye 0
+. 0
+
+Za 0
+banka 0
+zikaba 0
+niziheereza 0
+abantu 0
+esente 0
+nkye 0
+ahabw'okugira 0
+ngu 0
+tibaine 0
+musingo 0
+. 0
+
+Omwe 0
+aha 0
+babiireho 0
+engazi 0
+za 0
+uganda B-LOC
+akafa 0
+enkumi B-DATE
+ibiri I-DATE
+ikumi I-DATE
+na I-DATE
+mwenda I-DATE
+. 0
+
+Abantu 0
+abaabaire 0
+nibajunaanwa 0
+omushango 0
+gw'okushenya 0
+ekanisa 0
+bakeyemerererwa 0
+. 0
+
+Kikaba 0
+kiri 0
+omu 0
+mateeka 0
+. 0
+
+N'omushwijumi 0
+w'amahurire 0
+g'eby'emizaano 0
+aha 0
+tiivi 0
+emwe 0
+eya 0
+hanu 0
+. 0
+
+Reka 0
+twehare 0
+okusosora 0
+abandi 0
+. 0
+
+Niwe 0
+mukama 0
+wa 0
+sitoowa 0
+. 0
+
+Kampuni 0
+y'eby'empurizagana 0
+egyo 0
+eyeteekateekire 0
+okuruga 0
+omuri 0
+Yuganda B-LOC
+. 0
+
+Enshonga 0
+ezirikukira 0
+obwingi 0
+zikahanuurwa 0
+omurukiiko 0
+ry'eby'okweriinda 0
+. 0
+
+Abaana 0
+abaingi 0
+omu 0
+byaro 0
+nibarwara 0
+ekiirukano 0
+. 0
+
+Orutookye 0
+ruri 0
+aha 0
+heka 0
+itaano 0
+z'itaka 0
+. 0
+
+Minisiture B-ORG
+y’enshonga I-ORG
+za I-ORG
+heeru I-ORG
+omu I-ORG
+Uganda I-ORG
+ekataho 0
+ekeshariingo 0
+k’obusingye 0
+. 0
+
+Kaggwa B-PER
+akaba 0
+ari 0
+omurwanirizi 0
+w'obugabe 0
+bw'abantu 0
+Omu 0
+kitongore B-ORG
+ekirikuwanirira I-ORG
+obugabe I-ORG
+bw'abantu I-ORG
+omuri I-ORG
+Uganda I-ORG
+. 0
+
+Nomanya 0
+ekigyendererwa 0
+kyawe 0
+omu 0
+magara 0
+. 0
+
+Boona 0
+abakozi 0
+nibetenga 0
+kuhumuramu 0
+nangu 0
+hakiri 0
+saabiiti 0
+emwe 0
+. 0
+
+Hariho 0
+omuhendo 0
+mwingi 0
+gw'abarikukwatwa 0
+akakooko 0
+ka 0
+korona 0
+omu 0
+myanya 0
+y'obutare 0
+. 0
+
+Omuramuzi 0
+omukuru 0
+ayongiizeyo 0
+okuhurira 0
+orubanja 0
+kuhisya 0
+omwezi B-DATE
+ogurikwija I-DATE
+. 0
+
+Gavunmenti 0
+eyangyire 0
+the 0
+enkitakateeko 0
+ky’okuhindura 0
+omu 0
+by’okuteera 0
+ekaruuru 0
+
+Omuzaano 0
+gukagumizamu 0
+bwanyima 0
+y'akahuumuro 0
+. 0
+
+Eizooba B-DATE
+ry'emizaano I-DATE
+rikongyerwayo 0
+. 0
+
+Ekyo 0
+nikibaikiriza 0
+kukwata 0
+enkuyanja 0
+y'abantu 0
+. 0
+
+Bwaba 0
+butahindugwe 0
+, 0
+obusimura 0
+bwekirahuri 0
+nibufa 0
+aha 0
+bw'embeera 0
+yobwiire 0
+. 0
+
+Butandu 0
+enyingyi 0
+az'ahanguto 0
+nizibaho 0
+nyekyiro B-DATE
+. 0
+
+Eibura 0
+ry'esente 0
+ezirikumara 0
+, 0
+nikiteganisa 0
+amarwariro 0
+omu 0
+byaro 0
+bya 0
+Uganda B-LOC
+. 0
+
+Onduparaka B-ORG
+teri 0
+tiimu 0
+y'okukuuma 0
+munonga 0
+kureka 0
+neetahirira 0
+. 0
+
+Akarureera 0
+okuzaana 0
+aha 0
+mwaka B-DATE
+ikumi I-DATE
+n'ena I-DATE
+. 0
+
+Endwara 0
+ya 0
+Korona 0
+, 0
+enjanjire 0
+omu 0
+nsi 0
+yoona 0
+. 0
+
+Ebi 0
+nibyo 0
+birungi 0
+ebiri 0
+omu 0
+kwombekyesa 0
+ebintu 0
+birungi 0
+. 0
+
+Disiturikiti 0
+eyongyeire 0
+amaani 0
+g'okurwanisa 0
+kokoro 0
+. 0
+
+Amagara 0
+gangye 0
+gari 0
+omu 0
+kabi 0
+. 0
+
+Maawenkuru 0
+naanywa 0
+kyayi 0
+y'amate 0
+buri B-DATE
+kasheeshe I-DATE
+. 0
+
+Amababi 0
+g'ekimera 0
+gasisirwe 0
+endwara 0
+. 0
+
+Omwaka B-DATE
+oguhweire I-DATE
+akatare 0
+katsya 0
+kakatongozibwa 0
+. 0
+
+Twine 0
+kushongyera 0
+obusingye 0
+omu 0
+kicweka B-LOC
+ky'amatemba I-LOC
+ga I-LOC
+Uganda I-LOC
+. 0
+
+Nooza 0
+kunshaba 0
+esente 0
+zingahi 0
+? 0
+
+Nihaija 0
+kubaho 0
+orukiiko 0
+nyenkyakare 0
+, 0
+okreeba 0
+okubarikubaasa 0
+kugarura 0
+amashanyarazi 0
+omukyanga 0
+kyaabo 0
+. 0
+
+Disiturikiti 0
+, 0
+eine 0
+kwongyera 0
+aha 0
+buheereza 0
+omukyanga 0
+ekyo 0
+. 0
+
+Gavumenti 0
+eyombekiire 0
+amagwariro 0
+masya 0
+mwenda 0
+g'okukora 0
+aha 0
+barwaire 0
+ba 0
+akakooko 0
+ka 0
+korona 0
+. 0
+
+Abaishiki 0
+bato 0
+bashemeriire 0
+kwerinda 0
+enda 0
+. 0
+
+Nkagamba 0
+nawe 0
+aha 0
+baruha 0
+y'omukutu 0
+. 0
+
+Orikukurira 0
+ekitongore 0
+ari 0
+ata 0
+? 0
+
+Nituhaburwa 0
+okurinda 0
+eby'obuhangwa 0
+bwaitu 0
+
+Abazaani 0
+b'omupiira 0
+omu 0
+riigi 0
+y'omwaka B-DATE
+ogu I-DATE
+baine 0
+ekicoonco 0
+ky'amaani 0
+. 0
+
+Abantu 0
+bashemereire 0
+kweteisa 0
+ebibi 0
+byabo 0
+ahari 0
+Ruhanga 0
+. 0
+
+Titwiine 0
+mashanyarazi 0
+agarikumara 0
+ahairwariro 0
+. 0
+
+Abantu 0
+nibakora 0
+obucweka 0
+eihembe 0
+kurwanisa 0
+endwara 0
+ya 0
+Korona 0
+. 0
+
+Ni 0
+mumuringo 0
+ki 0
+ogu 0
+omuntu 0
+yaakubaasa 0
+kwetebeekanisizamu 0
+okubuuzibwa 0
+kwe 0
+kw'okutunga 0
+omurimo 0
+? 0
+
+Tibarikwiija 0
+kwikirizibwa 0
+kokura 0
+nakakye 0
+. 0
+
+Ebibiina 0
+by'abegyesa 0
+, 0
+nibirwanirira 0
+obugabe 0
+bwabo 0
+. 0
+
+Abantu 0
+abaingi 0
+nibakunda 0
+kureeba 0
+omupiira 0
+. 0
+
+Ahabw'okugira 0
+ngu 0
+ni 0
+eishomero 0
+rya 0
+Gavumenti 0
+, 0
+Gavumenti 0
+eshemereire 0
+kuriheereza 0
+byona 0
+ebirikukoresibwa 0
+abeegi 0
+. 0
+
+Abantu 0
+boona 0
+abakosiibwe 0
+nibaza 0
+kushumbuusibwa 0
+. 0
+
+Baakiija 0
+aha 0
+kuzika 0
+kwe 0
+. 0
+
+Abakuumi 0
+b'ekiro 0
+bakarasha 0
+omuserukare 0
+. 0
+
+Abashaho 0
+baheeru 0
+nibeija 0
+kuyamba 0
+ama 0
+rwariiro 0
+. 0
+
+Akasingura 0
+omudaari 0
+gwa 0
+zaabu 0
+omu 0
+mpaka 0
+z'okuziha 0
+. 0
+
+Abantu 0
+baingi 0
+bakaitwa 0
+omushwija 0
+gw'ensiri 0
+. 0
+
+Ogu 0
+n'omushango 0
+gw'okwegyendesereza 0
+. 0
+
+Omu 0
+mpaka 0
+zoona 0
+, 0
+nihaba 0
+harimu 0
+omusinguzi 0
+omwe 0
+. 0
+
+Ab'amahurire 0
+tibashemeraire 0
+kugwera 0
+orubaju 0
+rwona 0
+kandi 0
+baine 0
+kuba 0
+abamazima 0
+. 0
+
+Omurimo 0
+gw'obwegyesa 0
+, 0
+n'okwetwa 0
+kuheereza 0
+eihanga 0
+. 0
+
+Omwegyesa 0
+ahaYunivasite 0
+akagambira 0
+abeegi 0
+okuhandiika 0
+
+Okuhangahanga 0
+kutashangirwe 0
+oku 0
+, 0
+kukasiga 0
+abantu 0
+omukatangaaro 0
+kandi 0
+batarikwekaanya 0
+ebyabaho 0
+. 0
+
+Ebishushani 0
+ebi 0
+bikateerwa 0
+omu 0
+bicweka 0
+bitari 0
+bimwe 0
+na 0
+bimwe 0
+omu 0
+nsi 0
+. 0
+
+Nooyakiirwa 0
+kwegyera 0
+aha 0
+Yunivasite 0
+yaitu 0
+. 0
+
+Gavumenti 0
+zikozeitse 0
+kifuba 0
+kubinga 0
+empuungi 0
+. 0
+
+Naayenda 0
+kuzaara 0
+omwana 0
+w'omwojo 0
+. 0
+
+Embundu 0
+ekaba 0
+eri 0
+eya 0
+ba 0
+ofiisa 0
+baporiisi 0
+. 0
+
+Abantu 0
+boona 0
+abarikushoha 0
+bateine 0
+rusa 0
+, 0
+nibeija 0
+kukwatwa 0
+. 0
+
+Abantu 0
+baingi 0
+bakatwara 0
+enda 0
+omu 0
+bwire B-DATE
+bw'akeshereko I-DATE
+. 0
+
+Oshemereire 0
+okutunga 0
+ekirikukira 0
+aha 0
+. 0
+
+Kiboneire 0
+kwonka 0
+oku 0
+n'okuteerana 0
+ebintu 0
+baitu 0
+kutari 0
+kubikora 0
+. 0
+
+Omwanya 0
+gw'eitaka 0
+ogumwe 0
+nogwa 0
+gavumenti 0
+. 0
+
+Abagyenyi 0
+babaasize 0
+kwiruka 0
+baaruga 0
+omukyombeko 0
+ekikwatsire 0
+omuriro 0
+. 0
+
+Aine 0
+ekiteekateeko 0
+kye 0
+ahari 0
+kyo 0
+. 0
+
+Iriiro 0
+ryeye 0
+ritura 0
+ryeijwire 0
+abantu 0
+. 0
+
+Ninteekateeka 0
+ngu 0
+tihariho 0
+n'omwe 0
+otaroota 0
+ku 0
+aba 0
+agwejegyeire 0
+. 0
+
+Naakunda 0
+kureeba 0
+muvi 0
+omu 0
+bwire 0
+bwe 0
+bw'akahuumuro 0
+. 0
+
+Eka 0
+niyo 0
+ntandikwa 0
+y'ekyaro 0
+. 0
+
+Orutindo 0
+nirutwanguhiza 0
+okucwekanisa 0
+omugyera 0
+. 0
+
+Gavumenti 0
+eraganitse 0
+kwo'hereeza 0
+obuyambi 0
+bwe'byokudya 0
+. 0
+
+Abakozi 0
+basya 0
+bariyo 0
+nibataahamu 0
+, 0
+okwijuza 0
+emyanya 0
+etarimu 0
+bakozi 0
+. 0
+
+Rwanda B-LOC
+na 0
+Burundi B-LOC
+tibarikukira 0
+kuteekateekwaho 0
+omu 0
+bikwatireine 0
+n'amaani 0
+g'ebyokurwanisa 0
+. 0
+
+Omushango 0
+bakagubaihaho 0
+ahonaaho 0
+baaheza 0
+kwikiriza 0
+kugira 0
+eki 0
+baakora 0
+. 0
+
+Oburuuru 0
+nibushwijumwa 0
+ekitongore 0
+ky'eby'okubara 0
+eky'ensiyoona 0
+ekyetwa 0
+Grant B-ORG
+Thorton I-ORG
+. 0
+
+Hariho 0
+obujanjabi 0
+bw'abantu 0
+abakwasirwe 0
+. 0
+
+Abaishiki 0
+abaingi 0
+barugiire 0
+omu 0
+mashomero 0
+ahabwa 0
+enda 0
+zibatarikwenda 0
+. 0
+
+Nitubaasa 0
+kurwanisa 0
+ekokooro 0
+turikwegyesa 0
+abantu 0
+. 0
+
+Abeebembezi 0
+b'eby'obuhangwa 0
+, 0
+baine 0
+omururu 0
+, 0
+kandi 0
+nibeyendeza 0
+. 0
+
+Amadiini 0
+, 0
+nk'abakaturiki 0
+n'abakristaayo 0
+baine 0
+ebiragiro 0
+by'obwebembezi 0
+ebibarikukuratira 0
+. 0
+
+Buriomwe 0
+ayijiire 0
+kumuyamba 0
+obu 0
+yabwiine 0
+obuvune 0
+. 0
+
+Abamabaagiro 0
+nibaragiirwa 0
+kuguza 0
+ba 0
+kasitoma 0
+enyama 0
+etatwireho 0
+. 0
+
+Tukaza 0
+omu 0
+duuka 0
+rwiguuga 0
+okugura 0
+otujwaro 0
+twabeereere 0
+. 0
+
+Ebigombe 0
+by'ediini 0
+bihereize 0
+abebembezi 0
+b'empungi 0
+ebikwato 0
+by'okukoresa 0
+omu 0
+kutendeka 0
+abantu 0
+. 0
+
+Okumanya 0
+ebiri 0
+kukwata 0
+aha 0
+magaragye 0
+kikaremesa 0
+obushwere 0
+bwe 0
+
+Nagamba 0
+kubi 0
+ahari 0
+mukuru 0
+we 0
+. 0
+
+Mukuru 0
+w'akakuku 0
+kaanyu 0
+ni 0
+oha 0
+? 0
+
+Omuvuugi 0
+wa 0
+rukururana 0
+atorokire 0
+. 0
+
+Ni 0
+abanya 0
+Uganda 0
+bangahi 0
+abarikutuura 0
+omu 0
+bworo 0
+? 0
+
+Purogyekiti 0
+z'amarwariro 0
+amakye 0
+nizigasira 0
+abantu 0
+. 0
+
+Nituheereza 0
+amakuru 0
+amasya 0
+aha 0
+bintu 0
+bitari 0
+bimwe 0
+. 0
+
+Harimu 0
+ebintu 0
+bikye 0
+munonga 0
+ebi 0
+gavumenti 0
+erikwenda 0
+. 0
+
+Abarikupima 0
+eitaka 0
+nibenda 0
+esente 0
+nyingi 0
+munonga 0
+. 0
+
+Hakabaho 0
+okwekarakaasa 0
+aha 0
+nguudo 0
+z'ahagati 0
+y'orurembo 0
+. 0
+
+Otwire 0
+n'enkaito 0
+ezi 0
+okumara 0
+bwire 0
+ki 0
+? 0
+
+Abeebembezi 0
+bashemereire 0
+kuba 0
+eky'okureeberaho 0
+kurungi 0
+okubaasa 0
+kutwarwa 0
+nk'abarikufayo 0
+. 0
+
+Akakwatwa 0
+ahabw'okutajwara 0
+masiki 0
+. 0
+
+Bamemba 0
+bakakiiko 0
+, 0
+bakashutama 0
+. 0
+
+Emibazi 0
+etari 0
+emwe 0
+erikukoresebwa 0
+omu 0
+kufuuhirira 0
+eine 0
+obwire 0
+butari 0
+bumwe 0
+na 0
+bumwe 0
+obu 0
+erikukoreramu 0
+gye 0
+. 0
+
+Abakristaayo 0
+baingi 0
+nibategyereza 0
+ebiro 0
+by'okujaguza 0
+eizooba B-DATE
+ry'abajurizi I-DATE
+buri I-DATE
+mwaka I-DATE
+. 0
+
+Minisita 0
+w'eby'obuhangwa 0
+, 0
+ayeteekateekire 0
+kuhwera 0
+abagyenyi 0
+kuhisya 0
+emikoro 0
+obu 0
+eraahwe 0
+. 0
+
+Okubureeba 0
+gyen'okugikyeebera 0
+omu 0
+bwiire 0
+byomushushana 0
+. 0
+
+Omuteebeyi 0
+naaguza 0
+za 0
+apo 0
+zonka 0
+. 0
+
+Hashemereire 0
+kubaho 0
+oburyo 0
+, 0
+obw'okufubira 0
+abegyesa 0
+abarikwosha 0
+omu 0
+mashomero 0
+. 0
+
+Ow'emyaka B-DATE
+makumi I-DATE
+abiri I-DATE
+n'ena I-DATE
+akakwatwa 0
+ahabw'okuteera 0
+ekiiruka 0
+kya 0
+minisita 0
+amabaare 0
+. 0
+
+Abantu 0
+bashemereire 0
+kuhayo 0
+omuntu 0
+weena 0
+oine 0
+embundu 0
+etaikiriziibwe 0
+. 0
+
+Disiturikiti 0
+ekatunga 0
+obuhwezi 0
+, 0
+aharurengo 0
+rwayo 0
+. 0
+
+Amagara 0
+ge 0
+gakaba 0
+mabi 0
+ku 0
+yaagumire 0
+naakura 0
+. 0
+
+Abarikuramya 0
+sitaane 0
+abamwe 0
+nibiimusya 0
+emizimu 0
+y'abafiire 0
+. 0
+
+Omubaro 0
+gw'abafu 0
+nigweyongyera 0
+buri 0
+eizooba 0
+. 0
+
+Waragi 0
+buriijo 0
+nepakirwa 0
+omu 0
+cupa 0
+z'egiraasi 0
+
+Ishento 0
+naahiisa 0
+tonto 0
+. 0
+
+Akaba 0
+nateekwa 0
+kushashurira 0
+ekitabo 0
+ky'eishomero 0
+eki 0
+yaanagire 0
+. 0
+
+Omuri 0
+Yuganda B-LOC
+twinemu 0
+enturegye 0
+? 0
+
+Abazaire 0
+nibashomesa 0
+abaana 0
+emicwe 0
+y'om'abantu 0
+. 0
+
+Abasibe 0
+baine 0
+amatsiko 0
+ngu 0
+nibaza 0
+kurekurwa 0
+eizooba 0
+rimwe 0
+. 0
+
+Oburemeezi 0
+bukatandika 0
+obu 0
+Kusasira B-PER
+yaabura 0
+kwija 0
+omu 0
+rukiiko 0
+oru 0
+Uhuru B-PER
+n'abandi 0
+baabaire 0
+batebekaniise 0
+. 0
+
+Hariho 0
+ekiriyo 0
+nikikorwa 0
+okuzibira 0
+obwimukiriro 0
+oburikurugirira 0
+aha 0
+kikura 0
+ky'omuntu 0
+. 0
+
+Tiimu 0
+y'omupiira 0
+gw'ebigyere 0
+egyo 0
+ekateera 0
+gooro 0
+omudakiika 0
+y'okubanza 0
+y'omuzaano 0
+. 0
+
+Tiimu 0
+y'omupiira 0
+erikusingura 0
+, 0
+neeshemeza 0
+abashagiki 0
+baayo 0
+. 0
+
+Amarwariro 0
+gashemereire 0
+kwimusya 0
+omutindo 0
+gw'amagara 0
+g'abaana 0
+. 0
+
+Abakugu 0
+abandi 0
+bariyo 0
+nibatendekwa 0
+okutuubya 0
+omubaro 0
+gw'abarwaire 0
+abarikutwarwa 0
+aheeru 0
+n'okutuubya 0
+aha 0
+kufa 0
+kw'abantu 0
+. 0
+
+Omuzaano 0
+gwerizooba B-DATE
+gwabonera 0
+. 0
+
+Nyina 0
+akatuha 0
+amukuku 0
+gwa 0
+za 0
+karoti 0
+
+Twine 0
+ebishengye 0
+bihango 0
+omu 0
+buraaro 0
+obu 0
+. 0
+
+Ripoota 0
+za 0
+pooriisi 0
+nizooreka 0
+ku 0
+za 0
+butandu 0
+z'emotoka 0
+zeeyongyeire 0
+
+Buri 0
+omwe 0
+ashemereire 0
+kukuratira 0
+ebiragiro 0
+ebyateirweho 0
+kurwanisa 0
+covid 0
+ikumi 0
+na 0
+mwenda 0
+. 0
+
+Hariho 0
+eki 0
+ndikwenda 0
+kushaba 0
+. 0
+
+Akatunga 0
+omugisha 0
+gw'okushomera 0
+America B-LOC
+. 0
+
+Omurimo 0
+gwa 0
+minisita 0
+omu 0
+gavumenti 0
+ni 0
+guuha 0
+? 0
+
+Inshuwarensi 0
+kampuni 0
+ekashashurira 0
+kugarura 0
+busya 0
+enju 0
+yangye 0
+kuyaayokibwe 0
+omuriro 0
+. 0
+
+Omwanya 0
+gw'okukiikiramu 0
+gukaba 0
+guri 0
+hare 0
+. 0
+
+Ekitebe 0
+kikuru 0
+kya 0
+disiturikiti 0
+, 0
+nikishangwa 0
+kiromita 0
+makumi 0
+ana 0
+kuruga 0
+omu 0
+rurembo 0
+. 0
+
+Abazaire 0
+abamwe 0
+nibabonabonesa 0
+baana 0
+baabo 0
+. 0
+
+Ni 0
+buremeezi 0
+ki 0
+obu 0
+abantu 0
+barikutunga 0
+ebi 0
+? 0
+
+Amashemererwa 0
+nikyo 0
+kyonka 0
+ekyi 0
+ndikwenda 0
+. 0
+
+Buri 0
+mwegi 0
+akaragirwa 0
+kugura 0
+ekitabo 0
+. 0
+
+N'ekikorwa 0
+kirungi 0
+okuhwera 0
+abaine 0
+ebyetengo 0
+. 0
+
+Bukaba 0
+butari 0
+butaaho 0
+bw'ekigingirire 0
+. 0
+
+Tushemereire 0
+kurinda 0
+amaka 0
+gaitu 0
+gari 0
+amayonjo 0
+. 0
+
+Obw'ediimo 0
+oburimu 0
+eby'obutegyeki 0
+n'obw'akabi 0
+. 0
+
+Ekitongore 0
+ky'eby'amagara 0
+ekya 0
+Disiturikiti 0
+, 0
+kikakora 0
+okucondooza 0
+ahakubarukaho 0
+kw'omushwiija 0
+gw'enkaka 0
+. 0
+
+Ekizimbe 0
+kikahirima 0
+Makindye B-LOC
+omu I-LOC
+tawuni I-LOC
+kiita 0
+abantu 0
+ikumi 0
+na 0
+bashatu 0
+. 0
+
+Okweyongyera 0
+kw'obwisi 0
+nikwenda 0
+kucondoozibwa 0
+. 0
+
+Abantu 0
+abaingi 0
+bakaitwa 0
+obu 0
+abaheekyera 0
+baabaire 0
+nibarwana 0
+. 0
+
+Obugabe 0
+tiburikwenda 0
+mayiro 0
+eibiri 0
+zeitaka 0
+zigeitwe 0
+. 0
+
+Gavumenti 0
+nenda 0
+sente 0
+nz'okugurira 0
+ebikwato 0
+by'eby'obuhingi 0
+ab'akakiiko 0
+nka 0
+disturikiti 0
+. 0
+
+Ekiro B-DATE
+ky'abakazi I-DATE
+eky'ensi I-DATE
+yoona I-DATE
+, 0
+nibakijaguza 0
+ebiro B-DATE
+munaana I-DATE
+by'okwezi I-DATE
+kwa I-DATE
+kashatu I-DATE
+buri 0
+mwaka 0
+. 0
+
+Ekyasazirweho 0
+omu 0
+ndagaano 0
+kikahinguzibwa 0
+. 0
+
+Uganda B-LOC
+teine 0
+barwaire 0
+ba 0
+Ebola 0
+. 0
+
+Minisita 0
+naahereza 0
+abeegyesa 0
+abarungi 0
+munonga 0
+ebiconco 0
+buri 0
+mwaka 0
+
+Okwongyera 0
+abantu 0
+amaani 0
+barikutunga 0
+ebyokukozesa 0
+, 0
+nikiija 0
+kuhwera 0
+, 0
+omutuubya 0
+obworo 0
+. 0
+
+Tiimu 0
+yo'mupiira 0
+gw'enseru 0
+eretsiremu 0
+abashaho 0
+basya 0
+. 0
+
+Abeebembezi 0
+bariyo 0
+nibataho 0
+puroguramu 0
+z'okutunguura 0
+ebyanga 0
+byabo 0
+. 0
+
+Abantu 0
+abamwe 0
+tibaine 0
+eby'okurya 0
+by'okurya 0
+omukukingwaho 0
+. 0
+
+Ssebuyinja B-PER
+akagira 0
+ngu 0
+Gavumenti 0
+neebasa 0
+kubona 0
+omuntu 0
+owakuta 0
+esente 0
+omu 0
+kampuni 0
+egi 0
+. 0
+
+Kampuni 0
+ya 0
+Bamburi B-ORG
+eya I-ORG
+siminti I-ORG
+ekataho 0
+enora 0
+y'okurinda 0
+ebyobuhangwa 0
+nk'okubyara 0
+emiti 0
+, 0
+ebinyansi 0
+hamwe 0
+n'ebisharara 0
+by'okugyegyena 0
+kasasiro 0
+erikuruga 0
+omu 0
+ikorero 0
+. 0
+
+Abaikiriza 0
+abamwe 0
+bakookyebwa 0
+baahika 0
+aha 0
+kufa 0
+. 0
+
+Turiyo 0
+nitukyondooza 0
+aha 0
+nteekateeka 0
+y’okubyaara 0
+emiti 0
+
+Twine 0
+kurekyeraaho 0
+omuze 0
+gw'okugyemesereza 0
+abaishiki 0
+bato 0
+kuza 0
+omubushwere 0
+. 0
+
+Zaabizinesi 0
+ziine 0
+kuhinduraho 0
+zikaitanira 0
+enkore 0
+ensya 0
+z'entaasya 0
+. 0
+
+Abeebembezi 0
+b'amadiini 0
+nibarwanirira 0
+obusingye 0
+omu 0
+bantu 0
+. 0
+
+Abaana 0
+okuza 0
+omu 0
+by'obushwere 0
+bakiri 0
+bato 0
+, 0
+nikituma 0
+abaishiki 0
+baingi 0
+baruga 0
+omu 0
+mashomero 0
+. 0
+
+Abarwaire 0
+nibaruga 0
+omwihanga 0
+erindi 0
+. 0
+
+Abakozi 0
+ba 0
+gavumenti 0
+abarikurya 0
+enguzi 0
+baine 0
+kucondoozibwa 0
+. 0
+
+Orikwebembera 0
+abataayaayi 0
+akaba 0
+namanya 0
+kushoma 0
+maapu 0
+
+Hariho 0
+omucuucu 0
+mwingi 0
+omu 0
+nguuto 0
+aha 0
+bw'omushana 0
+. 0
+
+Abanyakyaro 0
+bakashabwa 0
+kukoragana 0
+na 0
+poriisi 0
+kugira 0
+ngu 0
+barwanise 0
+emishango 0
+. 0
+
+Museveni B-PER
+akaba 0
+nagamba 0
+omu 0
+rukiiko 0
+na 0
+tiimu B-ORG
+ya I-ORG
+Ethiopia I-ORG
+eyabaire 0
+etaayaayiire 0
+. 0
+
+Akagambira 0
+abu 0
+kyabiire 0
+nikikwataho 0
+. 0
+
+Akahurira 0
+yatiina 0
+ngu 0
+nihabaasa 0
+kubaho 0
+owamanywa 0
+ekihama 0
+kye 0
+. 0
+
+Atuura 0
+ahurikiriize 0
+omu 0
+kibiina 0
+kandi 0
+nikyo 0
+kireetera 0
+yaijira 0
+omubeegi 0
+ababa 0
+basingire 0
+. 0
+
+Mukuru 0
+w'entebe 0
+yakakiiko 0
+, 0
+naashaba 0
+abantu 0
+okuba 0
+abeesigwa 0
+omu 0
+kukozesa 0
+esente 0
+ezi 0
+. 0
+
+Hariho 0
+akakwate 0
+kahango 0
+aha 0
+nganda 0
+za 0
+batutsi 0
+ba 0
+Rwanda 0
+hamwe 0
+na 0
+bahima 0
+ba 0
+Uganda 0
+. 0
+
+Minisiture B-ORG
+y'ebyeitaka I-ORG
+neekora 0
+ahashonga 0
+ezikwatiraine 0
+neitaka 0
+hamwe 0
+n'emishango 0
+omwihanga 0
+ryona 0
+. 0
+
+Emishwa 0
+ehindukire 0
+ekizibu 0
+omu 0
+musiri 0
+ogu 0
+. 0
+
+Ninyenda 0
+omurimo 0
+ogurikunshashura 0
+omushara 0
+buri 0
+kwezi 0
+. 0
+
+Omukwatsi 0
+wa 0
+gooro 0
+akatangazi 0
+buryomwe 0
+kuyakwatsire 0
+omupiira 0
+. 0
+
+Enkora 0
+y'ebiragiro 0
+yonka 0
+niyo 0
+yaakubaasa 0
+kuhwera 0
+kutamba 0
+enyebaganisamu 0
+embi 0
+. 0
+
+Nshemereire 0
+kukora 0
+ki 0
+, 0
+amashanyarazi 0
+gaaba 0
+gatariho 0
+? 0
+
+Abaana 0
+nibakora 0
+amanywani 0
+baaba 0
+nigaita 0
+naabo 0
+. 0
+
+Tiimu 0
+esingire 0
+ebaire 0
+eri 0
+omumaisho 0
+nga 0
+tiimu 0
+yangye 0
+n'obubonero 0
+bushatu 0
+. 0
+
+Ni 0
+kirungi 0
+okumanya 0
+abanyabuzaare 0
+baitu 0
+aha 0
+hare 0
+. 0
+
+Ekijumbwirwe 0
+kikaboneka 0
+barikutimba 0
+ekihwera 0
+enio 0
+. 0
+
+Abakazi 0
+nibetengwa 0
+kureberera 0
+amaka 0
+gaabo 0
+n'okworora 0
+abaana 0
+. 0
+
+Abahaginzi 0
+b'omupiira 0
+gwa 0
+liigi B-ORG
+ya I-ORG
+Bungyereza I-ORG
+nibaija 0
+kureebera 0
+emizaano 0
+omuka 0
+. 0
+
+Abakurisitaayo 0
+nibahigwakubangira 0
+abanaku 0
+. 0
+
+Ayiine 0
+bizinesi 0
+mpaango 0
+munonga 0
+. 0
+
+Buriijo 0
+endembo 0
+niziba 0
+zirimu 0
+abantu 0
+baingi 0
+. 0
+
+Akakishoboorora 0
+. 0
+
+Okujanjaba 0
+erwara 0
+ya 0
+kokoro 0
+nikitwara 0
+senti 0
+nyingi 0
+. 0
+
+Uganda B-LOC
+netunga 0
+obuhwezi 0
+kuruga 0
+omu 0
+mahanga 0
+agandi 0
+. 0
+
+Obujuma 0
+obw'okwihamu 0
+enda 0
+bushemereire 0
+kuba 0
+butakaguzibwa 0
+abaana 0
+bato 0
+. 0
+
+Omubaro 0
+gw'abarwaire 0
+ba 0
+korona 0
+gukyendiire 0
+omunsi 0
+yoona 0
+. 0
+
+Okubara 0
+abantu 0
+okwahererukire 0
+kukakorwa 0
+ryari 0
+omu 0
+Uganda B-LOC
+? 0
+
+Abantu 0
+bakatangazibwa 0
+enkora 0
+aha 0
+mworeko 0
+g'okujwara 0
+nyekiro B-DATE
+. 0
+
+Omweshongozi 0
+yagwa 0
+omu 0
+butandu 0
+. 0
+
+Nimbaasa 0
+nta 0
+okutunga 0
+endanga B-ORG
+muntu I-ORG
+ensya 0
+? 0
+
+Omukazi 0
+akatwa 0
+akakooko 0
+haihi 0
+n'ensharo B-LOC
+ya I-LOC
+Uganda I-LOC
+. 0
+
+Abantu 0
+abamwe 0
+bakafuruka 0
+, 0
+ahanyima 0
+y'okunyangarazibwa 0
+enjura 0
+nyingi 0
+. 0
+
+Abazaire 0
+nibashashurwa 0
+esente 0
+aheeru 0
+ya 0
+kooti 0
+, 0
+okureka 0
+emishango 0
+y'okuhamba 0
+. 0
+
+Abazaire 0
+bashemereire 0
+kuyamba 0
+abaana 0
+baabo 0
+kumanya 0
+taranta 0
+zabo 0
+ahamyaka 0
+emito 0
+. 0
+
+Nibaija 0
+kukorengana 0
+na 0
+disiturikiti 0
+ishatu 0
+ensya 0
+. 0
+
+Abatuuragye 0
+bakaba 0
+nibateera 0
+akaari 0
+k'okushemererwa 0
+tiimu 0
+yaabo 0
+ku 0
+yasingire 0
+omupiira 0
+
+Oshemereire 0
+kubuhindura 0
+byanyima 0
+yemyenzi B-DATE
+mukaga I-DATE
+kwenda 0
+bukore 0
+gye 0
+. 0
+
+Kukaba 0
+kuri 0
+okwiiguraho 0
+paaka 0
+ensya 0
+omubutongore 0
+. 0
+
+Abantu 0
+bakeshemererwa 0
+ahabw'ebintu 0
+ebi 0
+batungire 0
+. 0
+
+Ekitongore B-ORG
+ky’ebyamagara I-ORG
+ekyensi I-ORG
+yoona I-ORG
+nikyeenda 0
+kurundana 0
+ebikozeso 0
+kuruga 0
+omu 0
+nsi 0
+yona 0
+kwenda 0
+kutunguura 0
+eby’okucondooza 0
+aha 0
+ndwara 0
+. 0
+
+Naaba 0
+ningaba 0
+na 0
+taata 0
+wangye 0
+aha 0
+simu 0
+. 0
+
+Eitaka 0
+ry'ekika 0
+nibarihungura 0
+. 0
+
+Okugarukamu 0
+akaruuru 0
+nikibaasa 0
+kubaho 0
+ryari 0
+omu 0
+Uganda B-LOC
+? 0
+
+Omushomo 0
+gwokwongyera 0
+abakazi 0
+amaani 0
+, 0
+guriyo 0
+nigutebekanisibwa 0
+. 0
+
+Abantu 0
+baingi 0
+bakafuruka 0
+ahabw'orutaro 0
+omu 0
+kyanga 0
+kyabo 0
+. 0
+
+Omwebeembezi 0
+w'eihanga 0
+abantu 0
+nibakimukunda 0
+. 0
+
+Nihaija 0
+kubaho 0
+akatare 0
+k'eby'okurya 0
+n'obuheereza 0
+omwihanga 0
+hamwe 0
+naaheeru 0
+y'eihanga 0
+. 0
+
+Emyoga 0
+neerebererwa 0
+, 0
+kandi 0
+eguma 0
+neekura 0
+ku 0
+orikuguma 0
+noota 0
+omu 0
+nkora 0
+. 0
+
+Ensi 0
+yoona 0
+eteganisiibwe 0
+oburwaire 0
+. 0
+
+N'omwebembezi 0
+w'amaani 0
+kandi 0
+arikubasa 0
+. 0
+
+Shwento 0
+we 0
+akafa 0
+omu 0
+busingye 0
+. 0
+
+Nooha 0
+orikujunanwa 0
+ahari 0
+butandu 0
+ezirikureetwa 0
+enguuto 0
+mbi 0
+? 0
+
+Okukoresa 0
+emibazi 0
+erikutokooza 0
+obwonko 0
+, 0
+nikirugirira 0
+aha 0
+kakungu 0
+. 0
+
+Esimu 0
+yangye 0
+ekagwa 0
+omumaizi 0
+. 0
+
+Akaguruka 0
+kuruga 0
+aha 0
+mwariro 0
+gwa 0
+kabiri 0
+gw'ekyombeko 0
+reeru 0
+yafa 0
+. 0
+
+Akahakanisa 0
+ebiragiro 0
+by'omwebembezi 0
+w'eihanga 0
+. 0
+
+Za 0
+hoteeri 0
+buriijo 0
+nizikoresibwa 0
+nk'oburaaro 0
+. 0
+
+Disiturikiti 0
+teine 0
+bakozi 0
+b'omwirwariro 0
+, 0
+okuragurira 0
+omushwija 0
+gw'enkaka 0
+. 0
+
+Ni 0
+buremeezi 0
+ki 0
+obumwe 0
+, 0
+obu 0
+abakazi 0
+barikushanga 0
+omukutunga 0
+obuheereza 0
+obukwatiraine 0
+n'eby'okuzaara 0
+? 0
+
+Eshaho 0
+ya 0
+sementi 0
+neegura 0
+zingahi 0
+? 0
+
+Nkahika 0
+ebibuuzo 0
+byona 0
+ebyabaire 0
+biri 0
+omu 0
+kigyezo 0
+. 0
+
+Poriisi 0
+ekakwata 0
+omushaija 0
+orikuguza 0
+obuta 0
+n'emyambi 0
+. 0
+
+Okuhindura 0
+eihe 0
+rya 0
+puriisi 0
+kuba 0
+pooriisi 0
+kikareta 0
+empinduka 0
+y’amaani 0
+. 0
+
+Ebitongore 0
+bya 0
+kareebi 0
+nibifaayo 0
+kureeba 0
+ngu 0
+pooriisi 0
+yaperereza 0
+enkora 0
+yabyo 0
+burizooba 0
+. 0
+
+Omwaka 0
+gw'eby'esente 0
+ogwa 0
+kampuni 0
+yaitu 0
+nagwo 0
+niguhwa 0
+omu 0
+kwamukaaga B-DATE
+. 0
+
+Abarwaire 0
+bakokoro 0
+, 0
+nibahikiirira 0
+emyanya 0
+ya 0
+kokoro 0
+. 0
+
+Abereere 0
+nibakira 0
+kuribwa 0
+omunda 0
+. 0
+
+Yaagambira 0
+ou 0
+eishengyero 0
+eihangwe B-DATE
+eri I-DATE
+. 0
+
+Ebikonde 0
+obwahati 0
+n'omuzaano 0
+ogurikumanywa 0
+omu 0
+mahanga 0
+goona 0
+
+Rinda 0
+ripoota 0
+yoona 0
+aha 0
+shaaha 0
+y'amahuriire 0
+. 0
+
+Emizaano 0
+mingi 0
+y'omupiira 0
+ekongyezibwayo 0
+ahabw'ekirwire 0
+kya 0
+korona 0
+. 0
+
+Abantu 0
+tibakyigura 0
+nkokubabeire 0
+nibagura 0
+kare 0
+, 0
+bomo 0
+zikabeita 0
+. 0
+
+Ebyeshongoro 0
+ebingi 0
+ebyarayeshongwireho 0
+bikahandiikwa 0
+abantu 0
+abandi 0
+. 0
+
+Esente 0
+nizibaasa 0
+kukanya 0
+ahanyima 0
+y'obwire 0
+bwingi 0
+. 0
+
+Abashaija 0
+b'ebiro 0
+ebi 0
+nibakunda 0
+kuba 0
+omu 0
+rugambo 0
+n'abashaija 0
+bataahi 0
+baabo 0
+. 0
+
+Okwegyesa 0
+abantu 0
+n'eky'omugasho 0
+munonga 0
+omu 0
+kurwanisa 0
+endwara 0
+ezimwe 0
+. 0
+
+Ekitongore B-ORG
+kya I-ORG
+poriisi I-ORG
+ekirikukurira I-ORG
+okucondooza I-ORG
+kibahandiikireho 0
+orubanja 0
+. 0
+
+Nyine 0
+amashemererwa 0
+ahabw'okuba 0
+banywani 0
+bangye 0
+bakaheza 0
+bakundana 0
+. 0
+
+Shwento 0
+akampeereza 0
+ekirabo 0
+kirungi 0
+aha 0
+mbaga 0
+yangye 0
+y'okujwara 0
+. 0
+
+Taine 0
+esente 0
+zoona 0
+ezi 0
+yaatuhaire 0
+. 0
+
+Orunaku 0
+orwagarukiireho 0
+, 0
+akahemba 0
+omuriro 0
+yashuba 0
+yateeka 0
+enyama 0
+. 0
+
+Aine 0
+omwoga 0
+gw'okwebembera 0
+
+Akaba 0
+ajwire 0
+esaati 0
+ya 0
+kinekye 0
+n'empare 0
+ya 0
+jiini 0
+ya 0
+buruuru 0
+. 0
+
+Tukagira 0
+orukiiko 0
+nogwo 0
+orikutuha 0
+ebintu 0
+kuhamya 0
+okwija 0
+kw'abyo 0
+. 0
+
+Enkumi B-DATE
+ibiri I-DATE
+na I-DATE
+mwenda I-DATE
+, 0
+kikaba 0
+ekya 0
+buri 0
+wiiki 0
+. 0
+
+Abazaire 0
+baingi 0
+abaine 0
+enda 0
+, 0
+nibagyenda 0
+engyendo 0
+ndaingwa 0
+, 0
+okutunga 0
+obuheereza 0
+bw'eby'amagara 0
+. 0
+
+Nikiteekateekwaho 0
+ngu 0
+oburwaire 0
+bwa 0
+korona 0
+bukatandikira 0
+omuri 0
+China B-LOC
+. 0
+
+Niwe 0
+mwishiki 0
+wenka 0
+omukibiina 0
+kye 0
+. 0
+
+Omu 0
+kishani 0
+, 0
+hakaba 0
+hariyo 0
+orushozi 0
+enyima 0
+y'omugyera 0
+. 0
+
+Ba 0
+ofiisa 0
+nka 0
+baaminisita 0
+n'abandi 0
+bakozi 0
+ba 0
+gavumenti 0
+nibaza 0
+kwebembera 0
+ehururu 0
+y'okurwanisa 0
+oburi 0
+- 0
+bwenguzi 0
+. 0
+
+Mukuru 0
+w'entebe 0
+akagira 0
+ngu 0
+ekyasazirweho 0
+kikaba 0
+kitari 0
+kirungi 0
+. 0
+
+Nibooreka 0
+er'izooba B-DATE
+aha 0
+kiraabu 0
+. 0
+
+Ishenteeko 0
+w'ekyanga 0
+naahamya 0
+ku 0
+orikutuura 0
+omumwanya 0
+ogu 0
+. 0
+
+Ekiresire 0
+eki 0
+n’okukanya 0
+kw’okukoresa 0
+amasimu 0
+. 0
+
+Okukoresa 0
+ekiragiro 0
+ky'okuzibira 0
+tikukagiire 0
+mu 0
+nkora 0
+. 0
+
+Empanuura 0
+z'obusigye 0
+nizihwera 0
+omu 0
+kumaraho 0
+endwano 0
+z'obutegyeki 0
+omw'ihanga 0
+. 0
+
+mukuru 0
+weitu 0
+akahuumura 0
+aha 0
+murimo 0
+gwe 0
+esande B-DATE
+ehwiire I-DATE
+. 0
+
+Niba 0
+koretsya 0
+endagiriro 0
+y'embaririra 0
+y'eihaga 0
+kuheereza 0
+emirimo 0
+ya 0
+gavumenti 0
+esente 0
+ekibiina 0
+kikoretsye 0
+. 0
+
+Aine 0
+obukugu 0
+bw'okwegyesa 0
+abeegi 0
+ba 0
+yunivasite 0
+. 0
+
+Amashomero 0
+agarikukira 0
+obwingi 0
+garimu 0
+abaana 0
+baingi 0
+munonga 0
+. 0
+
+Disiturikiti B-LOC
+ya I-LOC
+Isingiro I-LOC
+n'ey'ebeeyi 0
+kugituuramu 0
+. 0
+
+Ab’eby’obushubuuzi 0
+nibashashura 0
+emishoro 0
+y’emiringo 0
+eshatu 0
+. 0
+
+Bakagamba 0
+omu 0
+rukiiko 0
+rw'abanyamakuru 0
+. 0
+
+Akayamba 0
+munyanya 0
+kukora 0
+hoomu 0
+waaka 0
+. 0
+
+Ekigambo 0
+purchase 0
+, 0
+nitukihandiika 0
+tuta 0
+? 0
+
+Hakabaho 0
+orukiiko 0
+aha 0
+maka B-LOC
+g'obwebembezi I-LOC
+w'eihanga I-LOC
+. 0
+
+Abeegi 0
+makumi 0
+ataano 0
+, 0
+nibajwara 0
+diguri 0
+erizooba 0
+. 0
+
+Nimwanya 0
+ki 0
+ogurikusinga 0
+yo 0
+oburungi 0
+oguwarataayayiire 0
+omuri 0
+Yuganda B-LOC
+? 0
+
+Banka 0
+t'eshemereire 0
+kushohoza 0
+ebirikukwata 0
+ahari 0
+baakasitoma 0
+baayo 0
+. 0
+
+Abarwaire 0
+abakyebeirwe 0
+bakashangwa 0
+batakiine 0
+oburwaire 0
+bwa 0
+korona 0
+omuri 0
+Gulu B-LOC
+babasiibwire 0
+. 0
+
+Okuhababira 0
+omuntu 0
+kyonka 0
+tikirikworeka 0
+ngu 0
+aine 0
+omushango 0
+
+Abantu 0
+abarikweyendeza 0
+, 0
+nibareeta 0
+obwimukiriro 0
+. 0
+
+Obwira 0
+, 0
+abazaire 0
+baitu 0
+bakaba 0
+bakoresa 0
+engaro 0
+zaabo 0
+kukura 0
+amaino 0
+garikutengyeta 0
+. 0
+
+Gideon B-PER
+Badagawa I-PER
+orikukurira 0
+emirimo 0
+y'ekibiina 0
+nawe 0
+akakora 0
+aha 0
+kakiiko 0
+aka 0
+. 0
+
+Tiimu 0
+yaitu 0
+esingirwe 0
+omu 0
+mizaano 0
+eshatu 0
+eibaherize 0
+kuzaanaho 0
+. 0
+
+Buri 0
+mukozi 0
+ashemereire 0
+kugira 0
+obwire 0
+obu 0
+yayongyerwa 0
+omushaara 0
+. 0
+
+Nitwija 0
+kusharuura 0
+engano 0
+okwezi B-DATE
+okurikwija I-DATE
+. 0
+
+Kubaratsinga 0
+omuzaano 0
+ogu 0
+nibabaasa 0
+kuhangura 0
+empa 0
+. 0
+
+Ab'ekigombe 0
+boona 0
+bakaba 0
+nibetagisibwa 0
+eiterane 0
+kubaho 0
+. 0
+
+Etauni 0
+ni 0
+enyonjo 0
+mungonga 0
+. 0
+
+Okuhagaahagana 0
+kwine 0
+mugasho 0
+ki 0
+? 0
+
+Okuriisa 0
+enjoki 0
+, 0
+n'omurimo 0
+gurikurugwamu 0
+amagoba 0
+omu 0
+Uganda B-LOC
+. 0
+
+Abantu 0
+abamwe 0
+nibepangisiza 0
+abakuumi 0
+abaabo 0
+, 0
+kugira 0
+ngu 0
+bakuume 0
+amaka 0
+gaabo 0
+. 0
+
+Abanyamakuru 0
+abakwatsire 0
+omukoro 0
+gw'okurahira 0
+kw'omukuru 0
+w'eihanga 0
+bakakora 0
+omurimo 0
+murungi 0
+. 0
+
+Disiturikiti B-LOC
+ya I-LOC
+Arua I-LOC
+tekatungireyo 0
+omurwaire 0
+wa 0
+Ebola 0
+. 0
+
+Nikigambwa 0
+ngu 0
+ba 0
+dokita 0
+nibaiba 0
+kandi 0
+baguza 0
+emibazi 0
+omumatundiro 0
+gaayo 0
+, 0
+agatari 0
+ga 0
+Gavumenti 0
+. 0
+
+Purogyekiti 0
+terikuza 0
+kuhwa 0
+omu 0
+bwire 0
+obuhikire 0
+. 0
+
+Ekitongore 0
+nikyenda 0
+kutandikaho 0
+ofiisezi 0
+omubibuga 0
+ebitsya 0
+. 0
+
+Abazaire 0
+bashemereire 0
+kuba 0
+nibamanya 0
+emyegyere 0
+y'omwana 0
+. 0
+
+Ekibiina 0
+k'eby'obutegyeki 0
+ekisya 0
+, 0
+kitandikirweho 0
+omu 0
+Uganda B-LOC
+kiine 0
+erangi 0
+n'obubonero 0
+busya 0
+. 0
+
+Okuriisa 0
+empunu 0
+nikukorwa 0
+munonga 0
+omu 0
+bicweka 0
+bya 0
+Uganda B-LOC
+byona 0
+. 0
+
+Abantu 0
+bashemereirwe 0
+ahabw'okwombeka 0
+orutindo 0
+rusya 0
+. 0
+
+Mbwenu 0
+shi 0
+omurwaire 0
+naayoreka 0
+obubonero 0
+bwa 0
+korona 0
+? 0
+
+Abakiika 0
+ky'omugyenzi 0
+bakahaburwa 0
+okujwara 0
+giravuzi 0
+baba 0
+bari 0
+kuboneza 0
+omubiri 0
+gwe 0
+. 0
+
+Akakiiko 0
+kateireho 0
+ebiina 0
+bya 0
+kasasiro 0
+omumyanya 0
+yoona 0
+, 0
+kugira 0
+ngu 0
+bakuume 0
+obuyonjo 0
+. 0
+
+Embaga 0
+y'okujaaguza 0
+obuhanguzi 0
+ekahandiikwa 0
+gye 0
+batakigwiire 0
+n’ahokutereera 0
+akaruuru 0
+. 0
+
+Bamwe 0
+omu 0
+barikwesimba 0
+aha 0
+ntebe 0
+y'obwamukuru 0
+w'ihanga 0
+nibeebera 0
+kimwe 0
+byanyima 0
+y'akaruru 0
+. 0
+
+Gira 0
+obusingye 0
+, 0
+kandi 0
+oyetantare 0
+byona 0
+ebyakeimukiriro 0
+. 0
+
+Nooyija 0
+kukora 0
+ki 0
+omu 0
+wikendi B-DATE
+? 0
+
+Nitugiraho 0
+eshaara 0
+omuka 0
+buri 0
+mwabazyo 0
+. 0
+
+Abasiraamu 0
+, 0
+nibaha 0
+abebeembezi 0
+baabo 0
+ekitiinisa 0
+kingi 0
+. 0
+
+Buri 0
+mootoka 0
+neyikirizibwa 0
+okutwaara 0
+abashabazi 0
+bashaatu 0
+
+Gavumenti 0
+eriyo 0
+neeronda 0
+emihanda 0
+endiijo 0
+y'okutunga 0
+emishoro 0
+. 0
+
+Owaasiisire 0
+ebintu 0
+byaitu 0
+nooha 0
+? 0
+
+Ibara 0
+muzaano 0
+gwine 0
+ebiragiro 0
+ebikuratirwa 0
+omumkuguzaana 0
+. 0
+
+Uganda B-LOC
+ekaba 0
+neyebemberwa 0
+Idi B-PER
+Amin I-PER
+kandi 0
+Tanzania B-LOC
+erikwebemberwa 0
+Julius B-PER
+Nyerere I-PER
+. 0
+
+Omuhendo 0
+gw'abantu 0
+omu 0
+Uganda B-LOC
+, 0
+nigweyongyera 0
+ahonaaho 0
+. 0
+
+Emotoka 0
+yaayemerera 0
+. 0
+
+Twine 0
+kutereeza 0
+enshobi 0
+ezi 0
+twakozire 0
+. 0
+
+Reka 0
+tugyende 0
+tukyeberwe 0
+. 0
+
+Tiimu 0
+y'omupiiri 0
+y'eihanga 0
+terikushagikwa 0
+gye 0
+. 0
+
+Akatuhereza 0
+ebyabaire 0
+nibikwata 0
+aha 0
+ruramburo 0
+rwe 0
+. 0
+
+Ba 0
+ofiisa 0
+bashemeriire 0
+kujwara 0
+giraavu 0
+aha 0
+myanya 0
+ekoreirwemu 0
+ebihagaro 0
+kwenda 0
+kutashisha 0
+buhame 0
+. 0
+
+Abantu 0
+bashemereire 0
+kukoresa 0
+akaruuru 0
+, 0
+kuhindura 0
+abeebembezi 0
+abatari 0
+barungi 0
+, 0
+bateho 0
+abarungi 0
+. 0
+
+Ebicweka 0
+bingi 0
+ebirikuhinga 0
+etaabe 0
+, 0
+biine 0
+oburemeezi 0
+bw'eibura 0
+ry'eby'okurya 0
+n'enjara 0
+. 0
+
+Gyenereeta 0
+za 0
+megawaati 0
+ibiri 0
+ina 0
+niziza 0
+kuteebwaho 0
+bwanyima 0
+y'okureetwa 0
+kuruga 0
+Tororo B-LOC
+. 0
+
+Akaremwa 0
+kwehozaho 0
+. 0
+
+Roore 0
+neyetenga 0
+kukanikwa 0
+. 0
+
+Ekicweka B-LOC
+kya I-LOC
+Uganda I-LOC
+ekya I-LOC
+rwagati I-LOC
+kiine 0
+abantu 0
+baingi 0
+. 0
+
+Okumanyisibwa 0
+ebintu 0
+ebisya 0
+, 0
+nikyongyereza 0
+ahabishangirwe 0
+nibimanywa 0
+. 0
+
+Nyina 0
+akamurabura 0
+obutagaruka 0
+kwija 0
+omuka 0
+akyereriirwe 0
+. 0
+
+Museveni B-PER
+na 0
+Kagame B-PER
+bakeebembera 0
+entaro 0
+ezaayihireho 0
+za 0
+gavumenti 0
+. 0
+
+Abanaansi 0
+tibaine 0
+bikwato 0
+by'okukoresa 0
+eby'okubarinda 0
+Korona 0
+. 0
+
+Amaguru 0
+gye 0
+nigahururwa 0
+ahaby'okutambura 0
+orugyendo 0
+ruraingwa 0
+. 0
+
+Omuramuzi 0
+akagira 0
+ngu 0
+hakaba 0
+hatariho 0
+bujurizi 0
+aha 0
+kwitwa 0
+kw'omuserukare 0
+. 0
+
+Enteekateeka 0
+egi 0
+neija 0
+kuteebwa 0
+omu 0
+nkora 0
+bwanyima 0
+y'okwikirizibwa 0
+akakiiko 0
+ka 0
+Curriculum 0
+development 0
+
+Abangyereza 0
+bakateeka 0
+sente 0
+omubanyakyaro 0
+okujemeera 0
+kabaaka 0
+waabo 0
+. 0
+
+Ekitongore 0
+eky'amaizi 0
+nikiha 0
+abantu 0
+amaizi 0
+marungi 0
+omu 0
+ihanga 0
+ryona 0
+. 0
+
+Akaita 0
+omuntu 0
+omwe 0
+, 0
+babiiri 0
+batunga 0
+obuhuta 0
+omu 0
+butandu 0
+
+Akacwamu 0
+kuhandika 0
+ekitabo 0
+aha 0
+kucondooza 0
+kwe 0
+. 0
+
+Za 0
+banka 0
+nizihwera 0
+omukutunguura 0
+ebyamagara 0
+
+Nitubaasa 0
+kutunga 0
+oburingaaniza 0
+, 0
+omu 0
+kooti 0
+z'enbiragiro 0
+. 0
+
+Embaririra 0
+y'enyongyezo 0
+, 0
+neikirizibwa 0
+eishengyero B-ORG
+. 0
+
+Tihariho 0
+orikumusinga 0
+omu 0
+muzaano 0
+ogu 0
+. 0
+
+Abantu 0
+abakuru 0
+baine 0
+kwehara 0
+kutambura 0
+engyendo 0
+ndaingwa 0
+. 0
+
+Akahabura 0
+gavumenti 0
+okutwara 0
+aba 0
+saveeya 0
+b'eitaka 0
+omu 0
+mwanya 0
+ogurigye 0
+gutari 0
+kubaasa 0
+kutwarwa 0
+amaizi 0
+g'omutunga 0
+omu 0
+disiturikiti 0
+. 0
+
+Emirimo 0
+y'ebibiina 0
+by'obutegyeki 0
+, 0
+eshemereire 0
+kukuratira 0
+ebiragiro 0
+. 0
+
+Ahabwenki 0
+orikukoresa 0
+efumbire 0
+omu 0
+musiri 0
+gwawe 0
+. 0
+
+Omuhikaanisa 0
+w'ekibiina 0
+ky'obutegyeki 0
+ekya 0
+Alliance B-ORG
+for I-ORG
+National I-ORG
+Transformation I-ORG
+taraate 0
+mukono 0
+aha 0
+kihandiiko 0
+. 0
+
+Akazaara 0
+abaana 0
+batahikire 0
+. 0
+
+Abantu 0
+baingi 0
+nibejumba 0
+omu 0
+eby'obuhingi 0
+n'oburiisa 0
+omu 0
+Uganda B-LOC
+. 0
+
+Noyetenga 0
+kugira 0
+ebiwareeba 0
+nka 0
+bikuru 0
+omu 0
+magara 0
+gaawe 0
+. 0
+
+Abatari 0
+banya 0
+Uganda 0
+abashangirwe 0
+baine 0
+oburwaire 0
+bwa 0
+Korona 0
+, 0
+bakagarurwa 0
+omu 0
+mahanga 0
+g'owaabo 0
+. 0
+
+Mukuru 0
+wentebe 0
+ya 0
+Disiturikiti 0
+naakora 0
+ki 0
+? 0
+
+Hariyo 0
+emwanya 0
+mingi 0
+y'orubaju 0
+rw'enyanja B-LOC
+ya I-LOC
+Nyarubaare I-LOC
+. 0
+
+Nitubaasa 0
+kurwanisa 0
+tuta 0
+ebihagaro 0
+omu 0
+bantu 0
+? 0
+
+Buri 0
+muntu 0
+omu 0
+ka 0
+yangye 0
+naakunda 0
+omworeko 0
+ogu 0
+. 0
+
+Gavumenti 0
+ekyerereirwe 0
+kwoheereza 0
+sente 0
+aha 0
+disiturikiti 0
+. 0
+
+Bakafayo 0
+aha 0
+kushoma 0
+kwe 0
+. 0
+
+Abantu 0
+bashemereire 0
+kumanyisibwa 0
+n'okumanya 0
+ebirikwetengwa 0
+okumaraho 0
+okujanjara 0
+kwa 0
+ebola 0
+. 0
+
+Gavumenti 0
+ekaraganisa 0
+kuheereza 0
+timu 0
+y'omumpiira 0
+gw'ebigyere 0
+y'eihaga 0
+miriyooni 0
+makumi 0
+ataano 0
+za 0
+Uganda 0
+. 0
+
+Akaba 0
+ari 0
+omwe 0
+aha 0
+beeshongozi 0
+abarikukirayo 0
+oburungi 0
+omu 0
+matemba B-LOC
+ga I-LOC
+Uganda I-LOC
+. 0
+
+Akamara 0
+kukora 0
+ekigyezo 0
+hataine 0
+ondijo 0
+weena 0
+owaamazire 0
+omukishengye 0
+. 0
+
+Abashagiki 0
+ba 0
+Manchester B-ORG
+United I-ORG
+omu 0
+Uganda B-LOC
+nibeshereka 0
+ahabw'okuba 0
+Tottenham B-ORG
+ekabasinga 0
+. 0
+
+Abarikuguza 0
+ebintu 0
+ahamuhanda 0
+, 0
+nibareetera 0
+ebiiruka 0
+kwerunda 0
+hamwe 0
+kandi 0
+nibareeta 0
+n'oburofa 0
+. 0
+
+Niinyenda 0
+kureeba 0
+ebi 0
+ba 0
+ofiisa 0
+ba 0
+pooriisi 0
+barikukora 0
+. 0
+
+Abanyayuganda 0
+bashemereire 0
+kureeba 0
+Makerere B-ORG
+nk'eitendekyero 0
+ry'ebyafaayo 0
+. 0
+
+Abazaani 0
+b'omupiira 0
+abamwe 0
+biine 0
+abahagizi 0
+omu 0
+nsi 0
+yoona 0
+. 0
+
+Omukazi 0
+orikuba 0
+ayegire 0
+, 0
+naaba 0
+aine 0
+emyoga 0
+y'okuhinduka 0
+omukozi 0
+murungi 0
+. 0
+
+Abafuruki 0
+, 0
+nibeyongyera 0
+ahonaaho 0
+. 0
+
+Abazini 0
+bakaba 0
+nibazinira 0
+abantu 0
+b'akyamukire 0
+. 0
+
+Ab'eby'obutegyeki 0
+n'obushuubuzi 0
+bo 0
+nibareeba 0
+ebibira 0
+nk'ebibatamba 0
+eikono 0
+omukuhinga 0
+n'okutiimba 0
+eby'omu 0
+eitaka 0
+. 0
+
+Ebiro 0
+ebi 0
+, 0
+abaana 0
+abubarikutorosya 0
+, 0
+nibamara 0
+babaita 0
+. 0
+
+Ibanya 0
+akemerera 0
+nanye 0
+aha 0
+kuziikwa 0
+kwa 0
+taata 0
+wangye 0
+. 0
+
+Gavumenti 0
+akagarurira 0
+abantu 0
+abafeerirwe 0
+ebyabo 0
+ahabwa 0
+oyiro 0
+ei 0
+abajumbwire 0
+. 0
+
+Eky'omugisha 0
+mubi 0
+, 0
+tiimu 0
+eyi 0
+yaabiire 0
+naahagira 0
+ekasingwa 0
+omupiira 0
+. 0
+
+Owasiingire 0
+empaka 0
+z'okuziina 0
+akatunga 0
+motoka 0
+ntsya 0
+. 0
+
+University 0
+eine 0
+ebyombeko 0
+nk'ebyokwegyeramu 0
+. 0
+
+Abatembeyi 0
+bagumiizemu 0
+kukorera 0
+ahagati 0
+y'ekibuga 0
+bushuma 0
+. 0
+
+Ahabw'enki 0
+abakazi 0
+barikuzaara 0
+abaana 0
+abatahikire 0
+? 0
+
+Akahingura 0
+ebibuuzo 0
+by'omurimo 0
+. 0
+
+Abantu 0
+abatarikurya 0
+gye 0
+, 0
+nibakwatwa 0
+endwara 0
+juba 0
+. 0
+
+Gavumenti 0
+ehaire 0
+abantu 0
+sente 0
+okutandika 0
+kwejumba 0
+omu 0
+mirimo 0
+y'eby'obushuubuzi 0
+. 0
+
+Enzigye 0
+nyingi 0
+ziriyo 0
+nizicwekyereza 0
+ebihingirwe 0
+omu 0
+matemba B-LOC
+ga I-LOC
+Uganda I-LOC
+. 0
+
+Tiimu 0
+y'omupiira 0
+terashemereirwe 0
+. 0
+
+Omurimo 0
+gwa 0
+insipekita 0
+omukuru 0
+niguuha 0
+? 0
+
+Omuzaani 0
+omusya 0
+otungirwe 0
+Onduparaka B-ORG
+, 0
+araganiise 0
+kuzaanira 0
+kiraabu 0
+omupiira 0
+gwe 0
+ogurikusingayo 0
+oburungi 0
+. 0
+
+Abantu 0
+bingi 0
+nibashashurwa 0
+kubi 0
+. 0
+
+Abantu 0
+baine 0
+obugabe 0
+bw'okuhikwaho 0
+amakuru 0
+. 0
+
+Gavumenti 0
+eshabiire 0
+abany'eihanga 0
+kukora 0
+n'amani 0
+bakore 0
+esente 0
+omu 0
+bwiire 0
+bw'okuza 0
+omu 0
+nyombo 0
+. 0
+
+Akashaba 0
+munwani 0
+we 0
+amusaasire 0
+ahabw'okumuryamu 0
+orukwe 0
+. 0
+
+Ebirikushabwa 0
+ebimwe 0
+, 0
+tibirikuza 0
+kukorwa 0
+. 0
+
+Kampuni 0
+ya 0
+Bold B-ORG
+Casher's I-ORG
+Limited I-ORG
+hamwe 0
+n'abaakozire 0
+obuheereza 0
+bwa 0
+Cash B-ORG
+Chat I-ORG
+mobile 0
+, 0
+Asher B-PER
+Amanya I-PER
+Asanasio I-PER
+. 0
+
+Ebinyonyi 0
+bikarya 0
+enjuma 0
+kuruga 0
+aha 0
+kicoori 0
+. 0
+
+N'eky'obusaasi 0
+okureeba 0
+ngu 0
+abantu 0
+bakiriyo 0
+nibeitwa 0
+endwara 0
+ezirikubaasa 0
+kuzibirwa 0
+. 0
+
+Nshemerairwe 0
+n'okundi 0
+ebiro 0
+ebi 0
+. 0
+
+Abiisi 0
+bashemereire 0
+kukwatwa 0
+n'okujunaanwa 0
+. 0
+
+Abebyokwerinda 0
+ababaire 0
+bari 0
+ahakihome 0
+, 0
+tibarateiremu 0
+maani 0
+. 0
+
+Ekitongore 0
+nikihura 0
+abakozi 0
+abakazi 0
+sente 0
+kye 0
+. 0
+
+Omurimo 0
+gw'omuhandiiki 0
+w'omu 0
+kooti B-ORG
+erikujurirwamu I-ORG
+niguuha 0
+? 0
+
+Ntukaba 0
+tumutegyererize 0
+aha 0
+kishaayi 0
+ky'enyonyi 0
+. 0
+
+Ekyapa 0
+ekyasimbirwe 0
+mukuru 0
+w'entebe 0
+owa 0
+Disiturikiti B-LOC
+ya I-LOC
+Koboko I-LOC
+, 0
+omuri 0
+Maracha B-LOC
+, 0
+nikyo 0
+kyayongyeire 0
+akatabanguko 0
+. 0
+
+Oku 0
+n'okushemererwa 0
+kwenyine 0
+, 0
+reeba 0
+ngu 0
+wakwejumbamu 0
+. 0
+
+Amakuru 0
+g'eby'emizaano 0
+nioreekwa 0
+shaaha 0
+zingahi 0
+aha 0
+tiivi 0
+? 0
+
+Eshonga 0
+nk'ezo 0
+nizireetera 0
+omwana 0
+oburemeezi 0
+omu 0
+kwega 0
+. 0
+
+Kikaba 0
+nikigyenderera 0
+amatembero 0
+g’ebyempurizagana 0
+. 0
+
+Okuhinga 0
+emiti 0
+nikurungi 0
+omu 0
+kuhakuura 0
+obwoki 0
+ahabw'okuba 0
+emiti 0
+n'obutaaho 0
+burungi 0
+. 0
+
+Abarikuba 0
+bari 0
+aha 0
+rugyendo 0
+boona 0
+nibakyeberwa 0
+oburwaire 0
+bwa 0
+Korona 0
+aha 0
+nsharo 0
+zoona 0
+. 0
+
+Omukazi 0
+we 0
+Winnie B-PER
+Byanyima I-PER
+kikamutangaaza 0
+. 0
+
+Obuhingi 0
+b'etaabe 0
+butwireho 0
+emyaka B-DATE
+erikurenga I-DATE
+makumi I-DATE
+ana I-DATE
+. 0
+
+Mukuru 0
+w'eishomero 0
+hamwe 0
+n'orikujunanizibwa 0
+ahaby'esente 0
+, 0
+bakakwatwa 0
+, 0
+obwo 0
+barikubajunaana 0
+obushumankuzi 0
+. 0
+
+Nateekateeka 0
+kushenda 0
+omukazi 0
+we 0
+. 0
+
+Twine 0
+amahuri 0
+g'entondore 0
+aha 0
+kyansya 0
+
+Munwani 0
+we 0
+ni 0
+omupooriisi 0
+. 0
+
+Abahingi 0
+baine 0
+amatsiko 0
+g'okutunga 0
+enjura 0
+aha 0
+kutandika 0
+kw'okwezi B-DATE
+
+Omujajabi 0
+akaba 0
+atiniire 0
+kujajaba 0
+omu 0
+gwaire 0
+arikutekateeka 0
+ngu 0
+naaza 0
+kukwatwa 0
+akakooko 0
+ka 0
+korona 0
+. 0
+
+Akareetera 0
+abantu 0
+okuteekateeka 0
+kurungi 0
+aha 0
+bya 0
+nyensya 0
+. 0
+
+Hakaba 0
+hariho 0
+omuzaano 0
+gw'omupiira 0
+omu 0
+matemba B-LOC
+ga I-LOC
+Uganda I-LOC
+. 0
+
+Tindikuhamya 0
+ngu 0
+okushomera 0
+aha 0
+za 0
+radiyo 0
+kurimu 0
+kihango 0
+. 0
+
+Omuhendo 0
+gw'abantu 0
+abaine 0
+akakooko 0
+, 0
+nigweyongyera 0
+buri 0
+mwaka 0
+. 0
+
+N'oyetaga 0
+kuboona 0
+yintaneti 0
+kuhikirira 0
+empeho 0
+zaboona 0
+ezitari 0
+zimwe 0
+. 0
+
+Gavunmenti 0
+naayo 0
+neshashuza 0
+omushoro 0
+gurikwingaana 0
+obuchweka 0
+ashatu 0
+ahari 0
+igana 0
+aha 0
+simu 0
+eyiwateera 0
+
+Abarikuguza 0
+tanka 0
+z'amaizi 0
+baine 0
+akatare 0
+omu 0
+ihanga 0
+ryona 0
+. 0
+
+Mutabani 0
+wangye 0
+omuto 0
+nabara 0
+kuruga 0
+ahari 0
+emwe 0
+mpaka 0
+ahar'eigana 0
+. 0
+
+Okakora 0
+ki 0
+omukihuumuro 0
+ekyahweire 0
+? 0
+
+Obwebembezi 0
+, 0
+nibwo 0
+burikworeka 0
+abantu 0
+ahu 0
+baahika 0
+. 0
+
+Ebika 0
+by'esimu 0
+bishatu 0
+bya 0
+kampuni 0
+y'esimu 0
+bikashohoziibwa 0
+ahagati 0
+y'omwaka B-DATE
+ogu I-DATE
+. 0
+
+Bitature B-PER
+asiimire 0
+ekitongore 0
+kya 0
+Private B-ORG
+sector I-ORG
+Foundation I-ORG
+Uganda I-ORG
+ahabw'omurimo 0
+murungi 0
+ogukozirwe 0
+. 0
+
+Abantu 0
+bakaba 0
+nibateera 0
+orwari 0
+barikurwana 0
+. 0
+
+Akatuhabura 0
+ngu 0
+kukora 0
+n'amaani 0
+tukamaraho 0
+obworo 0
+. 0
+
+Akashemererwa 0
+ahabw'okugira 0
+ngu 0
+abantu 0
+baingi 0
+abari 0
+omu 0
+bizinesi 0
+, 0
+bakeija 0
+omu 0
+rukiiko 0
+. 0
+
+Abakiiki 0
+omwishengyero 0
+, 0
+nibajwekyera 0
+ebyanga 0
+bitari 0
+bimwe 0
+omwihanga 0
+. 0
+
+Akatwarwa 0
+ow'omufumu 0
+ku 0
+yaarwire 0
+. 0
+
+Abaguzi 0
+abagura 0
+omubwingi 0
+biine 0
+omugisha 0
+gw'okusharirwa 0
+ahamiheendo 0
+y'ebintu 0
+. 0
+
+Ofiisi 0
+terikwija 0
+kwigura 0
+kumara 0
+ebiro B-DATE
+bitaano I-DATE
+ebirikwija I-DATE
+. 0
+
+Baine 0
+kutunga 0
+omuntu 0
+w'okubagarukanisa 0
+oine 0
+ebirikwetengyesa 0
+. 0
+
+Sosho 0
+midiya 0
+n'omuringo 0
+gumwe 0
+gw'okubuurira 0
+engiri 0
+ya 0
+Ruhanga 0
+. 0
+
+Ebiragiro 0
+by'okutambuuka 0
+ensharo 0
+, 0
+nibyetenga 0
+kugarukwamu 0
+. 0
+
+Abantu 0
+bashemereire 0
+kukwatanisa 0
+n'ab'ebyamagara 0
+. 0
+
+Entekateeka 0
+y'eby'endiisa 0
+neija 0
+kuza 0
+omu 0
+nkora 0
+, 0
+omubwire 0
+bw'emyaka B-DATE
+etaano I-DATE
+. 0
+
+Orutaro 0
+rw'okushubura 0
+ahagati 0
+ya 0
+America B-LOC
+na 0
+China B-LOC
+rwaizire 0
+omu 0
+Africa B-LOC
+
+Abantu 0
+ba 0
+buriijo 0
+tibashemereire 0
+kutuura 0
+ahaitaka 0
+eryamahamba 0
+erimanyirwe 0
+. 0
+
+Torikubasa 0
+kuba 0
+byoona 0
+. 0
+
+Omushomo 0
+gw'ebiro B-DATE
+bibiri I-DATE
+, 0
+gukatebekanisibwa 0
+kwegyesa 0
+abahingi 0
+, 0
+ebirikukwata 0
+aha 0
+mbibo 0
+egingiriire 0
+. 0
+
+Omurabyo 0
+gukamukinantura 0
+. 0
+
+Obusiimura 0
+obundi 0
+nibwetaga 0
+kubwihaho 0
+bakatekaho 0
+obundi 0
+ahakuba 0
+nibukura 0
+kandi 0
+bucweka 0
+. 0
+
+Akaruuru 0
+nikaza 0
+kuba 0
+ak'omutaano 0
+. 0
+
+Gavumenti 0
+eine 0
+amaani 0
+g'okumanya 0
+emirimo 0
+yoona 0
+omu 0
+bitongore 0
+. 0
+
+Bakabeeta 0
+omu 0
+mbuga 0
+za 0
+mateeka 0
+. 0
+
+Akeeteta 0
+eiziina 0
+rye 0
+okureeba 0
+yaaba 0
+eri 0
+omuka 0
+. 0
+
+Gavumenti 0
+neetushashuza 0
+omushoro 0
+haihi 0
+emirundi 0
+etaano 0
+. 0
+
+Hariho 0
+abatembeyi 0
+beingi 0
+ahagati 0
+ye 0
+kibuuga 0
+. 0
+
+Omushwijumi 0
+naayakiira 0
+amabaruha 0
+kuruga 0
+omu 0
+bashomi 0
+baitu 0
+agahandiikirwe 0
+omu 0
+bugufu 0
+kandi 0
+garikushoboorora 0
+gye 0
+. 0
+
+Orugyendo 0
+kutarurambiraho 0
+omushekye 0
+gurikujuguta 0
+. 0
+
+Obu 0
+naabiire 0
+ninvuga 0
+ndikuza 0
+omuka 0
+, 0
+enjura 0
+ekatandika 0
+okugwa 0
+
+Enyamaishwa 0
+zikoresa 0
+amahembe 0
+gaazo 0
+okwerinda 0
+. 0
+
+Orubazo 0
+rukaheebwayo 0
+ahagati 0
+y'enkiiko 0
+z'okukwatanisa 0
+. 0
+
+Abaheekyera 0
+bakataahirira 0
+ekyaro 0
+baitamu 0
+abantu 0
+. 0
+
+Takabonekaga 0
+kwiha 0
+obu 0
+yaabura 0
+kuruga 0
+aha 0
+duuka 0
+ye 0
+ameezi B-DATE
+abiri I-DATE
+enyima I-DATE
+. 0
+
+Otakakozesa 0
+ekyooma 0
+ekiri 0
+kutastyamu 0
+kandi 0
+kikashohoza 0
+omuyaga 0
+ahabukuba 0
+nikitwaara 0
+amajuuta 0
+miingyi 0
+
+Bamemba 0
+bakaba 0
+bateine 0
+eki 0
+barikumanya 0
+aha 0
+kurwaara 0
+kwa 0
+sipiika 0
+. 0
+
+Okukora 0
+kwe 0
+kubi 0
+, 0
+kukarugiirira 0
+aha 0
+guruupu 0
+mbi 0
+ezi 0
+yaagizire 0
+aha 0
+Yunivasite 0
+. 0
+
+Waamara 0
+kukukura 0
+nooba 0
+oine 0
+orusa 0
+kukora 0
+eki 0
+orikuhurira 0
+ngu 0
+ni 0
+kikusheza 0
+. 0
+
+Hariho 0
+emyoyo 0
+mingi 0
+eibuzire 0
+omu 0
+nsi 0
+. 0
+
+Abantu 0
+abamwe 0
+tibakukimanya 0
+, 0
+okugaba 0
+eshagama 0
+nikiyamba 0
+amagara 0
+g'abantu 0
+baingi 0
+. 0
+
+Tukabaika 0
+ekyeyerezo 0
+enyima 0
+y'orwigi 0
+. 0
+
+Kyayine 0
+omutsindo 0
+ogurikwetagitsya 0
+, 0
+naha 0
+rusinga 0
+. 0
+
+Bemanya B-PER
+aketomboitirwa 0
+ahabwokukingira 0
+Anite B-PER
+na 0
+Kasaija B-PER
+kureeba 0
+ebihandiiko 0
+by’esente 0
+ebyekitongore 0
+. 0
+
+Akaba 0
+akira 0
+kubika 0
+ensen 0
+nze 0
+omu 0
+kashanduukye 0
+nk'emiti 0
+. 0
+
+Emyanya 0
+y'okutamu 0
+abarwire 0
+ba 0
+korona 0
+ekatebwaho 0
+kukyendeeza 0
+omwjurirano 0
+omu 0
+marwariro 0
+. 0
+
+Omupiira 0
+ogw'engaro 0
+, 0
+guri 0
+ahagati 0
+y'eminyeeto 0
+n'abaana 0
+kuruga 0
+omu 0
+kampu 0
+y'empungi 0
+etuherereire 0
+. 0
+
+Turiyo 0
+nitwigura 0
+amataagi 0
+agandi 0
+omu 0
+bicweeka 0
+by'eihanga 0
+ebindi 0
+. 0
+
+Abaana 0
+b'empungi 0
+bashemereire 0
+kutendekwa 0
+omu 0
+by'okubaija 0
+hamwe 0
+n'okwosya 0
+ebyoma 0
+, 0
+kugira 0
+ngu 0
+babaase 0
+kwebeisaho 0
+. 0
+
+Eminyeeto 0
+y'abasiraamu 0
+neeza 0
+omu 0
+rukiiko 0
+emirundi 0
+etaano 0
+buri 0
+izooba 0
+baamara 0
+okushaba 0
+
+Nikireebeka 0
+pooriisi 0
+ecumbagiire 0
+omu 0
+kuperereza 0
+okumwe 0
+. 0
+
+Noteekyereza 0
+ngu 0
+omwegyesa 0
+naza 0
+kutukwatirwa 0
+ekiniga 0
+ku 0
+turayoshe 0
+erizooba B-DATE
+? 0
+
+Nitumweta 0
+eiziina 0
+rye 0
+ery'okubanza 0
+. 0
+
+Abatuuragye 0
+nibakunda 0
+ngu 0
+bareebe 0
+abajungu 0
+barikubashemeza 0
+. 0
+
+Disiturikiti 0
+eri 0
+omu 0
+kicweka 0
+ekya 0
+rwagati 0
+ya 0
+Yuganda B-LOC
+. 0
+
+Abantu 0
+mwenda 0
+obwahati 0
+baakwatsirwe 0
+. 0
+
+Mukama 0
+wabo 0
+akabehanangisiriza 0
+obutaija 0
+aha 0
+murimo 0
+kikyererezi 0
+. 0
+
+Komyunite 0
+n'enki 0
+? 0
+
+Mboine 0
+omushebashebe 0
+gurikuvuga 0
+epiki 0
+. 0
+
+Enyamiishwa 0
+z'omwishwa 0
+ezimwe 0
+ziri 0
+hakye 0
+kuhwa 0
+omunsi 0
+. 0
+
+Rimwe 0
+aha 0
+mazaina 0
+kabaka 0
+nimanyisa 0
+ngu 0
+ahikireire 0
+buringyeru 0
+. 0
+
+Okugarukwamu 0
+kwiine 0
+pooriisi 0
+kurugirira 0
+okucondooza 0
+kwangye 0
+okukozirwe 0
+. 0
+
+Tiimu 0
+nz'ebikonde 0
+enyingi 0
+omu 0
+Uganda B-LOC
+nzayehandiikise 0
+omu 0
+mpaka 0
+. 0
+
+Hariho 0
+obushuma 0
+bw'eitaka 0
+bwingi 0
+omukyanga 0
+kyawe 0
+. 0
+
+Teraho 0
+omanye 0
+ebigyendererwa 0
+byawe 0
+by'okwega 0
+buri 0
+semesita 0
+na 0
+buri 0
+sande 0
+. 0
+
+Abanya'makuru 0
+bingi 0
+ab'ebyemizaano 0
+omuri 0
+Uganda B-LOC
+na 0
+bashaija 0
+. 0
+
+Abanya 0
+Uganda 0
+batandikire 0
+kwejumba 0
+omu 0
+mirimo 0
+erikureeta 0
+entaasya 0
+. 0
+
+Abanya 0
+Uganda 0
+baingi 0
+bakabaire 0
+nibakuratira 0
+ebiragiro 0
+by'eby'amagara 0
+, 0
+kuri 0
+noogira 0
+ngu 0
+Korona 0
+eri 0
+nka 0
+Ebola 0
+. 0
+
+Uganda B-LOC
+ekatayayisa 0
+orukiiko B-ORG
+rw'amahanga I-ORG
+agategyekirweho I-ORG
+bungyereza I-ORG
+omu 0
+mwaka B-DATE
+gwa I-DATE
+enkumi I-DATE
+ibiri I-DATE
+na I-DATE
+mushanju I-DATE
+. 0
+
+Abaingi 0
+bakabuuza 0
+ku 0
+haakuba 0
+haabaire 0
+hariho 0
+omugasho 0
+gw'ebibiina 0
+ebirikuhabura 0
+gavumenti 0
+. 0
+
+Purezidenti 0
+Museveni B-PER
+naija 0
+kugambira 0
+eihanga 0
+aha 0
+rw'okubanza B-DATE
+
+Abashaho 0
+b'amahanga 0
+agandi 0
+nibaija 0
+kuheebwa 0
+emirimo 0
+. 0
+
+Uganda B-LOC
+ehereize 0
+sente 0
+kurwanisa 0
+endwara 0
+ishatu 0
+z'amaani 0
+. 0
+
+Puraimare 0
+akagyegyera 0
+ahaishomero 0
+eriri 0
+aha 0
+nsharo 0
+. 0
+
+Niwe 0
+musika 0
+w'ishe 0
+. 0
+
+Gavumenti 0
+ekatandika 0
+progyekiti 0
+y'amashanyarazi 0
+eya 0
+pico 0
+omu 0
+disiturikiti 0
+ya 0
+Arua 0
+. 0
+
+Tukakwata 0
+ekishengye 0
+ky'okuraara 0
+mu 0
+omu 0
+hoteeri 0
+
+Amaniyiriire 0
+okutuura 0
+nk'omukyakaze 0
+. 0
+
+Abantu 0
+abarikuteekwaho 0
+kuba 0
+bahikaine 0
+n'omurwaire 0
+, 0
+nibasherurwa 0
+batwarwa 0
+omu 0
+karantiini 0
+okuzibira 0
+ebola 0
+okweyongyera 0
+kujanjara 0
+. 0
+
+Abakozi 0
+boona 0
+, 0
+bakakyeberwa 0
+endwara 0
+ya 0
+sukaari 0
+. 0
+
+Poriisi 0
+eri 0
+buri 0
+nshonda 0
+yoona 0
+
+Amahe 0
+nigaija 0
+kukora 0
+okucondooza 0
+gabaase 0
+kumaririza 0
+fairo 0
+. 0
+
+Abaheekyera 0
+tibaine 0
+mbabazi 0
+. 0
+
+Purogyekiti 0
+kwerikuza 0
+kugyenda 0
+omumaisho 0
+, 0
+neyetenga 0
+ki 0
+? 0
+
+Emishuburo 0
+mwingi 0
+ekingiire 0
+aha 0
+bw'ekinuuko 0
+ky'ebisingo 0
+. 0
+
+Victoria B-PER
+Sekitooleko I-PER
+niwe 0
+araakore 0
+nk'omuhwezi 0
+wa 0
+Karuhanga B-PER
+kumara 0
+emyaka B-DATE
+eshatu I-DATE
+eraakurateho 0
+. 0
+
+Abeshongozi 0
+bamwe 0
+bakozireho 0
+ekiterane 0
+mukwijuka 0
+mugyenzi 0
+wabo 0
+ofiire 0
+. 0
+
+Gavumenti B-ORG
+ya I-ORG
+Uganda I-ORG
+neheereza 0
+abeegi 0
+okushomera 0
+busha 0
+aha 0
+Yunivasite 0
+. 0
+
+Amazire 0
+emyaka B-DATE
+ikumi I-DATE
+atareebire 0
+ab'eka 0
+ye 0
+. 0
+
+Mukuru 0
+w'entebe 0
+, 0
+ayemereziibwe 0
+. 0
+
+Noogyezaho 0
+kumanyisa 0
+ki 0
+? 0
+
+Okujaguza 0
+kukejumbwamu 0
+amahe 0
+n'abantu 0
+babutoosha 0
+. 0
+
+Amakanisa 0
+gashemereire 0
+kwejumba 0
+omu 0
+purogyekiti 0
+ezirikureeta 0
+entunguuka 0
+, 0
+nk'okutunga 0
+empunu 0
+. 0
+
+Poriisi 0
+neebaasa 0
+kugyezaho 0
+kutereeza 0
+obwimukiriro 0
+ahagati 0
+y'omushaija 0
+n'omukazi 0
+. 0
+
+Titwine 0
+gaari 0
+mwika 0
+ezitamburira 0
+okuzimu 0
+omuri 0
+Yuganda B-LOC
+. 0
+
+Abazaire 0
+bangye 0
+ni 0
+abakurisitayo 0
+abazeirwe 0
+busya 0
+. 0
+
+Abantu 0
+bakye 0
+nibo 0
+beejumbire 0
+omukuhinga 0
+pamba 0
+. 0
+
+Naayenda 0
+kukuza 0
+omwoga 0
+gwe 0
+gw'obwa 0
+akawuntanti 0
+. 0
+
+Peter B-PER
+Piot I-PER
+niwe 0
+mukuru 0
+w'eishomero 0
+ry'eby'obuyonjo 0
+n'emibazi 0
+erya 0
+London B-ORG
+School I-ORG
+of I-ORG
+Hygiene I-ORG
+and I-ORG
+Tropical I-ORG
+Medicine I-ORG
+. 0
+
+Abantu 0
+b'omumwanya 0
+ogwo 0
+, 0
+bejumbire 0
+omu 0
+buhingi 0
+n'oburiisa 0
+. 0
+
+Nobaasa 0
+kuhikwaho 0
+intaneeti 0
+? 0
+
+Enati 0
+zigumire 0
+munonga 0
+okuzaata 0
+
+Hateirwemu 0
+amaani 0
+omu 0
+kurwanisa 0
+akakooko 0
+ka 0
+ebola 0
+. 0
+
+Nituteekateka 0
+ngu 0
+egi 0
+erabe 0
+muheru 0
+y'ekiganiiro 0
+ekyi 0
+. 0
+
+Abaaherize 0
+emishomo 0
+beetomboitire 0
+abakozi 0
+abakuzire 0
+omu 0
+za 0
+ofisi 0
+. 0
+
+Okukorera 0
+omuka 0
+nikiija 0
+kuhindura 0
+omuringo 0
+ogu 0
+abakozesa 0
+barikutwaramu 0
+emirimo 0
+. 0
+
+Oshemereire 0
+kwegaita 0
+ahari 0
+rimwe 0
+aha 0
+matendekyero 0
+g'eby'emikono 0
+. 0
+
+Amarwariro 0
+maingi 0
+, 0
+nigaza 0
+kwombekwa 0
+omu 0
+kyaro 0
+kyangye 0
+. 0
+
+Okuhutaaza 0
+omuntu 0
+nari 0
+okumuteera 0
+n'orubanja 0
+rw'amaani 0
+. 0
+
+Kampuni 0
+eraarize 0
+okushaashura 0
+abakozi 0
+omushaara 0
+ahabwokuba 0
+tihariho 0
+sente 0
+. 0
+
+Ahabwenki 0
+abantu 0
+barikugumizamu 0
+nibaiba 0
+kandi 0
+nibeita 0
+abandi 0
+? 0
+
+Ninyiruka 0
+burikasheeshe 0
+. 0
+
+Ebiragiro 0
+bishemereire 0
+kukorwa 0
+okurwanisa 0
+omuze 0
+gw'okuhonga 0
+abaana 0
+. 0
+
+Abanya 0
+Uganda 0
+bashemereire 0
+kwegyendesereza 0
+ahabw'okuba 0
+omu 0
+ihanga 0
+rwa 0
+Congo B-LOC
+bashangireyo 0
+abarwaire 0
+basya 0
+. 0
+
+Abanda 0
+babiri 0
+abarikuteekateekwaho 0
+bakehakana 0
+nti 0
+baakaba 0
+batiri 0
+mu 0
+kuteera 0
+amasaasi 0
+agabeireho 0
+
+Komputa 0
+nizangutsya 0
+emirimo 0
+kandi 0
+zitwara 0
+nakaire 0
+kakye 0
+. 0
+
+Akafuna 0
+obubonero 0
+ikumi 0
+na 0
+bubiri 0
+omu 0
+muzaano 0
+gwa'enseero 0
+. 0
+
+Ahabwenki 0
+omushwarize 0
+omumaisho 0
+ga 0
+bagyenyi 0
+? 0
+
+Ebiragiro 0
+by'amahe 0
+biine 0
+kukuratirwa 0
+. 0
+
+Omwebembezi 0
+ashabire 0
+abantu 0
+kugaba 0
+eshagama 0
+, 0
+babaase 0
+kukiza 0
+amagara 0
+. 0
+
+Okugira 0
+amateeka 0
+g'eby'okwombeka 0
+nikyoreka 0
+eihanga 0
+ry'amaani 0
+n'obuteeka 0
+. 0
+
+Gavumenti 0
+etaireho 0
+sente 0
+z'okutwara 0
+amashanyarazi 0
+omu 0
+byaro 0
+. 0
+
+Kaggwa B-PER
+bakamubika 0
+bwanyima 0
+y'okufeera 0
+aha 0
+irwariro 0
+rya 0
+Case B-LOC
+clinic I-LOC
+ebiro B-DATE
+makumi I-DATE
+abiri I-DATE
+Okwaikumi I-DATE
+na I-DATE
+kumwe I-DATE
+. 0
+
+Naafa 0
+ahari 0
+banywani 0
+be 0
+munonga 0
+. 0
+
+Akakwatwamu 0
+kokoro 0
+y'omumiro 0
+emyaka B-DATE
+etaano I-DATE
+enyima I-DATE
+
+Okuhurikiza 0
+ebyeshongoro 0
+ni 0
+omuringo 0
+gw'okushemezibwa 0
+. 0
+
+Omwanya 0
+ogu 0
+barikukumiiramu 0
+abantu 0
+enkozi 0
+z'emishango 0
+nigushangwa 0
+Jinja B-LOC
+. 0
+
+Naayendera 0
+kimwe 0
+kushwerwa 0
+omwaka B-DATE
+ogu I-DATE
+. 0
+
+Eby'okurya 0
+ebi 0
+yaariire 0
+bikaba 0
+birimu 0
+omuranzi 0
+. 0
+
+Tikiri 0
+kyaburiijo 0
+okukora 0
+omurimo 0
+ogu 0
+
+Kooti 0
+tekagarukire 0
+kushutama 0
+emirundi 0
+endiijo 0
+. 0
+
+Omu 0
+Uganda B-LOC
+harimu 0
+amaka 0
+g'abaana 0
+maingi 0
+. 0
+
+Emihendo 0
+y'okutamburira 0
+omubiiruka 0
+ekaza 0
+ahaiguru 0
+ahabwa 0
+Gavumenti 0
+kutaho 0
+ebiragiro 0
+by'okukyendeeza 0
+okujanjaara 0
+kwa 0
+akakooko 0
+ka 0
+Korona 0
+
+Abarikukunda 0
+omupiira 0
+, 0
+nibateekateeka 0
+kugurira 0
+kiraabu 0
+baasi 0
+. 0
+
+Obatsize 0
+kutungire 0
+ibanja 0
+? 0
+
+Hariho 0
+puroguraamu 0
+nyingi 0
+z'okureetaho 0
+obugaiga 0
+omu 0
+by'obuhingi 0
+n'oburiisa 0
+
+Entumwa 0
+ya 0
+ruhanga 0
+bakikiriza 0
+ngu 0
+ekibugu 0
+kikaba 0
+kirikujwagwa 0
+abacecezi 0
+. 0
+
+Okutwariza 0
+hamwe 0
+n'omuringo 0
+gw'okubaisaho 0
+gavumenti 0
+ngu 0
+egume 0
+eine 0
+abashagiki 0
+. 0
+
+Gavumenti 0
+neheereza 0
+Abazeeyi 0
+n'abakaikuru 0
+emitwaro 0
+ebiri 0
+buri 0
+mwezi 0
+. 0
+
+Tiimu 0
+yaitu 0
+y'omupiira 0
+gw'enseru 0
+neeteekateekwaho 0
+kusinga 0
+emizaano 0
+esigaire 0
+. 0
+
+Amagoba 0
+ga 0
+g'eikorero 0
+rya 0
+siminti B-ORG
+erya I-ORG
+Bamburi I-ORG
+gakakyendeera 0
+ebicweka 0
+kinaana 0
+na 0
+bishatu 0
+ahari 0
+igana 0
+. 0
+
+Omushwija 0
+gw'ensiri 0
+, 0
+nigureebeka 0
+munonga 0
+omu 0
+minyeeto 0
+. 0
+
+Omusesorodooti 0
+akahutazibwa 0
+kubi 0
+. 0
+
+Ebaruha 0
+yaitu 0
+y'okwetomboitwa 0
+, 0
+yashomwa 0
+eriizooba 0
+. 0
+
+Akanyigyira 0
+mukama 0
+w'enju 0
+ahabw'okwihaho 0
+amashanyarazi 0
+ahanju 0
+yeeye 0
+. 0
+
+Obutikirizana 0
+ahagati 0
+y'abebembezi 0
+buhurikaniise 0
+enteekateeka 0
+y'okwombeka 0
+akatare 0
+. 0
+
+Okuburabuzibwa 0
+omu 0
+karuuru 0
+kindeteire 0
+okwebuuza 0
+yaaba 0
+twine 0
+abeebembezi 0
+barungi 0
+
+Akaherezayo 0
+kakye 0
+aku 0
+yabaire 0
+naabaaasa 0
+ayekundiire 0
+. 0
+
+Obwisi 0
+bweyongiire 0
+omu 0
+ihanga 0
+. 0
+
+Abazaire 0
+abamwe 0
+nibatiina 0
+kuhuumuriza 0
+abaana 0
+baabo 0
+. 0
+
+Aba 0
+poriisi 0
+bakweise 0
+nibarambura 0
+omwanya 0
+. 0
+
+Abakungu 0
+bakashoborora 0
+ngu 0
+abantu 0
+nibetenga 0
+emyoga 0
+yonka 0
+erikubabaasisa 0
+kutandikaho 0
+ekintu 0
+eky'omugasho 0
+. 0
+
+Eranji 0
+enkirira 0
+ezindi 0
+zoona 0
+kisooni 0
+
+Abeegi 0
+nibabaasa 0
+kukora 0
+masitazi 0
+omu 0
+eishomo 0
+ryona 0
+eri 0
+barikwenda 0
+. 0
+
+Ekitongore 0
+kyebyobwegyese 0
+, 0
+kikatunga 0
+esente 0
+nyingi 0
+. 0
+
+Abakazi 0
+bashemereire 0
+kutandika 0
+ebibiina 0
+by'okubatunguura 0
+. 0
+
+Ahabw'enki 0
+abashiki 0
+abamwe 0
+nibenda 0
+ngu 0
+baihemu 0
+enda 0
+omu 0
+mwanya 0
+gw'okureka 0
+enda 0
+zikakura 0
+? 0
+
+Naakira 0
+kuraarika 0
+abakazi 0
+kumutaayayira 0
+owe 0
+omuka 0
+. 0
+
+Neebaasa 0
+kubucendeeza 0
+kwonka 0
+haine 0
+ekindi 0
+ekiraakorwe 0
+. 0
+
+Ni 0
+ryari 0
+, 0
+nainga 0
+niki 0
+ekirikuba 0
+kibeireho 0
+, 0
+omuntu 0
+yaaza 0
+kugambira 0
+abanyamakuru 0
+? 0
+
+Ebyaro 0
+tibirikukira 0
+kuba 0
+biine 0
+emiringo 0
+y'okuranisa 0
+okubarukaho 0
+kw'endwara 0
+. 0
+
+Ekishushani 0
+nikishoborora 0
+ababaireho 0
+omu 0
+kuhanuura 0
+kw'Orwakashatu B-DATE
+. 0
+
+Omutwe 0
+gusiibire 0
+nigunteera 0
+okuruga 0
+omu 0
+kasheeshe 0
+. 0
+
+Emyanya 0
+mingi 0
+y'ebyaro 0
+neeyetenga 0
+kwongyerwa 0
+ba 0
+dokita 0
+. 0
+
+Goora 0
+ezateirwe 0
+omu 0
+muzaano 0
+ogwo 0
+, 0
+nizingahi 0
+? 0
+
+Abateezi 0
+b'oburuuru 0
+bakarinda 0
+obusingye 0
+omu 0
+kuteera 0
+n'okubara 0
+oburuuru 0
+. 0
+
+Eshaho 0
+yagye 0
+bakagyiba 0
+. 0
+
+Omuzaani 0
+wa 0
+Uganda B-LOC
+owa 0
+Tebo 0
+Tenisi 0
+naija 0
+kuza 0
+Bugirimaani B-LOC
+kutendekwa 0
+. 0
+
+Abegyesa 0
+nibeija 0
+kwongyera 0
+kuhwera 0
+amashomero 0
+kukora 0
+gye 0
+. 0
+
+Ni 0
+basiraamu 0
+ki 0
+, 0
+abarikuhakanisa 0
+Sheik 0
+omusya 0
+? 0
+
+Aine 0
+enteekateeka 0
+y'okushaba 0
+esente 0
+kuruga 0
+omu 0
+Gavumenti 0
+arikuraba 0
+omu 0
+puroguraamu 0
+z'eminyeeto 0
+. 0
+
+Abaana 0
+abamwe 0
+batabukire 0
+emitwe 0
+ahabw'okutaana 0
+kw'abazaire 0
+baabo 0
+. 0
+
+Manegya 0
+w'ebya 0
+sente 0
+yaaza 0
+omu 0
+banka 0
+
+Boona 0
+bakaba 0
+bajwaire 0
+ebirikwera 0
+. 0
+
+Eminyeeto 0
+eshemereire 0
+kuteraho 0
+kutandiko 0
+emirimo 0
+, 0
+kutari 0
+kugisherura 0
+. 0
+
+Omushwija 0
+gw'ensiri 0
+guhindukire 0
+endwara 0
+y'akabi 0
+ekihinguraine 0
+. 0
+
+Nakoresa 0
+ebyoma 0
+ahari 0
+faamu 0
+ye 0
+. 0
+
+Ebiro 0
+ebi 0
+abantu 0
+nibaza 0
+omu 0
+by'obutegyeki 0
+ahabw'omushaara 0
+mwingi 0
+. 0
+
+Akatakwenda 0
+enduge 0
+omu 0
+tiimu 0
+y'omupiira 0
+gwa 0
+Netball 0
+. 0
+
+Okwongyera 0
+abakazi 0
+amaani 0
+, 0
+nikireeta 0
+entunguuka 0
+. 0
+
+Okufa 0
+kwe 0
+kukubaho 0
+jubajuba 0
+kandi 0
+gutarikuteekwateekwa 0
+. 0
+
+Irwariro 0
+rikatembekanisa 0
+okwiruka 0
+nk'omuringo 0
+rw'okulonda 0
+esente 0
+za 0
+irwariro 0
+rya 0
+kookoro 0
+. 0
+
+Tihaine 0
+owaizire 0
+ahambaga 0
+y'amazaarwa 0
+gye 0
+. 0
+
+Omukumbi 0
+gw'emotoka 0
+z'omwebeembezi 0
+weihanga 0
+nigukuumwa 0
+munonga 0
+. 0
+
+Ezi 0
+siri 0
+nizirya 0
+abantu 0
+zaboona 0
+omugisha 0
+. 0
+
+Oburwaire 0
+obu 0
+nibutiinisa 0
+munonga 0
+. 0
+
+Kikongyera 0
+kusiisikara 0
+. 0
+
+Abegyesa 0
+tibarikushashurwa 0
+gye 0
+. 0
+
+Obuju 0
+bukye 0
+nibabaasa 0
+kubutereeza 0
+buzemu 0
+ebintu 0
+bingi 0
+. 0
+
+Ariyo 0
+naajaguza 0
+emyaka B-DATE
+ikumi I-DATE
+y'obuseseredooti 0
+. 0
+
+Abantu 0
+baingi 0
+bakeija 0
+omu 0
+ruteerane 0
+. 0
+
+Akaza 0
+omu 0
+barakisi 0
+y'amahe 0
+omu 0
+Somalia B-LOC
+kuha 0
+ripoota 0
+aha 0
+kurekurira 0
+kw'omwebembezi 0
+waabo 0
+. 0
+
+Purogyekiti 0
+bariyo 0
+nibagireebuuza 0
+. 0
+
+Ow'ebyobutegyeki 0
+naahwera 0
+abantu 0
+abaine 0
+ebyetaago 0
+byabo 0
+nk'ebishare 0
+by'eishomero 0
+,  0
+ebishare 0
+by'eirwariro 0
+, 0
+hamwe 0
+n'eby'orufu 0
+. 0
+
+Omukingo 0
+gukiihwaho 0
+omu 0
+bicweka 0
+. 0
+
+Ekya 0
+kabiri 0
+, 0
+Museveni B-PER
+na 0
+Besigye B-PER
+nibareebeka 0
+bamaririize 0
+kugumizamu 0
+n'orutaro 0
+rwabo 0
+. 0
+
+Ekishuuru 0
+ky'enju 0
+kiijwireho 0
+ebisaniya 0
+bya 0
+soora 0
+ebirikuhwera 0
+kushohoza 0
+ekyererezi 0
+kirikumara 0
+. 0
+
+Nyoko 0
+naayija 0
+kukucweera 0
+orubanja 0
+ahabwokwetwaza 0
+kubi 0
+. 0
+
+Obwimukiriro 0
+omu 0
+minyeeto 0
+bweyongyeire 0
+. 0
+
+Abantu 0
+bashemereire 0
+kuhayo 0
+kimwe 0
+kya 0
+kabiri 0
+. 0
+
+Abakiiki 0
+abakozi 0
+b'amateeka 0
+bareebire 0
+omu 0
+nshonga 0
+. 0
+
+Korera 0
+neejanjaara 0
+juba 0
+omu 0
+bantu 0
+. 0
+
+Puriida 0
+akahabura 0
+ngu 0
+okumarira 0
+orubanja 0
+aheeru 0
+ya 0
+kooti 0
+tikirikwija 0
+kushiisha 0
+obwire 0
+. 0
+
+Tukahendera 0
+orukiiko 0
+n'eshaara 0
+. 0
+
+Owaabaireho 0
+minisita 0
+w'eby'obuhingi 0
+n'oburiisa 0
+, 0
+Victoria B-PER
+Sekitooleko I-PER
+niwe 0
+araabe 0
+omuhwezi 0
+wa 0
+Karuhanga B-PER
+. 0
+
+Abaine 0
+za 0
+bizinesi 0
+omu 0
+Uganda B-LOC
+bashemeraire 0
+kusherura 0
+omuringo 0
+musya 0
+gw'okukoramu 0
+emirimo 0
+yaabo 0
+omu 0
+biro 0
+by'akeshereko 0
+. 0
+
+Abahangu 0
+nibagira 0
+ngu 0
+bashemereire 0
+kubanza 0
+kutamu 0
+amaani 0
+gashemereire 0
+kuteebwa 0
+omukwikirizana 0
+ahaby'obwebembezi 0
+omukitongole 0
+ekyo 0
+. 0
+
+Ezindi 0
+harimu 0
+Porsche911 0
+hamwe 0
+na 0
+Mazda3 0
+. 0
+
+Hariho 0
+ekikomo 0
+ky'emyaka 0
+y'okuhinduka 0
+omusesorodooti 0
+? 0
+
+Okushemba 0
+gye 0
+ebirikuteembwamu 0
+obwoki 0
+nkibaasa 0
+kwongyera 0
+aha 0
+katare 0
+kabwo 0
+. 0
+
+Gavumenti 0
+neemushashurira 0
+ebishare 0
+b'eishomero 0
+. 0
+
+Eminyeeto 0
+eshemereire 0
+kwetantara 0
+okunywa 0
+amaarwa 0
+. 0
+
+Nkaba 0
+tarikubaasa 0
+kwikiriza 0
+aboojo 0
+kwita 0
+enyangi 0
+obwe 0
+ndikubareeba 0
+. 0
+
+Mwine 0
+nyoko 0
+atorokire 0
+omu 0
+kyaro 0
+n'esente 0
+zangye 0
+. 0
+
+Ebisharara 0
+bishemereire 0
+kurindwa 0
+gye 0
+. 0
+
+Endwara 0
+ezirikubarukaho 0
+nizikira 0
+kunjaara 0
+ahonaaho 0
+kandi 0
+nizibaasa 0
+kwita 0
+. 0
+
+Kuri 0
+hatabaireho 0
+okumanyisibwa 0
+oku 0
+, 0
+akakooko 0
+kakabaire 0
+nikajanjara 0
+munonga 0
+. 0
+
+Ekicweka 0
+ekyo 0
+, 0
+nikyo 0
+kirikutunga 0
+omuhendo 0
+gw'empungi 0
+ezirikukirayo 0
+obwingi 0
+. 0
+
+Bakaheereza 0
+byona 0
+ebirikukwata 0
+aha 0
+akawunti 0
+ahu 0
+esente 0
+zireije 0
+kwoherezibwa 0
+. 0
+
+Twine 0
+kutunga 0
+oburyo 0
+bw'okukimaraho 0
+. 0
+
+Akatugambira 0
+ngu 0
+turekye 0
+kwetomboitwa 0
+. 0
+
+Nayenda 0
+kuza 0
+aha 0
+kwezi B-LOC
+. 0
+
+Orikuduumira 0
+poriisi 0
+, 0
+akahindurwa 0
+yatwarwa 0
+omu 0
+nkambi 0
+ya 0
+poriisi 0
+endiijo 0
+. 0
+
+Abantu 0
+bingi 0
+omu 0
+byaro 0
+batema 0
+emiti 0
+okwosyamu 0
+amakara 0
+. 0
+
+Akatoroka 0
+omu 0
+kihome 0
+. 0
+
+Omupiira 0
+tingureebire 0
+
+Ebintu 0
+bingi 0
+bihindukire 0
+ahabw'endwara 0
+ruranda 0
+nsi 0
+. 0
+
+Murumuna 0
+wangye 0
+wa 0
+tatento 0
+akarekura 0
+omurimo 0
+gwe 0
+. 0
+
+Eminyeeto 0
+emwe 0
+n'eshiisha 0
+obwire 0
+n'esente 0
+omu 0
+maarwa 0
+. 0
+
+Omubazi 0
+w'ebitabo 0
+bakamujunana 0
+oburimanganyi 0
+. 0
+
+Noomanya 0
+eki 0
+orikugamba 0
+? 0
+
+Abamwe 0
+nibabaasa 0
+kuba 0
+nibabaiha 0
+, 0
+kwonka 0
+abandi 0
+nibagamba 0
+amazima 0
+. 0
+
+Abebembezi 0
+nibahiga 0
+abashaija 0
+kukorera 0
+hamwe 0
+kandi 0
+bareeberere 0
+abaana 0
+baabo 0
+. 0
+
+Ekitebyo 0
+nikigumizamu 0
+nyenkyakare B-DATE
+. 0
+
+Mukuru 0
+w'entebe 0
+omusya 0
+naija 0
+kuba 0
+yatooranwa 0
+juba 0
+. 0
+
+Maama 0
+akasindiika 0
+Murumuna 0
+wangye 0
+kundoondora 0
+aha 0
+mbaga 0
+. 0
+
+Niburemeezi 0
+ki 0
+oburikuruga 0
+omu 0
+kuhamba 0
+? 0
+
+Omupooriisi 0
+w'aha 0
+nguuto 0
+akatomerwa 0
+emotoka 0
+eyabaire 0
+eri 0
+aha 0
+sipiidi 0
+y'ekijungirizi 0
+. 0
+
+Abantu 0
+bashemereire 0
+kurekyera 0
+aho 0
+entaro 0
+. 0
+
+Abasinguzi 0
+baine 0
+ekibasindikiriza 0
+kujaguza 0
+. 0
+
+Nitugyenda 0
+omw'ishomero 0
+kufuna 0
+okumanya 0
+. 0
+
+Noobaasa 0
+kuhikiirira 0
+omushwijumi 0
+w'akatabo 0
+ka 0
+magaziini 0
+kurabira 0
+omu 0
+kusindika 0
+obutumwa 0
+aha 0
+kompyuta 0
+. 0
+
+Ayine 0
+ekyetengo 0
+kyihango 0
+kureba 0
+ekibuga B-LOC
+kya I-LOC
+Africa I-LOC
+. 0
+
+Omu 0
+mahanga 0
+amagaiga 0
+, 0
+kampuni 0
+z'abantu 0
+abarikwekozesa 0
+baine 0
+esente 0
+zirikumara 0
+kushashurira 0
+emirimo 0
+y'ebibiina 0
+by'obutegyeki 0
+. 0
+
+Abeebembezi 0
+ba 0
+disiturikiti 0
+, 0
+bakamanyisa 0
+abantu 0
+okukorera 0
+hamwe 0
+, 0
+kugira 0
+ngu 0
+barwanise 0
+omushwija 0
+gw'enkaka 0
+. 0
+
+Purezidenti 0
+agambire 0
+aha 0
+biri 0
+kufa 0
+ahaby'okwerinda 0
+omu 0
+ihanga 0
+. 0
+
+Abantu 0
+babateraire 0
+omuranga 0
+kutsigara 0
+omuka 0
+ombwire 0
+bw'ebigwa 0
+bitararikire 0
+. 0
+
+Eirwariro 0
+rikahamya 0
+ngu 0
+abarwaire 0
+abu 0
+basiibwiire 0
+, 0
+hati 0
+bari 0
+kurungi 0
+. 0
+
+Ente 0
+ezimwe 0
+ziine 0
+amahembe 0
+maringwa 0
+kandi 0
+ezindi 0
+ziine 0
+magufu 0
+. 0
+
+Emishomo 0
+y'ebya 0
+kompyuuta 0
+, 0
+neija 0
+kutandikwaho 0
+omu 0
+mashomero 0
+. 0
+
+Akaheereza 0
+abakozi 0
+be 0
+enyongyeza 0
+za 0
+kurisimasi B-DATE
+ahabw'okukora 0
+n'amaani 0
+. 0
+
+Egyo 0
+tiimu 0
+enywisize 0
+gooro 0
+ibiri 0
+omu 0
+muzaano 0
+gw'omwebazyo B-DATE
+. 0
+
+Bakatebeekanisa 0
+okusiima 0
+Ruhanga B-PER
+ahabw'okukiza 0
+amagara 0
+gaabo 0
+. 0
+
+Hati 0
+n'emyaka B-DATE
+ikumi I-DATE
+kuruga 0
+obu 0
+bahereruka 0
+kukora 0
+aha 0
+ruguuto 0
+. 0
+
+Mukuru 0
+w'akakiiko B-ORG
+k'omumpiira I-ORG
+gw'ebigyere I-ORG
+araganisize 0
+ngu 0
+emimpiira 0
+neza 0
+kugyenda 0
+gye 0
+. 0
+
+Akakiiko B-ORG
+k'eby'oburuuru I-ORG
+nikajunanizibwa 0
+aha 0
+kutebekanisa 0
+oburuuru 0
+aha 0
+rurengo 0
+rwona 0
+. 0
+
+Abeebembezi 0
+bashemereire 0
+kwegyesibwa 0
+kandi 0
+bakagambirwa 0
+eki 0
+bashemereire 0
+kukora 0
+aho 0
+naaho 0
+. 0
+
+Hariho 0
+ekitongore 0
+ekiraganiise 0
+kumaririza 0
+omurimo 0
+gw'okwombeka 0
+. 0
+
+Abebembezi 0
+bakata 0
+omukono 0
+aha 0
+ndagaano 0
+y'obusingye 0
+, 0
+okumaraho 0
+okusheesha 0
+eshagama 0
+omu 0
+bantu 0
+baabo 0
+. 0
+
+Omukumi 0
+akaitwa 0
+obu 0
+okwiba 0
+banka 0
+kwabaho 0
+. 0
+
+Ti 0
+kya 0
+buriijo 0
+kushanga 0
+kampeyini 0
+omuri 0
+Africa B-LOC
+erikurwanirira 0
+enshonga 0
+. 0
+
+Entekateeka 0
+nizihwera 0
+abaana 0
+okwega 0
+, 0
+okukura 0
+n'okutunga 0
+eby'obwegyese 0
+kuruga 0
+omu 0
+buto 0
+. 0
+
+Akatushaba 0
+ngu 0
+tuze 0
+omu 0
+mwanya 0
+gw'okuteereramu 0
+akaruuru 0
+tugume 0
+tukamukuumiire 0
+
+Omubazi 0
+w'ebitabo 0
+omukuru 0
+, 0
+naija 0
+kurebuuza 0
+enshohoza 0
+
+Abebembezi 0
+ba 0
+disiturikiti 0
+bakarebeka 0
+kubi 0
+omu 0
+bantu 0
+ahabwokukora 0
+kubi 0
+emirimo 0
+. 0
+
+Omugyenzi 0
+akafa 0
+ahabwa 0
+obugwaire 0
+bw'omutima 0
+. 0
+
+Aba 0
+polisi 0
+bakegyesibwa 0
+kuba 0
+emanzi 0
+. 0
+
+Omupiira 0
+gw'engaaro 0
+niguuza 0
+kutandika 0
+shaaha B-DATE
+mukaga I-DATE
+zihangwe I-DATE
+. 0
+
+Amaziina 0
+gashemeraire 0
+kuba 0
+gahandikirwe 0
+kurungi 0
+omukitabo 0
+ky’abateezi 0
+b’akaruuru 0
+
+Abebembezi 0
+bashemereire 0
+kutaho 0
+ebiragiro 0
+by'okurinda 0
+obuhangwa 0
+bw'ensi 0
+. 0
+
+Akasindika 0
+nmunywani 0
+omu 0
+kiyayanja 0
+ky'ozihiramu 0
+
+Bikaba 0
+biribizibuki 0
+ebibabugeine 0
+nka 0
+mukuru 0
+wabo 0
+? 0
+
+Ni 0
+omwebembezi 0
+wa 0
+kwaya 0
+aine 0
+obumanyi 0
+. 0
+
+Amagara 0
+g'abazaire 0
+, 0
+nikimanyisa 0
+amagara 0
+g'abakazi 0
+ku 0
+barikuba 0
+baine 0
+enda 0
+. 0
+
+Omukoro 0
+gw'abebembezi 0
+kuheerezayo 0
+ofiisi 0
+, 0
+n'ogwa 0
+nyenkyakare 0
+
+Egypt B-LOC
+neebaasa 0
+kuba 0
+neeyenda 0
+kuheereza 0
+obutegyeki 0
+bwayo 0
+aha 0
+kooti 0
+za 0
+Switzerland B-LOC
+. 0
+
+Ebitebe 0
+bishatu 0
+bya 0
+gavumenti 0
+nibegyendera 0
+hamwe 0
+kandi 0
+bikorera 0
+hamwe 0
+. 0
+
+Hakaba 0
+harimu 0
+ensiri 0
+nyingi 0
+ezabaire 0
+nizizaarira 0
+omu 0
+nyakishaka 0
+. 0
+
+Ebiragiro 0
+by'okubiika 0
+esnte 0
+omu 0
+bibiina 0
+, 0
+bishemereire 0
+kukuratirwaokubaasa 0
+kuzibira 0
+obushuma 0
+. 0
+
+Emikingo 0
+y'ahamyatano 0
+ya 0
+disiturikiti 0
+ekatebwaho 0
+omu 0
+bwire 0
+bw'a 0
+korona 0
+eya 0
+kabiri 0
+. 0
+
+Omu 0
+matemba B-LOC
+ga I-LOC
+Uganda I-LOC
+, 0
+okubonabonesibwa 0
+kw'abakazi 0
+kweyongyeire 0
+. 0
+
+Eminyeeto 0
+eyeteekateekire 0
+kwegaita 0
+ahari 0
+bakama 0
+baabo 0
+, 0
+okurwanirira 0
+eitaka 0
+eri 0
+. 0
+
+Amahanga 0
+g'oburugwa B-LOC
+izooba I-LOC
+bwa I-LOC
+Africa I-LOC
+nigashohoza 0
+sente 0
+nyingi 0
+aha 0
+by'okwerinda 0
+kukira 0
+ebindi 0
+bitongore 0
+bya 0
+gavumenti 0
+. 0
+
+Akajuma 0
+ka 0
+I-virgin 0
+kareesire 0
+okwetomboita 0
+. 0
+
+Enyegyesa 0
+nungi 0
+nerugwamu 0
+abakugu 0
+abanyensya B-DATE
+. 0
+
+Omushaija 0
+w'amate 0
+ni 0
+munywani 0
+wabaaguzi 0
+be 0
+. 0
+
+Ekitongore 0
+baakakikinga 0
+ahabwokuba 0
+kikaba 0
+nikinkora 0
+emirimu 0
+etari 0
+mu 0
+mateeka 0
+. 0
+
+Eihanga B-LOC
+rya I-LOC
+China I-LOC
+rikozireho 0
+omukago 0
+n'erya 0
+Yuganda B-LOC
+omu 0
+by'obushuubuzi 0
+. 0
+
+Esente 0
+zangye 0
+ninzibiika 0
+omu 0
+banka 0
+. 0
+
+Eby'engyenda 0
+omu 0
+disiturikiti 0
+, 0
+tibibonaire 0
+. 0
+
+Gavumenti 0
+, 0
+neshabwa 0
+kwongyera 0
+esente 0
+omubyoburambuzi 0
+. 0
+
+Ofiisi 0
+ye 0
+ekaba 0
+nejunanizibwa 0
+okugaba 0
+embibo 0
+omu 0
+guruupu 0
+z'abahingi 0
+. 0
+
+Omwaka 0
+omutsya 0
+nigutandika 0
+nyencakare B-DATE
+. 0
+
+Omushango 0
+gwa 0
+kooti 0
+gukaba 0
+kukwatsiire 0
+aha 0
+rutaro 0
+rw'eitaka 0
+. 0
+
+Abany'eishengyero 0
+abaingi 0
+tibarikuza 0
+omu 0
+nkiiko 0
+za 0
+ishengyero 0
+. 0
+
+Empungi 0
+ezirikukira 0
+obwingi 0
+niziruga 0
+omu 0
+mahanga 0
+agatiirwe 0
+entaro 0
+. 0
+
+Abakozi 0
+b'ebihagaro 0
+ku 0
+barikukwatwa 0
+, 0
+nibatugira 0
+poriisi 0
+ngu 0
+ebarekure 0
+. 0
+
+Ebizibu 0
+ebiri 0
+omu 0
+oyiiro 0
+na 0
+gaasi 0
+nimubimaraho 0
+muta 0
+? 0
+
+Ab'eby'obutegyeki 0
+omu 0
+byaro 0
+, 0
+bakagyezaho 0
+kwejumba 0
+omu 0
+kugaba 0
+eby'okurya 0
+. 0
+
+Ninteekateeka 0
+ngu 0
+kakaba 0
+kari 0
+akaire 0
+twina 0
+kugyira 0
+ngu 0
+tutukwenda 0
+obutabanguko 0
+n’emichwemibi 0
+y’abanyishengyero 0
+be’ihanga 0
+
+Abarikugarukamu 0
+ebibuuzo 0
+nibabuuzibwa 0
+aha 0
+muhendo 0
+gw'esente 0
+oguhanisiibwe 0
+. 0
+
+Akeeta 0
+omukazi 0
+we 0
+yaamumanyisa 0
+ku 0
+arikwija 0
+kutaha 0
+kikyererezi 0
+. 0
+
+Ijuuza 0
+ekidomora 0
+ekyo 0
+n'amaizi 0
+. 0
+
+Ni 0
+bubonero 0
+ki 0
+bwa 0
+omuswija 0
+gw'ensiri 0
+? 0
+
+Enkyende 0
+zibaasa 0
+kugira 0
+akabi 0
+ahabantu 0
+? 0
+
+Abeebembezi 0
+b'amadiini 0
+bashemereire 0
+kuhiga 0
+abantu 0
+kukora 0
+. 0
+
+Abantu 0
+abamwe 0
+tibarikuhikiiriza 0
+ebibaraganiise 0
+. 0
+
+Amaani 0
+ga 0
+gavumenti 0
+omu 0
+kurwanisa 0
+obukozi 0
+bw'ebibi 0
+omu 0
+miringo 0
+mingi 0
+. 0
+
+Nooteekwa 0
+okukoresa 0
+omutwe 0
+n'enio 0
+okwenda 0
+kuba 0
+omusinguzi 0
+. 0
+
+Abaramuzi 0
+, 0
+hamwe 0
+n'abandi 0
+nibamwe 0
+ahabanyabiragiro 0
+abari 0
+omu 0
+Uganda B-LOC
+. 0
+
+Ab'eby'amakuru 0
+nibashagika 0
+okujanjaara 0
+kw'amakuru 0
+omu 0
+eihanga 0
+ryona 0
+. 0
+
+Abatendeki 0
+bakakora 0
+omurimo 0
+muhango 0
+okutebekanisa 0
+tiimu 0
+. 0
+
+Nibaija 0
+kwitwa 0
+enjara 0
+haaba 0
+hatagire 0
+owabahwera 0
+. 0
+
+N'omurimo 0
+gw'omukazi 0
+kuteeka 0
+eby'okurya 0
+omuka 0
+. 0
+
+Buri 0
+muntu 0
+ashemereire 0
+kwejumba 0
+omukukora 0
+ebiragiro 0
+. 0
+
+Akatwarwa 0
+omu 0
+irwariro 0
+kuragurirwa 0
+. 0
+
+Ni 0
+kirungu 0
+okuteera 0
+orwari 0
+waaba 0
+ori 0
+omu 0
+kabi 0
+. 0
+
+Islamic B-ORG
+University I-ORG
+in I-ORG
+uganda I-ORG
+neija 0
+kuhinduka 0
+omwanya 0
+gw'okutendeka 0
+abeebembezi 0
+b'abasiraamu 0
+. 0
+
+Omwanya 0
+ogu 0
+nigushukwamu 0
+ebisingo 0
+nyamwingi 0
+. 0
+
+Nti 0
+tukakozire 0
+sente 0
+zoona 0
+ahabwokuba 0
+kampuni 0
+ebire 0
+etarikukora 0
+ahabw'okukigwaho 0
+. 0
+
+Munyanyazi 0
+nakora 0
+omwikyeberero 0
+ry'igwariro 0
+. 0
+
+Abahingi 0
+nibeetenga 0
+kiokwongyeramu 0
+ki 0
+? 0
+
+Naamanya 0
+kuvuga 0
+? 0
+
+Eihanga 0
+rya 0
+Uganda B-LOC
+tiryeine 0
+eby'okukozesa 0
+birikumara 0
+kwongyera 0
+aha 0
+bugaiga 0
+bwaryo 0
+. 0
+
+Endwara 0
+ezirikujanjara 0
+ahonaaho 0
+nizibaasa 0
+kumarwaho 0
+. 0
+
+Amahe 0
+ga 0
+Rwanda B-LOC
+ag'omutaano 0
+nigasindikwa 0
+hamwe 0
+n'amahe 0
+ga 0
+Democratic B-LOC
+Republic I-LOC
+. 0
+
+Bakateisa 0
+na 0
+ofiisa 0
+ngu 0
+amusaasire 0
+. 0
+
+Twine 0
+orukiiko 0
+aha 0
+shaaha 0
+ina 0
+z'akasheeshe B-DATE
+k'orwakashatu I-DATE
+. 0
+
+Takiisi 0
+niziyikirizibwa 0
+kuvuga 0
+abantu 0
+mushaju 0
+booka 0
+omu 0
+bwire 0
+bwa 0
+tsenyinga 0
+omukambwe 0
+. 0
+
+Abegyesa 0
+nibeija 0
+kutunga 0
+obuhwezi 0
+kuruga 0
+omu 0
+bitongore 0
+ebihango 0
+. 0
+
+Omurimo 0
+gwe 0
+n'okuhiga 0
+abarwaire 0
+kuza 0
+omu 0
+irwariro 0
+. 0
+
+Embariirira 0
+y'okugaitwa 0
+kwangye 0
+eri 0
+omu 0
+miriyoni 0
+z'esente 0
+. 0
+
+Obujurizi 0
+nibworeka 0
+amazima 0
+ngu 0
+kwo 0
+, 0
+ekintu 0
+kikabaho 0
+. 0
+
+Abantu 0
+eby'okureeberaho 0
+n'abamutambo 0
+ki 0
+? 0
+
+Omwa 0
+kwezi B-DATE
+kwa I-DATE
+kana I-DATE
+enkumi I-DATE
+ibiri I-DATE
+makumi I-DATE
+abiri I-DATE
+, 0
+uganda B-LOC
+ekataahitirwa 0
+enzigye 0
+kuruga 0
+Kenya B-LOC
+. 0
+
+Abaana 0
+abaingi 0
+omwishomero 0
+eryo 0
+, 0
+nibashashurirwa 0
+Gavumenti 0
+. 0
+
+Ekitongore 0
+ekirikujunanizibwa 0
+ahaby'enguuto 0
+, 0
+kiine 0
+obushoborozi 0
+oburikubaasa 0
+kuremesa 0
+okwombeka 0
+entindo 0
+. 0
+
+Orikutuhereza 0
+yareeta 0
+entaneti 0
+
+Abashaho 0
+bakaba 0
+nibafayo 0
+munonga 0
+okuhisya 0
+obuheereza 0
+ahabantu 0
+
+Nkagamba 0
+abazaani 0
+boona 0
+abu 0
+nabaire 0
+nimanya 0
+. 0
+
+Naaba 0
+ndikubi 0
+eizooba 0
+ryona 0
+. 0
+
+Omutima 0
+gwangye 0
+niguteerera 0
+ahaiguru 0
+. 0
+
+Eki 0
+nikiretaho 0
+ebibuzo 0
+bingi 0
+kukiira 0
+ebigarukwamu 0
+. 0
+
+Ebintu 0
+eby'omutindo 0
+gw'ahansi 0
+, 0
+tibirikukira 0
+kukora 0
+nk'okubiteekateekirwe 0
+. 0
+
+Kwaya 0
+y'obureeberezi B-LOC
+bwa I-LOC
+Masaka I-LOC
+ekeshongora 0
+aha 0
+mukoro 0
+gw'okujaguza 0
+eizooba 0
+ry'abajurizi 0
+omwaka B-DATE
+ogu I-DATE
+. 0
+
+Nimirimo 0
+ki 0
+erikukorwa 0
+abeebembezi 0
+? 0
+
+Abashaho 0
+abamwe 0
+berarikiraire 0
+okukwata 0
+akakooko 0
+. 0
+
+Ekyombeko 0
+kyona 0
+kihwerekyereire 0
+ahabw'omuriro 0
+. 0
+
+Nigwijuka 0
+kandi 0
+gw'ecumitiriza 0
+aha 0
+mugasho 0
+ogu 0
+abateezi 0
+b'ebishushani 0
+kuruga 0
+Buraaya B-LOC
+nka 0
+Leonardo B-PER
+, 0
+baakozire 0
+
+Ekicweka 0
+kihango 0
+ky'abantu 0
+omu 0
+Uganda B-LOC
+n'eminyeeto 0
+. 0
+
+Ab’akakiiko 0
+bagarukire 0
+banyeta 0
+ngu 0
+ngarukeyo 0
+kugarukamu 0
+ebibuuzo 0
+by’omurimo 0
+ogu 0
+naashabire 0
+. 0
+
+Tiimu 0
+ekabinga 0
+omutendeki 0
+waayo 0
+. 0
+
+Abashaho 0
+baraguriire 0
+abarwire 0
+ba 0
+korona 0
+. 0
+
+Omugasho 0
+gw'okugira 0
+ebibiina 0
+ni 0
+guuha 0
+? 0
+
+Gavumenti 0
+eraganiise 0
+kuha 0
+abahiingi 0
+efuka 0
+. 0
+
+Akasiimura 0
+koona 0
+akashishikeire 0
+niketega 0
+kuhindugwa 0
+. 0
+
+Abazaire 0
+tibashemereire 0
+kubonabonesa 0
+abaana 0
+baabo 0
+. 0
+
+Disiturikiti 0
+ei 0
+orikurugamu 0
+ni 0
+eha 0
+? 0
+
+Gavumenti 0
+ekabainga 0
+eteerane 0
+ahabw'ekigwereerezi 0
+. 0
+
+Natambuura 0
+orugyendo 0
+ruraingwa 0
+kuhika 0
+aha 0
+. 0
+
+Omuri 0
+babiri 0
+, 0
+nooha 0
+orikubeiha 0
+ondiijo 0
+? 0
+
+Akeesharingo 0
+bakakashazamu 0
+bwanyima 0
+y'okurukiiko 0
+na 0
+minisita 0
+w'eby'obushuubuzi 0
+. 0
+
+Akakiiko 0
+k'orurembo 0
+kebembeize 0
+omurimo 0
+gw'okuta 0
+amataara 0
+aha 0
+nguuto 0
+. 0
+
+N'eky'obusaasi 0
+okuferwa 0
+omukundwa 0
+waawe 0
+. 0
+
+Ndiyo 0
+nindoota 0
+ninga 0
+mamazima 0
+? 0
+
+Malac B-PER
+akeeraarikirra 0
+ahabw'oburi 0
+bw'enguzi 0
+oburi 0
+omu 0
+gavumenti 0
+ya 0
+purezidenti 0
+Museveni B-PER
+, 0
+obwire 0
+obu 0
+araamare 0
+omu 0
+Uganda B-LOC
+
+Pamiti 0
+ye 0
+y'okuvuga 0
+ekatwaribwa 0
+ahabwokuba 0
+akaba 0
+nanywa 0
+kandi 0
+arikuvuga 0
+. 0
+
+Habaireho 0
+enkuba 0
+y'amaani 0
+nyekiro B-DATE
+. 0
+
+Tiimu 0
+y'omupiira 0
+gw'ebigyere 0
+ekaba 0
+eheebwa 0
+ekitiinisa 0
+. 0
+
+Okuragurira 0
+abarwaire 0
+, 0
+kugyenzire 0
+nikuguma 0
+. 0
+
+Amarwariro 0
+mingi 0
+nigetengwa 0
+kwombekwa 0
+omu 0
+ihanga 0
+. 0
+
+Okakoresa 0
+sente 0
+zirikwingana 0
+ki 0
+omurutamburo 0
+rwawe 0
+? 0
+
+Abavugi 0
+abatendekirwe 0
+nibo 0
+baraikirizibwe 0
+aha 0
+ruguudo 0
+. 0
+
+Kwonka 0
+eki 0
+tikirikumanyisa 0
+ngu 0
+enkora 0
+ezindi 0
+tiziriho 0
+. 0
+
+Abantu 0
+tibarikwikiriza 0
+ngu 0
+ebiragiro 0
+ebiteirweho 0
+, 0
+nibiija 0
+kurwanisa 0
+akakooko 0
+. 0
+
+Oine 0
+kukyendeeza 0
+obwire 0
+obu 0
+ori 0
+kushishira 0
+omu 0
+baara 0
+. 0
+
+Hakaba 0
+hariho 0
+ekyinukye 0
+kyibi 0
+kya 0
+kazambi 0
+omu 0
+mwanya 0
+gwona 0
+ahanyima 0
+y'orupira 0
+gwa 0
+kazambi 0
+kwatika 0
+
+Naamanya 0
+kukora 0
+ebishushani 0
+by'ebishusyo 0
+. 0
+
+Naatekateeka 0
+ngu 0
+ti 0
+murungi 0
+ekirikumara 0
+w'okuhanyanira 0
+entebe 0
+ya 0
+miisi B-ORG
+uganda I-ORG
+. 0
+
+Ebirikuruga 0
+omu 0
+buruuru 0
+bwokuronda 0
+omwebenzi 0
+we'ihanga 0
+bishemeriere 0
+kurangyirirwa 0
+aha 0
+rediyo 0
+. 0
+
+Emihendo 0
+y'ebintu 0
+terikwija 0
+kusharuka 0
+juuba 0
+. 0
+
+Abagyenyi 0
+be 0
+abingi 0
+nibaza 0
+kubyama 0
+omu 0
+nju 0
+yaitu 0
+. 0
+
+Kampuni 0
+ekaraganisa 0
+kuguma 0
+neeshagika 0
+enteekateeka 0
+z'obugabe 0
+okwihaho 0
+omukoro 0
+gw'okujaguza 0
+amatware 0
+gaayo 0
+. 0
+
+Okutabarusya 0
+, 0
+n'okwaabo 0
+abagizire 0
+ekibatunga 0
+. 0
+
+Eishomero 0
+rikaferwa 0
+omwebeembezi 0
+waryo 0
+ow'okubanza 0
+omu 0
+taamu 0
+y'okubanza 0
+
+Abantu 0
+b'omumatemba B-LOC
+ga I-LOC
+Uganda I-LOC
+, 0
+nibetaaga 0
+obuheereza 0
+bw'eby'amagara 0
+obwa 0
+busha 0
+n'okuteekateekyera 0
+amaka 0
+, 0
+hamwe 0
+n'okwekyebeza 0
+akakooko 0
+ka 0
+siriimu 0
+. 0
+
+Omuntu 0
+w'omukyanga 0
+akarasha 0
+omuporiisi 0
+omu 0
+mutwe 0
+
+Abaine 0
+za 0
+bizinesi 0
+ezaha 0
+rurengo 0
+rwahansi 0
+, 0
+banka 0
+neija 0
+kubaheereza 0
+rooni 0
+. 0
+
+Okukoresa 0
+abaana 0
+n'okubahingira 0
+bakiri 0
+bato 0
+n'emwe 0
+aha 0
+miringo 0
+y'okutuntuza 0
+abaana 0
+. 0
+
+Endwano 0
+aha 0
+Uganda B-ORG
+Telecom I-ORG
+zitwireho 0
+kumara 0
+obwire 0
+. 0
+
+Amashomero 0
+g'empungi 0
+garimu 0
+abaana 0
+baingi 0
+, 0
+kandi 0
+eby'obuyonjo 0
+tibiboneire 0
+
+Eby'obutegyeki 0
+tibashemereire 0
+kubigaita 0
+n'eby'obuhangwa 0
+. 0
+
+Emotoka 0
+emwe 0
+eaibirwe 0
+omu 0
+Uganda B-LOC
+, 0
+bakagishanga 0
+omu 0
+ihanga 0
+erituherereire 0
+. 0
+
+Abantu 0
+nibenda 0
+ebyafaayo 0
+by'abo 0
+ababaireho 0
+abeebembezi 0
+ba 0
+Uganda 0
+Abanyamahanga 0
+, 0
+baaba 0
+nibaheereza 0
+ebyafaayo 0
+ebigingiriire 0
+. 0
+
+Obwire 0
+bukaba 0
+butarikumara 0
+kugira 0
+ngu 0
+omurweire 0
+arinde 0
+. 0
+
+Okukyebera 0
+amaisho 0
+, 0
+kukakorerwa 0
+ahaishomero 0
+rimwe 0
+omukyanga 0
+. 0
+
+Kiraabu 0
+z'bikonde 0
+zitwire 0
+abarwani 0
+omu 0
+mpaka 0
+z'ebikonde 0
+Lugogo B-LOC
+. 0
+
+Kaputeni 0
+waitu 0
+akafeerwa 0
+omuzaano 0
+ahabw'obuhuta 0
+. 0
+
+Kikarugamu 0
+okwerangirira 0
+ku 0
+arikuza 0
+kwesimba 0
+omwaka B-DATE
+gw'enkumi I-DATE
+ibiri I-DATE
+na I-DATE
+gumwe I-DATE
+. 0
+
+Hariho 0
+omwanya 0
+muhanga 0
+omu 0
+by'entaasya 0
+ahagati 0
+y'abantu 0
+omu 0
+Uganda B-LOC
+. 0
+
+Hariho 0
+abantu 0
+baingi 0
+abakizire 0
+endwara 0
+ya 0
+Korona 0
+, 0
+n'obu 0
+abarikukwatwa 0
+endwara 0
+egi 0
+baraabe 0
+nibeeyongyera 0
+. 0
+
+Abeebembezi 0
+ba 0
+Disituriiti 0
+, 0
+baine 0
+kukwatanisa 0
+babaase 0
+kuhisya 0
+obuheereza 0
+aha 0
+bantu 0
+. 0
+
+Akatooranwa 0
+nka 0
+orikukurika 0
+abaishiki 0
+omu 0
+eishomero 0
+. 0
+
+Eshonga 0
+ezaaho 0
+naaho 0
+, 0
+buriijo 0
+nizihahaaza 0
+omutima 0
+. 0
+
+Poriisi 0
+eshemereire 0
+kwongyera 0
+aha 0
+muhendo 0
+gwa 0
+ba 0
+ofiisa 0
+baayo 0
+, 0
+okukwata 0
+abantu 0
+abatarikukuratira 0
+ebiragiro 0
+. 0
+
+N'eky'oburinganiza 0
+kuha 0
+abasya 0
+abeesimbireho 0
+omugisha 0
+okujwekyera 0
+ebibiina 0
+byabo 0
+. 0
+
+Abebeembezi 0
+b'ediini 0
+abakuru 0
+, 0
+nibajweka 0
+abasya 0
+omu 0
+buheereza 0
+. 0
+
+Nazaanira 0
+tiimu 0
+erikukirayo 0
+omu 0
+nsi 0
+. 0
+
+Ehururu 0
+y'okubyama 0
+omu 0
+katimba 0
+k'ensiri 0
+, 0
+neegyenderera 0
+okuzibira 0
+omushwija 0
+gw'ensiri 0
+. 0
+
+Okushaba 0
+nikwija 0
+kurabira 0
+omu 0
+busingye 0
+n’obugabe 0
+byokucwamu 0
+. 0
+
+Abarikwenda 0
+kugyezesibwa 0
+boona 0
+nimbendeza 0
+obusinguzi 0
+. 0
+
+Ekisiika 0
+kikagwa 0
+ahabw'okuba 0
+kikaba 0
+kyaine 0
+ebishate 0
+bingi 0
+. 0
+
+Abakozi 0
+bamazire 0
+emishomo 0
+y'okushongora 0
+emyoga 0
+yaabo 0
+. 0
+
+Okwiruka 0
+, 0
+n'ekisasaizi 0
+ky'omubiri 0
+. 0
+
+Ekitongore B-ORG
+ky'eby'amagara I-ORG
+ekya I-ORG
+Disiturikiti I-ORG
+, 0
+nikiija 0
+kusirika 0
+omushwija 0
+gw'enkaka 0
+. 0
+
+Ashabire 0
+ngu 0
+bamuheereze 0
+aisikurimu 0
+eine 0
+ensha 0
+y'ekijuma 0
+. 0
+
+Ebendera 0
+ekahanikwa 0
+ekicweka 0
+ah'abwokuha 0
+ekitiinisa 0
+abantu 0
+abu 0
+amagara 0
+gaabo 0
+gatwariirwe 0
+omushandaara 0
+kw'entambasyoko 0
+nyomwebazyo B-DATE
+. 0
+
+Entebeekanisa 0
+ayahairweyo 0
+ekaruga 0
+omu 0
+kukorera 0
+hamwe 0
+kwabeegi 0
+boona 0
+omu 0
+kiraasi 0
+. 0
+
+Abashaija 0
+bakaba 0
+nibareeba 0
+omwishiki 0
+murungi 0
+. 0
+
+Enkungaana 0
+ninungi 0
+aha 0
+beegyi 0
+. 0
+
+Gavumenti 0
+neegurira 0
+amarwariro 0
+gayo 0
+ebyokukoresa 0
+. 0
+
+Akatwara 0
+okwemurugunya 0
+omu 0
+kooti 0
+ngu 0
+bagarukemu 0
+akaruuru 0
+. 0
+
+Tikihikire 0
+okusheeshura 0
+ebirikukwata 0
+aha 0
+murwaire 0
+. 0
+
+Abo 0
+abarikuguza 0
+ebintu 0
+bya 0
+Gavumenti 0
+, 0
+bashemereire 0
+kukwatwa 0
+. 0
+
+Abeegi 0
+abaingi 0
+nibafeerwa 0
+kukora 0
+ebigyezo 0
+, 0
+ahabw'abazaire 0
+kuremwa 0
+kushashura 0
+ebishare 0
+by'eishomero 0
+. 0
+
+Amahanga 0
+gashaziremu 0
+kugyemesa 0
+abantu 0
+nk'omuringo 0
+gw'okurwanisa 0
+endwara 0
+rujanjaara 0
+nsi 0
+. 0
+
+Akakuku 0
+akasisire 0
+amaju 0
+g'abantu 0
+kakagwisa 0
+kubi 0
+abaturagye 0
+. 0
+
+Abaana 0
+baine 0
+akamwenyo 0
+karungi 0
+. 0
+
+Taata 0
+niwemuzaani 0
+orikusingayo 0
+okuzaanira 0
+gye 0
+omupiira 0
+gw'ebigyere 0
+ahagati 0
+y'ekishaayi 0
+omunsi 0
+yoona 0
+. 0
+
+Mpaire 0
+abaana 0
+baaha 0
+nguuto 0
+siringi 0
+ekumi 0
+ibiri 0
+kugura 0
+eby'okurya 0
+. 0
+
+Abantu 0
+bashemereire 0
+kugabira 0
+ekanisa 0
+eitaka 0
+ry'okukoreraho 0
+obuhingi 0
+n'oburiisa 0
+. 0
+
+Gavumenti 0
+eyombekire 0
+amashomero 0
+maingi 0
+. 0
+
+Omwegyesa 0
+wa 0
+puraimare 0
+naatunga 0
+omushara 0
+gurikwingana 0
+ki 0
+? 0
+
+T'ihariho 0
+bujurizi 0
+ahari 0
+ebi 0
+byona 0
+ebirikuteekateekwaho 0
+. 0
+
+Eki 0
+baakozire 0
+kikaba 0
+kibi 0
+munonga 0
+. 0
+
+Muhara 0
+wangye 0
+naakunda 0
+okutona 0
+amababi 0
+. 0
+
+Akarabura 0
+otti B-PER
+obutakyrikuiira 0
+ebihandiiko 0
+ebirikuruga 0
+omubarikukoragana 0
+gavumenti 0
+. 0
+
+Emihendo 0
+mihango 0
+y'okukora 0
+ebintu 0
+kibaasa 0
+kureeta 0
+okweyongyera 0
+kw'emihendo 0
+. 0
+
+Eshagama 0
+y'abantu 0
+tiyoyonka 0
+eyi 0
+esiri 0
+zirikukunda 0
+
+Enguuto 0
+niziija 0
+kuba 0
+eza 0
+boona 0
+. 0
+
+Abanyeishengyero 0
+nibaija 0
+kutunga 0
+maapu 0
+y'amatware 0
+kuruga 0
+omu 0
+minisiture B-ORG
+y'eby'eitaka I-ORG
+. 0
+
+Omushaija 0
+wangye 0
+natunga 0
+esente 0
+kutsinga 0
+ezangye 0
+. 0
+
+Biriyoni 0
+mushanju 0
+omu 0
+sente 0
+za 0
+uganda 0
+zikateebwaho 0
+kwombeka 0
+ekishaayi 0
+ky'enyonyi 0
+Hoima B-LOC
+. 0
+
+Akahabura 0
+gavumenti 0
+okwongyera 0
+esente 0
+omu 0
+by'obushubuzi 0
+. 0
+
+Enguuto 0
+nizitunguura 0
+ebyengyenda 0
+. 0
+
+Minisita 0
+ajumiriire 0
+omushango 0
+. 0
+
+Abakuumi 0
+bekihome 0
+bakamuyamba 0
+okutoroka 0
+ahakuba 0
+akabaraganisa 0
+okubashashura 0
+obukaikuru 0
+butaano 0
+bwa 0
+Uganda 0
+bury'omwe 0
+. 0
+
+Nimbashaba 0
+okumpa 0
+ekishengye 0
+ahindakorere 0
+. 0
+
+Nibwo 0
+aherize 0
+emishomo 0
+ye 0
+. 0
+
+Omukozi 0
+n'omukozesa 0
+bashemereire 0
+kwikirizana 0
+aha 0
+mushaara 0
+
+okukyendeeza 0
+ha 0
+maaju 0
+agombekirwe 0
+n’okurebeeka 0
+ngu 0
+abantu 0
+bagatungiira 0
+aha 0
+mabanja 0
+kuruga 0
+omu 0
+banka 0
+
+Gavumenti 0
+n'ehabura 0
+abantu 0
+kukoresaka 0
+boona B-ORG
+bashome I-ORG
+omuri I-ORG
+purayimare I-ORG
+. 0
+
+Buri 0
+omwe 0
+naayeenda 0
+kushabira 0
+omu 0
+kanisa 0
+entsya 0
+. 0
+
+Abantu 0
+abarikubaasa 0
+kuhikwaho 0
+akabi 0
+munonga 0
+nibaahi 0
+? 0
+
+N'omwebebembezi 0
+w'ekigombe 0
+ekitongore 0
+ky'ensi 0
+zoona 0
+. 0
+
+Akagarurayo 0
+esente 0
+omwishengyero 0
+nk'oku 0
+sipiika 0
+yaashabire 0
+. 0
+
+Disiturikiti 0
+eshemereire 0
+kutebekanisa 0
+enteerane 0
+, 0
+okumanyisa 0
+omwana 0
+w'omwishiki 0
+ebirikukwata 0
+aha 0
+bushwere 0
+. 0
+
+Nibabaasa 0
+kutunga 0
+emibazi 0
+kuruga 0
+omu 0
+bitongore 0
+bya 0
+gavumenti 0
+eby'amagara 0
+. 0
+
+Gambira 0
+omushomesa 0
+waawe 0
+amazima 0
+. 0
+
+Amakorero 0
+gabaasa 0
+kubereza 0
+amaani 0
+. 0
+
+Habaireho 0
+endwano 0
+nyomwabazyo B-DATE
+. 0
+
+Abavugyi 0
+abebimootoka 0
+ebihango 0
+beine 0
+obukugu 0
+bweingyi 0
+omukuvuuga 0
+. 0
+
+Uganda B-LOC
+egurize 0
+amashanyarazi 0
+omu 0
+mahanga 0
+agatuherereire 0
+. 0
+
+Omuhanda 0
+gukaba 0
+gwijwire 0
+ebinyatsi 0
+. 0
+
+Tushemereire 0
+kubangira 0
+efuuzi 0
+
+Abantu 0
+bakahaburwa 0
+okugaruka 0
+bakabyara 0
+emiti 0
+. 0
+
+Abantu 0
+baingi 0
+nibakyeyendeza 0
+. 0
+
+Ebye'okweshoongora 0
+biine 0
+ababitamu 0
+esente 0
+baingi 0
+okuruga 0
+omunsi 0
+yoona 0
+. 0
+
+Erizooba B-DATE
+n'ery'akaruuru 0
+. 0
+
+Ababiri 0
+bakaikirizana 0
+okukwatanisa 0
+omu 0
+by'amahe 0
+n'eby'emikono 0
+omu 0
+mwaka B-DATE
+gw'enkumi I-DATE
+ibiri I-DATE
+ikumi I-DATE
+na I-DATE
+mushanju I-DATE
+. 0
+
+Abeegyesa 0
+bashemereire 0
+kuhurikiza 0
+abeegi 0
+boona 0
+ebi 0
+barikwetenga 0
+batarikushoroora 0
+. 0
+
+Omwishikyi 0
+ori 0
+kukora 0
+omu 0
+hooteeri 0
+ayehakine 0
+ngu 0
+omuguzi 0
+takamuheire 0
+esente 0
+. 0
+
+Nibabaasa 0
+kuhendera 0
+batashashwirwe 0
+. 0
+
+Oburambuzi 0
+burikuba 0
+kimwe 0
+aha 0
+bintu 0
+ebirikukizayo 0
+kureetera 0
+eihanga 0
+esente 0
+obwo 0
+gavumenti 0
+etatairemu 0
+sente 0
+nyingi 0
+. 0
+
+Nitukora 0
+kureeba 0
+emituurire 0
+yaitu 0
+yabonera 0
+. 0
+
+Atuura 0
+aine 0
+enkwatanisa 0
+nungi 0
+na 0
+bakama 0
+be 0
+. 0
+
+Buri 0
+simu 0
+eya 0
+simaati 0
+neezaho 0
+Intaneeti 0
+. 0
+
+Abahumwire 0
+boona 0
+bashemereire 0
+kutunga 0
+esente 0
+zaabo 0
+. 0
+
+Abazaani 0
+b'omupiira 0
+b'eihanga 0
+bariyo 0
+nibatuura 0
+omu 0
+hoteeri 0
+egyo 0
+. 0
+
+Amakuru 0
+agagyendereirwe 0
+nigahwera 0
+obugabe 0
+bw’okusharamu 0
+kutibwa 0
+omu 0
+nkora 0
+? 0
+
+Etaabe 0
+n'ey'akabi 0
+aha 0
+magara 0
+. 0
+
+Omushango 0
+okugumariira 0
+aheeru 0
+ya 0
+kooti 0
+, 0
+buri 0
+bamwe 0
+ab'embaju 0
+zombi 0
+baine 0
+kugira 0
+eki 0
+bafeerwa 0
+. 0
+
+Orikukurira 0
+orubaju 0
+orurikuhakanisa 0
+gavumenti 0
+akaba 0
+naarwanisa 0
+ekiteiso 0
+ekyo 0
+. 0
+
+Kiraabu 0
+egi 0
+neehereza 0
+West B-LOC
+Nile I-LOC
+ekitiinisa 0
+. 0
+
+Kuri 0
+hatariho 0
+empurizagana 0
+, 0
+ensi 0
+ekabaire 0
+eri 0
+omu 0
+kabi 0
+, 0
+etanukaine 0
+kandi 0
+erikuburabuzibwa 0
+. 0
+
+Kampuni 0
+za 0
+Uganda B-LOC
+nazo 0
+nizenda 0
+ngu 0
+zitunge 0
+purogyekiti 0
+mpango 0
+z'okwombeka 0
+kuruga 0
+omu 0
+Gavumenti 0
+. 0
+
+Ekyajumbwirwe 0
+kikareka 0
+bingi 0
+batangaire 0
+. 0
+
+Mukuru 0
+wa 0
+yataanisa 0
+enshonga 0
+. 0
+
+Omukuru 0
+owafiire 0
+akazikwa 0
+mu 0
+bucweeka 0
+bibiri 0
+ery'ekibugu 0
+. 0
+
+Abantu 0
+abamwe 0
+bakatebekanisa 0
+embaga 0
+omu 0
+maka 0
+gaabo 0
+ahabaire 0
+ebyokurya 0
+n'ebyokunywa 0
+bingi 0
+. 0
+
+Abanywani 0
+bombi 0
+aba 0
+ahamara 0
+bakashemererwa 0
+oburengye 0
+kandi 0
+babumbatairana 0
+ku 0
+baabugaine 0
+. 0
+
+Mukama B-PER
+, 0
+ninkusiima 0
+ahabwa 0
+nyomwebazyo B-DATE
+kandi 0
+nindangirira 0
+eizooba 0
+rirungi 0
+. 0
+
+Mukama 0
+niwe 0
+aine 0
+minzaani 0
+erikukirayo 0
+oburungi 0
+. 0
+
+Omupiira 0
+nigwo 0
+muzaano 0
+gurikushagikwa 0
+munonga 0
+omwihanga 0
+. 0
+
+Eishokye 0
+rye 0
+rikatandika 0
+kucweka 0
+obu 0
+yatandika 0
+kuryagye 0
+
+Ab'ekibiina 0
+ekindi 0
+tibashemereirwe 0
+n'ekisazirwemu 0
+. 0
+
+Akarashwa 0
+arikurambura 0
+ebya 0
+kafyu 0
+. 0
+
+Obuhuta 0
+bw'orukizi 0
+rw'omugongo 0
+n'obwakabi 0
+munonga 0
+. 0
+
+Ahabwenki 0
+emishango 0
+ya 0
+kooti 0
+emwe 0
+neetwara 0
+obwire 0
+? 0
+
+Abazaani 0
+boona 0
+aba 0
+tiimu 0
+baine 0
+kuba 0
+bumwe 0
+. 0
+
+Ofiisi 0
+y'obureeberezi 0
+bakagyetorooza 0
+orugo 0
+. 0
+
+Abantu 0
+abaingi 0
+nibamanya 0
+ngu 0
+tibaine 0
+bukuumi 0
+. 0
+
+Abavugi 0
+bemotooka 0
+empango 0
+okuruga 0
+omunsi 0
+ezituri 0
+heiehi 0
+bakakyeberwa 0
+biine 0
+akakoko 0
+ka 0
+korona 0
+. 0
+
+Shwento 0
+akatangaara 0
+kukimanya 0
+ngu 0
+omukazi 0
+we 0
+akaba 0
+namuryangatanisa 0
+. 0
+
+Omuntu 0
+aine 0
+kukora 0
+enteekateeka 0
+y'okubugana 0
+omwebembezi 0
+w'eihanga 0
+. 0
+
+Oine 0
+kuta 0
+omukono 0
+aha 0
+ndagaano 0
+egyo 0
+. 0
+
+Kiraabu 0
+y'omupiira 0
+gw'ebigyere 0
+ekatandika 0
+emyaka B-DATE
+igana I-DATE
+enyima I-DATE
+. 0
+
+Endwara 0
+zimwe 0
+ezirikurabira 0
+omu 0
+maizi 0
+ni 0
+ziiha 0
+? 0
+
+Omwebembezi 0
+w'eihanga 0
+akasiima 0
+ab'eby'amagara 0
+ababeire 0
+beebembereire 0
+orugamba 0
+rw'okurwanisa 0
+akakooko 0
+ka 0
+korona 0
+. 0
+
+Eminyeeto 0
+neyejumba 0
+omuby'okuteerana 0
+bakiri 0
+bato 0
+. 0
+
+Nomanya 0
+ekibuuzo 0
+kyona 0
+eki 0
+twine 0
+? 0
+
+Eizooba 0
+ry'enyamaishwa 0
+, 0
+nibarijaguza 0
+ebiro B-DATE
+bishatu I-DATE
+okweezi I-DATE
+kwa I-DATE
+mukaaga I-DATE
+buri 0
+mwaka 0
+. 0
+
+Ebinyonyi 0
+tibigira 0
+maino 0
+. 0
+
+Omwojo 0
+atwire 0
+arwaire 0
+kumara 0
+esande B-DATE
+ibiri I-DATE
+ezenyima I-DATE
+kandi 0
+nahati 0
+, 0
+ariyo 0
+naragurirwa 0
+omushwiija 0
+gw'ensiri 0
+. 0
+
+Oku 0
+nikwo 0
+barikukora 0
+keeki 0
+. 0
+
+Omumiginda 0
+y'empuungi 0
+, 0
+abaishiki 0
+okutwara 0
+enda 0
+bakiri 0
+bato 0
+kweyongyeire 0
+. 0
+
+Ekirooto 0
+kyabo 0
+n'okusinga 0
+empaka 0
+z'okweshongora 0
+ez'amashomero 0
+. 0
+
+Etaara 0
+z'ahanguuto 0
+zikateebwa 0
+aha 0
+nguuto 0
+. 0
+
+Kikaba 0
+kiri 0
+eky'okuheereza 0
+ekitinisa 0
+, 0
+abakazi 0
+abarikwitwa 0
+oburemeezi 0
+bw'kuzaara 0
+. 0
+
+Abaire 0
+nyinenkuru 0
+w'abaana 0
+akiri 0
+muto 0
+. 0
+
+Ebyokwerinda 0
+omu 0
+rurembo 0
+ahagati 0
+, 0
+tibirikumara 0
+. 0
+
+Abeebembezi 0
+babeegi 0
+, 0
+bashemereire 0
+kukoresa 0
+obushoborozi 0
+bwabo 0
+, 0
+okureetaho 0
+enkorengana 0
+nungi 0
+n'abeebembezi 0
+b'eishomero 0
+. 0
+
+Aga 0
+ti 0
+makuru 0
+marungi 0
+. 0
+
+Munyanyazi 0
+amazire 0
+emyaka B-DATE
+ikumi I-DATE
+ari 0
+memba 0
+wa 0
+kwaya 0
+y'ekanisa 0
+. 0
+
+Ekijwaro 0
+ekyo 0
+nikigura 0
+shiringi 0
+emitwaro 0
+munaana 0
+eya 0
+Yuganda 0
+. 0
+
+Omukoro 0
+gw'okujaguza 0
+nigukorwa 0
+orwakabiri B-DATE
+, I-DATE
+ebiro I-DATE
+ikumi I-DATE
+na I-DATE
+munaana I-DATE
+Okwaikumi I-DATE
+na I-DATE
+kumwe I-DATE
+omwaka I-DATE
+ogu I-DATE
+. 0
+
+Ezi 0
+yaabiikire 0
+zikamuyamba 0
+omu 0
+bwire 0
+bw'okuhumura 0
+kwe 0
+. 0
+
+Bakansha 0
+kushashura 0
+kakaaga 0
+omu 0
+sente 0
+za 0
+Uganda 0
+nka 0
+nk’omutango 0
+omu 0
+kooti 0
+
+Bemanya B-PER
+atwire 0
+omu 0
+ntaro 0
+na 0
+minisita 0
+Anite B-PER
+. 0
+
+Omunyeishengyero 0
+akaba 0
+aine 0
+abaana 0
+bataano 0
+. 0
+
+Ni 0
+ihanga 0
+riiha 0
+eririkuteebekanisa 0
+emizaano 0
+ya 0
+komoni 0
+weresi 0
+? 0
+
+Abanyabuzaare 0
+buriijo 0
+nibarondera 0
+abantu 0
+baabo 0
+abaabura 0
+aha 0
+bitebe 0
+bya 0
+pooriisi 0
+. 0
+
+Kalinaki B-PER
+akashohoza 0
+ekitabo 0
+kye 0
+omu 0
+nkumi B-DATE
+ibiri I-DATE
+ikumi I-DATE
+na I-DATE
+ina I-DATE
+. 0
+
+Abeebembezi 0
+nibakwata 0
+ebintu 0
+byabo 0
+, 0
+kandi 0
+tibirikubagarurirwa 0
+. 0
+
+Naayeshongora 0
+n'ekigyendererwa 0
+hamwe 0
+na 0
+rukundo 0
+. 0
+
+Abagyenyi 0
+abeesirwe 0
+bonka 0
+nibo 0
+barikuteekwateekwa 0
+kuza 0
+aha 0
+mukoro 0
+. 0
+
+Abantu 0
+boona 0
+bakamuhwa 0
+amatsiko 0
+. 0
+
+Abantu 0
+bakabagyenderera 0
+kurugyirira 0
+ahibarikuruga 0
+
+Akatuhabura 0
+ngu 0
+turekye 0
+kuhaba 0
+. 0
+
+Okuhinga 0
+eby'okurya 0
+nikukorerwa 0
+ahaitaka 0
+. 0
+
+Maawenkuru 0
+aine 0
+omusiri 0
+gw'obutuzi 0
+. 0
+
+Obuheereza 0
+busya 0
+obu 0
+butandikireho 0
+ameezi B-DATE
+abiri I-DATE
+kuruga 0
+obu 0
+kampuni 0
+erikukora 0
+esimu 0
+yaata 0
+emigabo 0
+yaayo 0
+aha 0
+katare 0
+. 0
+
+Okukwatanisa 0
+, 0
+nigwo 0
+mugasho 0
+gw'okukora 0
+ekibiina 0
+ky'abeegi 0
+. 0
+
+Abantu 0
+bahabwirwe 0
+okurekyeraaho 0
+kutwara 0
+ebituga 0
+. 0
+
+Irwariro 0
+tiryaine 0
+eshagama 0
+y'okukozesa 0
+. 0
+
+Aampikaho 0
+yanshaba 0
+kumuhingira 0
+muhara 0
+wangye 0
+. 0
+
+Titushemereire 0
+kweyendeza 0
+. 0
+
+Ku 0
+haakubaho 0
+oraabe 0
+kyemaririra 0
+, 0
+nibaija 0
+kumurwanisa 0
+. 0
+
+Amaju 0
+maingi 0
+omu 0
+West B-LOC
+Nile I-LOC
+, 0
+nigaija 0
+kuyungwa 0
+aha 0
+mashanyarazi 0
+. 0
+
+Oine 0
+ebirohoozo 0
+bingi 0
+omu 0
+mutwe 0
+gwawe 0
+. 0
+
+Ahabwenki 0
+enyamiishwa 0
+nizirindwa 0
+? 0
+
+Taata 0
+ari 0
+omumahe 0
+. 0
+
+Abakazi 0
+bejumbire 0
+munonga 0
+omu 0
+kuhakuura 0
+obwoki 0
+. 0
+
+Abantu 0
+baingi 0
+nibeija 0
+kuza 0
+aha 0
+mukoro 0
+. 0
+
+Nenki 0
+ekirikukureetera 0
+okushemererwa 0
+? 0
+
+Shwento 0
+akamanya 0
+ngu 0
+aine 0
+kokoro 0
+yamara 0
+. 0
+
+Banka B-ORG
+ya I-ORG
+Uganda I-ORG
+enkuru I-ORG
+neereeberera 0
+ebitongore 0
+by'esnte 0
+byona 0
+omu 0
+Uganda B-ORG
+. 0
+
+Tarabaasize 0
+kuza 0
+omurukiiko 0
+ahabwokuba 0
+akaba 0
+arwiire 0
+. 0
+
+Nooteekateeka 0
+kusharuura 0
+ryari 0
+ebinyoobwa 0
+byawe 0
+? 0
+
+Hurikiza 0
+okuhaburwa 0
+oku 0
+orikuheebwa 0
+. 0
+
+Okwegyesa 0
+kw'ebyemizano 0
+kushemereire 0
+kuza 0
+aha 0
+nteebekanisya 0
+y'amashomero 0
+. 0
+
+Taata 0
+naguuza 0
+enyama 0
+y'embuzi 0
+omukataare 0
+. 0
+
+Gavumenti 0
+eriyo 0
+neegyezaho 0
+kwegyesa 0
+abazaire 0
+oburyo 0
+bw'okurwanirira 0
+obugabe 0
+bw'abaana 0
+baabo 0
+. 0
+
+Abantu 0
+bingi 0
+bariyo 0
+nibarwara 0
+. 0
+
+Ekika 0
+kyoona 0
+kikasherererwa 0
+omu 0
+kurya 0
+omuceeri 0
+. 0
+
+Twena 0
+twine 0
+kukorera 0
+hamwe 0
+okurwanisa 0
+endwara 0
+ezitarikuturira 0
+. 0
+
+Akabingwa 0
+kandi 0
+yaasimbuurwa 0
+owabaire 0
+ari 0
+omuhandiiki 0
+we 0
+. 0
+
+Eitaka 0
+tirikiri 0
+mumikono 0
+ya'beeka 0
+ya 0
+kabaka 0
+. 0
+
+Orupanka 0
+nikikuru 0
+aha 0
+mupiira 0
+gw’emotooka 0
+kandi 0
+niruyamba 0
+emotooka 0
+okugumira 0
+aha 0
+ruguuto 0
+
+Abachaina 0
+biigwireho 0
+za 0
+eby'obushuubuzi 0
+hamwe 0
+na 0
+amakorero 0
+omuri 0
+Yuganda B-LOC
+. 0
+
+Abashiki 0
+bato 0
+, 0
+bari 0
+omu 0
+kabi 0
+kahango 0
+k'okuremererwa 0
+baaba 0
+nibazaara 0
+. 0
+
+Gavumenti 0
+eriyo 0
+nehiga 0
+eminyeeto 0
+okwega 0
+emyoga 0
+y'emikono 0
+. 0
+
+Abakozi 0
+baha 0
+Disiturikiti 0
+, 0
+bashemereire 0
+kuheereza 0
+abantu 0
+baabo 0
+embaririra 0
+y'esente 0
+eziheirweyo 0
+kukoreesibwa 0
+omu 0
+Disiturikiti 0
+egyo 0
+. 0
+
+Abazaani 0
+abatunga 0
+obuhuta 0
+bw'amaani 0
+omumuzaano 0
+nasimbuurwa 0
+n'ondiijo 0
+muzaani 0
+. 0
+
+Akeeshereko 0
+kakamara 0
+emyezi 0
+mukaaga 0
+. 0
+
+Enjoki 0
+, 0
+nizituura 0
+omubihumi 0
+. 0
+
+Abaana 0
+baingi 0
+nibaruga 0
+omu 0
+mashomero 0
+gaitu 0
+erizooba B-DATE
+. 0
+
+Abantu 0
+abamwe 0
+nibataina 0
+kwejumbira 0
+om'akaruuru 0
+nka 0
+boona 0
+. 0
+
+Okubyara 0
+emiti 0
+n'omuhanda 0
+gumwe 0
+ogu 0
+turikubaasa 0
+kukoresa 0
+kurinda 0
+obuhangwa 0
+bw'ensi 0
+. 0
+
+Okwehayo 0
+nikwetenga 0
+okutaho 0
+omutima 0
+n'okugira 0
+eki 0
+wafeerwa 0
+. 0
+
+Abantu 0
+nibetaaga 0
+abebembezi 0
+basya 0
+ab'okuza 0
+omumwanya 0
+gw'abakuru 0
+. 0
+
+Akakwatirwa 0
+okuzaanazaanisa 0
+orubazo 0
+rwa 0
+purezidenti 0
+. 0
+
+Tiimu 0
+y'omupiira 0
+y'ishomero 0
+ryaitu 0
+yarabamu 0
+kuza 0
+omu 0
+mpaka 0
+z'amashomero 0
+omu 0
+ihanga 0
+ryona 0
+. 0
+
+Abantu 0
+bingi 0
+tibarikukuratira 0
+ebiragiro 0
+. 0
+
+Abantu 0
+abarikukira 0
+obwingi 0
+bakunda 0
+kukoresa 0
+abantu 0
+abeekambi 0
+. 0
+
+Tiimu 0
+y'eihanga 0
+obwahati 0
+eri 0
+omu 0
+mizaano 0
+y'omupiira 0
+gw'ebigyere 0
+ey'ensi 0
+yoona 0
+
+Ebiragiro 0
+ebikuru 0
+nibitwebembera 0
+gye 0
+omu 0
+biturikuteka 0
+kukora 0
+byoona 0
+. 0
+
+Za 0
+waaya 0
+ezirikwingana 0
+kiromita 0
+emwe 0
+niziija 0
+kuraba 0
+omu 0
+mugyera B-LOC
+Nile I-LOC
+okuruga 0
+Adjumani B-LOC
+, 0
+okuza 0
+omu 0
+disiturikiti B-LOC
+ya I-LOC
+Moyo I-LOC
+. 0
+
+Ekigyenderwa 0
+n’okuremesa 0
+okuteera 0
+esimu 0
+aha 0
+mikutu 0
+endiijo 0
+
+Omupiira 0
+, 0
+n'omuzaano 0
+gurikushemeza 0
+. 0
+
+Omwebembezi 0
+agumize 0
+abazaire 0
+emitima 0
+kubaatwara 0
+abaana 0
+baabo 0
+kugyemesibwa 0
+. 0
+
+Sho 0
+akakwikiriza 0
+okuza 0
+omu 0
+mbaga 0
+? 0
+
+Eizooba 0
+ryaitu 0
+ry'okugaitwa 0
+rikongyezibwayo 0
+ahabw'okukinga 0
+eihanga 0
+ekitaraariraine 0
+. 0
+
+Nobaasa 0
+kutuyamba 0
+kukora 0
+baagi 0
+ya 0
+kamapni 0
+? 0
+
+Enteekateeka 0
+ensya 0
+egyendereire 0
+kubaasisa 0
+abanyamahurire 0
+kumanya 0
+ebirikukwata 0
+aha 0
+mpindahinduka 0
+y'obwire 0
+. 0
+
+Gavumenti 0
+neija 0
+kugaruraho 0
+ebisharara 0
+omuri 0
+Nebi B-LOC
+na 0
+Maracha B-LOC
+. 0
+
+Ekiriiririzi 0
+ky'omushwija 0
+eky'akabi 0
+nikikoresa 0
+emihanda 0
+ebiri 0
+. 0
+
+Hakabaho 0
+enkorengana 0
+n'amahanga 0
+agandi 0
+, 0
+okwongyera 0
+ahabirikukozesibwa 0
+omwirwariro 0
+. 0
+
+Ebiragiro 0
+nibibonereza 0
+abakozi 0
+b'ebihagaro 0
+
+Akasigaza 0
+kaadi 0
+y'ekibiina 0
+, 0
+okukikwatira 0
+bendera 0
+omu 0
+karuuru 0
+ka 0
+boona 0
+akarikwija 0
+. 0
+
+Oruteerana 0
+r'amahanga 0
+kuruga 0
+omukichweka 0
+ekimwe 0
+rushemeraire 0
+kureeba 0
+enshonga 0
+eziri 0
+kubateganisa 0
+. 0
+
+Abashaija 0
+n'abakazi 0
+bashemereire 0
+kwegyesibwa 0
+okutereeza 0
+enshonga 0
+zaabo 0
+z'amaka 0
+. 0
+
+Kampuni 0
+teine 0
+sente 0
+z'okwongyera 0
+aha 0
+nkora 0
+ya 0
+soora 0
+. 0
+
+Bakatunga 0
+ekiconco 0
+ky'obukaikuru 0
+makumi 0
+ashatu 0
+na 0
+butaano 0
+eza 0
+Uganda B-LOC
+. 0
+
+Poriisi 0
+ekashaba 0
+famire 0
+okuruga 0
+ahaitaka 0
+bukiri 0
+kare 0
+, 0
+nk'oku 0
+kirikubaasika 0
+. 0
+
+Abanyauganda 0
+bakye 0
+bakajweekyera 0
+eihanga 0
+omu 0
+mizaano B-ORG
+ya I-ORG
+orimpiki I-ORG
+ehwire 0
+. 0
+
+Biika 0
+kurungi 0
+esnte 0
+zaawe 0
+. 0
+
+Oyerinde 0
+munonga 0
+. 0
+
+Eby'okwerinda 0
+aha 0
+muryango 0
+gw'ekibiina 0
+, 0
+bikaba 0
+biri 0
+eby'amaani 0
+. 0
+
+Okashoma 0
+ki 0
+? 0
