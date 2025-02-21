@@ -5,7 +5,7 @@ import re
 data_base_path = './DATA/'
 
 input_file = os.path.join(data_base_path, 'SALT_DATA_SPACE_TOKENIZED_DOCANNO/train_salt_tokenized-eng-nyn-doccano.jsonl')  # Your original dataset file
-output_file = os.path.join(data_base_path, 'CLEANED_SALT_SPACE_TOKENIZED_DOCCANO/train_salt_tokenized-eng-nyn-doccano.jsonl')
+output_file = os.path.join(data_base_path, 'CLEAN_DATA_SALT_SPACE_TOKENIZED_DOCCANO/train_salt_tokenized-eng-nyn-doccano.jsonl')
 
 # Regex pattern to remove slashes attached to words
 slash_pattern = re.compile(r"/(\w+)|/ ")
