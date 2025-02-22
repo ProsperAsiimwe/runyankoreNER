@@ -35,7 +35,7 @@ with open(input_file, "r", encoding="utf-8") as infile, open(output_file, "w", e
         entity_map = {}
         for entity in ner_results:
             word = entity["word"]
-            label = entity["entity_group"]
+            label = entity["entity"]
             
             # Fix subword tokenization issues
             if word.startswith("##"):  # Handle BERT-like subwords
