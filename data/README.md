@@ -33,6 +33,10 @@ rm -rf data/runyankore/cached_*
 ✅ Verify Labels:
 cut -d' ' -f2 data/runyankore/train.txt | sort | uniq -c
 
+✅ Reload .env and Verify Paths
+source .env
+echo $DATA_DIR
+echo $OUTPUT_DIR
 
 
 
