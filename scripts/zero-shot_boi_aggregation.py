@@ -27,7 +27,7 @@ with open(input_file, "r", encoding="utf-8") as infile, open(output_file, "w", e
         sentence = line.strip()
         if not sentence:
             continue  # Skip empty lines
-        
+
         # Run the model for NER prediction
         ner_results = ner_pipeline(sentence)
 
@@ -35,8 +35,8 @@ with open(input_file, "r", encoding="utf-8") as infile, open(output_file, "w", e
         entity_map = {}
         for entity in ner_results:
             word = entity["word"]
-            label = entity["entity"]
-            
+            label = entity["entity"]  # ✅ Use "entity" instead of "entity_group"
+
             # Fix subword tokenization issues
             if word.startswith("##"):  # Handle BERT-like subwords
                 word = word.replace("##", "")
@@ -50,15 +50,17 @@ with open(input_file, "r", encoding="utf-8") as infile, open(output_file, "w", e
         prev_label = "O"
         for word in sentence.split():
             if word in entity_map:
-                labels = entity_map[word]
-                
-                # Determine BIO tag
-                if prev_label == "O" or labels[0] != prev_label:  
-                    ner_label = f"B-{labels[0]}"  # Beginning of entity
+                raw_label = entity_map[word][0]  # Get the predicted label
+                if "-" in raw_label:
+                    prefix, label = raw_label.split("-", 1)  # Extract the prefix
+                    if prefix in ["B", "I"]:
+                        ner_label = raw_label  # Already in correct BIO format
+                    else:
+                        ner_label = f"B-{label}"  # Force BIO compliance if incorrect format detected
                 else:
-                    ner_label = f"I-{labels[0]}"  # Inside entity
+                    ner_label = f"B-{raw_label}"  # Assign "B-" for new entities
                 
-                prev_label = labels[0]  # Track previous label
+                prev_label = raw_label  # Track previous label
             else:
                 ner_label = "O"
                 prev_label = "O"
