@@ -3,8 +3,8 @@ import os
 
 data_base_path = './DATA/'
 
-input_file = os.path.join(data_base_path, 'CLEAN_DATA_SALT_SPACE_TOKENIZED_DOCCANO/train_salt_tokenized-eng-nyn-doccano.jsonl')  # The cleaned JSONL file
-output_file = os.path.join(data_base_path, 'CLEAN_DATA_SALT_SPACE_TOKENIZED_DOCCANO/train_salt_english_sentences.txt')  # File to store extracted translations
+input_file = os.path.join(data_base_path, 'CLEAN_DATA_SALT_SPACE_TOKENIZED_DOCCANO/test_salt_tokenized-eng-nyn-doccano.jsonl')  # The cleaned JSONL file
+output_file = os.path.join(data_base_path, 'CLEAN_DATA_SALT_SPACE_TOKENIZED_DOCCANO/test_salt_english_sentences.txt')  # File to store extracted translations
 
 print("🚀 Extracting English translations...")
 
