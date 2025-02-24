@@ -14,7 +14,7 @@ tokenizer = AutoTokenizer.from_pretrained(trained_model_path)
 model = AutoModelForTokenClassification.from_pretrained(trained_model_path)
 
 # Load NER pipeline
-ner_pipeline = pipeline("ner", model=model, tokenizer=tokenizer)
+ner_pipeline = pipeline("ner", model=model, tokenizer=tokenizer, aggregation_strategy=None)
 
 # Input and output files
 input_file = os.path.join(DATA_DIR, "combined_runyankore_sentences.txt") 
@@ -31,40 +31,39 @@ with open(input_file, "r", encoding="utf-8") as infile, open(output_file, "w", e
         # Run the model for NER prediction
         ner_results = ner_pipeline(sentence)
 
-        # Track assigned entities
+        # Process raw entity predictions
         entity_map = {}
         for entity in ner_results:
-            word = entity["word"]
-            label = entity["entity"]  # ✅ Use "entity" instead of "entity_group"
+            word = entity["word"].replace("##", "")  # Fix subword tokenization
+            label = entity["entity"]
 
-            # Fix subword tokenization issues
-            if word.startswith("##"):  # Handle BERT-like subwords
-                word = word.replace("##", "")
-
+            # Store entity positions
             if word in entity_map:
                 entity_map[word].append(label)
             else:
                 entity_map[word] = [label]
 
-        # Write in BIO format
+        # Reconstruct full sentence with BIO format
         prev_label = "O"
         for word in sentence.split():
             if word in entity_map:
-                raw_label = entity_map[word][0]  # Get the predicted label
+                raw_label = entity_map[word][0]  # Get the first entity label
+
+                # Ensure correct BIO format
                 if "-" in raw_label:
-                    prefix, label = raw_label.split("-", 1)  # Extract the prefix
-                    if prefix in ["B", "I"]:
-                        ner_label = raw_label  # Already in correct BIO format
+                    prefix, label = raw_label.split("-", 1)
+                    if prefix not in ["B", "I"]:
+                        ner_label = f"B-{label}"
                     else:
-                        ner_label = f"B-{label}"  # Force BIO compliance if incorrect format detected
+                        ner_label = raw_label
                 else:
-                    ner_label = f"B-{raw_label}"  # Assign "B-" for new entities
-                
-                prev_label = raw_label  # Track previous label
+                    ner_label = f"B-{raw_label}"
+
+                prev_label = ner_label  # Track previous label
             else:
                 ner_label = "O"
                 prev_label = "O"
-            
+
             outfile.write(f"{word} {ner_label}\n")
 
         outfile.write("\n")  # Separate sentences by a newline

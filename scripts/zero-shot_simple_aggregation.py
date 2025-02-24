@@ -5,7 +5,7 @@ MODEL_DIR = os.path.join(os.path.dirname(__file__), "../models/")
 DATA_DIR = os.path.join(os.path.dirname(__file__), "../data/luganda/")
 
 # Specify the path to your fine-tuned Luganda NER model
-trained_model_path = os.path.join(MODEL_DIR, "luganda_xlmr")  # Update this path
+trained_model_path = os.path.join(MODEL_DIR, "luganda_mbert")  # Update this path
 
 print(f"🚀 Loading your fine-tuned Luganda NER model from: {trained_model_path}")
 
@@ -18,7 +18,7 @@ ner_pipeline = pipeline("ner", model=model, tokenizer=tokenizer, aggregation_str
 
 # Input and output files
 input_file = os.path.join(DATA_DIR, "combined_runyankore_sentences.txt") 
-output_file = os.path.join(DATA_DIR, "runyankore_ner_predictions.conll")
+output_file = os.path.join(DATA_DIR, "runyankore_mbert_predictions.conll")
 
 print("🚀 Performing zero-shot NER on Runyankore sentences using your fine-tuned Luganda model...")
 
