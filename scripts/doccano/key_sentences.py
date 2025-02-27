@@ -1,43 +1,49 @@
 import json
 import os
 from transformers import pipeline
+from tqdm import tqdm
 
 data_base_path = './DATA/'
 
-# Load an English NER model (choose a good one)
-ner_pipeline = pipeline("ner", model="dbmdz/bert-large-cased-finetuned-conll03", tokenizer="dbmdz/bert-large-cased-finetuned-conll03")
+# Load English NER Model
+print("🚀 Loading English NER Model for Sentence Filtering...")
+ner_pipeline = pipeline("ner", model="dslim/bert-base-NER", tokenizer="dslim/bert-base-NER")
 
 # Input dataset file
-jsonl_file = os.path.join(data_base_path, 'CLEAN_DATA_SALT_SPACE_TOKENIZED_DOCCANO/test_salt_tokenized-eng-nyn-doccano.jsonl')  # Update with actual file path
-output_file = os.path.join(data_base_path, 'RELEVANT_SENTENCES/filtered_runyankore_sentences.txt')
+input_jsonl_file = os.path.join(data_base_path, 'CLEAN_DATA_SALT_SPACE_TOKENIZED_DOCCANO/test_salt_tokenized-eng-nyn-doccano.jsonl')  # Update with actual file path
+filtered_output_file = os.path.join(data_base_path, 'RELEVANT_SENTENCES/filtered_runyankore_sentences.txt')
 
-# Entity categories we are interested in
+# Define Entity Categories (MasakhaNER)
 target_entities = {"PER", "LOC", "ORG", "DATE"}
 
-print("🚀 Processing English translations for NER...")
+# Initialize Counters
+total_sentences = 0
+sentences_with_entities = 0
 
-# Read JSONL file and extract relevant sentences
-with open(jsonl_file, "r", encoding="utf-8") as infile, open(output_file, "w", encoding="utf-8") as outfile:
-    total_sentences = 0
-    selected_sentences = 0
+# Process Each Sentence
+print(f"🔍 Searching for key sentences in: {input_jsonl_file}")
 
-    for line in infile:
+with open(input_jsonl_file, "r", encoding="utf-8") as infile, open(filtered_output_file, "w", encoding="utf-8") as outfile:
+    for line in tqdm(infile, desc="Processing Sentences"):
         total_sentences += 1
         data = json.loads(line)
 
         runyankore_text = data["text"]
         english_translation = data["metadata"]["translation"]
 
-        # Run NER on the English translation
+        # Perform NER on the English translation
         ner_results = ner_pipeline(english_translation)
 
-        # Check if at least one target entity is found
-        found_entities = {entity["entity"] for entity in ner_results if entity["entity"] in target_entities}
+        # Extract recognized entity types
+        found_entities = {entity["entity"] for entity in ner_results}
 
-        if found_entities:
-            selected_sentences += 1
-            outfile.write(f"{runyankore_text}\n")
+        # Check if sentence contains at least one target entity
+        if target_entities.intersection(found_entities):
+            sentences_with_entities += 1
+            outfile.write(json.dumps(data) + "\n")
 
-    print(f"✅ Processed {total_sentences} sentences.")
-    print(f"🔍 Identified {selected_sentences} sentences with named entities.")
-    print(f"📂 Saved to {output_file}")
+# Summary
+print("\n✅ Processing Complete!")
+print(f"📌 Total Sentences Processed: {total_sentences}")
+print(f"📍 Sentences Containing Entities: {sentences_with_entities}")
+print(f"💾 Filtered Sentences Saved to: {filtered_output_file}")
