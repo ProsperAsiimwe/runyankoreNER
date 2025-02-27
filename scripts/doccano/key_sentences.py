@@ -11,7 +11,7 @@ ner_pipeline = pipeline("ner", model="dslim/bert-base-NER", tokenizer="dslim/ber
 
 # Input dataset file
 input_jsonl_file = os.path.join(data_base_path, 'CLEAN_DATA_SALT_SPACE_TOKENIZED_DOCCANO/test_salt_tokenized-eng-nyn-doccano.jsonl')  # Update with actual file path
-filtered_output_file = os.path.join(data_base_path, 'RELEVANT_SENTENCES/filtered_runyankore_sentences.txt')
+filtered_output_file = os.path.join(data_base_path, 'RELEVANT_SENTENCES/key_sentences.jsonl')
 
 # Define Entity Categories (MasakhaNER)
 target_entities = {"PER", "LOC", "ORG", "DATE"}
