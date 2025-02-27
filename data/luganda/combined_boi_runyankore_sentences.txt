@@ -3400,7 +3400,7 @@ mushekye O
 
 Oburuuru O
 omuri O
-Rwanda LOC
+Rwanda B-LOC
 bukaba O
 obw'amazima O
 n'oburingaaniza O

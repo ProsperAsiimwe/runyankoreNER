@@ -7,7 +7,7 @@ data_base_path = './DATA/'
 
 # Load English NER Model
 print("🚀 Loading English NER Model for Sentence Filtering...")
-ner_pipeline = pipeline("ner", model="dslim/bert-base-NER", tokenizer="dslim/bert-base-NER")
+ner_pipeline = pipeline("ner", model="dbmdz/bert-large-cased-finetuned-conll03", tokenizer="dbmdz/bert-large-cased-finetuned-conll03")
 
 # Input dataset file
 input_jsonl_file = os.path.join(data_base_path, 'CLEAN_DATA_SALT_SPACE_TOKENIZED_DOCCANO/test_salt_tokenized-eng-nyn-doccano.jsonl')  # Update with actual file path
