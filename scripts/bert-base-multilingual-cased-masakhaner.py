@@ -2,7 +2,7 @@ import os
 from transformers import AutoTokenizer, AutoModelForTokenClassification, pipeline
 
 # Directories
-DATA_DIR = os.path.join(os.path.dirname(__file__), "../data/runyankore/")
+DATA_DIR = os.path.join(os.path.dirname(__file__), "../data/luganda/")
 
 # Specify the path to MasakhaNER model
 masakhaner_model = "Davlan/bert-base-multilingual-cased-masakhaner"
