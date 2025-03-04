@@ -1881,7 +1881,7 @@ murundi O
 ogu O
 , O
 abanya O
-Uganda O
+Uganda B-LOC
 nibaza O
 kusharamu O
 batoorane O

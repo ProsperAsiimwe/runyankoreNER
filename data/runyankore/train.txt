@@ -417,7 +417,7 @@ makumi O
 abiri O
 obw'eshiringi O
 za O
-Yuganda O
+Yuganda B-LOC
 nka O
 empeera O
 y'okukora O
@@ -2150,7 +2150,7 @@ nikishashura O
 omutwaro O
 gumwe O
 gwa O
-Uganda O
+Uganda B-LOC
 nkakasiimo O
 buri O
 muhagizi O
@@ -4056,7 +4056,7 @@ atorokire O
 
 Ni O
 abanya O
-Uganda O
+Uganda B-LOC
 bangahi O
 abarikutuura O
 omu O
@@ -4855,7 +4855,7 @@ hamwe O
 na O
 bahima O
 ba O
-Uganda O
+Uganda B-LOC
 . O
 
 Minisiture B-ORG
@@ -6470,7 +6470,7 @@ gaawe O
 
 Abatari O
 banya O
-Uganda O
+Uganda B-LOC
 abashangirwe O
 baine O
 oburwaire O
@@ -6554,7 +6554,7 @@ miriyooni O
 makumi O
 ataano O
 za O
-Uganda O
+Uganda B-LOC
 . O
 
 Akaba O
@@ -7780,7 +7780,7 @@ bashaija O
 . O
 
 Abanya O
-Uganda O
+Uganda B-LOC
 batandikire O
 kwejumba O
 omu O
@@ -7790,7 +7790,7 @@ entaasya O
 . O
 
 Abanya O
-Uganda O
+Uganda B-LOC
 baingi O
 bakabaire O
 nibakuratira O
@@ -8208,7 +8208,7 @@ abaana O
 . O
 
 Abanya O
-Uganda O
+Uganda B-LOC
 bashemereire O
 kwegyendesereza O
 ahabw'okuba O
@@ -10784,7 +10784,7 @@ by'abo O
 ababaireho O
 abeebembezi O
 ba O
-Uganda O
+Uganda B-LOC
 Abanyamahanga O
 , O
 baaba O
@@ -11251,7 +11251,7 @@ mushanju O
 omu O
 sente O
 za O
-uganda O
+Uganda B-LOC
 zikateebwaho O
 kwombeka O
 ekishaayi O
@@ -11287,7 +11287,7 @@ okubashashura O
 obukaikuru O
 butaano O
 bwa O
-Uganda O
+Uganda B-LOC
 bury'omwe O
 . O
 
@@ -11989,7 +11989,7 @@ shiringi O
 emitwaro O
 munaana O
 eya O
-Yuganda O
+Yuganda B-LOC
 . O
 
 Omukoro O
@@ -12023,7 +12023,7 @@ kakaaga O
 omu O
 sente O
 za O
-Uganda O
+Uganda B-LOC
 nka O
 nk’omutango O
 omu O
