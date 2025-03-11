@@ -1513,7 +1513,7 @@ Okurya O
 eby'okurya O
 by'obuhoro O
 ebya O
-nyomwabazyo O
+nyomwabazyo B-DATE
 , O
 nikibaasa O
 kuba O
@@ -1576,7 +1576,7 @@ ohikire O
 kwebembera O
 eby'obuhangwa O
 bw'aba O
-Madi O
+Madi B-LOC
 . O
 
 Abasirikare O
@@ -1980,8 +1980,8 @@ nyingi O
 
 Bakozire O
 embaga O
-mpago O
-nyomwebazyo O
+mpango O
+nyomwebazyo B-DATE
 . O
 
 Abamwe O
@@ -2037,10 +2037,10 @@ eky'okukora O
 
 Abaana O
 nibamara O
-emwaka O
-erikushoba O
-omuri O
-mushanju O
+emyaka B-DATE
+erikushoba I-DATE
+omuri I-DATE
+mushanju I-DATE
 bari O
 omuri O
 purayimare O
@@ -2403,8 +2403,8 @@ akatabanguko O
 omu O
 kibuga O
 omu O
-kasheeshe O
-aka O
+kasheeshe B-DATE
+aka I-DATE
 . O
 
 Bakashaba O
@@ -2861,7 +2861,7 @@ rikingireho O
 Enshohoza O
 ekaba O
 eri O
-ey’omwaka O
+ey’omwaka B-DATE
 . O
 
 Omushaija O
@@ -3426,6 +3426,9 @@ Akakiiko O
 akarikujunanizibwa O
 aha O
 by'oburuuru O
+aka O
+Electoral B-ORG
+commission I-ORG
 , O
 kakaragiira O
 abesimbireho O
@@ -3764,7 +3767,7 @@ bwa O
 pasenti O
 . O
 
-Nyomwebazyo O
+Nyomwebazyo B-DATE
 oriire O
 kyakiro O
 ? O
@@ -3773,9 +3776,9 @@ Ibanyi O
 akaferwa O
 omurimo O
 gwe O
-emwenzi O
-eshatu O
-ehingwire O
+emwenzi B-DATE
+eshatu I-DATE
+ehingwire I-DATE
 . O
 
 Ekyenyanja O
@@ -3998,7 +4001,7 @@ tanka O
 z’okurwanisa O
 . O
 
-Nyencakare O
+Nyencakare B-DATE
 twine O
 ebigyezo O
 by'obarikwenda O
@@ -4523,8 +4526,8 @@ omu O
 akagwe O
 kabi O
 omu O
-kasheeshe O
-aka O
+kasheeshe B-DATE
+aka I-DATE
 . O
 
 Akaza O
@@ -5420,12 +5423,13 @@ okurasha O
 abantu O
 okwabaireho O
 omu O
-kwaikuminakumwe O
-, O
-enkumi O
-ibiri O
-makumi O
-abiri O
+kw'aikumi B-DATE
+n'akumwe I-DATE
+, I-DATE
+enkumi I-DATE
+ibiri I-DATE
+makumi I-DATE
+abiri I-DATE
 . O
 
 Esente O
@@ -5561,7 +5565,7 @@ okumira O
 omubazi O
 gwangye O
 omu O
-kasheeshe O
+kasheeshe B-DATE
 . O
 
 Ba O
@@ -5961,8 +5965,7 @@ Law B-ORG
 Development I-ORG
 Center I-ORG
 omu O
-kasheeshe O
-omu O
+kasheeshe B-DATE
 . O
 
 Oruganda O
@@ -6057,8 +6060,8 @@ Eby'obushuubuzi O
 byawe O
 bikurakureine O
 munonga O
-omumwaka O
-oguhwire O
+omumwaka B-DATE
+oguhwire I-DATE
 . O
 
 Akashabwa O
@@ -6369,8 +6372,8 @@ kuguma O
 omu O
 karantiini O
 okumara O
-saabiiti O
-ibiri O
+saabiiti B-DATE
+ibiri I-DATE
 . O
 
 Abantu O
@@ -6428,7 +6431,7 @@ obubonero O
 oburikukirayo O
 omu O
 muzaano O
-nyomwebazyo O
+nyomwebazyo B-DATE
 . O
 
 Amashomero O
@@ -6641,7 +6644,7 @@ Areebikire O
 omu O
 kakiiko O
 k'emicwe O
-nyomwebazyo O
+nyomwebazyo B-DATE
 . O
 
 Gyenereeta O
@@ -6773,7 +6776,7 @@ Abany'eishengyero O
 abasya O
 nibaza O
 kurahizibwa O
-erizooba O
+erizooba B-DATE
 . O
 
 Egyi O
@@ -7031,7 +7034,7 @@ Ishe O
 ahumwire O
 omu O
 minisiture O
-nyomwebazyo O
+nyomwebazyo B-DATE
 . O
 
 Reka O
@@ -7681,7 +7684,7 @@ ki O
 
 Tiketi O
 z'omupiira O
-gw'erizooba O
+gw'erizooba B-DATE
 zagura O
 ahaiguru O
 . O
@@ -7705,8 +7708,8 @@ Muhara O
 we O
 abunzire O
 kurmara O
-saabiiti O
-yoona O
+saabiiti B-DATE
+yoona I-DATE
 . O
 
 Esente O
@@ -8039,9 +8042,9 @@ abatiirwe O
 omuri O
 ikumi O
 z'engaro O
-ekiro O
-kya O
-nyomwebazyo O
+ekiro B-DATE
+kya I-DATE
+nyomwebazyo I-DATE
 . O
 
 Okukuza O
@@ -8662,7 +8665,7 @@ Entebe B-LOC
 Tuvugire O
 tukuza O
 omw'irwario O
-nyomwebazyo O
+nyomwebazyo B-DATE
 . O
 
 Abazaire O
@@ -10085,7 +10088,7 @@ nagaruka O
 nasiimura O
 ahansi O
 omu O
-kasheeshe O
+kasheeshe B-DATE
 . O
 
 Abantu O
@@ -10886,7 +10889,7 @@ nyingi O
 . O
 
 Reka O
-nyencakare O
+nyencakare B-DATE
 tubuganire O
 aha O
 kanisa O
@@ -11363,8 +11366,8 @@ ya O
 Korona O
 tikubaire O
 kwingi O
-saabiiti O
-egi O
+saabiiti B-DATE
+egi I-DATE
 . O
 
 Emihendo O
@@ -11576,7 +11579,7 @@ abarambuzi O
 bangahe O
 abataayaayira O
 Yuganda B-LOC
-omumwaka O
+omumwaka B-DATE
 ? O
 
 Empungi O
@@ -11819,8 +11822,8 @@ N'omutsibe O
 w'okubaaza O
 kurekurwa O
 omu O
-kasheeshe O
-aka O
+kasheeshe B-DATE
+aka I-DATE
 . O
 
 Omutindo O
@@ -12139,7 +12142,7 @@ byoona O
 Okumurika O
 ogw'okubanza O
 nikubaho O
-nyencakare O
+nyencakare B-DATE
 . O
 
 Eishomero O
@@ -13797,7 +13800,7 @@ nigwija O
 kubaho O
 omuka O
 owe O
-nyencakare O
+nyencakare B-DATE
 . O
 
 Okureetaho O
@@ -14292,7 +14295,7 @@ rureingwa O
 
 Twikirizine O
 gye O
-nyomwebazyo O
+nyomwebazyo B-DATE
 . O
 
 Pooriisi O
@@ -14902,7 +14905,7 @@ kihereize O
 tiimu O
 ensya O
 ebiragiro O
-nyomwebazyo O
+nyomwebazyo B-DATE
 . O
 
 Okuhutuura O
@@ -15097,7 +15100,7 @@ nibarahuka O
 kuranganwa O
 . O
 
-Erizooba O
+Erizooba B-DATE
 twine O
 abagyenyi O
 . O
@@ -15149,7 +15152,7 @@ kye O
 Twine O
 empaka O
 z'omupiira O
-erizooba O
+erizooba B-DATE
 . O
 
 Okurenga O
@@ -15191,7 +15194,7 @@ gukamusinga O
 
 Wareebeka O
 gye O
-erizooba O
+erizooba B-DATE
 . O
 
 Nkashanga O
@@ -15976,7 +15979,7 @@ goomire O
 Abatembeyi O
 bana O
 baisirwe O
-nyomwabazyo O
+nyomwabazyo B-DATE
 omu O
 kajagararo O
 . O
@@ -15999,7 +16002,7 @@ omu O
 mashoma O
 agahwaire O
 bishohwaire O
-nyomwebazyo O
+nyomwebazyo B-DATE
 . O
 
 Twine O
@@ -17377,7 +17380,7 @@ omutwe O
 
 Yanyijutsya O
 ekitureebire O
-nyomwebazyo O
+nyomwebazyo B-DATE
 . O
 
 Oine O
@@ -18891,7 +18894,7 @@ kugaruza O
 suuti O
 ya O
 sho O
-nyencakare O
+nyencakare B-DATE
 . O
 
 Okuhatana O
@@ -18934,7 +18937,7 @@ Tugaaniire O
 kumara O
 obwire O
 buraingwa O
-nyomwabazyo O
+nyomwabazyo B-DATE
 . O
 
 Nikirungi O
@@ -20995,12 +20998,12 @@ obwingi O
 , O
 niziija O
 kuhwa O
-omumwaka O
-enkumi O
-ibiri O
-ikumi O
-na O
-munaana O
+omumwaka B-DATE
+enkumi I-DATE
+ibiri I-DATE
+ikumi I-DATE
+na I-DATE
+munaana I-DATE
 . O
 
 Ba O
@@ -21442,7 +21445,7 @@ Nituteekateeka O
 okusingura O
 omuzaano O
 gw'omupiira O
-gw'erizooba O
+gw'erizooba B-DATE
 . O
 
 Ekyanga O
@@ -22515,8 +22518,8 @@ beetoreire O
 eka O
 ye O
 omu O
-kasheeshe O
-k'erizooba O
+kasheeshe B-DATE
+k'erizooba I-DATE
 . O
 
 Baaminisita O
@@ -22983,7 +22986,7 @@ maka O
 
 Ekiiruka O
 kihundurizibwe O
-nyomwabazyo O
+nyomwabazyo B-DATE
 . O
 
 Oryem O
@@ -26127,7 +26130,7 @@ ndara O
 ryaheiguru O
 . O
 
-Nyomwabazyo O
+nyomwabazyo B-DATE
 , O
 abaire O
 omwe O
@@ -26183,7 +26186,7 @@ ky'abakazi O
 Empaka O
 z'okuziha O
 nizitandika O
-nyencakare O
+nyencakare B-DATE
 
 Egesa O
 Akahemura O
@@ -26713,9 +26716,9 @@ batungire O
 diguri O
 yeidaara O
 eryokubanza O
-omumwaka O
-gweby'enyegyesa O
-oguhweire O
+omumwaka B-DATE
+gweby'enyegyesa I-DATE
+oguhweire I-DATE
 
 Naarahuka O
 kucwamu O
@@ -28397,7 +28400,7 @@ zaago O
 Enteekateeka O
 z'okugaitwa O
 ez'ahamuheru O
-n'erizooba O
+n'erizooba B-DATE
 . O
 
 Okukyondooza O
@@ -29545,7 +29548,7 @@ amigane O
 Ayemeriize O
 orukiiko O
 rwa O
-nyencakare O
+nyencakare B-DATE
 . O
 
 Itaka O
@@ -29572,8 +29575,8 @@ Gavumnenti O
 ekozireho O
 endembo O
 nsya O
-omumwaka O
-oguhwire O
+omumwaka B-DATE
+oguhwire I-DATE
 . O
 
 Gavumenti O
@@ -30433,7 +30436,7 @@ omu O
 Uganda B-LOC
 . O
 
-Nyomwabazyo O
+nyomwabazyo B-DATE
 tuntaire O
 ekishushani O
 kirungi O
@@ -30492,7 +30495,7 @@ nkabazigu O
 . O
 
 Omupiira O
-gw'erizooba O
+gw'erizooba B-DATE
 niguuza O
 kuzanibwa O
 omukisha O
@@ -31121,9 +31124,9 @@ mingi O
 eizooba O
 ku O
 riba O
-ery'ekishana O
-kya O
-nyomwebazyo O
+ery'ekishana B-DATE
+kya I-DATE
+nyomwebazyo I-DATE
 . O
 
 Ni O
@@ -32395,7 +32398,7 @@ ashutami O
 . O
 
 Okuruga O
-nyomwebazyo O
+nyomwebazyo B-DATE
 titukatungire O
 maizi O
 . O
@@ -32598,7 +32601,7 @@ omu O
 kooti O
 neetandika O
 kuhurirwa O
-erizooba O
+erizooba B-DATE
 . O
 
 Embundu O
@@ -33192,10 +33195,10 @@ Tutwire O
 turi O
 abanwani O
 okumara O
-emwaka O
-erikurenga O
-omuri O
-ikumi O
+emwaka B-DATE
+erikurenga I-DATE
+omuri I-DATE
+ikumi I-DATE
 . O
 
 Ahabw'enki O
@@ -38429,7 +38432,7 @@ ky'ebyokubariira O
 , O
 kyagira O
 orukiiko O
-erizooba O
+erizooba B-DATE
 . O
 
 Akombekyera O
@@ -38531,8 +38534,8 @@ bwire O
 obu O
 batiireho O
 emihingo O
-omumwaka O
-ogwahwiire O
+omumwaka B-DATE
+ogwahwiire I-DATE
 , O
 amashomero O
 gakakoresibwa O
@@ -38580,7 +38583,7 @@ na O
 babiri O
 kuhika O
 aheishomero O
-nyomwebazyo O
+nyomwebazyo B-DATE
 . O
 
 Aine O
@@ -39135,8 +39138,8 @@ karuuru O
 akarikwija O
 . O
 
-Nyomwebazyo O
-omumwabazyo O
+Nyomwebazyo B-DATE
+omumwabazyo I-DATE
 , O
 abaire O
 ashutami O
@@ -41245,7 +41248,7 @@ Naatebeekanisa O
 kuza O
 omu O
 rukiiko O
-rw'erizooba O
+rw'erizooba B-DATE
 . O
 
 Ba O
@@ -41513,7 +41516,7 @@ ababuurizi O
 baingi O
 omu O
 mukoro O
-gw'erizooba O
+gw'erizooba B-DATE
 . O
 
 Omukama O
@@ -43670,8 +43673,8 @@ kuroonda O
 ceeyamaani O
 w'ekyanga O
 omusya O
-akasheeshe O
-aka O
+akasheeshe B-DATE
+aka I-DATE
 . O
 
 Oshemereire O
@@ -44483,8 +44486,8 @@ ekirikumara O
 . O
 
 Abeegi O
-ab'omumwaka O
-gw'okumara O
+ab'omumwaka B-DATE
+gw'okumara I-DATE
 nibaza O
 omu O
 vaaka O
@@ -45172,7 +45175,7 @@ bangahi O
 
 Omushomi O
 w'amahuriire O
-ag'erizooba O
+ag'erizooba B-DATE
 yaaba O
 namanya O
 kurungi O
@@ -45353,7 +45356,7 @@ abasya O
 munaana O
 . O
 
-Madi O
+Madi B-LOC
 ni O
 rumwe O
 aha O
@@ -45575,7 +45578,7 @@ kw'abeegi O
 okumara O
 emishomo O
 yaabo O
-erizooba O
+erizooba B-DATE
 . O
 
 Ni O
@@ -45602,8 +45605,8 @@ ekitinisa O
 
 Hariho O
 ki O
-nyencakare O
-omumwebazyo O
+nyencakare B-DATE
+omumwebazyo I-DATE
 ? O
 
 Ninza O
@@ -46088,7 +46091,7 @@ bari O
 aha O
 mukoro O
 gwa O
-nyencakare O
+nyencakare B-DATE
 . O
 
 Abarwaire O
@@ -46109,7 +46112,7 @@ Amashanyarazi O
 gagumire O
 nigeija O
 garikurugaho O
-nyomwabazyo O
+nyomwabazyo B-DATE
 . O
 
 Okuhendera O
@@ -47258,7 +47261,7 @@ zaitu O
 
 Basingirwe O
 omupiira O
-nyomwebazyo O
+nyomwebazyo B-DATE
 . O
 
 Ebintu O
@@ -47483,7 +47486,7 @@ emikutu O
 ya O
 redio O
 yoona O
-nyomwebazyo O
+nyomwebazyo B-DATE
 . O
 
 Engazi O
@@ -48083,7 +48086,7 @@ z'abaana O
 baabo O
 aha O
 mashomero O
-erizooba O
+erizooba B-DATE
 . O
 
 Bakagyezaho O
@@ -48295,8 +48298,8 @@ Yafa O
 oburwire O
 bw'omutima O
 omu O
-kasheeshe O
-nka O
+kasheeshe B-DATE
+aka I-DATE
 . O
 
 Abarweire O
@@ -48872,7 +48875,7 @@ Yaahika O
 aha O
 kishaayi O
 ky'enyonyi O
-erizooba O
+erizooba B-DATE
 . O
 
 Disiturikiti O
@@ -49293,7 +49296,7 @@ Abaana O
 b'aboojo O
 bazaana O
 munonga O
-erizooba O
+erizooba B-DATE
 
 Abaana O
 bakiiruka O
@@ -50107,7 +50110,7 @@ ekyabaire O
 kyetegyekire O
 kitwiire O
 obwebembeezi O
-nyomwebazyo O
+nyomwebazyo B-DATE
 
 Tihariho O
 bujurizi O
@@ -50224,7 +50227,7 @@ kugyenda O
 Masaka B-LOC
 nyecankare O
 omu O
-kasheeshe O
+kasheeshe B-DATE
 . O
 
 Ankata O
@@ -50893,7 +50896,7 @@ g'abantu O
 
 Kooti O
 yashutama O
-erizooba O
+erizooba B-DATE
 . O
 
 Tarikukunda O
@@ -51469,7 +51472,7 @@ b'engiri O
 omu O
 yunivasite O
 yoona O
-erizooba O
+erizooba B-DATE
 . O
 
 Esente O
@@ -52859,7 +52862,7 @@ ogwahwaire I-DATE
 Omurwaire O
 ondiijo O
 yasiibuurwa O
-erizooba O
+erizooba B-DATE
 . O
 
 Nimanya O
@@ -54132,9 +54135,9 @@ z'emipiira O
 Ente O
 nikamwa O
 ibara O
-kasheeshe O
+kasheeshe B-DATE
 n'ibara O
-mwabazyo O
+mwabazyo I-DATE
 
 Esente O
 z’okweguza O
@@ -54533,7 +54536,7 @@ Abakazi O
 b'enda O
 baingi O
 bafiire O
-nyomwabazyo O
+nyomwabazyo B-DATE
 . O
 
 Buri O
@@ -56982,7 +56985,7 @@ esiibire O
 neemoka O
 kuruga O
 omu O
-kasheeshe O
+kasheeshe B-DATE
 . O
 
 Omupooriisi O
@@ -59241,7 +59244,7 @@ yabo O
 
 Yakora O
 ekyafayo O
-erizooba O
+erizooba B-DATE
 obu O
 yahagura O
 omudali O
@@ -59608,7 +59611,7 @@ Minisiture O
 y'eby'amagara O
 yaaha O
 ripooti O
-erizooba O
+erizooba B-DATE
 y'abarwire O
 magana O
 abiri O
@@ -60020,7 +60023,7 @@ ky'ahamuheru O
 ky'okushaba O
 obuhwezi O
 bw'okushoma O
-n'erizooba O
+n'erizooba B-DATE
 . O
 
 Kwonka O
@@ -60181,8 +60184,8 @@ emyaka O
 engahi O
 ? O
 
-Nyencakare O
-n'orwakataano O
+Nyencakare B-DATE
+n'orwakataano B-DATE
 . O
 
 Abajwekyerwa O
@@ -61587,7 +61590,7 @@ y'etamu O
 
 Ngumire O
 nimutekateekaho O
-nyomwebazyo O
+nyomwebazyo B-DATE
 . O
 
 Niki O
@@ -61934,7 +61937,7 @@ omwihanga O
 
 Twagira O
 orukiiko O
-erizooba O
+erizooba B-DATE
 . O
 
 Enamba O
@@ -62268,7 +62271,7 @@ Musenene O
 Tugizire O
 okuweuza O
 kwingi O
-nyomwebazyo O
+nyomwebazyo B-DATE
 . O
 
 Piikipiiki O
@@ -62351,7 +62354,7 @@ ebirikubuzabuza O
 eminyeeto O
 . O
 
-Erizooba O
+Erizooba B-DATE
 omuzaaano O
 gw'ebigyere O
 gwahwa O
@@ -63130,7 +63133,7 @@ piki O
 Turugire O
 omu O
 kyaro O
-nyomwabazyo O
+nyomwabazyo B-DATE
 
 Ambyurensi O
 ekaheebwa O
@@ -63336,7 +63339,7 @@ bufuuha O
 
 Mpererukire O
 kumuterera O
-nyomwebazyo O
+nyomwebazyo B-DATE
 omu O
 mwabazyo O
 . O
@@ -63988,7 +63991,7 @@ amaraka O
 gabakazi O
 garahurirwa O
 omuryanga O
-erizooba O
+erizooba B-DATE
 
 Abashaija O
 abarikukira O
@@ -64788,7 +64791,7 @@ tibarikirizibwe O
 kumureeba O
 . O
 
-Erizooba O
+Erizooba B-DATE
 hariho O
 omushomo O
 gwabo O
@@ -64992,7 +64995,7 @@ kuba O
 neekwata O
 ahansi O
 ekiro O
-ky'erizooba O
+ky'erizooba B-DATE
 . O
 
 Abantu O
@@ -65114,7 +65117,7 @@ mukaaga O
 z'ekiro O
 ekiro O
 kya O
-nyomwebazyo O
+nyomwebazyo B-DATE
 
 Abaana O
 boona O
@@ -65551,7 +65554,7 @@ Nalubaale I-LOC
 Ekitashaaya O
 kisya O
 kyagurwa O
-erizooba O
+erizooba B-DATE
 . O
 
 Akaruga O
@@ -66177,7 +66180,7 @@ abiine O
 akakwate O
 n'bwibi O
 obubaireho O
-nyomwebazyo O
+nyomwebazyo B-DATE
 . O
 
 Omushoro O
@@ -68374,8 +68377,8 @@ akaheerize O
 ceeka O
 minisita O
 omu O
-kasheeshe O
-aka O
+kasheeshe B-DATE
+aka I-DATE
 . O
 
 Hariho O
@@ -69444,7 +69447,7 @@ munywani O
 we O
 omwishiki O
 omukashese O
-k'erizooba O
+k'erizooba B-DATE
 . O
 
 Abeebembezi O
@@ -70646,7 +70649,7 @@ ahabwenki O
 otiizire O
 ha O
 ishomero O
-nyomwebazyo O
+nyomwebazyo B-DATE
 . O
 
 Ba O
@@ -71208,9 +71211,9 @@ ishatu' O
 Ahikire O
 aha O
 ofiisi O
-shaaha O
-ibiri O
-z'akasheeshe O
+shaaha B-DATE
+ibiri I-DATE
+z'akasheeshe I-DATE
 . O
 
 Ebiro O
@@ -71705,7 +71708,7 @@ y'okushaba O
 Naafeerwa O
 kureeba O
 amakuru O
-g'erizooba O
+g'erizooba B-DATE
 omu O
 mushana O
 . O
@@ -74374,7 +74377,7 @@ Omwegyesa O
 waabo O
 w'okubara O
 ahindwirwe O
-nyomwebazyo O
+nyomwebazyo B-DATE
 . O
 
 Minisita O
@@ -74982,7 +74985,7 @@ oha O
 oshemeriire O
 keyerera O
 ekibiina O
-erizooba O
+erizooba B-DATE
 ? O
 
 Okwombeka O
@@ -75323,7 +75326,7 @@ abaishiki O
 nibaza O
 kujwara O
 diguri O
-erizooba O
+erizooba B-DATE
 . O
 
 Mwinemaawe O
@@ -75758,7 +75761,7 @@ Naija O
 kutwara O
 omu O
 kooti O
-nyencakare O
+nyencakare B-DATE
 . O
 
 Okuriisa O
@@ -76025,7 +76028,7 @@ nibikirizibwa O
 kurugirira O
 aha O
 kugamba O
-kw'erizooba O
+kw'erizooba B-DATE
 . O
 
 Buri O
@@ -76861,7 +76864,7 @@ rwe O
 Abakuru O
 abakwasirwe O
 barekwirwe O
-nyomwabazyo O
+nyomwabazyo B-DATE
 . O
 
 Eikorero O
@@ -77653,7 +77656,7 @@ baamukwata O
 Ente O
 yangye O
 yazaara O
-erizooba O
+erizooba B-DATE
 . O
 
 Pasita O
@@ -77932,7 +77935,7 @@ mukaaga O
 omu O
 muzaano O
 gwa O
-nyomwebazyo O
+nyomwebazyo B-DATE
 . O
 
 Amashanyarazi O
@@ -78974,7 +78977,7 @@ by’aheeru O
 
 Ataayayiire O
 ishenkazi O
-nyomwabazyo O
+nyomwabazyo B-DATE
 . O
 
 Endwara O
@@ -80422,7 +80425,7 @@ Embaririra O
 y'eihanga O
 neeza O
 kushomwa O
-erizooba O
+erizooba B-DATE
 . O
 
 N'abantu O
@@ -80744,8 +80747,8 @@ Maama O
 we O
 akafa O
 ankaine O
-emwaka O
-ikumi O
+emwaka I-DATE
+ikumi I-DATE
 . O
 
 Abantu O
@@ -80915,7 +80918,7 @@ ebiragiro O
 bakwasire O
 abatembeyi O
 omukasheeshe O
-k'erizooba O
+k'erizooba B-DATE
 . O
 
 Hariho O
@@ -82438,7 +82441,7 @@ Kooti O
 neeza O
 kugaruka O
 kushutama O
-nyencakare O
+nyencakare B-DATE
 . O
 
 Hariho O
@@ -82463,7 +82466,7 @@ kw'okurwanisa O
 obushumankuzi O
 . O
 
-Nyomwebazyo O
+Nyomwebazyo B-DATE
 abantu O
 bakye O
 baizire O
@@ -83812,7 +83815,7 @@ kuunyamba O
 kuboneza O
 enju O
 egi O
-nyencakare O
+nyencakare B-DATE
 ? O
 
 Abantu O
@@ -84639,7 +84642,7 @@ kworekwa O
 aha O
 tiivi O
 hakyeho O
-erizooba O
+erizooba B-DATE
 . O
 
 Yayihayo O
@@ -85564,7 +85567,7 @@ omu O
 tiimu O
 eraze O
 kuzana O
-erizooba O
+erizooba B-DATE
 omupiira O
 g'omukasero O
 . O
@@ -85640,7 +85643,7 @@ Uganda B-LOC
 Shwento O
 arekiraho O
 okukora O
-nyomwebazyo O
+nyomwebazyo B-DATE
 . O
 
 Abeegyesa O
@@ -85743,7 +85746,7 @@ kubi O
 Abaana O
 banywire O
 amate O
-nyomwebazyo O
+nyomwebazyo B-DATE
 . O
 
 Abateezi O
@@ -86317,9 +86320,9 @@ Arua B-LOC
 
 Afeerire O
 om'eirwariro O
-ekiro O
-kya O
-nyomwabazyo O
+ekiro B-DATE
+kya I-DATE
+nyomwabazyo I-DATE
 . O
 
 Omukazi O
@@ -86435,7 +86438,7 @@ omukono O
 aha O
 kiragiro O
 ky'omushoro O
-nyomwebazyo O
+nyomwebazyo B-DATE
 . O
 
 N'enshonga O
@@ -87072,7 +87075,7 @@ ebyotarikumanya O
 Nyiine O
 kureeba O
 amahurire O
-g'erizooba O
+g'erizooba B-DATE
 aga O
 shaaha O
 ishatu O
@@ -88615,7 +88618,7 @@ g'efuuzi O
 Beereebeire O
 okuteera O
 amasasi O
-nyomwabazyo O
+nyomwabazyo B-DATE
 . O
 
 Abantu O
@@ -89340,7 +89343,7 @@ kwakira O
 abaana O
 be O
 ah'eishomero O
-nyomwabazyo O
+nyomwabazyo B-DATE
 
 Gavumenti O
 , O
@@ -89766,7 +89769,7 @@ Nibenda O
 aruge O
 omu O
 kihome O
-erizooba O
+erizooba B-DATE
 . O
 
 Omuduumizi O
@@ -92024,7 +92027,7 @@ Akareeba O
 omukoro O
 gw'okweshongora O
 ahamitimbagano O
-nyomwebazyo O
+nyomwebazyo B-DATE
 . O
 
 Noyeteenga O
@@ -94753,7 +94756,7 @@ Abahiingi O
 b'orutookye O
 bakozire O
 ekibiina O
-nyomwebazyo O
+nyomwebazyo B-DATE
 . O
 
 Bashemereire O
@@ -95846,7 +95849,7 @@ gw'okwegyesa O
 abakazi O
 , O
 gubaireho O
-nyomwabazyo O
+nyomwabazyo B-DATE
 .. O
 
 Rukaba O
@@ -97388,7 +97391,7 @@ etaayayire O
 niyo O
 eraasinge O
 omuzaano O
-erizooba O
+erizooba B-DATE
 . O
 
 Twena O
@@ -97783,7 +97786,7 @@ naaba O
 mpurikiize O
 reediyo O
 omu O
-kasheeshe O
+kasheeshe B-DATE
 , O
 
 Omupiira O
@@ -97897,7 +97900,7 @@ eihangwe O
 eri O
 . O
 
-Nyomwabazyo O
+Nyomwabazyo B-DATE
 , O
 omugaiga O
 eyehakaine O
@@ -98061,7 +98064,7 @@ bombi O
 
 Ahabwenki O
 otanterire O
-nyomwebazyo O
+nyomwebazyo B-DATE
 ? O
 
 Nkahurikiza O
@@ -98345,7 +98348,7 @@ obujanjaabi O
 kuruga O
 ahari O
 dokita O
-nyomwabazyo O
+nyomwabazyo B-DATE
 . O
 
 Entebeekanisa O
@@ -99449,7 +99452,7 @@ kwe'mipiira O
 
 Omwojo O
 bamukwatsire O
-nyomwebazyo O
+nyomwebazyo B-DATE
 
 Abantu O
 bakye O
@@ -99625,7 +99628,7 @@ rw'eby'okugura O
 . O
 
 Atorainwe O
-nyomwabazyo O
+nyomwabazyo B-DATE
 . O
 
 Ekitongore O
@@ -103117,7 +103120,7 @@ y'omwebembezi O
 w'eihanga O
 , O
 baabugana O
-erizooba O
+erizooba B-DATE
 . O
 
 Nkamubiikira O
@@ -104175,7 +104178,7 @@ Abeebembezi O
 beteraniire O
 omu O
 mushomo O
-nyomwabazyo O
+nyomwabazyo B-DATE
 . O
 
 N'omukwatsi O
@@ -106532,7 +106535,7 @@ Disiturikiti O
 Enyamaishwa O
 nyingi O
 zifiire O
-nyomwabazyo O
+nyomwabazyo B-DATE
 . O
 
 Besigye B-PER
@@ -107207,16 +107210,16 @@ zakamaririzo O
 zokooga O
 niziiza O
 kubaho O
-wiiki O
-erikwija O
+wiiki B-DATE
+erikwija I-DATE
 . O
 
 Abasirikare O
 bagwireho O
 abahekyera O
-ekiro O
-ekya O
-nyomwabazyo O
+ekiro B-DATE
+ekya I-DATE
+nyomwabazyo I-DATE
 baabita O
 . O
 
@@ -108077,7 +108080,7 @@ byaryo O
 Omuyaga O
 ni O
 mwingi O
-erizooba O
+erizooba B-DATE
 . O
 
 Abanya O
@@ -108139,7 +108142,7 @@ y'eihanga O
 ? O
 
 Byamanywa O
-erizooba O
+erizooba B-DATE
 omukasheshe O
 omu O
 rurembo O
@@ -109151,9 +109154,9 @@ kitari O
 kya O
 buriijo O
 kibaireho O
-ekiro O
-kya O
-nyomwebazyo O
+ekiro B-DATE
+kya I-DATE
+nyomwebazyo I-DATE
 . O
 
 Tiimu O
@@ -109891,8 +109894,8 @@ Munywani O
 wangye O
 yaakomwa O
 omu O
-kasheeshe O
-aka O
+kasheeshe B-DATE
+aka I-DATE
 . O
 
 Omwirima O
@@ -110464,7 +110467,7 @@ kurwana O
 
 Taizire O
 ahamurimo O
-nyomwebazyo O
+nyomwebazyo B-DATE
 . O
 
 Abashabazi O
@@ -110581,7 +110584,7 @@ abeegi O
 banaghe O
 abaija O
 ahaishomero O
-erizooba O
+erizooba B-DATE
 ? O
 
 Okwecwamu O
@@ -110866,7 +110869,7 @@ nibaija O
 kubaingwa O
 omutaka O
 waabo O
-nyencakare O
+nyencakare B-DATE
 . O
 
 Hariho O
@@ -114633,9 +114636,9 @@ Arekwire O
 yaaruga O
 omu O
 kihome O
-nyomwebazyo O
-omu O
-mwebazyo O
+nyomwebazyo B-DATE
+omu I-DATE
+mwebazyo I-DATE
 . O
 
 Omwanya O
@@ -117240,7 +117243,7 @@ kirungi O
 Ahaireyo O
 ripoota O
 ye O
-nyomwabazyo O
+nyomwabazyo B-DATE
 . O
 
 Tiimu O
@@ -119762,7 +119765,7 @@ baishiki O
 abu O
 nashomire O
 naabo O
-erizooba O
+erizooba B-DATE
 . O
 
 Timushango O
@@ -119909,7 +119912,7 @@ maawe O
 naakama O
 ente O
 ibara O
-kasheeshe O
+kasheeshe B-DATE
 . O
 
 Ababiri O
@@ -120322,7 +120325,7 @@ Mutabani O
 wangye O
 owaafiire O
 aziikirwe O
-nyomwabazyo O
+nyomwabazyo B-DATE
 . O
 
 Akakuheereza O
@@ -120563,8 +120566,8 @@ wa O
 pooriisi O
 agambireho O
 n'abanyamakuru O
-nyomwebazyo O
-omumwebazyo O
+nyomwebazyo B-DATE
+omumwebazyo I-DATE
 . O
 
 Kampuni O
@@ -122760,7 +122763,7 @@ owa O
 disiturikiti O
 omusya O
 gubaireho O
-nyomwabazyo O
+nyomwabazyo B-DATE
 . O
 
 Kaggwa B-PER
@@ -123632,7 +123635,7 @@ akakiiko O
 
 Tiimu O
 bagitaire O
-nyomwebazyo O
+nyomwebazyo B-DATE
 . O
 
 Nitubaasa O
@@ -126281,7 +126284,7 @@ bingi O
 
 Oyine O
 ekyokurya O
-erizooba O
+erizooba B-DATE
 ? O
 
 Oshemereire O
@@ -127223,7 +127226,7 @@ yaitu O
 
 Onsasire O
 ahabw'okukukankamira O
-nyomwebazyo O
+nyomwebazyo B-DATE
 . O
 
 Abakozi O
@@ -127237,7 +127240,7 @@ ripoota O
 ahari O
 ebyo O
 ebibaireho O
-nyomwebazyo O
+nyomwebazyo B-DATE
 
 Emeeza O
 ekakorwa O
@@ -127457,7 +127460,7 @@ yatoroka O
 aha O
 bateemu O
 akasheshe O
-k'erizooba O
+k'erizooba B-DATE
 . O
 
 Bakakosesa O
@@ -129583,7 +129586,7 @@ yo O
 
 Ndebire O
 enjoojo O
-nyomwebazyo O
+nyomwebazyo B-DATE
 . O
 
 Kuyahurire O
@@ -129917,9 +129920,9 @@ marungi O
 , O
 ninyirukamu O
 buri O
-kasheeshe O
-ka O
-Saande O
+kasheeshe B-DATE
+ka I-DATE
+Saande I-DATE
 . O
 
 Abantu O
@@ -130131,7 +130134,7 @@ etandikire O
 kucondooza O
 okutoroka O
 kw'omusibe O
-nyomwebazyo O
+nyomwebazyo B-DATE
 . O
 
 Gavumenti O
@@ -130856,9 +130859,9 @@ wangye O
 ahumwire O
 obushomesa O
 bwanyima O
-y'emwaka O
-makumi O
-ana O
+y'emwaka B-DATE
+makumi I-DATE
+ana I-DATE
 . O
 
 Akarya O
@@ -131147,7 +131150,7 @@ basya O
 . O
 
 Afiire O
-nyomwabazyo O
+nyomwabazyo B-DATE
 . O
 
 Abatsibe O
@@ -131848,7 +131851,7 @@ eyabaremirwe O
 yaaba O
 atasingwire O
 omuzaano O
-gw'erizooba O
+gw'erizooba B-DATE
 . O
 
 Hariho O
@@ -133499,8 +133502,8 @@ we O
 bakamubinga O
 ah'eishomero O
 kumara O
-saabiiti O
-ebiri O
+saabiiti B-DATE
+ebiri I-DATE
 . O
 
 Gavumenti O
@@ -133667,8 +133670,8 @@ na O
 bitaano O
 ahari O
 igana O
-omumwaka O
-ogu O
+omumwaka B-DATE
+ogu I-DATE
 . O
 
 Akakoraho O
@@ -134892,7 +134895,7 @@ nibabujaguzamu O
 Noobaasa O
 kukyera O
 kare O
-nyencakare O
+nyencakare B-DATE
 ? O
 
 Aha O
@@ -135381,7 +135384,7 @@ Oruguuto O
 orwo O
 barutamu O
 koraasi O
-erizooba O
+erizooba B-DATE
 . O
 
 Akaba O
@@ -135505,8 +135508,7 @@ kurungyi O
 Waaguzire O
 orupaura O
 rw'amakuru O
-orw'erizooba O
-. O
+orw'erizooba B-DATE
 ? O
 
 Abashazi O
@@ -135994,7 +135996,7 @@ okwatwirwe O
 omu O
 kooti O
 bakwkiriza O
-erizooba O
+erizooba B-DATE
 . O
 
 Ba O
@@ -138838,7 +138840,7 @@ gwa O
 kabiri O
 bwanyima O
 y'omupiira O
-gw'erizooba O
+gw'erizooba B-DATE
 . O
 
 Ekyenyanja O
@@ -140344,7 +140346,7 @@ n'ekishani O
 ky'omwishiki O
 ou O
 tuzikire O
-nyomwebazyo O
+nyomwebazyo B-DATE
 . O
 
 Empaka O
@@ -140766,7 +140768,7 @@ mibazi O
 erikumara O
 . O
 
-Erizooba O
+Erizooba B-DATE
 bayongyera O
 kugura O
 emotoka O
@@ -145343,7 +145345,7 @@ Agiire O
 omu O
 kibiina O
 ky'orushwahiri O
-nyomwebazyo O
+nyomwebazyo B-DATE
 . O
 
 Tiimu O
@@ -145460,7 +145462,7 @@ nsya O
 kuruga O
 omu O
 tauni O
-nyomwebazyo O
+nyomwebazyo B-DATE
 . O
 
 Manegya O
@@ -145625,7 +145627,7 @@ Arekwirwe O
 kuruga O
 omu O
 kihome O
-nyomwabazyo O
+nyomwabazyo B-DATE
 . O
 
 T'arakunzire O
@@ -149095,10 +149097,10 @@ enyimaho I-DATE
 Ekishushani O
 ekyo O
 kikateerwa O
-emwaka O
-makumi O
-ataano O
-enyimaho O
+emwaka B-DATE
+makumi I-DATE
+ataano I-DATE
+enyimaho I-DATE
 . O
 
 Akongyeraho O
@@ -150246,7 +150248,7 @@ w'eihanga O
 ateereire O
 omurebeerezi O
 esimu O
-nyomwebazyo O
+nyomwebazyo B-DATE
 . O
 
 Kampani O
@@ -150783,8 +150785,8 @@ butandu O
 ya O
 motooka O
 eyabaho O
-omukasheshe O
-erizooba O
+omukasheshe B-DATE
+erizooba I-DATE
 . O
 
 Rwanda B-LOC
@@ -152782,7 +152784,7 @@ orikugyenda O
 omu O
 tauni O
 hakingirwe O
-nyomwabazyo O
+nyomwabazyo B-DATE
 . O
 
 Omugurusi O
@@ -153201,7 +153203,7 @@ nyenkyakare O
 . O
 , O
 
-Gyenuari O
+Gyenuari B-DATE
 nikwo O
 kweezi O
 kw'okubanza O
@@ -153305,7 +153307,7 @@ omugwa O
 Ekito O
 ezi O
 aguziire O
-nyomwebazyo O
+nyomwebazyo B-DATE
 zibeire O
 zikyekiire O
 . O
@@ -153639,8 +153641,8 @@ siniya O
 Nakwatibwa O
 om'ebiiruka O
 omu O
-kasheeshe O
-aka O
+kasheeshe B-DATE
+aka I-DATE
 . O
 
 Obwoma O
@@ -154008,7 +154010,7 @@ by'okuteerana O
 Abaheekyera O
 bataahiriire O
 ekyaro O
-nyomwabazyo O
+nyomwabazyo B-DATE
 . O
 
 Amarwariro O
@@ -154279,9 +154281,9 @@ bingi O
 omu O
 ikumi O
 ry'engaro O
-ekiro O
-kya O
-nyomwebazyo O
+ekiro B-DATE
+kya I-DATE
+nyomwebazyo I-DATE
 . O
 
 Hakabaho O
@@ -154938,7 +154940,7 @@ nikihandikwaho O
 Yatwarwa O
 omu O
 kooti O
-erizooba O
+erizooba B-DATE
 . O
 
 Akabaganaho O
@@ -155944,7 +155946,7 @@ ebiragiro O
 omu O
 ndembo O
 , O
-erizooba O
+erizooba B-DATE
 bakwata O
 ebintu O
 byabo O
@@ -156813,8 +156815,8 @@ Takangyire O
 omu O
 kishaayi O
 okumara O
-emwaka O
-eshatu O
+emwaka B-DATE
+eshatu I-DATE
 . O
 
 William B-PER
@@ -157153,7 +157155,7 @@ yaatunga O
 ebaruha O
 y'okutunga O
 omurimo O
-erizooba O
+erizooba B-DATE
 . O
 
 Ariyo O
@@ -158204,7 +158206,7 @@ Ni O
 nyija O
 kugarura O
 ekitabo O
-nyencakare O
+nyencakare B-DATE
 
 Okushandara O
 kw'amaizi O
@@ -158779,12 +158781,12 @@ njuma O
 
 Twineho O
 okwegyezamu O
-nyencakare O
+nyencakare B-DATE
 aha O
-shaaha O
-ikumi O
-omu O
-mwebazyo O
+shaaha B-DATE
+ikumi I-DATE
+omu I-DATE
+mwebazyo I-DATE
 . O
 
 Tukore O
@@ -159255,7 +159257,7 @@ mwingi O
 munonga O
 . O
 
-Erizooba O
+Erizooba B-DATE
 haabaho O
 orukiiko O
 rwaboona O
@@ -161584,7 +161586,7 @@ ibiri O
 Nguzire O
 emotoka O
 nsya O
-nyomwebazyo O
+nyomwebazyo B-DATE
 . O
 
 Oreky O
@@ -164717,7 +164719,7 @@ kyetwire O
 owa O
 ishe O
 butaka O
-nyomwebazyo O
+nyomwebazyo B-DATE
 . O
 
 Oine O
@@ -165981,9 +165983,9 @@ omu O
 pikapu O
 ya O
 mutare O
-nyomwebazyo O
-omu O
-mwebazyo O
+nyomwebazyo B-DATE
+omu I-DATE
+mwebazyo I-DATE
 . O
 
 Omwebembezi O
@@ -166968,9 +166970,9 @@ puresha O
 Akirukangizibwa O
 omu O
 eirwaro O
-ekiro O
-kya O
-nyomwebazyo O
+ekiro B-DATE
+kya I-DATE
+nyomwebazyo I-DATE
 . O
 
 Entebe O
@@ -167410,7 +167412,7 @@ boona O
 batendekirwe O
 omu O
 by'obwebembezi O
-nyomwabazyo O
+nyomwabazyo B-DATE
 . O
 
 Buri O
@@ -167978,7 +167980,7 @@ yashutama O
 ahabw'eshonga O
 ezikwatiraine O
 n'eitaka O
-erizooba O
+erizooba B-DATE
 . O
 
 Abantu O
@@ -169323,7 +169325,7 @@ dipuroma O
 
 Omwerere O
 wagye O
-erizooba O
+erizooba B-DATE
 yayimuka O
 ari O
 omu O
@@ -169625,8 +169627,8 @@ akaraganisa O
 kw'ongyera O
 emishaara O
 y'abeby'amagara O
-omumwaka O
-ogu O
+omumwaka B-DATE
+ogu I-DATE
 . O
 
 Noomanya O
@@ -170064,7 +170066,7 @@ ky'emyaka O
 Abatsirikare O
 barugyire O
 omukibuga O
-nyomwebazyo O
+nyomwebazyo B-DATE
 
 Abashaho O
 b'omumatemba B-LOC
@@ -170111,8 +170113,8 @@ ataireho O
 omukono O
 aha O
 ndagaano O
-y'emwaka O
-ena O
+y'emwaka B-DATE
+ena I-DATE
 na O
 tiimu O
 y'eihanga O
@@ -170316,7 +170318,7 @@ Mbaire O
 nimanya O
 niza O
 kukureeba O
-nyomwebazyo O
+nyomwebazyo B-DATE
 . O
 
 Obushubuuzi O
@@ -170464,7 +170466,7 @@ Eishomero O
 ryahandiika O
 ripoti O
 ye O
-erizooba O
+erizooba B-DATE
 . O
 
 Aizire O
@@ -173089,7 +173091,7 @@ kuziikwa O
 kwa O
 maama O
 wangye O
-nyomwebazyo O
+nyomwebazyo B-DATE
 . O
 
 Eminyeeto O
@@ -173674,8 +173676,8 @@ obutare O
 omu O
 zaadisiturikiti O
 nyingi O
-omumwaka O
-oguhingwire O
+omumwaka B-DATE
+oguhingwire I-DATE
 . O
 
 Orwigi O
@@ -174442,7 +174444,7 @@ kwona O
 omu O
 rukiiko O
 rwa O
-nyomwabazyo O
+nyomwabazyo B-DATE
 . O
 
 Niyo O
@@ -174496,7 +174498,7 @@ omu O
 kushitama O
 kwa O
 kooti O
-y'erizooba O
+y'erizooba B-DATE
 . O
 
 Ebyahangirwe O
@@ -176428,7 +176430,7 @@ enshaaha O
 z'okugyenderamu O
 ezaatiirweho O
 zaahwire O
-nyomwebazyo O
+nyomwebazyo B-DATE
 . O
 
 Ta O
@@ -178853,7 +178855,7 @@ y'okuzaana O
 
 Eizooba O
 rya O
-nyencakare O
+nyencakare B-DATE
 oriiniire O
 nteekateeka O
 ki O
@@ -179352,7 +179354,7 @@ poorisi O
 bingi O
 aha O
 katare O
-erizooba O
+erizooba B-DATE
 . O
 
 Omugugu O
@@ -179788,7 +179790,7 @@ ebihaha O
 Twine O
 oruteerane O
 rw'abanyamakuru O
-erizooba O
+erizooba B-DATE
 . O
 
 Kwonka O
@@ -180102,9 +180104,9 @@ Ninza O
 kuza O
 owa O
 isheteeko O
-nyencakare O
-omu O
-kasheeshe O
+nyencakare B-DATE
+omu I-DATE
+kasheeshe I-DATE
 . O
 
 Disiturikiti O
@@ -180578,7 +180580,7 @@ Kurisito O
 Murumuna O
 wangye O
 bamukwatsire O
-nyomwebazyo O
+nyomwebazyo B-DATE
 . O
 
 Emihendo O
@@ -180881,7 +180883,7 @@ enyama O
 omuka O
 . O
 
-Nyencakare O
+Nyencakare B-DATE
 n'eizooba O
 rye O
 ry'akahuumuro O
@@ -181815,7 +181817,7 @@ Abakazi O
 bagizire O
 omushomo O
 gw'okubahwera O
-nyomwabazyo O
+nyomwabazyo B-DATE
 . O
 
 Omunda O
@@ -181826,7 +181828,7 @@ y'okurya O
 
 Yahandikira O
 kooti O
-erizooba O
+erizooba B-DATE
 . O
 
 Omuntu O
@@ -183686,7 +183688,7 @@ y'eitaka O
 etwirwe O
 omu O
 kooti O
-nyomwebazyo O
+nyomwebazyo B-DATE
 . O
 
 Nokugumisiriza O
@@ -186879,9 +186881,9 @@ z'okubyara O
 
 Ataahiriirwe O
 abanyambundu O
-ekiro O
-kya O
-nyomwebazyo O
+ekiro B-DATE
+kya I-DATE
+nyomwebazyo I-DATE
 . O
 
 Ni O
@@ -188566,8 +188568,8 @@ yakyeberwa O
 yashangwa O
 arwire O
 omu O
-kasheeshe O
-aka O
+kasheeshe B-DATE
+aka I-DATE
 . O
 
 Akashangwa O
@@ -188846,7 +188848,7 @@ ogw'okubanza O
 Amanyamakuru O
 bakagiraho O
 orukiiko O
-nyomwebazyo O
+nyomwebazyo B-DATE
 . O
 
 Amaizi O
@@ -190139,7 +190141,7 @@ ngu O
 habaho O
 btandu O
 ahamaizi O
-erizooba O
+erizooba B-DATE
 . O
 
 Obukooko O
@@ -192507,7 +192509,7 @@ baruha O
 y'okubemereza O
 . O
 
-Nyomwebazyo O
+Nyomwebazyo B-DATE
 , O
 omwe O
 aha O
@@ -192550,9 +192552,9 @@ Akaba O
 ari O
 omushomesa O
 okumara O
-emwaka O
-makumi O
-ana O
+emwaka B-DATE
+makumi I-DATE
+ana I-DATE
 . O
 
 Okwiba O
@@ -193772,7 +193774,7 @@ zeitsire O
 abantu O
 nshaanju O
 namukaga O
-nyomwabazyo O
+nyomwabazyo B-DATE
 . O
 
 Orukuuto O
@@ -194078,9 +194080,9 @@ Eishomero O
 ryaitu O
 ritwireho O
 kumara O
-emwaka O
-makumi O
-ataano O
+emwaka B-DATE
+makumi I-DATE
+ataano I-DATE
 . O
 
 Ebihingwabye O
@@ -194845,7 +194847,7 @@ Eriizoba O
 hagwa O
 enjura O
 omu O
-kasheeshe O
+kasheeshe B-DATE
 . O
 
 Abajubi O
@@ -194908,7 +194910,7 @@ yaabingwa O
 omumuzaano O
 gwa O
 vorebooro O
-ogw'erizooba O
+ogw'erizooba B-DATE
 . O
 
 Gavumenti O
@@ -196266,8 +196268,8 @@ aha O
 mbeho O
 za O
 rediyo O
-akasheeshe O
-aka O
+akasheeshe B-DATE
+aka I-DATE
 . O
 
 Empapura O
@@ -197227,7 +197229,7 @@ omuby'obuhingi O
 
 Purogyekiti O
 etandikirwe O
-nyomwabazyo O
+nyomwabazyo B-DATE
 aha O
 mbuga O
 nkuru O
@@ -198090,7 +198092,7 @@ y'okugiha O
 omubazi O
 gw'enjoka O
 ogugingiriire O
-nyomwebazyo O
+nyomwebazyo B-DATE
 . O
 
 Harumu O
@@ -199697,7 +199699,7 @@ mabi O
 Abasibe O
 bataano O
 barekwirwe O
-nyomwabazyo O
+nyomwabazyo B-DATE
 . O
 
 Ni O
@@ -200970,7 +200972,7 @@ rwa O
 dokitari O
 kweshara O
 omurimo O
-nyomwebazyo O
+nyomwebazyo B-DATE
 . O
 
 Ekigyendererwa O
@@ -205155,9 +205157,9 @@ esingire O
 empaka O
 za O
 hoki O
-nyomwebazyo O
-omu O
-mwabazyo O
+nyomwebazyo B-DATE
+omu I-DATE
+mwabazyo I-DATE
 . O
 
 Akasingura O
@@ -205556,7 +205558,7 @@ by'amahurire O
 bingi O
 omu O
 Uganda B-LOC
-erizooba O
+erizooba B-DATE
 . O
 
 N'eky'omugasho O
@@ -206161,7 +206163,7 @@ aha O
 batsibe O
 baagarurwa O
 om'eihanga O
-erizooba O
+erizooba B-DATE
 
 Embeera O
 ekaba O
