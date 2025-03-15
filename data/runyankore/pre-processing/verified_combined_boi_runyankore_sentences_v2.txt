@@ -7242,9 +7242,9 @@ ku O
 yaizire O
 . O
 
-Gavumenti O
-ya O
-China B-LOC
+Gavumenti B-ORG
+ya I-ORG
+China I-ORG
 ekaguma O
 eyangiire O
 ngu O
