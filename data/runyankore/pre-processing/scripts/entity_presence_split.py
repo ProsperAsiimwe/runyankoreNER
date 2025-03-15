@@ -1,15 +1,15 @@
 import os
 
 # Paths to input and output files
-DATA_DIR = os.path.join(os.path.dirname(__file__), "../data/luganda/")
-input_file = os.path.join(DATA_DIR, "verified_combined_boi_runyankore_sentences.txt")
+DATA_DIR = os.path.join(os.path.dirname(__file__), "../")
+input_file = os.path.join(DATA_DIR, "verified_combined_boi_runyankore_sentences_v2.txt")
 output_with_entities = os.path.join(DATA_DIR, "sentences_with_entities.txt")
 output_without_entities = os.path.join(DATA_DIR, "sentences_without_entities.txt")
 
 # NER entity labels to check
 entity_labels = {"B-PER", "I-PER", "B-LOC", "I-LOC", "B-ORG", "I-ORG", "B-DATE", "I-DATE"}
 
-print(f"🔍 Processing CoNLL file: {input_file}")
+print(f"Processing CoNLL file: {input_file}")
 
 # Buffers for storing sentences
 sentences_with_entities = []
@@ -34,7 +34,7 @@ with open(input_file, "r", encoding="utf-8") as infile:
 
         # Ensure the line contains both word and label
         if " " not in line:
-            print(f"⚠️ Skipping malformed line: {line}")  # Debugging
+            print(f"Skipping malformed line: {line}")  # Debugging
             continue
 
         # Extract word and label
@@ -55,5 +55,5 @@ with open(output_with_entities, "w", encoding="utf-8") as outfile:
 with open(output_without_entities, "w", encoding="utf-8") as outfile:
     outfile.writelines(sentences_without_entities)
 
-print(f"✅ Sentences with entities saved to: {output_with_entities}")
-print(f"✅ Sentences without entities saved to: {output_without_entities}")
+print(f"Sentences with entities saved to: {output_with_entities}")
+print(f"Sentences without entities saved to: {output_without_entities}")
