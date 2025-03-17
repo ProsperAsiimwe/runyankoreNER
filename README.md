@@ -15,7 +15,7 @@ echo "Loaded environment variables." -->
 
 CUDA_VISIBLE_DEVICES=$CUDA_VISIBLE_DEVICES python3 code/train_ner.py \
     --data_dir $DATA_DIR \
-    --model_type xlmroberta \
+    --model_type bert \
     --model_name_or_path $BERT_MODEL \
     --output_dir $OUTPUT_DIR \
     --max_seq_length $MAX_LENGTH \
