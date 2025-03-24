@@ -2,14 +2,14 @@ from transformers import AutoTokenizer, AutoModelForTokenClassification, pipelin
 import os
 
 MODEL_DIR = os.path.join(os.path.dirname(__file__), "../models/")
-DATA_DIR = os.path.join(os.path.dirname(__file__), "../data/luganda/")
+DATA_DIR = os.path.join(os.path.dirname(__file__), "../data/multilingual_datasets/")
 
-# Specify the path to your fine-tuned Luganda NER model
-trained_model_path = os.path.join(MODEL_DIR, "luganda_mbert")  # Update this path
+# Specify the path to your fine-tuned Runyankore NER model
+trained_model_path = os.path.join(MODEL_DIR, "runyankore_xlmr")  # Update this path
 
-print(f"🚀 Loading your fine-tuned Luganda NER model from: {trained_model_path}")
+print(f"🚀 Loading your fine-tuned Runyankore NER model from: {trained_model_path}")
 
-# Load the fine-tuned Luganda NER model
+# Load the fine-tuned Runyankore NER model
 tokenizer = AutoTokenizer.from_pretrained(trained_model_path)
 model = AutoModelForTokenClassification.from_pretrained(trained_model_path)
 
@@ -17,10 +17,10 @@ model = AutoModelForTokenClassification.from_pretrained(trained_model_path)
 ner_pipeline = pipeline("ner", model=model, tokenizer=tokenizer, aggregation_strategy="simple")
 
 # Input and output files
-input_file = os.path.join(DATA_DIR, "english_prob_combined.txt") 
-output_file = os.path.join(DATA_DIR, "english_mbert_predictions.conll")
+input_file = os.path.join(DATA_DIR, "/SPACE_TOKENIZED_RUNYANKORE/Multilingual_Parallel_Corpus.txt") 
+output_file = os.path.join(DATA_DIR, "/SPACE_TOKENIZED_RUNYANKORE/Multilingual_Parallel_Corpus.conll")
 
-print("🚀 Performing zero-shot NER on Runyankore sentences using your fine-tuned Luganda model...")
+print("🚀 Performing zero-shot NER on Runyankore sentences using your fine-tuned Runyankore model...")
 
 with open(input_file, "r", encoding="utf-8") as infile, open(output_file, "w", encoding="utf-8") as outfile:
     for line in infile:
