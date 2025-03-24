@@ -4062,7 +4062,7 @@ hati O
 . O
 
 Bakamurekura O
-orwakataano O
+orwakataano B-DATE
 orwahweire O
 bwanyima O
 y'okwemerererwa O
@@ -4099,9 +4099,10 @@ ibiri O
 zoorekire O
 enkwatanisa O
 yaazo O
+nyomwabazyo B-DATE
 aha O
-kizimbe O
-ky'orurembo O
+kizimbe B-LOC
+ky'orurembo I-LOC
 . O
 
 Enkwatanisa O
@@ -4133,14 +4134,14 @@ omu O
 mahe O
 nikuza O
 kutandika O
-esande O
-eraije O
+esande B-DATE
+eraije I-DATE
 aha O
-barakisi O
-ya O
-Gaddafi O
-omuri O
-Jinja O
+barakisi B-LOC
+ya I-LOC
+Gaddafi I-LOC
+omuri I-LOC
+Jinja I-LOC
 . O
 
 Eki O
@@ -4230,8 +4231,8 @@ etwire O
 neekora O
 esimu O
 kumara O
-omwaka O
-gumwe O
+omwaka B-DATE
+gumwe I-DATE
 hati O
 . O
 
@@ -4262,10 +4263,10 @@ w'eishomero O
 akomirwe O
 ahabw'okuhamba O
 omwishiki O
-w'emyaka O
-ikumi O
-na O
-ena O
+w'emyaka B-DATE
+ikumi I-DATE
+na I-DATE
+ena I-DATE
 . O
 
 Hariho O
@@ -4353,8 +4354,8 @@ ekeetaba O
 omu O
 mpaka O
 z'emizaano O
-ez'omwaka O
-oguhweire O
+ez'omwaka B-DATE
+oguhweire I-DATE
 . O
 
 Nibatunga O
@@ -4363,8 +4364,8 @@ nyingi O
 kuruga O
 omu O
 by'oburambuzi O
-buri O
-mwaka O
+buri B-DATE
+mwaka I-DATE
 . O
 
 Hariho O
@@ -4439,7 +4440,7 @@ Mutaahi O
 wangye O
 ataahiriirwe O
 abashuma O
-nyekiro O
+nyekiro B-DATE
 . O
 
 Omushango O
@@ -4532,8 +4533,8 @@ be O
 Bakasibwa O
 ahabw'okufa O
 kw'omwojo O
-w'emyaka O
-etaano O
+w'emyaka B-DATE
+etaano I-DATE
 . O
 
 Omubazi O
@@ -4545,7 +4546,7 @@ ahabw'obushuma O
 Hariho O
 okuhurirwa O
 kw'omushango O
-eriizooba O
+eriizooba B-DATE
 . O
 
 Abantu O
@@ -4776,8 +4777,8 @@ titurikumanya O
 biragiro O
 . O
 
-Esande O
-ehwaire O
+Esande B-DATE
+ehwaire I-DATE
 eminyeeto O
 eyaabaire O
 eine O
@@ -4794,9 +4795,9 @@ naaza O
 kugiraho O
 oruteerane O
 rw'abanyamahurire O
-orwokubanza O
-rw'esande O
-eraije O
+orwokubanza B-DATE
+rw'esande I-DATE
+eraije I-DATE
 . O
 
 Empaka O
@@ -4806,7 +4807,7 @@ y'eihanga O
 ryona O
 , O
 zaatandika O
-eriizooba O
+eriizooba B-DATE
 . O
 
 Tushemereirwe O
@@ -4860,8 +4861,8 @@ Kampuni O
 neetebeekanisa O
 empaka O
 z'okwiruka O
-buri O
-mwaka O
+buri B-DATE
+mwaka I-DATE
 . O
 
 Omuhendo O
@@ -4871,8 +4872,8 @@ omu O
 mpaka O
 z'okwiruka O
 gweyongyeire O
-omwaka O
-ogu O
+omwaka B-DATE
+ogu I-DATE
 . O
 
 Nituhinga O
@@ -4925,10 +4926,10 @@ kumariiriza O
 ripoota O
 y'ebya O
 sente O
-esande O
-egi O
-neeza O
-kuhwaho O
+esande B-DATE
+egi I-DATE
+neeza I-DATE
+kuhwaho I-DATE
 . O
 
 Nikyo O

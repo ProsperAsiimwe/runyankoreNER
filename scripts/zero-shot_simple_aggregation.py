@@ -17,8 +17,8 @@ model = AutoModelForTokenClassification.from_pretrained(trained_model_path)
 ner_pipeline = pipeline("ner", model=model, tokenizer=tokenizer, aggregation_strategy="simple")
 
 # Input and output files
-input_file = os.path.join(DATA_DIR, "/SPACE_TOKENIZED_RUNYANKORE/Multilingual_Parallel_Corpus.txt") 
-output_file = os.path.join(DATA_DIR, "/SPACE_TOKENIZED_RUNYANKORE/Multilingual_Parallel_Corpus.conll")
+input_file = os.path.join(DATA_DIR, "SPACE_TOKENIZED_RUNYANKORE/Multilingual_Parallel_Corpus.txt") 
+output_file = os.path.join(DATA_DIR, "SPACE_TOKENIZED_RUNYANKORE/Zero-Shot_Multilingual_Parallel_Corpus.conll")
 
 print("🚀 Performing zero-shot NER on Runyankore sentences using your fine-tuned Runyankore model...")
 
