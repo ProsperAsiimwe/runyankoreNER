@@ -1,5 +1,6 @@
 import os
 import random
+from collections import defaultdict
 
 # Paths for input and output
 DATA_DIR = os.path.join(os.path.dirname(__file__), "../")
@@ -21,62 +22,69 @@ def read_sentences(file_path):
             line = line.strip()
             if not line:
                 if current_sentence:
-                    sentences.append("\n".join(current_sentence))
+                    sentences.append(current_sentence)
                     current_sentence = []
             else:
                 current_sentence.append(line)
-        # Add the last sentence if the file doesn't end with a newline
         if current_sentence:
-            sentences.append("\n".join(current_sentence))
-    
+            sentences.append(current_sentence)
     return sentences
 
-# Function to categorize sentences based on the presence of entity labels
-def categorize_sentences(sentences, label):
-    return [sentence for sentence in sentences if label in sentence]
+# Function to extract labels in a sentence
+def extract_labels(sentence):
+    return {line.split()[-1] for line in sentence if len(line.split()) > 1}
 
-# Read all sentences with entities
+# Read and shuffle all sentences
 all_sentences = read_sentences(input_file)
-print(f"🔍 Total sentences with entities: {len(all_sentences)}")
+random.shuffle(all_sentences)
+print(f"🔍 Total sentences: {len(all_sentences)}")
 
-# Track already added sentences to avoid duplicates
-added_sentences = set()
+# Create label-to-sentences mapping
+label_to_sentences = defaultdict(list)
+sentence_to_labels = {}
+
+for sentence in all_sentences:
+    labels = extract_labels(sentence)
+    matched = entity_labels & labels
+    if matched:
+        sentence_str = "\n".join(sentence)
+        for label in matched:
+            label_to_sentences[label].append(sentence_str)
+        sentence_to_labels[sentence_str] = matched
+
+# Track used sentences
+used_sentences = set()
 train_sentences, dev_sentences, test_sentences = [], [], []
 
-# Process each entity label
-for label in entity_labels:
-    label_sentences = categorize_sentences(all_sentences, label)
-    random.shuffle(label_sentences)  # Shuffle to randomize distribution
+# Distribute based on each label without duplication
+for label in sorted(entity_labels):  # sort for consistency
+    candidates = [s for s in label_to_sentences[label] if s not in used_sentences]
+    random.shuffle(candidates)
 
-    # Remove duplicates
-    label_sentences = [s for s in label_sentences if s not in added_sentences]
-    
-    total = len(label_sentences)
-    train_split = int(total * 0.5)
-    dev_split = int(total * 0.25)
-    
-    # Assign sentences
-    train_sentences.extend(label_sentences[:train_split])
-    dev_sentences.extend(label_sentences[train_split:train_split + dev_split])
-    test_sentences.extend(label_sentences[train_split + dev_split:])
-    
-    # Track the sentences that have already been added
-    added_sentences.update(label_sentences)
+    total = len(candidates)
+    n_train = int(total * 0.5)
+    n_dev = int(total * 0.25)
 
-    print(f"✅ Processed label: {label}")
-    print(f"   ➡️ Train: {train_split}, Dev: {dev_split}, Test: {total - train_split - dev_split}")
+    train, dev, test = candidates[:n_train], candidates[n_train:n_train + n_dev], candidates[n_train + n_dev:]
 
-# Save the sentences to respective files
-with open(train_file, "w", encoding="utf-8") as outfile:
-    outfile.write("\n\n".join(train_sentences) + "\n\n")
+    train_sentences.extend(train)
+    dev_sentences.extend(dev)
+    test_sentences.extend(test)
 
-with open(dev_file, "w", encoding="utf-8") as outfile:
-    outfile.write("\n\n".join(dev_sentences) + "\n\n")
+    used_sentences.update(train + dev + test)
 
-with open(test_file, "w", encoding="utf-8") as outfile:
-    outfile.write("\n\n".join(test_sentences) + "\n\n")
+    print(f"✅ {label}: total={total}, train={len(train)}, dev={len(dev)}, test={len(test)}")
+
+# Save to files
+def save_sentences(path, sentences):
+    with open(path, "w", encoding="utf-8") as f:
+        f.write("\n\n".join(sentences) + "\n\n")
+
+save_sentences(train_file, train_sentences)
+save_sentences(dev_file, dev_sentences)
+save_sentences(test_file, test_sentences)
 
 print(f"✅ Splitting complete!")
-print(f"📁 Train sentences saved to: {train_file}")
-print(f"📁 Dev sentences saved to: {dev_file}")
-print(f"📁 Test sentences saved to: {test_file}")
+print(f"📁 Train: {len(train_sentences)} ➝ {train_file}")
+print(f"📁 Dev: {len(dev_sentences)} ➝ {dev_file}")
+print(f"📁 Test: {len(test_sentences)} ➝ {test_file}")
