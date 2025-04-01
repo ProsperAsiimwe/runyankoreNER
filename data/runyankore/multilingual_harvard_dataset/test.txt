@@ -1,0 +1,10355 @@
+Abantu O
+barikurumba O
+magana O
+ana O
+batahiibwe O
+omu O
+pooriisi O
+nyomwebazyo B-DATE
+. O
+
+Agiire O
+Kenya B-LOC
+bwanyima O
+y'omwaka B-DATE
+gumwe I-DATE
+agarukire O
+omu O
+Uganda B-LOC
+. O
+
+Abeegi O
+ba O
+Makerere B-ORG
+nibeshariga O
+haihi O
+buri B-DATE
+semester I-DATE
+. O
+
+Orukiiko O
+rukaba O
+aha O
+kitebe O
+kikuru O
+ky'ekibiina O
+esande B-DATE
+eyahwire I-DATE
+. O
+
+Dokitari O
+tiyija O
+kukora O
+erizooba B-DATE
+. O
+
+Ebigombe O
+byona O
+eby'emimpira O
+nibizaana O
+esande B-DATE
+erikwija I-DATE
+. O
+
+Omugambirizi O
+w'amahe O
+naaza O
+kugamba O
+n'abanyamakuru O
+nyencakare B-DATE
+. O
+
+Twine O
+nituza O
+kurebuza O
+embeera O
+erizooba B-DATE
+. O
+
+Abashuma O
+bahenzire O
+enju O
+ye O
+nka O
+shaha B-DATE
+mukaaga I-DATE
+z'ekiro I-DATE
+, O
+baamwita O
+. O
+
+Omubare O
+gw'abeegi O
+gweyongire O
+omwaka B-DATE
+ogu I-DATE
+. O
+
+Nooha O
+awasingre O
+akaruuru O
+k'enkumi B-DATE
+ibiri I-DATE
+ikumi I-DATE
+na I-DATE
+mukaga I-DATE
+? O
+
+Nenki O
+ebirikureeta O
+empinduka O
+y'obwire B-DATE
+obwahati I-DATE
+? O
+
+Abashubuuzi O
+ab'ebintu O
+byabo O
+byaremeire O
+aha O
+mwaro O
+bakahebwa O
+ebiro B-DATE
+bina I-DATE
+ebitari O
+by'okushashurira O
+. O
+
+Eriizooba B-DATE
+amaani O
+nitugata O
+aha O
+mpindahinduka O
+omu O
+mbeera O
+y'obwire O
+. O
+
+Empaka O
+z'akamariirizo O
+niziza O
+kubaho O
+ebiro B-DATE
+ikumi I-DATE
+na I-DATE
+munaana I-DATE
+Okwamwenda O
+. O
+
+Nindeeba O
+amahurire O
+aha O
+tiivi O
+buri B-DATE
+runaku I-DATE
+. O
+
+Aheerize O
+eishengyero O
+ryeihaga O
+kumara O
+emyaka B-DATE
+abiiri I-DATE
+egyihwiire O
+. O
+
+Abantu O
+baingi O
+nibaitwa O
+enjara O
+buri B-DATE
+mwaka I-DATE
+. O
+
+Eriizooba B-DATE
+nirwe O
+runaku O
+rw'aha O
+muheru O
+rw'okuronda O
+akaruuru O
+k'obwa O
+purezidenti O
+. O
+
+Aine O
+kureetwa O
+omu O
+mbuga O
+z'amateeka O
+esande B-DATE
+eraije I-DATE
+. O
+
+Akamara O
+kushoma O
+yunivasite O
+emyaka B-DATE
+makumi I-DATE
+ana I-DATE
+enyima O
+. O
+
+Omwebembezi O
+atwirwe O
+akomairwe O
+omunju O
+kumara O
+esande B-DATE
+ibiri I-DATE
+. O
+
+Kampuni O
+esharizemu O
+konturakiti O
+yaabo O
+nyomwebazyo B-DATE
+. O
+
+Turakira O
+kubayo O
+n'okujaguza O
+kwingi O
+kwa O
+noiri B-DATE
+buri I-DATE
+mwaka I-DATE
+. O
+
+Twine O
+omworeko O
+gwbihangire O
+nyenkyankare B-DATE
+. O
+
+Naashashura O
+amabanja O
+gangye O
+goona O
+eri B-DATE
+izooba I-DATE
+. O
+
+omuhendo O
+gw'empungi O
+oguri O
+kutaaha O
+omu O
+Uganda B-LOC
+nigweyongyera O
+buri B-DATE
+mwaka I-DATE
+. O
+
+Akaruuru O
+kabaireho O
+ny'omwebazyo B-DATE
+. O
+
+Kuruga O
+emyaka B-DATE
+abiiri I-DATE
+na I-DATE
+mukaaga I-DATE
+enyima O
+, O
+niwe O
+yaabaire O
+ari O
+mukuru O
+w'eby'okuronda O
+obutare O
+omu O
+kampuni O
+ya O
+Crown B-ORG
+Bottlers I-ORG
+Uganda I-ORG
+Limited I-ORG
+. O
+
+Habaire O
+hariho O
+obuhame O
+bw'okubinga O
+abantu O
+aha O
+itaka O
+omu O
+myaka B-DATE
+ehingwireho I-DATE
+. O
+
+Enju O
+yaabo O
+ensya O
+bakagimariiriza O
+omu O
+bunaku B-DATE
+bw'ameezi I-DATE
+mukaaga I-DATE
+. O
+
+Emizaano O
+etari O
+emwe O
+n'emwe O
+neebaho O
+buri B-DATE
+mwaka I-DATE
+omu O
+ihanga O
+eririkuba O
+ritoorainwe O
+. O
+
+Aine O
+emyaka B-DATE
+etaano I-DATE
+mu O
+ofiisi O
+. O
+
+Abarikuteeberezibwaho O
+nibaza O
+kureetwa O
+omu O
+kooti O
+Omukwamunaana B-DATE
+. O
+
+Tiimu O
+yomupiira O
+neyokutendekwa O
+eri B-DATE
+izooba I-DATE
+. O
+
+Abarikuteekwateekwaho O
+bahebwa O
+orusa O
+kwemerererwa O
+erizooba B-DATE
+. O
+
+Omwaka B-DATE
+ogu I-DATE
+, O
+tubaire O
+twine O
+abantu O
+ikumi O
+ababaire O
+beesimbireho O
+ahabwa O
+mukuru O
+w'eihanga O
+. O
+
+Abaikiriza O
+omuri O
+kurisito O
+barajaguza O
+okuzaarwa O
+kwa O
+Yesu B-PER
+Kurisito I-PER
+aha O
+eizooba O
+rya O
+nohiri B-DATE
+. O
+
+Enjura O
+ekagwa O
+munonga O
+omu O
+kwikumi B-DATE
+na I-DATE
+kumwe I-DATE
+omwaka I-DATE
+oguhwire I-DATE
+. O
+
+Nkabeera O
+mwi'hanga O
+ryaheeru O
+kumara O
+emyaka B-DATE
+eikumi I-DATE
+. O
+
+Muzaara O
+wangye O
+arugire O
+omu O
+kihoome O
+nyomwebazo B-DATE
+. O
+
+Ba O
+memba O
+beishengyero O
+bari O
+omu O
+ishengyero O
+okumara O
+obunaku O
+bw'emyaka B-DATE
+etaano I-DATE
+. O
+
+Empaka O
+niziija O
+kubaho O
+sande B-DATE
+. O
+
+Twena O
+nitumanya O
+ngu O
+akabi O
+nikabaasa O
+kugaruka O
+kabeho O
+omwaka B-DATE
+ogu I-DATE
+. O
+
+Amahurire O
+gakashomwa O
+shaha B-DATE
+ishatu I-DATE
+zinyine I-DATE
+omumwebazyo I-DATE
+. O
+
+Esente O
+zangye O
+zikiibwa O
+esande B-DATE
+eyahwire I-DATE
+. O
+
+Nyina O
+w'abaana O
+be O
+bana O
+abato O
+abiire O
+ari O
+aha O
+nyomwebazyo B-DATE
+. O
+
+Obururu O
+bwena O
+bukaba O
+ho O
+omu O
+mwaka B-DATE
+ogu I-DATE
+gukyatandika O
+. O
+
+Hariho O
+okuhurirwa O
+kw'omushango O
+eriizooba B-DATE
+. O
+
+Abantu O
+abarikusinga O
+obwingi O
+bararebekaho O
+aha O
+kanisa O
+aha O
+nohiri B-DATE
+. O
+
+Haihi O
+nka O
+baikiriza O
+omuri O
+Kuristo O
+boona O
+barajaguza O
+nohiri B-DATE
+. O
+
+Niiwe O
+yabaire O
+ari O
+omuzani O
+murungi O
+w'omwaka B-DATE
+. O
+
+Ni O
+nurirwa O
+noiri B-DATE
+n'abeeka O
+yangye O
+buri B-DATE
+mwaka I-DATE
+. O
+
+Esande B-DATE
+ehwaire I-DATE
+eminyeeto O
+eyaabaire O
+eine O
+ekiniga O
+bakeeshaaringa O
+barikuhakanisa O
+pooriisi O
+okubabonabonesa O
+. O
+
+Abeegi O
+ababeire O
+bemerezibwe O
+kuruga O
+omu O
+univasite O
+nibaza O
+kuba O
+nibija O
+nyekyakare B-DATE
+. O
+
+Ekiganiro O
+aha O
+siamese O
+amahasha O
+nogwokutekwa O
+aha O
+mpeho O
+omu O
+mahurire O
+ga O
+shaha B-DATE
+ishatu I-DATE
+. O
+
+Akashwerwa O
+emyaka B-DATE
+makumi I-DATE
+ana I-DATE
+n'ena I-DATE
+enyima O
+/ O
+ehwaire O
+. O
+
+Omuhendo O
+gw'abaaminisita O
+omu O
+ihanga O
+gugumire O
+nigweyongyera O
+buri B-DATE
+mwaka I-DATE
+. O
+
+Ekitebyo O
+kikashohora O
+omu O
+mpapura O
+z'amahurire O
+esande B-DATE
+eyaahwaire I-DATE
+. O
+
+Kampuni O
+neetebeekanisa O
+empaka O
+z'okwiruka O
+buri B-DATE
+mwaka I-DATE
+. O
+
+Tikirikubaasika O
+kutaasyamu O
+ebihandiiko O
+bya O
+buriizooba B-DATE
+. O
+
+Naija O
+kukomwa O
+emyaka B-DATE
+mushanju I-DATE
+. O
+
+Omurimo O
+/ O
+enteekateeka O
+neeza O
+kuhwa O
+omwaka B-DATE
+ogu I-DATE
+. O
+
+Kooti O
+eshaziremu O
+nyomwebazyo B-DATE
+. O
+
+Gavumenti O
+ekakingaho O
+reediyo O
+esabiiti B-DATE
+ehwaire I-DATE
+. O
+
+Tiimu O
+y'abakazi O
+ekahika O
+omu O
+mpaka O
+zakamaririzo O
+omu O
+tonamenti O
+y'omwaka B-DATE
+ogwahwire I-DATE
+. O
+
+Omukuru O
+akagambaho O
+nabamahurire O
+aha O
+byabireho O
+omu'ihanga O
+omwaka B-DATE
+ogwe I-DATE
+. O
+
+Bakarambura O
+eitaka O
+omwaka B-DATE
+ogwahwaire I-DATE
+. O
+
+Minisita O
+yaabugana O
+ab'ebiragiro O
+omu O
+kasheeshe B-DATE
+. O
+
+Ekishayi B-LOC
+kiishamaaza I-LOC
+ekya I-LOC
+Mandela I-LOC
+nikyo O
+kirataayaayise O
+empaka O
+za O
+koporeeti O
+riigi O
+wikendi B-DATE
+egi I-DATE
+. O
+
+Ekibiina O
+ky'obutegyeki O
+kitiire O
+oburuuru O
+aha O
+kitebe O
+ekikuru O
+esande B-DATE
+ehwire I-DATE
+. O
+
+Orukiko O
+rw'abebembezi O
+niruza O
+kubaho O
+orwokubanza B-DATE
+. O
+
+Abasibe O
+bakajaguza O
+eizooba B-DATE
+ryokuzaribwa I-DATE
+kwa I-DATE
+yesu I-DATE
+omu O
+muringo O
+ogw'omutano O
+enyimaho O
+omwaka B-DATE
+oguhwire I-DATE
+. O
+
+Aba O
+pooriisi O
+bakwatsire O
+abashaija O
+ikumi O
+na O
+mukaaga O
+esande B-DATE
+ehwaire I-DATE
+. O
+
+Enteekateeka O
+yokujema O
+ente O
+netandiika O
+wiiki B-DATE
+erikwija I-DATE
+. O
+
+Baamaraaya O
+bagumiizemu O
+nibasosorwa O
+omu O
+Uganda B-DATE
+. O
+
+Kiromita O
+rukume O
+na O
+bitaana O
+z'enguudo O
+zigarwirwe O
+aha O
+mutindo O
+omu O
+bwire O
+by'emyaka B-DATE
+etaano I-DATE
+. O
+
+N'owokuziikwa O
+esande B-DATE
+erikwija I-DATE
+. O
+
+Ekitongore O
+ky'enkuuto O
+ekya O
+Uganda B-ORG
+National I-ORG
+Roads I-ORG
+Authority I-ORG
+kihereize O
+kumara O
+emyaka B-DATE
+ikumi I-DATE
+n'eishatu I-DATE
+. O
+
+Oruteerane O
+orugyendereire O
+kumaraho O
+oburemeezi O
+bw'amaisho O
+, O
+niruza O
+kumara O
+ebiro B-DATE
+bibiri I-DATE
+. O
+
+Ekirabe O
+aha O
+bajeemi O
+nikisharwaho O
+orwakabiri B-DATE
+. O
+
+Atwire O
+aho O
+kumara O
+emyezi B-DATE
+etaano I-DATE
+. O
+
+Akakungu O
+k'abantu O
+kareesireho O
+akiimukyero O
+omu O
+kujaguza O
+omwaka B-DATE
+mutsya I-DATE
+. O
+
+Eirwariro O
+niribangirwa O
+minisiture B-DATE
+y'ebyamagara I-DATE
+. O
+
+Eishomero O
+ryaitu O
+rikoziregye O
+omu O
+bigyezo O
+by'ekyamushanju O
+omu O
+mwaka B-DATE
+ogwahwaire I-DATE
+. O
+
+Kampuni O
+ebingire O
+abakozi O
+baayo O
+nyomwebazyo B-DATE
+. O
+
+Gavumenti O
+yaatongoza O
+daamu O
+y'amashanyarazi O
+omu O
+uganda B-DATE
+y'amateemba I-DATE
+. O
+
+Ahikiriize O
+ebigyendererwa O
+bye O
+by'okwezi B-DATE
+. O
+
+Nyomwebazyo B-DATE
+bakozire O
+empinduka O
+omu O
+ngyenderwaho O
+yaabo O
+. O
+
+Mukuru O
+we O
+akiitwa O
+omwaka B-DATE
+oguhwire I-DATE
+. O
+
+Akatwarwa O
+omu O
+irwariro O
+esande B-DATE
+eyahwire I-DATE
+. O
+
+Emyanya O
+y'okuteereraho O
+akaruuru O
+emingi O
+ebiire O
+eyijwire O
+zitakabiire O
+shaaha B-DATE
+ina I-DATE
+. O
+
+Abarikuteekwateekwaho O
+baaretwa O
+omu O
+kooti O
+erizooba B-DATE
+. O
+
+N'omwe O
+aha O
+baragambe O
+omu O
+rukiiko O
+erizooba B-DATE
+. O
+
+Twine O
+ebibiina O
+bingi O
+ebirikuhabura O
+gavumenti O
+omu O
+Uganda B-DATE
+. O
+
+Okumanyisibwa O
+okwe O
+kukozirwe O
+aha O
+runaku O
+rw'okujaguza O
+emyaka B-DATE
+ataano I-DATE
+na I-DATE
+mukaaga I-DATE
+y'okwetegyeka O
+. O
+
+Ensi O
+yaitu O
+ekeegaita O
+aha O
+mahanga B-ORG
+geeteeraine I-ORG
+rukumi B-DATE
+rwenda I-DATE
+nkaaga I-DATE
+n'ebiri I-DATE
+. O
+
+Emirimo O
+neeteeberezibwa O
+kuhwa O
+rwagati B-DATE
+y'omwaka I-DATE
+. O
+
+Hariho O
+endwano O
+nyingi O
+z'eitaaka O
+omu O
+Uganda B-LOC
+y'erizooba B-DATE
+. O
+
+Abashiki O
+abingi O
+nibaza O
+omu O
+micwe O
+aha O
+myaka B-DATE
+ikumi I-DATE
+n'ena I-DATE
+. O
+
+Tanzania B-LOC
+ekatahirira O
+Uganda B-LOC
+omu O
+mwaka B-DATE
+gwa I-DATE
+rukumi I-DATE
+rwenda I-DATE
+makumi I-DATE
+mushaju I-DATE
+na I-DATE
+mwenda I-DATE
+. O
+
+Nibaza O
+kutandika O
+kutendeka O
+esande B-DATE
+erikwija I-DATE
+. O
+
+Abanyeihaga O
+nibaza O
+kwejumbiira O
+omu O
+kugaba O
+eshagama O
+kumara O
+wiiki B-DATE
+emwe I-DATE
+. O
+
+Egaari O
+y'omwika O
+eketwa O
+eiziina O
+rya O
+Uganda B-LOC
+. O
+
+Ebyaro O
+ebimwe O
+omuri O
+Kampala B-LOC
+biri O
+omu O
+mbeera O
+mbi O
+. O
+
+Kooti O
+enkuru O
+neeshangwa O
+Kampala B-LOC
+
+Amashomero O
+maingi O
+aga O
+siniya O
+nigaza O
+kwejumbira O
+omu O
+mizaano O
+omuri O
+Gulu B-LOC
+. O
+
+Abantu O
+abamwe O
+bakaruga O
+sudan B-LOC
+y'amatemba I-LOC
+kuheereza O
+amahe O
+g'abakubuuzi O
+. O
+
+Amajuta O
+gakajumburwa O
+omuri O
+burengyerwa B-LOC
+izooba I-LOC
+bwa I-LOC
+uganda I-LOC
+emyaka O
+mice O
+ehwire O
+. O
+
+Mukono B-LOC
+hariyo O
+amakorero O
+maingi O
+. O
+
+Amahe O
+agatari O
+ga O
+buriijo O
+nig'oherezibwa O
+Somalia B-LOC
+. O
+
+Ba O
+invesita O
+abarikukirayo O
+omu O
+uganda B-LOC
+n'abahindi O
+. O
+
+Akatinisiriza O
+kuteera O
+kigali B-LOC
+bomu O
+. O
+
+Abantu O
+b'omu O
+uganda B-LOC
+y'amatemba I-LOC
+bashabire O
+gavumenti O
+obuhwezi O
+bw'esente O
+. O
+
+Amahe O
+ge O
+giijwireemu O
+abasirikare O
+ba O
+sudan B-LOC
+y'amatemba I-LOC
+. O
+
+Omuri O
+Afirika B-LOC
+, O
+abantu O
+bakye O
+munonga O
+nibo O
+barikubiika O
+sente O
+ahabw'amagara O
+ga O
+bukuru O
+. O
+
+Ekibiina O
+ky'eihe O
+rya O
+Uganda B-LOC
+ekya O
+Uganda B-ORG
+Peoples I-ORG
+Defence I-ORG
+Forces I-ORG
+kik'ehakana O
+okuba O
+kyabaire O
+kiri O
+omu O
+kwesharinga O
+okwabaireho O
+baamara O
+kuteera O
+akaruuru O
+omuri O
+Kenya O
+. O
+
+Bishopu O
+amazire O
+obwire O
+bwingi O
+bw'obuheereza O
+bwe O
+arikukora O
+na O
+Amerika B-LOC
+. O
+
+Abateezi O
+b'akaruuru O
+ba O
+Kitgum B-LOC
+bamazirwemu O
+amaani O
+omunyeishengyero O
+w'abo O
+. O
+
+Tukazaarirwa O
+omu O
+Uganda B-LOC
+. O
+
+Abanya O
+uganda B-LOC
+biine O
+ebiteekateeko O
+by'amaani O
+aha O
+ruguuto O
+rw'egaari O
+y'omwika O
+. O
+
+Ishe O
+hamwe O
+n'abarumuna O
+bakaba O
+bari O
+abavugi O
+b'amaani O
+ba O
+pikipiki O
+omu O
+Uganda B-LOC
+n'amahanga O
+ga O
+Africa B-LOC
+goona O
+. O
+
+Hariho O
+kampuni O
+y'okuteebekanisa O
+etaabe O
+Jinja B-LOC
+. O
+
+Abiiruki O
+bagiire O
+London B-LOC
+omu O
+mpaka O
+. O
+
+Egaari O
+y'omwika O
+eya O
+Uganda B-LOC
+eyabandize O
+ekaba O
+neekurirwa O
+Abangyereza O
+. O
+
+Okutimba O
+amajuta O
+omuri O
+Hoima B-LOC
+kuriyo O
+nikuza O
+kutandika O
+omu O
+butongore O
+. O
+
+India B-LOC
+neihanga O
+eine O
+abantu O
+baingi O
+munonga O
+. O
+
+Ijo O
+eri O
+abanya O
+Uganda B-LOC
+beingi O
+bagyire O
+ahagyendo O
+eza O
+aheru O
+. O
+
+Abaana O
+omu O
+Uganda B-LOC
+nibabugana O
+oburemeezi O
+bwingi O
+obukwatireine O
+n'okubaho O
+. O
+
+Twine O
+amatendekyero O
+g'abazaani O
+b'omupiira O
+omuri O
+Uganda B-LOC
+. O
+
+Aba O
+sudan B-LOC
+y'amashuuma I-LOC
+nibo O
+babiire O
+nibakirayo O
+omu O
+kampuni O
+. O
+
+Ekibira B-LOC
+kya I-LOC
+Mabira I-LOC
+ni O
+kimwe O
+aha O
+bibira O
+ebirikusingayo O
+obuhango O
+omu O
+Uganda B-LOC
+. O
+
+Amahe O
+ga O
+uganda B-LOC
+gakoherizibwa O
+sudan B-LOC
+y'amashuuma I-LOC
+. O
+
+Tiimu O
+ya O
+Uganda B-LOC
+eyetabire O
+omu O
+mpaka O
+z'omupiira O
+gw'engaro O
+eza O
+Yunivasite O
+z'ensi O
+yoona O
+ez'aba O
+champiyoni O
+. O
+
+Nikyo O
+ekibiina O
+ekiri O
+om O
+ubutegyeki O
+omu O
+Uganda B-LOC
+. O
+
+Tukasheenya O
+omukago O
+na O
+England B-LOC
+twatwara O
+za O
+bizineesi O
+zaabo O
+. O
+
+Uganda B-LOC
+eyine O
+enkoragana O
+nungi O
+n'amahanga O
+agandi O
+. O
+
+Reediyo O
+neteera O
+ebyeshongoro O
+bya O
+Uganda B-LOC
+byonka O
+. O
+
+Entwiga O
+eziri O
+kukomooka O
+omu O
+rubaju B-LOC
+rwabumosho I-LOC
+orw'omugyera I-LOC
+gwa I-LOC
+Nile I-LOC
+zihairwe O
+oburaaro O
+busya O
+. O
+
+Hataireho O
+ab'eby'okwerinda O
+kuza O
+kurinda O
+abasaveya O
+omu O
+by'eitaka O
+omuri O
+Amuru B-LOC
+. O
+
+England B-LOC
+ekakinga O
+ofiisi O
+zaayo O
+omu O
+Uganda B-LOC
+. O
+
+Ni O
+baahi O
+abarikukora O
+ebiragiro O
+omu O
+Uganda B-LOC
+? O
+
+Habaireho O
+orukiiko O
+omuri O
+Fort B-LOC
+portal I-LOC
+rw'okuteesa O
+ah'iteeka O
+ry'eitaka O
+erikirimu O
+niriteesebwaho O
+. O
+
+Bamwe O
+aha O
+baserukare O
+ba O
+Uganda B-LOC
+bakatendekyebwa O
+omu O
+North B-LOC
+Korea I-LOC
+. O
+
+Omuhendo O
+ogwabarikuhenda O
+amateeka O
+gweyongiire O
+omuri O
+Kampala B-LOC
+. O
+
+Sekita O
+y'amakorero O
+omu O
+uganda B-LOC
+eriyo O
+nekurakurana O
+. O
+
+Omujwekyerwa O
+akahabura O
+ngu O
+America B-LOC
+ekyendeeze O
+okubaha O
+kwayo O
+omu O
+Uganda O
+. O
+
+Engyenderwaho O
+ya O
+Uganda B-LOC
+neegambaki O
+aha O
+nshonga O
+egyo O
+? O
+
+Abantu O
+abarikuruga O
+omu O
+burugwa B-LOC
+- I-LOC
+izooba I-LOC
+bw'amatemba I-LOC
+g'eihanga I-LOC
+n'abariisa O
+b'ente O
+. O
+
+N'emwe O
+aha O
+matendekyero O
+agarikusingayo O
+obukuru O
+ag'abantu O
+nya O
+buntu O
+mu O
+Uganda B-LOC
+. O
+
+Abazaani O
+bakaba O
+bashemerirwe O
+kuzana O
+naba O
+afirika B-LOC
+bagyenzi O
+babao O
+. O
+
+Uganda B-LOC
+erabiremu O
+kua O
+omu O
+orimpikisi B-ORG
+. O
+
+Obukozi O
+bwa O
+bibi O
+aha O
+mikutu O
+n'eky'akabi O
+aha O
+nkurakurana O
+y'eby'a O
+tekinorogiya O
+omu O
+Uganda B-LOC
+. O
+
+Nyine O
+eitaaka O
+omuri O
+Kampala B-LOC
+. O
+
+Abarambuzi O
+abarikwija O
+omu O
+Uganda B-LOC
+barakunda O
+kuzaana O
+tenesi O
+. O
+
+Ab'ebembezi O
+baingi O
+okuruga O
+omu O
+Afrika B-LOC
+kirabagumira O
+kuherezayo O
+entebe O
+/ O
+obwebembezi O
+. O
+
+Oruteerane O
+rukakorerwa O
+omu O
+Uganda B-LOC
+. O
+
+Obwebembezi O
+bw'orurembo O
+rwa O
+Kampala B-LOC
+orwa O
+KCCA B-ORG
+nibwija O
+kureberera O
+orurembo O
+burikuyambwaho O
+minisita O
+. O
+
+Eihanga O
+rikatayayisaho O
+omwigarire O
+wa O
+Bungyereza B-LOC
+. O
+
+Emibazi O
+mingi O
+omu O
+Uganda B-LOC
+n'eruga O
+aheeru O
+y'eihanga O
+. O
+
+Mukuru O
+wa O
+ishomero O
+ryaitu O
+akazaarwa O
+ishe O
+w'omukakwa O
+na O
+nyina O
+w'omurugwara O
+omuri O
+Koboko B-LOC
+. O
+
+Empaka O
+ensya O
+niziza O
+kutandikira O
+omu O
+kicweka B-LOC
+ky'Oburugwa I-LOC
+- I-LOC
+izooba I-LOC
+. O
+
+Minisita O
+w'eby'okwerinda O
+omu O
+Uganda B-LOC
+akaza O
+Iraq O
+emirundi O
+mingi O
+omu O
+bwire O
+bw'obutaikirizana O
+. O
+
+Okwija O
+kwe O
+kukareetaho O
+omwijuzo O
+gw'ebiiruka O
+aha O
+ruguuto B-LOC
+orurikuza I-LOC
+Entebbe I-LOC
+. O
+
+Owabireho O
+omwebembezi O
+w'ekibiina O
+akaba O
+naaruga O
+omu O
+Uganda B-LOC
+y'oburengyerwa I-LOC
+izooba I-LOC
+. O
+
+Uganda B-LOC
+n'ihanga O
+ririkwikiriza O
+abantu O
+kweshariramu O
+. O
+
+Amahe B-ORG
+ga I-ORG
+Kenya I-ORG
+gakagaba O
+abasirikare O
+aha O
+nsharo O
+za O
+Uganda B-LOC
+na O
+Kenya B-LOC
+. O
+
+Ni O
+ryari O
+obu O
+bashemberiyo O
+okubara O
+bantu O
+omu O
+Uganda B-LOC
+? O
+
+Hariho O
+ebiragiro O
+ebiri O
+kutegyeka O
+obukama O
+bw'eitaka O
+omu O
+Uganda B-LOC
+. O
+
+Habeireho O
+empindahinduka O
+omu O
+ngudo O
+za O
+Uganda B-LOC
+. O
+
+Ebicoori O
+ni O
+kimwe O
+aha O
+bihingwa O
+bikuru O
+omuri O
+Uganda B-LOC
+. O
+
+Tata O
+akazarirwa O
+Kampala B-LOC
+. O
+
+Ebyafayo O
+bya O
+Uganda B-LOC
+nabyo O
+nibishomesibwa O
+omu O
+mashomero O
+. O
+
+Twine O
+enganda O
+nyingi O
+omu O
+uganda B-LOC
+. O
+
+Kampuni O
+ehindwire O
+omu O
+nkora O
+yaayo O
+y'okushubuura O
+omu O
+Uganda B-LOC
+. O
+
+Queens B-LOC
+road I-LOC
+n'emwe O
+aha O
+za O
+situriiti O
+ezirikukirayo O
+oburungi O
+omu O
+rurembo O
+. O
+
+Oruguuto O
+haihi O
+n'omwatano O
+gwa O
+Kenya B-LOC
+na O
+Uganda B-LOC
+gwakingwa O
+. O
+
+Abantu O
+abamwe O
+baine O
+ebyobushubuzi O
+aha O
+nsharo B-LOC
+za I-LOC
+Uganda I-LOC
+. O
+
+Abangyereza O
+bakaba O
+batambuza O
+abantu O
+hamwe O
+n'abaserukare O
+babareeta O
+omu O
+Africa B-LOC
+. O
+
+Uganda B-LOC
+neetunga O
+obuyambi O
+kuruga O
+omu O
+mahanga O
+agandi O
+. O
+
+Obwahati O
+turi O
+Kigali B-LOC
+nitugumizamu O
+n'omukoro O
+. O
+
+Uganda B-LOC
+ni O
+paara O
+ya O
+Afirika B-LOC
+. O
+
+Naahereza O
+amahurire O
+aha O
+mikutu O
+y'eihanga O
+erya O
+NBS B-ORG
+. O
+
+Minisiture B-ORG
+y'eby'esente I-ORG
+ekajunaanwa O
+ahabw'okuguma O
+neehakanisa O
+enteekateeka O
+y'okufurura O
+baakahonaho O
+. O
+
+N'omukugu O
+aha O
+ofiisi O
+z'amahanga O
+ag'eteeraine O
+erya O
+United B-ORG
+Nations I-ORG
+. O
+
+Akakiiko B-ORG
+k'eby'oruuru I-ORG
+kaine O
+obugabe O
+bw'okutaho O
+ebiro O
+by'akaruuru O
+. O
+
+Kibaireho O
+aha O
+hoteeri B-ORG
+ya I-ORG
+Serena I-ORG
+. O
+
+Ekitongore O
+ky'eby'oburuuru O
+ekya O
+Electoral B-ORG
+Commission I-ORG
+Kihiire O
+abeesimbire O
+aha O
+ntebe O
+ya O
+purezidenti O
+ebyokugyenderaho O
+omu O
+kampiini O
+. O
+
+Akarondwa O
+kuba O
+mukuru O
+w'ekibiina O
+w'ekitongore O
+ekya O
+Uganda B-ORG
+Investment I-ORG
+Authority I-ORG
+. O
+
+Omushubuuzi O
+rurangaanwa O
+owa O
+Madhivan B-ORG
+nateekateeka O
+kutandikaho O
+eikorero O
+rya O
+shukari O
+omu O
+disiturikiti O
+. O
+
+Naakorera O
+gavumenti B-ORG
+ya I-ORG
+uganda I-ORG
+. O
+
+Ni O
+nsi O
+ki O
+eziri O
+omu O
+kwegaita O
+kwensi O
+eziri O
+omu O
+mukago B-ORG
+gw'amahanga I-ORG
+ga I-ORG
+burugweizooba I-ORG
+? O
+
+Tiimu B-ORG
+y'omupiira I-ORG
+gw'engaro I-ORG
+omuri I-ORG
+Yuganda I-ORG
+ekaba O
+eine O
+obubonero O
+makumi O
+abiri O
+. O
+
+Muhara O
+wangye O
+naakora O
+na O
+gavumenti B-ORG
+ya I-ORG
+Uganda I-ORG
+. O
+
+Tiimu B-ORG
+ya I-ORG
+Poorisi I-ORG
+ya I-ORG
+Uganda I-ORG
+yaaremwa O
+kusinga O
+empaka O
+omwebazo O
+ogu O
+. O
+
+Eirwariro O
+ry'abakazi O
+riigwirweho O
+Mulago B-ORG
+. O
+
+Ni O
+murimo O
+ki O
+ogu O
+banka B-ORG
+ya I-ORG
+Uganda I-ORG
+enkuru I-ORG
+erikukora O
+? O
+
+Abarwaire O
+abasindikirwe O
+okuruga O
+omumarwariro O
+agandi O
+bonka O
+nibo O
+barikuza O
+kukorwaho O
+aha O
+irwariro B-ORG
+rya I-ORG
+Murago I-ORG
+. O
+
+Abakuristaayo O
+nibikiririza O
+omu O
+kuzooka O
+n'okutemba O
+kwa O
+kristo B-PER
+. O
+
+
+
+Abamwe O
+nibatandika O
+emyoga O
+ne O
+sente O
+ezitarikumara O
+. O
+
+Titurikumanya O
+noha O
+owarwire O
+muri O
+butandu O
+. O
+
+Abazaani O
+abamwe O
+b'omupiira O
+nibeeteeba O
+. O
+
+Titwakahinduraga O
+biragiro O
+byaitu O
+kuruga O
+twayetegyeka O
+. O
+
+Disiturikiti O
+eyombekire O
+akatare O
+kahango O
+. O
+
+Murumuna O
+wangye O
+naakunda O
+omupiira O
+. O
+
+Ebirugiremu O
+byashohozibwa O
+guruupu O
+. O
+
+Eishomero O
+n'oburugwe O
+bw'amaryo O
+g'abantu O
+omu O
+kyanga O
+ekyo O
+. O
+
+Omutendeki O
+akozire O
+munonga O
+kutwara O
+ekikopo O
+. O
+
+Esente O
+nyingi O
+zikakozesebwa O
+kwombeka O
+ekyo O
+ekirikubasisa O
+omurimo O
+kukorwa O
+. O
+
+Okujaguza O
+tikurabiireho O
+ahabw'omukingo O
+. O
+
+Ni O
+bunaku O
+ki O
+obugyerekirwe O
+engyenderwaho O
+yeihanga O
+eri O
+kubasa O
+kuhindika O
+. O
+
+Ekihandiiko O
+nikyoreka O
+ngu O
+disiturikiti O
+ekaremwa O
+kuhereza O
+abantu O
+gye O
+. O
+
+Akazarwa O
+ari O
+omurema O
+. O
+
+Ripoti O
+teramushemiize O
+. O
+
+Entwaza O
+eteirwe O
+omunkora O
+eyiine O
+kuba O
+erikubasa O
+kukorwa O
+. O
+
+N'obu O
+abantu O
+abamwe O
+bari O
+abagaiga O
+, O
+abandi O
+nabanaku O
+munonga O
+. O
+
+N'omwe O
+aha O
+baatandikireho O
+ekibiina O
+kyabo O
+ky'eby'obutegyeki O
+. O
+
+Nkaba O
+nzaanira O
+tiimu O
+ya O
+ihanga O
+. O
+
+Bakakozesa O
+obujanjabi O
+bw'emiringo O
+mingi O
+kwerinda O
+okujanjara O
+kw'akakooko O
+ka O
+sirimu O
+. O
+
+Abantu O
+baingi O
+erigyenda O
+nib'eyambisa O
+emitimbagano O
+. O
+
+Tihariho O
+shonga O
+y'okubonabonesa O
+abanyeishengyero O
+. O
+
+Taragiire O
+mu O
+rukiiko O
+. O
+
+Abakozi O
+ba O
+gavumenti O
+abarikukwatanisa O
+n'abashuma O
+kwiba O
+amataka O
+ga O
+gavumenti O
+bashohozibwe O
+. O
+
+Ekigombe O
+kyabazani O
+ekyamaani O
+ekya O
+haihi O
+nikyo O
+kiine O
+omuzani O
+arikusinga O
+yo O
+oburungi O
+enshumi O
+egyi O
+. O
+
+Nakundwa O
+buri O
+omwe O
+. O
+
+Enteekateeka O
+y'okutongoza O
+orutindo O
+rusya O
+neegyenda O
+omumaisho O
+. O
+
+Bakaba O
+bataine O
+obujurizi O
+burikumara O
+kumutwara O
+omu O
+mbuga O
+z'amateeka O
+. O
+
+Esente O
+nyingi O
+nizikibura O
+omu O
+banka O
+. O
+
+Akaba O
+ari O
+omukuumi O
+kyonka O
+. O
+
+Purojekiti O
+neyetenga O
+okutibwamu O
+sente O
+. O
+
+Nooyija O
+kwefuuza O
+ahabwenki O
+wayibire O
+motoka O
+. O
+
+Akasigira O
+abaana O
+be O
+ebintu O
+bye O
+. O
+
+Ngambira O
+ahari O
+rukondo O
+ya O
+Ruhanga O
+. O
+
+Ndiyo O
+niimpandiika O
+ekitabo O
+ky'ebi O
+tata O
+yaakozire O
+. O
+
+Ku O
+ndaabone O
+sente O
+ninyija O
+kwombeka O
+enju O
+z'okupangisa O
+. O
+
+Abeegi O
+nibabashaba O
+okukuza O
+obukugu O
+byabo O
+baba O
+bari O
+omu O
+kwega O
+. O
+
+Omukuza O
+aine O
+obujunaanizibwa O
+bwona O
+aha O
+baana O
+, O
+abazaire O
+baabo O
+baaba O
+batariho O
+. O
+
+Hariho O
+okuhababa O
+kw'okubonabonesa O
+aha O
+kitongore O
+kya O
+gavumenti O
+ekirikukwatisa O
+ebiragiro O
+. O
+
+Munyaanya O
+araganiise O
+kutabaariza O
+pooriisi O
+. O
+
+Arangire O
+okufa O
+kwa O
+nyinenkuru O
+. O
+
+Nikitugumira O
+kukora O
+oruguuto O
+ahabw'embera O
+y'obwire O
+. O
+
+Nitwenda O
+kugyezaho O
+kureeba O
+ngu O
+abantu O
+baatwaza O
+gye O
+. O
+
+Abavugi O
+abarikuvuga O
+kubi O
+nibareeta O
+butandu O
+aha O
+ngudo O
+. O
+
+Omurimo O
+muhango O
+gutegyereize O
+abanyeishengyero O
+. O
+
+Ekigombe O
+nikiiza O
+kwanjura O
+ebitekateko O
+byakyo O
+aha O
+nshonga O
+. O
+
+Nitubaasa O
+kukora O
+ki O
+kutungura O
+okushoma O
+kw'abishiki O
+? O
+
+Enkora O
+zigiisirwe O
+hamwe O
+kworobya O
+obuheereza O
+. O
+
+Disiturikiti O
+ezimwe O
+omu'ihanga O
+zihadikisize O
+emishango O
+y'omushwija O
+omusya O
+. O
+
+Eihanga O
+eri O
+rifeeriirwe O
+abantu O
+baingi O
+b'obujunanizibwa O
+emyaka O
+ehingwireho O
+. O
+
+Oyine O
+amaizi O
+g'okunywa O
+? O
+
+Abantu O
+abamwe O
+bakyengire O
+kubi O
+amakuru O
+. O
+
+Eminyeeto O
+neeronda O
+emirimo O
+. O
+
+Akakiiko O
+kakuru O
+akariho O
+ba O
+dairekita O
+mwenda O
+. O
+
+Naaza O
+kuba O
+naavuga O
+abarambuzi O
+kuza O
+omu O
+irindiro O
+ry'enyamaishwa O
+. O
+
+Abateezi O
+b'akaruuru O
+bakabuuzibwa O
+abanyaishengyero O
+baabo O
+batakahingwize O
+eiteeka O
+eryabaire O
+nirikitesebwaho O
+. O
+
+Emotoka O
+neeza O
+kutwara O
+ki O
+? O
+
+Abo O
+abari O
+kuhakanisa O
+entekateeka O
+ensya O
+b'erarikiriire O
+. O
+
+Oihireho O
+obugaiga O
+bwe O
+, O
+nakwatagana O
+n'abooro O
+. O
+
+Enganzi O
+ya O
+Uganga O
+yaaragiira O
+ku O
+habaho O
+okwehanuuza O
+. O
+
+Ekihandiiko O
+ky'okwiha O
+eikomo O
+aha O
+myaka O
+ya O
+mukuru O
+weihaga O
+kikaraba O
+omu O
+eishengyero O
+. O
+
+Abeegi O
+bigi O
+bakasya O
+. O
+
+Ow'eby'obutegyeki O
+okwatsirwe O
+naayetenga O
+obujanjabi O
+bwahonaaho O
+. O
+
+Abajubi O
+b'ebyenyanja O
+bakatabaariza O
+abeebembezi O
+ahabw'okubabonabonesa O
+. O
+
+Akabatwara O
+omu O
+buhanguzi O
+. O
+
+Ripoti O
+erimu O
+ebifunzibwe O
+aha O
+birohozo O
+ebiine O
+akakwate O
+n'obusheru O
+n'amashiyo O
+. O
+
+Nomuhereza O
+wamakuru O
+. O
+
+Akanteeza O
+omunyaafu O
+muhango O
+. O
+
+Enshohoza O
+terikubaasa O
+kuzooka O
+. O
+
+Hariho O
+okutwaza O
+kifuba O
+itaka O
+ebiro O
+ebi O
+. O
+
+Tihaine O
+ekibarikubaasa O
+kukora O
+. O
+
+Omugasho O
+gwa O
+ekigombe O
+eki O
+nokwegyesa O
+abaato O
+. O
+
+Eiceberero O
+niriteekateekwa O
+kuba O
+rikuru O
+omu O
+kutunguura O
+omurimo O
+gw'okutimba O
+eby'omu O
+itaka O
+. O
+
+Emyanya O
+emwe O
+n'ey'akabi O
+kahango O
+omu O
+kiro O
+. O
+
+Tindikubaasa O
+kukushwera O
+hati O
+. O
+
+Akakiiko O
+akariho O
+hati O
+nikasharamu O
+juba O
+. O
+
+Ekiragiro O
+nikikwata O
+ahari O
+buri O
+omwe O
+. O
+
+Yaatwarwa O
+aha O
+kibuga O
+kya O
+pooriisi O
+. O
+
+Hariho O
+okurwara O
+kwingi O
+kw'oburweire O
+bwa O
+siko O
+seeru O
+omu O
+baana O
+abaakazaarwa O
+. O
+
+Eibura O
+ry'abakozi O
+rireesireho O
+okukyerererwa O
+omu O
+nkora O
+y'emirimo O
+. O
+
+Naamanya O
+byona O
+ebirikukwata O
+aha O
+mukoro O
+. O
+
+Engundo O
+enyingi O
+ziine O
+ebiina O
+. O
+
+Ishenkuru O
+akaba O
+ayine O
+abakazi O
+ikumi O
+na O
+mukaaga O
+. O
+
+Amateeka O
+gamwe O
+gahindurwe O
+omu O
+bwire O
+. O
+
+Buri O
+omwe O
+akuratiire O
+okusharaho O
+kwe O
+bataine O
+kwetombeita O
+. O
+
+Ekihembo O
+nikiiza O
+kugumizamu O
+kugumya O
+obuzaare O
+aha O
+gaati O
+y'amahanga O
+abiri O
+. O
+
+Abashuubuzi O
+nibiija O
+kuba O
+nibaheereza O
+obuheereza O
+bwingi O
+omu O
+kanivo O
+erikwija O
+. O
+
+Ekitongore O
+kigumiizemu O
+n'okukora O
+ebikorwa O
+bitari O
+bya O
+buriijo O
+kandi O
+obwo O
+amateeka O
+gatarikubiikiriza O
+. O
+
+Hariho O
+okweyongyera O
+kw'obushomankuzi O
+omu O
+ihanga O
+ryaitu O
+. O
+
+Bakaba O
+nibeesharinga O
+ahabw'ebiragiro O
+bya O
+ishomero O
+. O
+
+Abashuma O
+beiruka O
+. O
+
+Hariho O
+oburemeezi O
+omu O
+kuhikiirira O
+amashomero O
+. O
+
+Enshonga O
+ekashoboororwa O
+ab'obushoborozi O
+. O
+
+Eby'obwombeki O
+biriyo O
+nibirugayo O
+mpora O
+. O
+
+Aine O
+omutabani O
+w'omweshongozi O
+. O
+
+Bagambirweho O
+omu O
+nkora O
+/ O
+kikorwa O
+. O
+
+Ni O
+omukazi O
+w'omugisha O
+. O
+
+Embeera O
+zikabagyemesereza O
+kusharamu O
+/ O
+kukora O
+encwamu O
+. O
+
+Abanyayuganda O
+baingi O
+barakunda O
+kukoresa O
+sente O
+zoona O
+ezibabiikire O
+enshumi O
+za O
+noiri O
+. O
+
+Nituza O
+kwega O
+aha O
+kyoma O
+ky'okukamuura O
+eshande O
+. O
+
+Rooya O
+we O
+yaashaba O
+okwemerererwa O
+. O
+
+Nikitekateekwa O
+ngu O
+obutingwa O
+bw'abashaija O
+nibukira O
+kukanya O
+omu O
+mashomero O
+g'aboojo O
+bonka O
+. O
+
+Nituza O
+kuganyigwa O
+omu O
+ntebekanisa O
+ensya O
+. O
+
+Emotoka O
+neyija O
+kumaraho O
+ekizibu O
+kye O
+ky'okucerererwa O
+? O
+
+Niwe O
+muzaani O
+murungi O
+omu O
+tiimu O
+. O
+ano O
+gwo O
+mukatimba O
+omu O
+kigombe O
+. O
+
+Obumwe O
+nikiguma O
+kwebwa O
+eby'enyima O
+. O
+
+Abebembezi O
+abarikuza O
+omu O
+ntebe O
+baagira O
+ngu O
+tibarakorere O
+mu O
+ofiisi O
+enkuru O
+. O
+
+Abantu O
+bashemereire O
+kuheebwa O
+omugisha O
+kureeba O
+omu O
+nshonga O
+. O
+
+Akanyagwa O
+kandi O
+yeitwa O
+. O
+
+Abakazi O
+baine O
+obugabe O
+kutuura O
+batabonabonesiibwe O
+, O
+batari O
+bahuuku O
+kandi O
+batarikushoroorwa O
+omu O
+bandi O
+. O
+
+Orikukurira O
+ekitongore O
+hamwe O
+n'omuhwezi O
+we O
+bakabingwa O
+omurundi O
+gumwe O
+. O
+
+Amakuru O
+nigiija O
+kuhamya O
+orugambo O
+. O
+
+Okumanyisibwa O
+kukozirwe O
+abakozi O
+kuruga O
+omu O
+ofiisi O
+y'enganzi O
+. O
+
+Purojekiti O
+einwemu O
+amatsiko O
+okubaasa O
+okwongyera O
+amaani O
+omu O
+by'amakorero O
+. O
+
+Aba O
+tiimu O
+nibenda O
+kwikirizisa O
+abany'eishengyero O
+. O
+
+Ebitongole O
+ebi O
+bibiri O
+byerekire O
+obushagyiki O
+ahabw'ekiragiro O
+ekisya O
+. O
+
+Amakuru O
+gashakirwe O
+omunyamahurire O
+. O
+
+Ti O
+murundi O
+gw'okubanza O
+gavumenti O
+kushazamu O
+emigisha O
+nk'egi O
+. O
+
+Bakiita O
+abantu O
+makumi O
+abiri O
+omu O
+bomo O
+eyi O
+baatiire O
+omu O
+motoka O
+. O
+
+Abantu O
+baingi O
+omu O
+mahanga O
+g'abajungu O
+nibasindikwa O
+omu O
+mahanga O
+gaabo O
+, O
+batakyenzire O
+. O
+
+Ahabwenki O
+okujurirwa O
+oku O
+kwayangirwe O
+? O
+
+Kampuni O
+za O
+inshuwareensi O
+niziteekwateekwa O
+kwegaita O
+hamwe O
+kukora O
+kampuni O
+z'amaani O
+. O
+
+Omuceeri O
+gwihireho O
+eby'okurya O
+eby'obunyakare O
+. O
+
+Mukuru O
+w'eishomero O
+akashaba O
+abazaire O
+kugurira O
+abaana O
+baabo O
+ebyetengo O
+by'eishomero O
+. O
+
+Okwejanjaba O
+tikirikwikirizibwa O
+. O
+
+Obwegyese O
+oburikukirayo O
+ni O
+buuha O
+? O
+
+Oyerinde O
+abayayi O
+abarikucupura O
+amataka O
+. O
+
+Hariho O
+ebindahinduka O
+nyingi O
+eziri O
+kwetengwa O
+kukorwa O
+omu O
+katare O
+. O
+
+Abantu O
+nibenda O
+kukora O
+ekintu O
+kyona O
+. O
+
+Ekibiina O
+kibikiire O
+enyamaisha O
+omu'ihamba O
+rimwe O
+. O
+
+Obwire O
+bwingi O
+butairwe O
+omu O
+kucondooza O
+. O
+
+Omurimo O
+nigwija O
+n'enyongyeza O
+y'obucweka O
+makumi O
+ashatu O
+. O
+
+Ab'orubaju O
+oruhakani O
+nibajumiririra O
+okuhindura O
+engyenderwaho O
+y'okwihaho O
+emyaka O
+y'obwapurezidenti O
+. O
+
+Omuhereza O
+aine O
+ebrikuraho O
+omubwijwire O
+. O
+
+Abazaire O
+baine O
+kumanyisa O
+abaana O
+baabo O
+akabi O
+k'okuzaara O
+bakiri O
+bato O
+. O
+
+Enteekateeka O
+yaahindurwa O
+. O
+
+Tiimu O
+ekaba O
+neeyetenga O
+goora O
+emwe O
+yonka O
+, O
+hatariho O
+kindi O
+. O
+
+Boona O
+ababeire O
+nibateekwateekwaho O
+okubeera O
+noburwire O
+bakashanga O
+batabwine O
+. O
+
+Emitwarize O
+y'okushoma O
+omu O
+ihanga O
+t'eshemeire O
+. O
+
+Akasiinga O
+oburuuru O
+. O
+
+Eizooba O
+ry'enyini O
+ry'okuteera O
+akaruuru O
+niriija O
+kuba O
+ery'obusingye O
+. O
+
+Omwebembezi O
+ataahize O
+abaserukare O
+baingi O
+omu O
+maahe O
+kwenda O
+ngu O
+asingure O
+orutaro O
+. O
+
+Omwebembezi O
+yayigura O
+ekicweka O
+ky'eishomo O
+. O
+
+Katukundane O
+. O
+
+Haihi O
+buri O
+bakuru O
+b'ebibiina O
+ebitari O
+mu O
+gavumenti O
+biine O
+ebigyendererwa O
+bimwe O
+. O
+
+Ekitongore O
+kya O
+inshuwareensi O
+eki O
+kitwireho O
+kumara O
+obwire O
+buringwa O
+. O
+
+Boona O
+nibeetenga O
+kugira O
+eka O
+eine O
+amagara O
+marungi O
+. O
+
+Abantu O
+nibakunda O
+kuha O
+emirimo O
+abeegi O
+kuruga O
+omu O
+matendekyero O
+g'eby'emikono O
+. O
+
+Okutambura O
+kukakyendezibwa O
+ahari O
+abo O
+ababeire O
+nibetagisibwa O
+. O
+
+Akashoborora O
+sitore O
+. O
+
+Okukyerererwa O
+kuteera O
+akaruuru O
+kikeerarikiriza O
+abantu O
+. O
+
+Omwanya O
+mukuru O
+gw'okushwijumiramu O
+ebyokwerida O
+kakaba O
+kari O
+akaanya O
+kakye O
+aharubaju O
+rw'enguuto O
+nyigyendwa O
+. O
+
+Eminyeeto O
+erahangaanywa O
+okuba O
+n'obugumisiriza O
+. O
+
+Ekitongole O
+kitura O
+nikibona O
+abakozi O
+barungi O
+omu O
+mwanya O
+ogwe O
+. O
+
+Akanga O
+ebyagambirwe O
+, O
+yaabitwara O
+nk'orugambo O
+. O
+
+Za O
+kampuni O
+nyingi O
+niziija O
+kwetaba O
+omu O
+mpaka O
+n'ekigyendererwa O
+ky'okumanyana O
+. O
+
+Emotoka O
+eziri O
+omu O
+mbeera O
+mbi O
+tizishemereire O
+kutavugwa O
+. O
+
+Nibuzibu O
+ki O
+oburi O
+mumiringo O
+eyokukyendeza O
+ruzaaro O
+. O
+
+Abeebembezi O
+nibenda O
+kumanya O
+ahabwenki O
+baabingirwe O
+. O
+
+Nibenda O
+kukwita O
+. O
+
+Obuhabuzi O
+bw'abasirikare O
+bukaba O
+butakyetaagisa O
+. O
+
+Omudumizi O
+w'amahe O
+ahigire O
+abaserukare O
+kuta O
+omutima O
+aha O
+kigyendererwa O
+kyabo O
+. O
+
+Omusaveya O
+akaboreeka O
+ensharo O
+za O
+itaka O
+zenyini O
+. O
+
+Abantu O
+baingi O
+biine O
+nib'etandikira O
+eby'obushuubuzi O
+. O
+
+Bamwe O
+aha O
+banyeishengyero O
+bakahakanisa O
+ekiragiiro O
+ekisya O
+. O
+
+Pooriisi O
+erimu O
+neehunduuzibwa O
+. O
+
+Nintandika O
+nta O
+okuhandiika O
+ekitabo O
+ky'ebitebyo O
+. O
+
+Abantu O
+bato O
+nibakira O
+kujoogwa O
+omu O
+by'obutegyeki O
+. O
+
+Ebintu O
+ebingi O
+bikashiishwa O
+omu O
+kwesharinga O
+. O
+
+Noteketeeka O
+ki O
+aha O
+shonga O
+egi O
+? O
+
+Mukuru O
+w'eihaga O
+akajwekyerwa O
+engazi O
+y'eihanga O
+aha O
+kuziika O
+. O
+
+Abebembezi O
+bashemereire O
+kukyinga O
+ahu O
+barikukorera O
+. O
+
+Muhara O
+wangye O
+naakunda O
+kusiiba O
+omu O
+nju O
+kukira O
+okuza O
+aheeru O
+kuzaana O
+n'abandi O
+. O
+
+Nihaza O
+kubaho O
+ekiganiiro O
+aha O
+kunwanisa O
+hamwe O
+norubanja O
+. O
+
+Ahabwenki O
+otarikufa O
+aha O
+bwawe O
+? O
+
+Abandi O
+bantu O
+baayegaita O
+ahi O
+koreero O
+. O
+
+Bwanyima O
+y'okwija O
+kw'omuzaani O
+omwe O
+orikuzaanira O
+aheeru O
+y'eihanga O
+, O
+tiimu O
+y'abazaani O
+ekaijura O
+. O
+
+Ku O
+yaabaire O
+aherize O
+ati O
+kufa O
+, O
+omuhara O
+nawe O
+yaafa O
+. O
+
+Harimu O
+abari O
+benguzi O
+bingi O
+omw'eihanga O
+. O
+
+Ekitebyo O
+nikikwata O
+aha O
+byafaayo O
+. O
+
+Abagaiga O
+tibakahikiriize O
+ebirikwetengwa O
+. O
+
+Bakashabwa O
+kushoboorora O
+empindahinduka O
+. O
+
+Bamwe O
+abo O
+rubaju O
+orurikuhakanisa O
+gavumenti O
+bakashemba O
+okwiha O
+enkomo O
+aha O
+myaka O
+ya O
+mukuru O
+weihaga O
+. O
+
+Omweshongozi O
+naayenda O
+kuba O
+omwebembezi O
+w'ekyanga O
+. O
+
+Abakamai O
+bakaraganisa O
+kukwata O
+abiine O
+orubanja O
+. O
+
+Emotoka O
+ye O
+ekiibwa O
+kuruga O
+omu O
+garagi O
+. O
+
+Bakakora O
+ekiragiro O
+kirikuzibira O
+obuhuuku O
+. O
+
+Abaramuzi O
+bahika O
+aha O
+kusharaho O
+. O
+
+Ekiragiro O
+kiherize O
+kubagwa O
+sipiika O
+. O
+
+Hariho O
+ekyokushoborora O
+kyona O
+aha O
+kyabaho O
+. O
+
+Obujanjabi O
+nibuza O
+kuhebwa O
+hatariho O
+sente O
+. O
+
+Naashagikwa O
+ekitongore O
+. O
+
+Turikutekaho O
+ekishaaha O
+ekirungi O
+. O
+
+Abantu O
+tibarikukira O
+kukozesa O
+omwani O
+. O
+
+Akaterwa O
+kubi O
+munonga O
+abashuma O
+. O
+
+Akatare O
+k'aha O
+intaneeti O
+nikakurura O
+abantu O
+baingi O
+baaba O
+batakahurirahoga O
+ekirikuguzibwa O
+. O
+
+Aine O
+nashaba O
+omushara O
+gwe O
+. O
+
+Abahagizi O
+b'ab'ebyobutegyeki O
+nibo O
+batandikire O
+akeeshangiringo O
+. O
+
+Gavumenti O
+eyeteekateekire O
+kwombeka O
+omwanya O
+murungiho O
+. O
+
+Turiyo O
+nitureeba O
+amahurire O
+. O
+
+Ohikire O
+nkahi O
+na O
+puraani O
+? O
+
+Puroguramu O
+za O
+gavumenti O
+zitiirweho O
+kwongyera O
+obuhereza O
+. O
+
+Ebiragiro O
+tibishemeriire O
+kuhindurwa O
+. O
+
+Abany'ishengyero O
+bashemerire O
+kugira O
+enkungano O
+z'obuteeka O
+. O
+
+Eki O
+nikyo O
+kishushani O
+kyonka O
+eki O
+twine O
+. O
+
+Okusharaho O
+kwabo O
+okuri O
+kushembayo O
+kwaba O
+kuri O
+ki O
+. O
+
+Obusingye O
+omu O
+ihanga O
+ryaitu O
+bushenzashenzire O
+ba O
+invesita O
+kuruga O
+aheeru O
+. O
+
+Meeya O
+wa O
+site O
+oronzirwe O
+busya O
+nooha O
+? O
+
+Abashaija O
+bagyenzi O
+baitu O
+tibari O
+kutuha O
+kitiinisa O
+. O
+
+Abantu O
+abamwe O
+babaire O
+nibagamba O
+aha O
+baana O
+bataano O
+abarugire O
+kwitwa O
+. O
+
+Omusinguzi O
+niwe O
+araakwate O
+ebendera O
+y'ekibiina O
+omu O
+karuuru O
+ka O
+purezidenti O
+akarikwija O
+. O
+
+Omugasho O
+gw'ebyobuhingi O
+aha O
+minyeeto O
+guhamiibwe O
+. O
+
+Abakye O
+aha O
+bari O
+kuteekwateekwaho O
+okuruga O
+omukyikosi O
+kyenkozi O
+zebiri O
+kuhenda O
+ebiragyiro O
+bakwatsirwe O
+. O
+
+Omushango O
+gumwe O
+ogurikuteekateekwaho O
+gwa O
+omushwija O
+bashangiire O
+gutari O
+kuturira O
+. O
+
+Omufu O
+akaba O
+yashabire O
+ngu O
+bamuziike O
+aha O
+kasiisira O
+. O
+
+Tukarekwa O
+tutaine O
+butuuro O
+bwayima O
+y'orukiiko O
+kusheenya O
+enju O
+zaitu O
+. O
+
+Abakozi O
+abarikurenga O
+makumi O
+ataano O
+beemereziibwe O
+. O
+
+Kikaba O
+kiri O
+kigyendererwa O
+ki O
+okwihaho O
+ekomo O
+aha O
+kihandiko O
+eky'emyaka O
+. O
+
+Ariyo O
+naatukyerereza O
+akigyenderiire O
+. O
+
+Ebyabaireho O
+bikagambwa O
+omunyamateeka O
+omwe O
+. O
+
+Abantu O
+bakateerwa O
+omwika O
+ogurikuryaryata O
+. O
+
+Abantu O
+bashagiziibwe O
+munonga O
+. O
+
+Abakozi O
+bingi O
+bakaguma O
+nibafa O
+omu O
+kwombeka O
+orutindo O
+. O
+
+Omunyamakuru O
+akatugambira O
+aha O
+byabaireho O
+obu O
+ab'ebyobutegyeki O
+barwana O
+. O
+
+Ebigambo O
+bye O
+tibirikuntinisa O
+. O
+
+Bizineesi O
+ya O
+inshuwareensi O
+nekorera O
+kimwe O
+ebiro O
+ebi O
+. O
+
+Akakwatirwa O
+okwebembera O
+akeesharingo O
+. O
+
+Ekibiina O
+kyabo O
+nikyo O
+kirikukizayo O
+amaani O
+omu O
+bibiina O
+byona O
+by'obutegyeki O
+ebirikuhabura O
+gavumenti O
+. O
+
+Naarwara O
+entsigo O
+. O
+
+Akwatsirwe O
+ahabw'okuvugisa O
+ekimama O
+. O
+
+Agambire O
+abantu O
+b'amaani O
+omu O
+ihanga O
+eri O
+. O
+
+Eriigyenda O
+, O
+abakazi O
+nibeetaba O
+omu O
+mizaano O
+y'emiringo O
+mingi O
+. O
+
+Ebiteekateeko O
+kuruga O
+omuri O
+bamwe O
+omu O
+bebembezi O
+tibiraikiriziibwe O
+. O
+
+Akaburwaho O
+ebintu O
+bye O
+byona O
+ababiire O
+barikumubanja O
+. O
+
+Omutendeki O
+wa O
+tiimu O
+akakora O
+n'amaani O
+maingi O
+kutunguura O
+omutindo O
+gw'abazaani O
+be O
+. O
+
+Muriranwa O
+wangye O
+atahiriire O
+eitaka O
+ryangye O
+. O
+
+Abahingi O
+b'ebikwijo O
+barashanga O
+emirabanamu O
+nyingi O
+. O
+
+Buri O
+omwe O
+akeetwa O
+omu O
+mukoro O
+. O
+
+Bakaba O
+batarikumanwa O
+. O
+
+Abanyeishengero O
+barajwekyera O
+abateezi O
+b'akaruru O
+omu O
+ishengero O
+. O
+
+Nkarekurira O
+ahabw'okushashurwa O
+sente O
+nkye O
+. O
+
+Tufereirwe O
+esente O
+nyingi O
+omumyaka O
+eyenyimaho O
+. O
+
+Obutaikirizana O
+bwona O
+babutaire O
+ahari O
+gavumenti O
+. O
+
+Omunyabiragiro O
+ahamize O
+ngu O
+okukyerererwa O
+kugarwize O
+enyima O
+emirimo O
+y'obushuubuzi O
+. O
+
+Abandi O
+bantu O
+abari O
+omu O
+mpaka O
+baine O
+kweteekateeka O
+. O
+
+Hakiriho O
+ebibuzyo O
+aha O
+muringo O
+ogu O
+yaferiremu O
+. O
+
+N'omujwekyerwa O
+w'ishengyero O
+oronzirwe O
+ahabwitware O
+ryaitu O
+. O
+
+Dibeeti O
+y'emyaka O
+y'obwa O
+purezidenti O
+akaba O
+ey'okutangaza O
+. O
+
+Amateeka O
+agu O
+bareetsire O
+garetsireho O
+ebibuuzo O
+bingi O
+. O
+
+Titutinire O
+tiimu O
+yoona O
+. O
+
+Kubabire O
+nibaza O
+aha O
+kishayi O
+ky'enyonyi O
+, O
+pooriisi O
+yaabakwata O
+. O
+
+Amashomero O
+maingi O
+ag'eby'emikono O
+gashemereire O
+kwombekwa O
+. O
+
+Omu O
+nyeishengyero O
+tashemererirwe O
+nentwaza O
+ye'kitongore O
+. O
+
+Abaheekyera O
+nibagambwa O
+kuba O
+bari O
+omu O
+mwanya O
+. O
+
+Owaahangwire O
+ekikomo O
+akashaba O
+gavumenti O
+kuguma O
+neeyamba O
+ekitongore O
+ky'eby'emizaano O
+. O
+
+Abantu O
+baingi O
+babaire O
+nibakozesa O
+ekyoma O
+kyo O
+. O
+
+Abe O
+byobutegyeki O
+borubaju O
+orurikuhakanisa O
+gavumenti O
+rushabiire O
+kurwanisa O
+ekiragiro O
+kyokwiha O
+enkomo O
+aha O
+myaka O
+ya O
+mukuru O
+w'eihanga O
+. O
+
+Nikyetenga O
+okwegyezamu O
+kw'amaani O
+kusinga O
+omuzaano O
+. O
+
+Abamwe O
+aha O
+ba O
+memba O
+beeka O
+bakaremwa O
+kushonda O
+sente O
+zokushaba O
+kwemererera O
+abanyabuzare O
+baabo O
+. O
+
+Abeebembezi O
+nibashabwa O
+kweguza O
+esente O
+kuruga O
+omunda O
+kandi O
+bazite O
+omu O
+mirimo O
+. O
+
+Enjura O
+nyingi O
+erekire O
+abantu O
+baingi O
+omu O
+myanya O
+y'omwijuzo O
+gw'abantu O
+bataine O
+bubyamo O
+. O
+
+Akakiiko O
+k'emizaano O
+kashabire O
+abakazi O
+kwetaba O
+omu O
+mpaka O
+z'ihanga O
+. O
+
+Obushuuro O
+no O
+bururwo O
+burungyi O
+bwentasa O
+. O
+
+Tibarakuratiire O
+kiragiro O
+. O
+
+Niinyija O
+kuheereza O
+eihanga O
+ntaine O
+kutiina O
+nari O
+kwitira O
+eriisho O
+. O
+
+Obumwe O
+emihendo O
+y'ebihingwa O
+eby'okuriibwa O
+neshuuma O
+. O
+
+Tushemereire O
+kushaba O
+oburingaaniza O
+. O
+
+Mugyenzi O
+we O
+naija O
+kutwarwa O
+omu O
+kooti O
+bamucwere O
+orubanja O
+. O
+
+Omukazi O
+we O
+naakunda O
+kuyomba O
+. O
+
+Kigwire O
+kutwariza O
+omukozi O
+wa O
+gavumenti O
+nk'omusibe O
+. O
+
+Banywani O
+be O
+bakamureebya O
+. O
+
+Minisiture O
+tekakozire O
+aha O
+nshonga O
+z'eby'entambura O
+. O
+
+Buri O
+munyayuganda O
+ateekwa O
+kuba O
+n'endanga O
+- O
+muntu O
+. O
+
+Omuhandiiki O
+w'ekibiina O
+ayetegire O
+kurekurira O
+. O
+
+Eishomero O
+tiritiireho O
+mpinduka O
+yoona O
+. O
+
+Tihariho O
+katare O
+ka O
+muhogo O
+. O
+
+Omwana O
+arwaire O
+. O
+
+Naayija O
+kukwatwa O
+pooriisi O
+juba O
+. O
+
+Okutunga O
+eki O
+kikaba O
+kitoorobi O
+. O
+
+Abantu O
+abaingi O
+abari O
+kutuura O
+omu O
+byaro O
+n'abooro O
+. O
+
+Abeegi O
+boona O
+bakahikira O
+omu O
+idaara O
+ry'okubanza O
+. O
+
+Abatuuragye O
+abaabingirwe O
+omu O
+itaka O
+bakabashashurwa O
+. O
+
+Tushemereire O
+kuyambagana O
+burijo O
+. O
+
+Ni O
+kirungi O
+kukora O
+puraani O
+y'okwombeka O
+otakombekire O
+. O
+
+Abasirikare O
+baketoroora O
+enju O
+ye O
+bakiinga O
+n'enguuto O
+. O
+
+Purojekiti O
+neyija O
+kuhwa O
+omu O
+bwire O
+bwa O
+haihi O
+. O
+
+Nibagamba O
+aha O
+maziina O
+gaitu O
+g'ahamuheru O
+. O
+
+Ihanga O
+tiriine O
+busingye O
+omu O
+kaire O
+aka O
+. O
+
+Kutandikira O
+ah'ishomero O
+, O
+tutwire O
+nitwijukibwa O
+okureeberera O
+ebitwehinguririize O
+. O
+
+Hariho O
+okwitwa O
+kwingi O
+ebiro O
+ebi O
+. O
+
+Barimu O
+nibeetegyereza O
+eki O
+bajumbwire O
+. O
+
+Emihendo O
+yabarwire O
+ba O
+kokoro O
+eyeyongyiire O
+omw'ihanga O
+. O
+
+Ekiteekateeko O
+tikiramazire O
+bwire O
+buraingwa O
+. O
+
+Ekyarugiriireho O
+okufa O
+kwe O
+tikikamanyirwe O
+. O
+
+Abaisi O
+tibashemereire O
+kugirirwa O
+embabazi O
+. O
+
+Biine O
+ekwatanisya O
+nungi O
+aha O
+murimo O
+. O
+
+Ripoti O
+egi O
+neeshoborora O
+gye O
+aha O
+mukoro O
+. O
+
+Owaahababiirwe O
+orubanja O
+bamurekwire O
+omu O
+kanya O
+bwanya O
+. O
+
+Abantu O
+bingi O
+bakaturugunyirwa O
+omu O
+kyombeko O
+ekyo O
+. O
+
+Baikiriziine O
+kukorera O
+hamwe O
+kumaraho O
+obukozi O
+bwa O
+bibi O
+. O
+
+Ekibarikwetaaga O
+n'obwire O
+bwonka O
+. O
+
+Bakooreka O
+ekyetengo O
+ky'okuhurirwa O
+. O
+
+Eitaka O
+rye O
+bakarimunyagaho O
+kifuba O
+. O
+
+Eihanga O
+rye O
+ni O
+ki O
+? O
+
+Ebishushani O
+tibirikwikirizibwa O
+omu O
+kicweka O
+eki O
+. O
+
+Akaba O
+yagambire O
+aha O
+bi O
+yaarabiremu O
+omu O
+magara O
+gye O
+. O
+
+Embera O
+zokuberamu O
+ni O
+mbi O
+. O
+
+Tihaine O
+munyaBurundi O
+ou O
+twabuurize O
+. O
+
+Abantu O
+bingi O
+bakeija O
+kureeba O
+omwe O
+aha O
+bakuru O
+aha O
+murimo O
+bari O
+kumukwata O
+. O
+
+Egi O
+niyo O
+nteekateeka O
+y'omunyadiini O
+. O
+
+Tariikiririize O
+mu O
+sitore O
+ye O
+erikukwata O
+aha O
+ndwara O
+. O
+
+Abeegi O
+nibateekwa O
+kwegyesibwa O
+kutandikaho O
+emirimo O
+baitu O
+kutarikugironda O
+. O
+
+Omushomi O
+weitu O
+wamahurira O
+ayiine O
+ebirikushoborora O
+. O
+
+Omu O
+kyaro O
+kyaitu O
+, O
+abanyambundu O
+abatakamanyirwe O
+barashire O
+abantu O
+babiri O
+baafeeraho O
+. O
+
+Naateeberezibwa O
+kujunaanwa O
+ogw'okwiba O
+. O
+
+Naaruga O
+omu O
+kampu O
+y'empungi O
+. O
+
+Gavumenti O
+eshemeriire O
+kugira O
+eki O
+yaakora O
+. O
+
+Hariho O
+enteekateeka O
+y'okugaruzaho O
+obuteeka O
+. O
+
+Naza O
+kuba O
+arindire O
+omu O
+kihome O
+. O
+
+Tibarikwenda O
+kukuratira O
+biragiro O
+. O
+
+Omubaro O
+gw'abantu O
+bonyini O
+abiisirwe O
+tigurikumanywa O
+. O
+
+Okubagana O
+obwengye O
+bwawe O
+n'abandi O
+nikikuza O
+entarata O
+yaawe O
+. O
+
+Orukiiko O
+tirurakuratiire O
+biragiro O
+. O
+
+Ba O
+memba O
+ba O
+guruupu O
+tibarakunzire O
+mikorere O
+. O
+
+Kampuni O
+ezirikuhagira O
+ebisiyaga O
+niziija O
+kufubirwa O
+. O
+
+Ebishare O
+by'okureeta O
+amashanyarazi O
+bicendeziibwe O
+. O
+
+Minisita O
+akatebenkanisa O
+omukoro O
+gwo O
+kusiima O
+. O
+
+Naayenda O
+kuza O
+omu O
+kweshongora O
+. O
+
+Abantu O
+tibaramuhurikiriize O
+. O
+
+Hariho O
+okuhakana O
+kw'amaani O
+ngu O
+obutingwa O
+bukaba O
+buriho O
+okukubuura O
+kutakabiireho O
+. O
+
+Ab'ekibiina O
+ekirikuhabura O
+gavumenti O
+bashabaire O
+abantu O
+obutaikirizana O
+n'ekiragiro O
+ekirimu O
+nikiteesebwaho O
+. O
+
+T'arikuruga O
+mu O
+ofiisi O
+. O
+
+Ninyetenga O
+kuza O
+kukyebeza O
+akakooko O
+ka O
+karona O
+. O
+
+Okampa O
+amaani O
+g'okuza O
+omu O
+mpaka O
+ezi O
+. O
+
+Ekizibu O
+ky'obutwa O
+kikareebwa O
+omu O
+kuperereza O
+. O
+
+Ningira O
+ngu O
+abafu O
+bashemeriire O
+kurekwa O
+kuhumura O
+omu O
+busingye O
+. O
+
+Okushaba O
+kwabo O
+nikwija O
+kugarukwamu O
+bwanyima O
+. O
+
+Okushomesa O
+abantu O
+ti O
+murimo O
+gworobi O
+. O
+
+Enyamishwa O
+nyingi O
+omu O
+faamu O
+zikafa O
+omu O
+kyanda O
+. O
+
+Kampuni O
+ekatwariza O
+kubi O
+abakozi O
+. O
+
+Eminyeeto O
+nibo O
+beebembezi O
+b'eihanga O
+ryaitu O
+aba O
+nyensya O
+. O
+
+Abamateeka O
+abamwe O
+tibarikiriziine O
+n'ekitenso O
+kye O
+. O
+
+Tibaraizire O
+aha O
+kuhurikiriza O
+omushango O
+ahabw'okuba O
+hakaba O
+hatariho O
+bujurizi O
+. O
+
+Nitwija O
+kugyezaho O
+kampuni O
+ezindi O
+tureebe O
+zaaba O
+ziine O
+emirimo O
+. O
+
+Abantu O
+batari O
+bamwe O
+na O
+bamwe O
+nibaija O
+kuganyirwa O
+omu O
+purogyekiti O
+. O
+
+Gavumenti O
+etungwire O
+sekita O
+ya O
+dayare O
+. O
+
+Nitwija O
+kuba O
+twashashurira O
+ebibi O
+bye O
+yaaheeza O
+ati O
+kugaruka O
+. O
+
+Bamazire O
+omushomo O
+. O
+
+Oruteerane O
+rukashabiira O
+omunyeishengyero O
+. O
+
+Ni O
+barungi O
+omu O
+muzaano O
+ogwo O
+. O
+
+Abantu O
+abamwe O
+bakaruga O
+omu O
+kibiina O
+ky'obutegyeki O
+. O
+
+Hakaba O
+hariho O
+omupiira O
+gw'ebigyere O
+ogwa O
+Yunivasite O
+. O
+
+Ekizibu O
+ekihango O
+ekirikuremesa O
+amakorero O
+ni O
+amashanyarazi O
+hamwe O
+n'amaizi O
+makye O
+. O
+
+Ekyasharwamu O
+kyareka O
+baingi O
+bashobeirwe O
+. O
+
+Pooriisi O
+eraganiise O
+kutaho O
+eby'okwerinda O
+by'amaani O
+omu O
+kwetebekanisiza O
+oburuuru O
+. O
+
+Pooriisi O
+ekaba O
+eine O
+kurwanisa O
+akeeshaaringo O
+. O
+
+Abahingi O
+/ O
+abatungi O
+abaingi O
+tibarikurya O
+ebi O
+beehingiire O
+/ O
+beetungiire O
+. O
+
+Entaro O
+z'enganda O
+nizo O
+zirikureeta O
+obutakwatanisa O
+. O
+
+Okujaguza O
+nikubaho O
+omu O
+bwire O
+ahu O
+ebyetengo O
+by'abantu O
+ebya O
+butoosha O
+bitarikureebeka O
+. O
+
+Emibazi O
+emwe O
+eine O
+ebi O
+erikushiisha O
+aha O
+mubiri O
+. O
+
+Bakaba O
+bashemerirwe O
+ahabw'omuringo O
+musya O
+gokutera O
+akaruru O
+. O
+
+Obwahati O
+, O
+abagurusi O
+n'abakaikuru O
+baine O
+omujwekyerwa O
+omu O
+ishengyero O
+ry'eihanga O
+. O
+
+Boona O
+nibashagika O
+ekiragiro O
+ekisya O
+. O
+
+Abaramuzi O
+nibaza O
+kuhebwa O
+oburaaro O
+. O
+
+Entaro O
+nizirugamu O
+okufeerwa O
+abantu O
+n'ebintu O
+. O
+
+Abany'eihanga O
+bariyo O
+nibesharinga O
+ahabw'ekiragiro O
+ekirabibwemu O
+. O
+
+Owaabaire O
+naateeketeekwaho O
+akashashurira O
+obugabe O
+bwe O
+. O
+
+Bashemeriire O
+kufubirwa O
+. O
+
+Abantu O
+baingi O
+bakaba O
+nibahakanisa O
+ekiteekateeko O
+kuruga O
+aha O
+kutandika O
+. O
+
+Enyigi O
+z'ekyoma O
+zigumire O
+kukira O
+ez'ebiti O
+. O
+
+Ekibiina O
+ky'obutegyeki O
+tikirasingire O
+karuuru O
+. O
+
+Abeebembezi O
+nibaza O
+kureeba O
+ahu O
+enteekateeka O
+yaahika O
+. O
+
+Abazaire O
+bakiine O
+amatsiko O
+ngu O
+nibaza O
+kubona O
+omutabani O
+. O
+
+Gavumenti O
+eshemerire O
+kureeba O
+omuhendo O
+gwebyamaguzi O
+ebiri O
+kuguzibwa O
+. O
+
+Abantu O
+bingi O
+tibemeriire O
+gye O
+omu O
+bya O
+sente O
+. O
+
+Ekyombeko O
+kisya O
+ekirimu O
+ofiisi O
+z'abeebembezi O
+kyombekirwe O
+aha O
+yunivaasite O
+. O
+
+Akaba O
+atari O
+wenka O
+. O
+
+Kampuni O
+egizire O
+orukiiko O
+rw'abebembezi O
+abakuru O
+. O
+
+Atungire O
+ekindi O
+kintu O
+/ O
+Atungire O
+bundi O
+buhanguzi O
+. O
+
+Nkabagye O
+ku O
+naamizire O
+emibazi O
+yangye O
+. O
+
+Tinyine O
+sente O
+z'enshagi O
+ezasigaraho O
+z'okushohoza O
+. O
+
+Okwombeka O
+omwanya O
+gw'ekijusyo O
+nikigashaki O
+? O
+
+Habarho O
+okweyongyera O
+kw'okutimba O
+omusheenyi O
+. O
+
+Murekye O
+abanyamahurire O
+b'egambeho O
+. O
+
+Obwahati O
+, O
+hariho O
+kampuni O
+z'eby'okwerinda O
+ez'abantu O
+buntu O
+omu O
+ihanga O
+. O
+
+Omurwire O
+akaheebwa O
+emibazi O
+ehwireyo O
+obunaku O
+. O
+
+Ekibiina O
+ky'eby'obwebembezi O
+kiriyo O
+nikikora O
+kwihaho O
+okuhayahayana O
+? O
+
+Ab'ebiragiro O
+bahajine O
+aha O
+kiragiro O
+ekisya O
+. O
+
+Okutahamu O
+kukerekwa O
+omuhwezi O
+omukuru O
+wa O
+mukuru O
+w'eihanga O
+. O
+
+Omurimo O
+gw'akakiiko O
+k'ishengyero O
+ni O
+guuha O
+? O
+
+Okwebeera O
+ow'amazima O
+ni O
+kikuru O
+. O
+
+Ninyija O
+kutwara O
+motoka O
+yangye O
+omu O
+garagi O
+. O
+
+Eikorero O
+rya O
+shukaari O
+niriza O
+kuheereza O
+abatuuragye O
+emirimo O
+. O
+
+Munyaanyazi O
+n'omwe O
+aha O
+baserukare O
+abarikutendekwa O
+. O
+
+Enkozi O
+z'ebibi O
+ezirikuteekwateekwaho O
+ziriyo O
+nizicondoozibwa O
+. O
+
+Oruguuto O
+orukye O
+ruriyo O
+nirukorwa O
+. O
+
+Akaba O
+ari O
+mutabani O
+wa O
+Lekikyara O
+. O
+
+Abantu O
+bingi O
+bahandikire O
+ebitabo O
+aha O
+kwombeka O
+kw'oruguuto O
+rw'egaari O
+y'omwika O
+. O
+
+T'araije O
+mu O
+rukiiko O
+. O
+
+Abanyeishengyero O
+bakyasibirwe O
+. O
+
+Ebibiina O
+ebirikubiika O
+sente O
+ni O
+bingi O
+omu O
+disiturikiti O
+yaitu O
+. O
+
+omutindo O
+gw'obuhereza O
+bwa O
+gavumenti O
+gutunguukire O
+. O
+
+Ekitongore O
+kyehaireyo O
+kwongyeramu O
+amaani O
+omu O
+by'amagara O
+. O
+
+Tiimu O
+zirimu O
+abashaija O
+n'abakazi O
+. O
+
+Abantu O
+bingi O
+tibarashemereirwe O
+ahabwa O
+ebyarugiire O
+omu O
+bibuzo O
+. O
+
+Ebibiina O
+by'eby'obutegyeki O
+eby'orubaju O
+oruhakani O
+biferiirwe O
+abahagizi O
+. O
+
+Hariho O
+okwehayo O
+kuronda O
+omwanya O
+gwa O
+ofiisi O
+enkuru O
+ogw'obutwire O
+. O
+
+Twine O
+ebibuuzo O
+bingi O
+ebirikwenda O
+ebigarukwamu O
+. O
+
+Akashoborora O
+oku O
+burikimwe O
+kyabiireho O
+. O
+
+Emigisha O
+neeruga O
+ahari O
+Ruhanga O
+. O
+
+Obwingi O
+bw'abantu O
+nibwo O
+burugirireho O
+enshohoza O
+mpango O
+. O
+
+Tiimu O
+neeyenda O
+kutayaayira O
+abantu O
+boona O
+omu O
+kyanga O
+. O
+
+Omwebembezi O
+akabingwa O
+omu O
+ofiisi O
+ekitaraariire O
+. O
+
+Minisita O
+arabwire O
+abakozi O
+omu O
+ofiisi O
+kwerinda O
+okukora O
+binkwatire O
+ki O
+omu O
+dipatimenti O
+zaabo O
+. O
+
+Emikorere O
+yaabo O
+erimu O
+neebanganisibwa O
+. O
+
+Abanyamahurire O
+hati O
+nibatiina O
+kukwata O
+abeesharingi O
+. O
+
+Abantu O
+baingi O
+nibakunda O
+kuhurikiza O
+okugamba O
+kwa O
+mukuru O
+weihanga O
+. O
+
+Reeka O
+ayije O
+ashobororere O
+ab'ebiragiro O
+. O
+
+Purojekiti O
+eyemereziibwe O
+. O
+
+Akakungu O
+k'eminyeeto O
+nikenda O
+omwebembezi O
+ondiijo O
+. O
+
+Hakaba O
+hariho O
+ekyetengo O
+kumanya O
+oku O
+barikukikora O
+. O
+
+Abaganda O
+tibo O
+boonka O
+abaabiire O
+nibamanywa O
+nka O
+abaabiire O
+nibejumbira O
+omu O
+bikorwa O
+by'obutingwa O
+. O
+
+N'omutendeeki O
+aha O
+Yunivasite O
+. O
+
+Oshemereire O
+kutekateka O
+kataayayira O
+ekibuga O
+. O
+
+Mutabani O
+wangye O
+omukuru O
+akaba O
+ari O
+mukuru O
+w'abaheekyera O
+abaatiire O
+ekyaro O
+. O
+
+Nibiija O
+kuhayo O
+okushaba O
+kwabo O
+omu O
+ishengyero O
+. O
+
+Omubiiki O
+naateekwa O
+kuba O
+ayine O
+obujunanizibwa O
+n'obwesigwa O
+. O
+
+Ebimwe O
+aha O
+by'amaguzi O
+nibiihwa O
+omu O
+nsi O
+ezindi O
+. O
+
+Empaka O
+niziza O
+kuba O
+ziri O
+ahagati O
+y'amashomero O
+. O
+
+Omushaki O
+w'amakuru O
+aine O
+bingi O
+ebirikukwata O
+aha O
+birikugyenda O
+omumaisho O
+. O
+
+Abavugi O
+ba O
+tureera O
+nibareeta O
+butandu O
+aha O
+nguuto O
+. O
+
+Tatento O
+akasinga O
+empaka O
+z'okwibira O
+. O
+
+Omushaija O
+wangye O
+nanye O
+, O
+tukashangana O
+ahari O
+kyakiro O
+. O
+
+Ekihandiiko O
+kye O
+kikaba O
+kitahikire O
+. O
+
+Obujunaanizibwa O
+bw'akakiiko O
+n'okumaraho O
+okushoroora O
+omu O
+bantu O
+hamwe O
+n'obutaingana O
+omu O
+bantu O
+. O
+. O
+
+Mukuru O
+w'ekibiina O
+ky'eby'obutegyeki O
+ekirikuhabura O
+gavumenti O
+ayeshaaringire O
+ahabw'oburi O
+bw'enguzi O
+n'eibura O
+ry'emirimo O
+omu O
+minyeeto O
+. O
+
+Ahahwaireho O
+, O
+abaana O
+babiri O
+bakaitwa O
+ekiirukano O
+ahabw'oburofa O
+. O
+
+Ekibonerezo O
+kikabaheebwa O
+bwanyima O
+ya O
+bombi O
+kwikiriza O
+orubanja O
+oru O
+baakozire O
+. O
+
+Omuvugi O
+w'egaari O
+akeegyesa O
+abantu O
+oku O
+barikukora O
+egaari O
+omu O
+migano O
+. O
+
+Akakungu O
+k'abeshongozi O
+koona O
+kakatandika O
+kurwara O
+bwanyima O
+y'omworeko O
+. O
+
+Endwara O
+ya O
+sickle O
+cell O
+teine O
+mubazi O
+. O
+
+Aha O
+pooriisi O
+, O
+hariho O
+emishango O
+mingi O
+ekwatireine O
+n'obwanyineitaka O
+. O
+
+Kampuni O
+neyokuronda O
+omukozi O
+ondiijo O
+. O
+
+Tiimu O
+t'erabaasize O
+kuhika O
+aha O
+muzaano O
+. O
+
+Abahagizi O
+b'omupira O
+abamwe O
+nibakunda O
+omuzaano O
+bakwatirayo O
+. O
+
+Ebiraruge O
+omu O
+bigyezo O
+ebirikwija O
+nibyija O
+kutwazibwa O
+omu O
+muringo O
+gw'omutaano O
+. O
+
+Bakashangwa O
+biine O
+orubanja O
+. O
+
+Buri O
+kitongore O
+kya O
+gavumenti O
+nikwo O
+kishemereire O
+kutwaza O
+. O
+
+Abashomesa O
+baremireho O
+ngu O
+engyenderwaho O
+yokwegyesa O
+terikuyamaba O
+abeegi O
+. O
+
+Ekerezia O
+yaashohoza O
+egyenderwaho O
+y'okuziika O
+omufu O
+. O
+
+akahereza O
+obuhame O
+bwona O
+obwabaire O
+nibwetagisa O
+. O
+
+Eishengyero O
+rishemereire O
+kutaaha O
+omu O
+nshonga O
+. O
+
+Amutebiize O
+sitore O
+yoona O
+. O
+
+Ekibiia O
+ky'obutegyeki O
+ekirikwebembera O
+kyamara O
+emyaka O
+mingi O
+omu O
+bwebembezi O
+. O
+
+Ab'ebiragiro O
+abakuru O
+biine O
+abakuumi O
+baabo O
+. O
+
+Empungi O
+nizireebererwa O
+eihanga O
+erizirikuturamu O
+. O
+
+N'omurimo O
+gw'abebembezi O
+b'ediini O
+kuhabura O
+abandi O
+bebembezi O
+. O
+
+Abahingi O
+b'omwani O
+beegyesibwe O
+emiringo O
+misya O
+y'okubayamba O
+kutunga O
+emisharuuro O
+mirungi O
+. O
+
+Omu O
+ihanga O
+ryaitu O
+, O
+abakazi O
+nibakunda O
+kuzaana O
+omupiira O
+gw'engaro O
+. O
+
+Okwombeka O
+orutindo O
+kuri O
+haihi O
+kuhwa O
+. O
+
+Za O
+banka O
+nizihora O
+abantu O
+sente O
+abaine O
+eby'okusingayo O
+. O
+
+Abazaani O
+abarungi O
+bakasiimwa O
+n'emidaari O
+ya O
+zaabu O
+. O
+
+Tushemereire O
+kukorera O
+hamwe O
+kurwanisa O
+obushomankuzi O
+. O
+
+Abarikurwanira O
+obusingye O
+bw'abantu O
+nibakora O
+ki O
+? O
+
+Emboga O
+zibingirwe O
+omu O
+katare O
+. O
+
+Ba O
+ishenkuru O
+bakafeera O
+omu O
+rutaro O
+. O
+
+Omutindo O
+gw'eby'okwerinda O
+obwahati O
+nigubangaanisibwa O
+. O
+
+Orukiiko O
+rukarekura O
+emirimo O
+ahabw'okuhwamu O
+amaani O
+. O
+
+Hariho O
+eby'okwerinda O
+by'amaani O
+ah'eishengyero O
+. O
+
+Abarikuteekateekwaho O
+tibashemereire O
+kubonabonesibwa O
+. O
+
+Nayenda O
+kumanya O
+enteekateeka O
+yabo O
+aha O
+shonga O
+. O
+
+Nituza O
+kugira O
+orukiiko O
+n'abantu O
+abaine O
+za O
+sheya O
+. O
+
+Bakuru O
+b'eby'okwerinda O
+bakwasire O
+abantu O
+bingi O
+. O
+
+Omuhandiki O
+wekitongore O
+takagambire O
+aha O
+nshonga O
+egyo O
+. O
+
+Abakoozi O
+abatari O
+b'enkizo O
+tibarikwirizibwe O
+aha O
+muriimo O
+. O
+
+Empaka O
+ez'omurundi O
+gwa O
+mwenda O
+zeejumbirwemu O
+abazaani O
+bato O
+baingi O
+. O
+
+Ebihagaro O
+nibiija O
+kurwanisibwa O
+hamwe O
+. O
+
+Bakakora O
+hamwe O
+kuhikiiriza O
+ekigyendererwa O
+kimwe O
+. O
+
+Abazeire O
+bamwe O
+tibiine O
+sente O
+okugura O
+ebyokweyonja O
+kwa O
+baabo O
+bo O
+buhara O
+. O
+
+Abany'eishengyero O
+tibashemerereirwe O
+omuringo O
+ogu O
+baatwarizemu O
+bagyenzi O
+baabo O
+. O
+
+Abeegi O
+nibeenda O
+emyanya O
+mirungi O
+y'okwegyeramu O
+kushoma O
+kurungi O
+. O
+
+Abaziire O
+tibari O
+kwefuuza O
+obutabiika O
+esente O
+eziri O
+kumara O
+eze O
+bishare O
+by'eishomero O
+. O
+
+Amajuta O
+n'eky'obuguzi O
+bwingi O
+omu O
+by'obushuubuzi O
+omunsi O
+yoona O
+. O
+
+Baingi O
+aha O
+bakiiki O
+baishengyero O
+tibarabaasize O
+kuza O
+omu O
+rukiiko O
+. O
+
+Abantu O
+omu O
+mbaga O
+tibarikiriziibwe O
+kugaanira O
+hamwe O
+. O
+
+Tukagamba O
+aha O
+shonga O
+omu O
+bwire O
+butari O
+bwa O
+haare O
+. O
+
+Abarikushagika O
+abakiiki O
+b'eishengyero O
+bakateerwa O
+kandi O
+baasibwa O
+. O
+
+Abantu O
+barikurenga O
+igana O
+bakaitwa O
+abaitsi O
+. O
+
+Abe O
+kitongore O
+kya O
+gavumenti O
+ekirikukwatisa O
+ebiragiro O
+baraza O
+kukoora O
+okuchondoza O
+okwaabo O
+omumushango O
+. O
+
+Amaduuka O
+gaine O
+eby'okukomamu O
+ebintu O
+eby'emiringo O
+mingi O
+. O
+
+Amaizi O
+ni O
+kikuru O
+munonga O
+aha O
+magara O
+g'abantu O
+omunsi O
+yoona O
+. O
+
+Ekibiina O
+ekirikuhahabura O
+gavumenti O
+kigumaire O
+nikitoranwa O
+aha O
+myanya O
+y'ahaiguru O
+omu O
+kibiina O
+. O
+
+Nkahereza O
+ekihuumuro O
+owa O
+mawenkuru O
+. O
+
+Ebyokurya O
+birungi O
+by'abaana O
+ebirikukirayo O
+oburungi O
+ni O
+biiha O
+? O
+
+Tiimu O
+n'eza O
+kwetaba O
+omu O
+mpaka O
+z'omupiira O
+gw'ebigyera O
+erizirikwija O
+. O
+
+Okumara O
+obwire O
+buraingwa O
+, O
+amahe O
+gatwire O
+nigajunaanwa O
+ogw'okubonabonesa O
+abatuuragye O
+aha O
+nyanja O
+. O
+
+Buri O
+omwe O
+omu O
+nsi O
+nabaasa O
+kua O
+eshaaha O
+yoona O
+. O
+
+Omwebembezi O
+ahaire O
+abatuuzi O
+eby'okugyenderaho O
+. O
+
+Tiharimu O
+ebishushani O
+omukatabo O
+ko O
+komugane O
+. O
+
+Eki O
+kibaireho O
+bwanyima O
+y'okurondwa O
+kuza O
+aha O
+kakiiko O
+k'omuzaano O
+gw'ensi O
+yoona O
+. O
+
+Obwebembezi O
+bwe O
+bukabamu O
+ebirungi O
+bingi O
+. O
+
+Naha O
+mwitsyo O
+gwe O
+gw'ahamuheru O
+, O
+akaba O
+naakimukunda O
+. O
+
+Eriigyenda O
+naagamba O
+aha O
+mbeera O
+y'ekitongore O
+ky'eby'obuhingi O
+
+Omuhendo O
+gw'abantu O
+abarikwitwa O
+akakooko O
+ka O
+sirimu O
+gukyendeire O
+omu O
+ihanga O
+. O
+
+Orikuperereza O
+amanyiisea O
+ab'ebyokwerinda O
+ebihagaro O
+bwabo O
+. O
+
+Akakiiko O
+k'ekyaro O
+katebekaniise O
+empaka O
+z'omupiira O
+gw'ebigyere O
+, O
+ez'eminyeeto O
+. O
+
+Ebintu O
+ebirikukoresa O
+amashaanyarazi O
+nibigurwa O
+aheeru O
+bireetwa O
+omu O
+ihanga O
+ryaitu O
+. O
+
+Abeebembezi O
+bataayaayiire O
+ekyanga O
+bataikiriziibwe O
+. O
+
+Obwegyese O
+bw'ihanga O
+tibwine O
+kakwate O
+n'emicwe O
+n'obuhangwa O
+by'ihanga O
+. O
+
+Abeegi O
+ba O
+univasite O
+besharingire O
+ahabwa O
+okwongyera O
+emihendo O
+yebishare O
+. O
+
+Ebibuuzo O
+ni O
+bingi O
+kwonka O
+eby'okugarukamu O
+haabyo O
+. O
+
+Oruguuto O
+rw'egaari O
+y'omwika O
+rukayamba O
+kwihaho O
+obuhuuku O
+ahabw'okwihaho O
+ekyetaago O
+ky'abahuuku O
+. O
+
+Ekitongore O
+ekyo O
+nikyikora O
+kita O
+. O
+
+Abeebembezi O
+baheereize O
+obwengye O
+bw'okutuubya O
+obworo O
+. O
+
+Embuga O
+zamateka O
+tizikashazireho O
+. O
+
+Gavumenti O
+teshemereire O
+kwegamira O
+obujurizi O
+bugwire O
+. O
+
+Disiturikiti O
+ensya O
+nizija O
+kutunga O
+Abebembezi O
+basya O
+. O
+
+Kampuni O
+neeronda O
+abaana O
+bato O
+kubata O
+omu O
+bikorwa O
+by'okusiyaga O
+. O
+
+Kampuni O
+neehikiirira O
+eminyeeto O
+kurabira O
+omu O
+muzaano O
+gw'omupiira O
+. O
+
+Omubaro O
+gw'abutandu O
+z'ahanguuto O
+gweyongiire O
+. O
+
+Orwo O
+ruguudo O
+tirushemeire O
+na O
+kakye O
+. O
+
+Mukuru O
+w'eihanga O
+araza O
+kugamba O
+ah O
+by'okwerinda O
+omu O
+ihanga O
+. O
+
+Ni O
+ki O
+eki O
+orikwenda O
+ngu O
+oijukirwaho O
+? O
+. O
+
+Omunyamakuru O
+naija O
+kukugambira O
+amakuru O
+agarikusingaho O
+. O
+
+Orutindo O
+nirwingana O
+oburaingwa O
+bwa O
+mita O
+bitaano O
+abiri O
+n'eitaano O
+. O
+
+Obwesharingo O
+omu O
+bajubi O
+bukeeyongyera O
+bwanyima O
+y'okuteeberezibwa O
+ngu O
+akabonabonesibwa O
+. O
+
+Bakaza O
+omu O
+mwanya O
+gw'empungyi O
+. O
+
+Ekitongore O
+nikikwata O
+, O
+kihamba O
+kandi O
+kitaahirira O
+abantu O
+. O
+
+Mukuru O
+w'entebe O
+akahandiikira O
+omwebebezi O
+wa O
+disiturikiti O
+, O
+kwonka O
+taragarukiremu O
+. O
+
+Omuhereza O
+w'amahurire O
+akashanga O
+omwebembezi O
+aha O
+kishayi O
+kimwe O
+. O
+
+Omwebembezi O
+w'eishomero O
+omusya O
+naayenda O
+eishomero O
+kugaruka O
+omu O
+mbeera O
+ei O
+ryabaire O
+ririmu O
+. O
+
+Obutatambura O
+bukatebwa O
+aha O
+nte O
+omu O
+bicweka O
+bimwe O
+by'eihanga O
+. O
+
+Abeegi O
+abamwe O
+nibakozesibwa O
+abashomesa O
+omu O
+by'omubonano O
+aha O
+ishomero O
+. O
+
+Twerarikiriire O
+. O
+
+Ibanyi O
+n'omusaveya O
+. O
+
+Abantu O
+bingi O
+nibegomba O
+ekibiina O
+ky'eihanga O
+. O
+
+Abatendeki O
+abamwe O
+nibashashurwa O
+sente O
+nkye O
+wagyeranisa O
+n'abandi O
+. O
+
+Akatwarwa O
+omu O
+irwariro O
+ari O
+omu O
+mbeera O
+mbi O
+. O
+
+Akaruuru O
+ka O
+purayimare O
+kari O
+haihi O
+kutandika O
+. O
+
+Ebitongore O
+ebimwe O
+biine O
+obushengye O
+bwokukoreramu O
+aha O
+kizimbe O
+nikyo O
+kimwe O
+. O
+
+Omwembebezi O
+w'eby'okwerinda O
+akahutaazibwa O
+ondijo O
+mushaija O
+. O
+
+Hariho O
+ab'ombeki O
+abaine O
+obukugu O
+. O
+
+Akoreeka O
+obushagiki O
+bwe O
+aha O
+mpinduka O
+eyagambirweho O
+. O
+
+Akaikiriza O
+ebikorwa O
+byabo O
+. O
+
+Eshonga O
+ekakorwaho O
+omu O
+rukiiko O
+. O
+
+Obumwe O
+gavumentu O
+neeshaba O
+obuhabuzi O
+omu O
+b'ebembezi O
+b'amadiini O
+. O
+
+Hariho O
+abantu O
+bakye O
+abaine O
+eby'obugaiga O
+. O
+
+Naza O
+kuguma O
+nayijukwa O
+. O
+
+Eiteeka O
+rya O
+kooti O
+ribiire O
+niriragiira O
+okumukwata O
+. O
+
+Ekiro O
+ky'okurekurwa O
+kw'ow'ebiragiro O
+tikirikumanywa O
+. O
+
+Titurikuheebwa O
+mugisha O
+gw'okugamba O
+ekituri O
+aha O
+mutima O
+. O
+
+Akooherezibwa O
+eihanga O
+rye O
+. O
+
+Abaana O
+abaingi O
+nibarwara O
+endwara O
+zirikureetwaho O
+obujama O
+. O
+
+Ebyarugiremu O
+bikatwarwa O
+omu O
+eishengyero O
+ry'eihanga O
+. O
+
+Ekitongore O
+kya O
+gavumenti O
+ekirikukwatisa O
+ebiragiro O
+kikakozesa O
+amaani O
+okutatanya O
+abesharingi O
+. O
+
+Naaza O
+kukugambira O
+ebiri O
+kumukwataho O
+. O
+
+Gavumenti O
+eshumbushire O
+abantu O
+abafeereirwe O
+eitaka O
+ryabo O
+omu O
+kuhangusya O
+orukuuto O
+. O
+
+Akaba O
+ari O
+omutegyeki O
+emanzi O
+. O
+
+Omutabani O
+ashemeriire O
+kumuza O
+omu O
+bigyere O
+. O
+
+Baba O
+bari O
+aha O
+murimo O
+, O
+abapooriisi O
+bashemeriire O
+kujwara O
+yunifomu O
+. O
+
+Baasi O
+ahiziri O
+kuhikira O
+nakuruga O
+nihahenda O
+ebirikwetagisa O
+omu O
+kwerinda O
+hamwe O
+nokuutura O
+. O
+
+Bakabaasa O
+kutereeza O
+emihondano O
+omu O
+busingye O
+. O
+
+Tata O
+akata O
+akasiimo O
+ke O
+k'okuhuumura O
+omu O
+kutunga O
+wakame O
+. O
+
+Akabuuzibwa O
+aha O
+tiivi O
+y'eihanga O
+. O
+
+Buriizooba O
+nitusharaho O
+eki O
+turikwenda O
+omu O
+magara O
+gaitu O
+. O
+
+Amakuru O
+aga O
+goona O
+gagwire O
+. O
+
+Bamwe O
+omu O
+banyamakuru O
+baitu O
+baakwatwa O
+. O
+
+Akarwanirira O
+obusingye O
+omu O
+ihanga O
+. O
+
+Okusingwa O
+kwe O
+kukamugaruza O
+ahansi O
+. O
+
+Abarikukora O
+hamwe O
+nibaza O
+kureeba O
+eshonga O
+zeitaaka O
+. O
+
+Ningira O
+tihariho O
+ekyetengo O
+ky'omwebembezi O
+w'eihanga O
+kutendeka O
+omuhunguzi O
+. O
+
+Bakamucwera O
+orubanja O
+ataine O
+kyakozire O
+. O
+
+Ab'ebembezi O
+bamwe O
+barahagira O
+barongyera O
+amaani O
+omu O
+ndwano O
+. O
+
+Abazaani O
+abasya O
+nibataaha O
+omu O
+kishaayi O
+. O
+
+Ebyobushuubuzi O
+nibiza O
+kubasika O
+ku O
+ebyokukozesa O
+birareebeke O
+. O
+
+Omushango O
+gukatwarwa O
+omu O
+mbuga O
+z'amateka O
+enkuru O
+. O
+
+Sitore O
+ekashobororwa O
+omu O
+bwijwire O
+. O
+
+Nitwija O
+kureeba O
+ekibaireho O
+omu O
+makuru O
+ga O
+shaha O
+ishatu O
+nyencakare O
+. O
+
+Tihaine O
+muntu O
+owahandiikire O
+ebiribyo O
+aha O
+wabiire O
+ari O
+omutegyeki O
+. O
+
+Nituza O
+kubareetera O
+bingi O
+ebirikukwata O
+aha O
+muhandiiki O
+. O
+
+Akabagambiira O
+kushashura O
+esente O
+zenju O
+omubwire O
+. O
+
+Abaturagye O
+nibagira O
+ngu O
+pooriisi O
+erimu O
+n'ebarinda O
+enkozi O
+z'ebibi O
+. O
+
+Omubazi O
+gw'okugyema O
+nigwija O
+kuhebwa O
+abakuzire O
+omu O
+mahanga O
+agarikutunguka O
+. O
+
+Gira O
+obucureera O
+omu O
+bwire O
+bw'okushoma O
+amakuru O
+. O
+
+Omwe O
+aha O
+bakuru O
+aha O
+murimo O
+akabahabui O
+okubarikubasa O
+kutunga O
+ebaruha O
+zaabo O
+z'entuura O
+. O
+
+Hatwire O
+nihabaho O
+okukyendeera O
+omu O
+kujanjara O
+kw'oburwaire O
+. O
+
+Pooriisi O
+ekazibira O
+akeeshaaringo O
+. O
+
+Ab'ebembezi O
+b'orubaju O
+orurikuhabura O
+gavumenti O
+nibakira O
+kushaba O
+obuyamabi O
+bw'esente O
+. O
+
+Ekibiina O
+ky'eihanga O
+nikigyezaho O
+kwegyesa O
+abantu O
+boona O
+aha O
+nshonga O
+egi O
+. O
+
+Ashemereire O
+kujanjabwa O
+ahonaaho O
+. O
+
+tukore O
+ki O
+kuhwera O
+abatari O
+kwebaasa O
+? O
+
+Gavumenti O
+ehireyo O
+obuyambi O
+bwa O
+covid O
+ahari O
+bakateyamba O
+. O
+
+Abebembezi O
+ba O
+madiini O
+bakakora O
+kihango O
+omu O
+kwetegyeka O
+kw'eihanga O
+. O
+
+Kampuni O
+neeyamba O
+abantu O
+bingi O
+. O
+
+Abakazi O
+b'enda O
+nibahaburwa O
+kuza O
+kutunga O
+obuhereza O
+bw'okurebera O
+enda O
+. O
+
+Ku O
+ndikura O
+niinyenda O
+kuba O
+omuhoreereza O
+/ O
+rooya O
+. O
+
+Eby'enguuto O
+birungi O
+nibihagira O
+entunguuka O
+. O
+
+Tukakora O
+ekitwagambiirwe O
+kukora O
+. O
+
+Ebyokwombekyesa O
+n'eby'obuseere O
+. O
+
+Abembebezi O
+ba O
+univasite O
+bagizireho O
+orukiiko O
+rwokumaraho O
+okwesharinga O
+. O
+
+Abaatandika O
+n'obusinguzi O
+baasinga O
+ebicweka O
+bibiri O
+. O
+
+Nitwikiriza O
+ngu O
+Ruhanga O
+niwe O
+muhangi O
+w'ebintu O
+byona O
+. O
+
+Abeegi O
+bakaba O
+batarikwenda O
+kumuhurikiriza O
+. O
+
+Ekitongore O
+kyombekyire O
+eishomero O
+. O
+
+Ebicoori O
+ebingi O
+nibitwarwa O
+aheeru O
+. O
+
+Obuheereza O
+oburikugwera O
+orubaju O
+babushangireyo O
+. O
+
+Nibaza O
+kuba O
+nibakozesa O
+ogundi O
+muringo O
+. O
+
+Akajunaanwa O
+ahabw'obuheereza O
+bubi O
+. O
+
+Akiita O
+omushaija O
+owagyerizeho O
+kumurwanisa O
+n'omusyo O
+
+Okutimba O
+oyiro O
+kuri O
+haihi O
+kutandika O
+omu O
+bicweka O
+bimwe O
+by'eihanga O
+. O
+
+Eby'amaguzi O
+ebirikutaha O
+omu O
+ihanga O
+nibishashura O
+omushoro O
+. O
+
+Amahe O
+gakeebaganisamu O
+ahabw'eby'obutegyeki O
+. O
+
+Embuga O
+zamateeka O
+zahereza O
+okusharamu O
+. O
+
+Akeejunisa O
+egaari O
+kuza O
+omu O
+irwariro O
+kutunga O
+okuragurirwa O
+omu O
+kukingwaho O
+kw'eihanga O
+. O
+
+Akaija O
+ata O
+kuranganwa O
+? O
+
+Ayine O
+bizinesi O
+yahamukutu O
+. O
+
+Abatuuze O
+bingi O
+nibakunda O
+emizaano O
+. O
+
+Akaba O
+ari O
+hihi O
+kukora O
+busha O
+omu O
+bunaku O
+obuyamazire O
+mu O
+ofiisi O
+. O
+
+Abakozi O
+abamwe O
+bakaba O
+bakira O
+kuzina O
+barikwombeka O
+enju O
+. O
+
+Akagamba O
+naanye O
+atakagyenzire O
+. O
+
+Empapura O
+z'amahurire O
+zirimu O
+niziguzibwa O
+omu O
+ihanga O
+ryona O
+. O
+
+Enju O
+ekaba O
+eri O
+aya O
+gavumenti O
+. O
+
+Omu O
+baketi O
+egi O
+nihabiikwamu O
+ki O
+? O
+
+Abantu O
+tibaragarukiremu O
+iteeka O
+ry'okuhandiikisa O
+amasimu O
+gaabo O
+. O
+
+Ebyamahurire O
+nibyo O
+birungi O
+omu O
+kuhereza O
+nokwakiira O
+obutumwa O
+/ O
+amahurire O
+. O
+
+Taata O
+nakunda O
+kureeba O
+amahurire O
+aha O
+tiivi O
+. O
+
+Tine O
+kurinda O
+abatuuze O
+baitu O
+. O
+
+Okubuuririza O
+aha O
+kyarugiriireho O
+okufa O
+kwabo O
+tikukahweire O
+. O
+
+Ninyeenda O
+kuza O
+kweyongyerayo O
+kushoma O
+. O
+
+Turi O
+kureeba O
+amahurire O
+agari O
+kubaho O
+. O
+
+Munywani O
+waitu O
+akeesimba O
+ahabwa O
+ceeyamaani O
+w'ekyanga O
+. O
+
+Akata O
+sente O
+ze O
+zoona O
+omu O
+kugura O
+eitaka O
+. O
+
+Abashomesa O
+boona O
+beejumbire O
+omu O
+kuvuga O
+pikipiki O
+. O
+
+Abashaija O
+naabo O
+nibabaasa O
+kuba O
+engumba O
+. O
+
+Abagaiga O
+buriijo O
+nibaba O
+baine O
+kutugira O
+abakozi O
+ba O
+gavument O
+. O
+
+Ebigambo O
+bye O
+bikagaruzamu O
+eminyeeto O
+amaani O
+. O
+
+Ebibiina O
+by'obutegyeki O
+ebirikuhakanisa O
+biine O
+abajwekyerwa O
+bangahi O
+omu O
+ishengyero O
+ry'eihanga O
+? O
+
+Bakakora O
+oruteerano O
+kushomesa O
+abairuki O
+aha O
+kabi O
+k'okukoresa O
+ebitokooza O
+bwongo O
+. O
+
+Tukaganira O
+obutwabire O
+turya O
+ahamukoro O
+. O
+
+Kooti O
+nikukora O
+munonga O
+okumaraho O
+ekizibu O
+ky'enguzi O
+. O
+
+Ab'ebembezi O
+b'eby'obutegyeki O
+baine O
+kukorera O
+hamwe O
+ahabw'oburungi O
+bw'abantu O
+baabo O
+. O
+
+Okuronda O
+emundu O
+eyabuziire O
+nahati O
+kukyagyenda O
+omumaisho O
+. O
+
+Abarwaire O
+baine O
+kukuratira O
+endagiriro O
+z'abashaho O
+aha O
+mibazi O
+. O
+
+Abantu O
+abamwe O
+nibashutama O
+aha O
+nguuto O
+kushabiiriza O
+sente O
+. O
+
+Abaserukare O
+abari O
+aha O
+rutaro O
+nibakira O
+kurwara O
+emitwe O
+. O
+
+Abantu O
+baingi O
+nibaza O
+kuganyirwa O
+omu O
+nteekateeka O
+. O
+
+Abarikukora O
+hamwe O
+bagyendereire O
+kwegyesa O
+omugigi O
+omuto O
+. O
+
+Obuteeyonja O
+nikyo O
+kimwe O
+aha O
+birikureeta O
+ekiirukano O
+. O
+
+Niki O
+ekiine O
+kukorwa O
+kureeba O
+ngu O
+haabaho O
+obusingye O
+hamwe O
+n'eby'okwerinda O
+. O
+
+Owabaire O
+nabeebembera O
+akateerwa O
+amabaare O
+mpaka O
+afiire O
+. O
+
+Okuvuga O
+pikipiki O
+gubaire O
+omwoga O
+gurikureeta O
+entaasya O
+kwonka O
+kandi O
+gurikugaruza O
+enyima O
+ebyobwegyesa O
+. O
+
+Ariyo O
+naaza O
+kututekyerereza O
+sitore O
+ye O
+. O
+
+Nenki O
+ekirikwiha O
+empungi O
+omu O
+mahanga O
+gaazo O
+? O
+
+Abantu O
+baingi O
+abarikukorera O
+gavumenti O
+nibeetomboita O
+ahabw'omushaara O
+mukye O
+. O
+
+Ebyareetsire O
+okwitwa O
+biine O
+nibikyondoozibwa O
+. O
+
+Akabona O
+akasiimo O
+akarikusinga O
+. O
+
+Abantu O
+tibashemerereirwe O
+eki O
+ashaziremu O
+. O
+
+Abantu O
+abaine O
+oburema O
+baine O
+obugabe O
+nk'abandi O
+. O
+
+Abantu O
+baingi O
+nibaija O
+kutunga O
+emirimo O
+
+Hariho O
+ekyetengo O
+ky'okubuuririza O
+aha O
+nshonga O
+ezikwatireine O
+n'okufurura O
+empungi O
+. O
+
+Nihija O
+kubaho O
+okuhwera O
+kampuni O
+za O
+heeru O
+. O
+
+Abakozi O
+aha O
+kitebe O
+ekikuru O
+. O
+
+Bareetenga O
+kuhindura O
+emitwarize O
+yaabo O
+. O
+
+Omwebembezi O
+akaburaho O
+omu O
+muringo O
+ogutarikukyengyeka O
+. O
+
+Orikuteekwateekwaho O
+n'omwebembezi O
+aha O
+disiturikiti O
+. O
+
+Nikiteeberezibwa O
+ngu O
+nihaija O
+kubarukaho O
+emiriro O
+omu O
+by'ombeko O
+by'okushuburiramu O
+. O
+
+Naakora O
+n'emwe O
+aha O
+sitesheni O
+y'empurizagana O
+. O
+
+Ni O
+sente O
+zingahi O
+ezishohoreziibwe O
+omu O
+hururu O
+y'okurundana O
+sente O
+? O
+
+Enshonga O
+zaabo O
+tizitwairwe O
+nka O
+nkuru O
+. O
+
+Tinyine O
+akaunti O
+mu O
+banka O
+. O
+
+Waaba O
+oyine O
+enteekateeka O
+y'ahiiguru O
+, O
+noobaasa O
+kuteerwa O
+ahansi O
+. O
+
+Bashemereire O
+kubiikiriza O
+kuhindura O
+amateeka O
+agakwatsire O
+aha O
+bikura O
+byabo O
+. O
+
+Bakakozesa O
+sente O
+nyingi O
+omu O
+kuziika O
+. O
+
+Tiimu O
+eyeteekateekire O
+kureeba O
+emyanya O
+eine O
+amaani O
+. O
+
+Mukuru O
+w'entebe O
+akashoboororera O
+abatuuzi O
+aha O
+buremeezi O
+oburi O
+omu O
+kyaro O
+obwahati O
+. O
+
+Abakozi O
+ba O
+gavumenti O
+abaingi O
+bari O
+omu O
+mabanja O
+maingi O
+. O
+
+Aba O
+maahe O
+nibaheebwa O
+obushagiki O
+n'okwegyesibwa O
+hamwe O
+n'ebikoresebwa O
+. O
+
+Omuzaano O
+gw'omupiira O
+gw'ebigyere O
+nigwo O
+ndikukizayo O
+kukunda O
+. O
+
+Emirimo O
+ya O
+kooti O
+neekorerwa O
+aha O
+biragiro O
+. O
+
+Tinkakira O
+kurwara O
+. O
+
+Ekiragiro O
+nikinyiga O
+bamwe O
+omu O
+bantu O
+baitu O
+. O
+
+Okweyeta O
+ondiijo O
+muntu O
+kandi O
+otariwe O
+nomushango O
+. O
+
+Nookorera O
+aha O
+mbabazi O
+za O
+basirukare O
+. O
+
+Ekitongore O
+ekyo O
+nikiija O
+kutaayayisa O
+omukoro O
+. O
+
+Kasasiro O
+nyingi O
+erikuruga O
+omu O
+makorero O
+neeshiisha O
+ebyobuhangwa O
+ebitwehinguririize O
+. O
+
+Mukuru O
+wentebbe O
+ashazireho O
+okutwaro O
+ekyokwegyesa O
+engyesho O
+nemicwe O
+mu O
+nkora O
+. O
+
+Amahe O
+nigajunaanwa O
+ahabw'okuremwa O
+kuhikiiriza O
+ebiragaaniso O
+. O
+
+Obushwere O
+obumwe O
+nibumanywa O
+eihanga O
+hamwe O
+n'obundi O
+abantu O
+aba O
+burimu O
+. O
+
+Abantu O
+abamwe O
+bakahiigwa O
+nk'enyamishwa O
+. O
+
+Nihaza O
+kubaho O
+okucondooza O
+omu O
+byabaireho O
+ebyareetsire O
+okuyomba O
+omu O
+by'okwerinda O
+. O
+
+Bakooreka O
+okweraarikirira O
+aha O
+mabaruha O
+ge O
+g'eby'obwegyese O
+. O
+
+Noha O
+minisita O
+wa O
+gyeenda O
+. O
+
+Eihanga O
+niryenda O
+akaruuru O
+k'amazima O
+n'oburingaaniza O
+. O
+
+Eby'obwombeki O
+biriyo O
+nibigyenda O
+omu O
+maisho O
+mporampora O
+. O
+
+Abavugi O
+b'ebimotoka O
+by'amakara O
+nibakira O
+kupakira O
+munonga O
+ebimotoka O
+byabo O
+. O
+
+Eminyeeto O
+eshemeriire O
+kwehara O
+ebikoosi O
+. O
+
+Omunsi O
+yoona O
+, O
+abantu O
+nibatwaza O
+omu O
+miringo O
+etarikushushana O
+ku O
+harikubaho O
+akeeshaaringo O
+. O
+
+Omushago O
+gukahababwa O
+omwe O
+aha O
+banyamahurire O
+ba O
+tiivi O
+. O
+
+Ebiragiro O
+by'emirimo O
+ebimwe O
+nibinyiga O
+abakazi O
+ekirikureetera O
+bamwe O
+bareka O
+kukora O
+. O
+
+Noohandiika O
+ota O
+ekihandiiko O
+kya O
+pooriisi O
+ky'okwetomboitwa O
+? O
+
+Aine O
+amahurire O
+maingi O
+. O
+
+Akaziikwa O
+nkahe O
+? O
+
+Enshonga O
+ereetsirwe O
+abantu O
+abakwatsirweho O
+. O
+
+Abantu O
+baingi O
+bakabura O
+owaabo O
+omu O
+bwire O
+bw'orutaro O
+. O
+
+Tarikuhagira O
+ekiteekateko O
+. O
+
+Abanyabiragiro O
+bakooreka O
+obushagiki O
+bw'ekiteekateeko O
+ky'okuhayo O
+obwebembezi O
+omu O
+busingye O
+. O
+
+Okubikira O
+nyekyakare O
+nekintu O
+kirungi O
+. O
+
+Abatuuragye O
+bagarukire O
+baatandika O
+kukora O
+. O
+
+Ekizibu O
+kimwe O
+eki O
+ba O
+ofiisa O
+b'amataka O
+biine O
+ni O
+okubura O
+enkora O
+ya O
+komputa O
+y'okubiika O
+ebintu O
+byabo O
+. O
+
+Owabiire O
+nakurira O
+ekitongore O
+akaguraka O
+omu O
+kihome O
+kuhereza O
+ekibonerezo O
+kye O
+. O
+
+Eitaaka O
+ryawe O
+rikaba O
+riri O
+erya O
+zingah O
+? O
+
+Hariho O
+obugabe O
+bw'okutaaha O
+nainga O
+kushohora O
+omu O
+ihanga O
+eri O
+. O
+
+Omwebembezi O
+w'ediini O
+akombekyera O
+abantu O
+enshoberwa O
+amaju O
+mingi O
+. O
+
+Pooriisi O
+etwire O
+n'eyejumbira O
+omu O
+bikorwa O
+by'obuburi O
+bw'enguzi O
+. O
+
+Ayine O
+ebitiinisa O
+bingi O
+. O
+
+Owaabaire O
+naateekateekwaho O
+akakwatsibwa O
+abapooriisi O
+. O
+
+Amaka O
+n'ebihingwa O
+bisiisikaire O
+ahabw'enjura O
+nyingi O
+. O
+
+Okwombeka O
+oruguuto O
+rw'egaari O
+y'omwika O
+rukakyerererwa O
+. O
+
+Gubaire O
+guri O
+omworeko O
+ogw'orekiirweho O
+. O
+
+Ekiragiro O
+kya O
+kooti O
+kiine O
+kuherezebwa O
+ekitiinisa O
+. O
+
+Nimba O
+ndi O
+kukora O
+ahamurimo O
+. O
+
+Yarwana O
+aha O
+bikorwa O
+bye O
+obwo O
+ari O
+kuchwera O
+omushango O
+abandi O
+. O
+
+Akakora O
+aha O
+buzineesi O
+ya O
+ishe O
+. O
+
+Omu O
+biragiro O
+ebisya O
+, O
+tihariho O
+oshemeriire O
+kuruga O
+omu O
+disiturikiti O
+emwe O
+kuza O
+omu O
+ndiijo O
+. O
+
+Abantu O
+nibatunga O
+gavumenti O
+akakumu O
+ahabw'okubuzaho O
+abantu O
+okuriho O
+obwahati O
+. O
+
+Gavumenti O
+teine O
+kihandiiko O
+ekirikushoboorora O
+ekirikumara O
+. O
+
+Obujurizi O
+tiburikworeka O
+ngu O
+aine O
+orubanja O
+. O
+
+Akaba O
+ari O
+omushaija O
+w'amaani O
+emanzi O
+. O
+
+Harimu O
+emitwarize O
+y'obukama O
+ninga O
+obugabe O
+nyingi O
+omu'ihanga O
+. O
+
+Buri O
+omwe O
+naabaasa O
+kugira O
+amashanyarazi O
+omu O
+nju O
+ye O
+. O
+
+Ekitebyo O
+kyona O
+nikiza O
+kugambwa O
+ekiro O
+eki O
+. O
+
+Pooriisi O
+ekakwata O
+enkozi O
+z'ebihagaro O
+. O
+
+Abantu O
+tibakikoresa O
+mwaro O
+. O
+
+Gavumenti O
+yaahambwa O
+. O
+
+Oteebya O
+kushashura O
+ebishare O
+byawe O
+by'okwehandikisa O
+. O
+
+Abashuubuzi O
+abamwe O
+tibarikufayo O
+kurinda O
+eby'obuhangwa O
+. O
+
+Abari O
+kuteekateekwaho O
+kwita O
+bakatwarwa O
+omu O
+mbuga O
+z'amateeka O
+. O
+
+Ayorekire O
+obushagiki O
+bwe O
+ahari O
+ogwo O
+oyesimbireho O
+. O
+
+Mukuru O
+wekigombe O
+yayeta O
+orukiiko O
+. O
+
+Omurambwe O
+bagushangire O
+aha O
+rubaju O
+rw'omwanya O
+ogurikwombekwaho O
+. O
+
+Enyamishwa O
+ezirikutuura O
+omu O
+kishaka O
+tizikaabaho O
+zitiine O
+maizi O
+. O
+
+Guruupu O
+neekorera O
+omu O
+disiturikiti O
+ina O
+. O
+
+Dureva O
+akamutomera O
+atakigyenderiire O
+. O
+
+Okutunga O
+ebinyonyi O
+ni O
+bizinesi O
+nungi O
+. O
+
+Okuyateeberiize O
+tikwo O
+kyabiire O
+. O
+
+Nkaba O
+niinyenda O
+kwita O
+omushaija O
+ogwe O
+. O
+
+Omukuru O
+w'ekigombe O
+bakamusiba O
+. O
+
+Bamwe O
+aha O
+bantu O
+tibarikwikirizana O
+n'ekiragiro O
+ky'eitaka O
+ekirimu O
+nikitesebwaho O
+. O
+
+Akabuzibwaho O
+omu O
+muhanda O
+arikutaaha O
+omuka O
+. O
+
+Enjura O
+nyingi O
+neeshiisha O
+ebihingwa O
+. O
+
+Ishe O
+abaramuzi O
+ayegiise O
+ab'eby'obutegyeki O
+kuhaana O
+ekitinisa O
+. O
+
+Abarikuteekwateekwaho O
+abiingi O
+baakwata O
+. O
+
+Nooha O
+otarikutiina O
+rufu O
+? O
+
+Esente O
+nyingi O
+nizeetengwa O
+kubaisaho O
+enteekateeka O
+. O
+
+Abatembeyi O
+abaingi O
+bari O
+omu O
+kutaare O
+. O
+
+Abeebembezi O
+n'abantu O
+bakuru O
+omu O
+byaro O
+byaitu O
+. O
+
+Abiiruki O
+n'abazaani O
+abarungi O
+bonka O
+bakaheebwa O
+emidari O
+. O
+
+Enamba O
+y'endanga O
+muntu O
+n'ekyetago O
+ky'amaani O
+omu O
+kuhandikisa O
+enamba O
+y'esimu O
+. O
+
+Emirimo O
+ya O
+burizooba O
+ekagumizamu O
+hatariho O
+ekirikugiteganisa O
+. O
+
+Abakozi O
+bingi O
+bakabonabona O
+ahabwa O
+manegya O
+. O
+
+Okujaguza O
+kwegamiire O
+okumara O
+emyaka O
+ikumi O
+omu O
+buheereza O
+. O
+
+Akasinga O
+abu O
+yabaire O
+ayesimbire O
+nabo O
+omu O
+karuuru O
+. O
+
+Nibaija O
+kukwatanisa O
+kutunguura O
+ebyokwerinda O
+aha O
+nsharo O
+ezituura O
+zijwire O
+omuniogano O
+. O
+
+Ebiragiro O
+birikuzibira O
+obushwere O
+bw'abantu O
+b'obuhangwa O
+burikushushana O
+bikabanza O
+kutibwaho O
+abangyereza O
+. O
+
+Eihanga O
+riine O
+empungi O
+nyingi O
+. O
+
+Ekigombe O
+tikikashazireho O
+nahati O
+aha O
+mwebembezi O
+orikwija O
+. O
+
+Wahangura O
+notunga O
+ekirabo O
+. O
+
+Eitendekyero O
+rikajunaanwa O
+okukoresa O
+kubi O
+sente O
+. O
+
+Emundu O
+nyigi O
+ziguziibwe O
+kurwanisa O
+abakozi O
+b'emishango O
+. O
+
+Kampuni O
+ekaremwa O
+kwikiriza O
+sitore O
+y'omushaija O
+. O
+
+Emihendo O
+y'entambura O
+eyeyongyeire O
+okuruga O
+obubatsibiire O
+abantu O
+omu O
+maka O
+gaabo O
+. O
+
+Omunyamahurire O
+naija O
+kukwata O
+ebirikugyenda O
+omumaisho O
+omu O
+karuuru O
+akarikwija O
+. O
+
+Abategyeki O
+ab'ensi O
+ezaheru O
+bakaba O
+batakabasa O
+kutambuza O
+eihanga O
+. O
+
+Twena O
+tushemereire O
+kutebeekaniisiza O
+ebiro O
+byaitu O
+by'omu O
+maisho O
+. O
+
+Ebyamaguzi O
+ebirikukorerwa O
+hanu O
+n'eby'esente O
+kye O
+. O
+
+Omuhendo O
+gw'abantu O
+abaingi O
+tibaine O
+buraaro O
+burungi O
+. O
+
+Twine O
+amakuru O
+goona O
+. O
+
+Omwe O
+aha O
+bakazi O
+akatugambira O
+ekigaaniiro O
+eki O
+yaagizireho O
+n'omunyamakuru O
+. O
+
+Omufu O
+akaba O
+atarikweyendeza O
+wenka O
+omushaija O
+wa O
+Ruhanga O
+. O
+
+Enteekateeka O
+egyendereire O
+kutuubya O
+aha O
+mihendo O
+y'okutunga O
+okuragurirwa O
+. O
+
+Bashabire O
+oburingaaniza O
+. O
+
+Eihanga O
+niryakiira O
+buri O
+omwe O
+. O
+
+Nibenda O
+kumanya O
+oburugo O
+/ O
+ensibuko O
+y'enshonga O
+. O
+
+N'omukugu O
+omu O
+kuheereza O
+amahurire O
+. O
+
+Hariho O
+okukyendeera O
+omu O
+mubare O
+gw'abantu O
+abaine O
+ekiirukano O
+. O
+
+Bakamutwara O
+omu O
+irwariro O
+arikujwa O
+. O
+
+Abakozi O
+abasya O
+nibiija O
+kuyamba O
+gurupu O
+kukora O
+gye O
+. O
+
+Abarikukora O
+entunguuka O
+y'abantu O
+buntu O
+nibatunga O
+ebintu O
+bya O
+gavumenti O
+omu O
+bushobya O
+. O
+
+Butandu O
+z'ahanguuto O
+zishemeriire O
+kukyendeezibwa O
+. O
+
+Abeebembezi O
+b'eby'obuhangwa O
+baine O
+omurimo O
+muhango O
+gw'okureetaho O
+emicwe O
+mirungi O
+omu O
+byanga O
+byaitu O
+. O
+
+Abana O
+bakaba O
+baine O
+emicwe O
+mirungi O
+. O
+
+Orukiiko O
+orurikukurira O
+eby'emizaano O
+ruronzire O
+omutendeki O
+musya O
+owa O
+tiimu O
+y'eihanga O
+. O
+
+Abantu O
+bingi O
+basimire O
+kampuni O
+ahabw'obuheereza O
+byayo O
+. O
+
+Akatekamu O
+obukaikuru O
+bw'esente O
+okwombeka O
+ekizimbe O
+ekyo O
+. O
+
+Okweyongyera O
+kw'abakozi O
+abarikurekurira O
+nikyo O
+kireesireho O
+okweraarikirira O
+. O
+
+Tihariho O
+sente O
+z'okutebeekanisa O
+oburuuru O
+. O
+
+Ahairwe O
+ekiro O
+ky'okureeteramu O
+amatafaari O
+eky'aha O
+muheru O
+. O
+
+Niwe O
+mwebembezi O
+arikukirayo O
+kuranganwa O
+omu O
+disiturikiti O
+yoona O
+. O
+
+Omu O
+ny'eihanga O
+owo O
+bujunanizibwa O
+nashashura O
+omushoro O
+. O
+
+Naagura O
+omubazi O
+omu O
+duuka O
+y'emibazi O
+. O
+
+Okutaahirirwa O
+kurekire O
+abantu O
+baingi O
+baine O
+obuhuta O
+. O
+
+Abantu O
+baruhire O
+ahabw'emitwarize O
+y'abeebembezi O
+abataine O
+buntu O
+. O
+
+Tibaine O
+myoga O
+erikwetengwa O
+. O
+
+Memba O
+wa O
+tiimu O
+yaitu O
+akatunga O
+amakuru O
+goona O
+. O
+
+Nituza O
+kukora O
+kampuni O
+ensya O
+. O
+
+Bwanyima O
+y'orutaro O
+, O
+bakateerwa O
+pooriisi O
+erikukora O
+aha O
+bwesharingo O
+. O
+
+Banka O
+etwire O
+enju O
+ye O
+ahabwokuremwa O
+kushashura O
+rooni O
+ye O
+. O
+
+Tibarikubaasa O
+kuhika O
+omu O
+myanya O
+ei O
+barikwenda O
+. O
+
+Titurabataahetaahemu O
+omu O
+mirimo O
+yanyu O
+. O
+
+Eizooba O
+ry'orukiiko O
+rigambirwe O
+. O
+
+Emihendo O
+y'ebihingwa O
+neeguma O
+neehindahinduka O
+buri O
+kaanya O
+. O
+
+Empa O
+mushoro O
+nizihigwa O
+kushashura O
+omushoro O
+omu O
+bwire O
+. O
+
+Ekigyendererwa O
+ky'okwetegyeka O
+n'okukubaasisa O
+kweshariraho O
+nk'omuntu O
+. O
+
+Owaafiire O
+akaba O
+nakunda O
+abantu O
+. O
+
+Enyetwaza O
+y'abebembezi O
+abarugyiremu O
+eshishire O
+enkurakurana O
+y'eihanga O
+. O
+
+Amateeka O
+amasya O
+tigarikubasa O
+kurabamu O
+omukuru O
+w'eihanga O
+ataikiriize O
+. O
+
+Buri O
+kimwe O
+ekiri O
+omunsi O
+nikisiisikara O
+. O
+
+Omushaki O
+w'amahurire O
+akagambaho O
+n'abantu O
+. O
+
+Nihaza O
+kubaho O
+obuhwezi O
+bwa O
+miriyoni O
+magana O
+ataano O
+z'okutebeekanisa O
+kanivo O
+. O
+
+Abantu O
+abamwe O
+nibakoresa O
+purodakiti O
+kukora O
+ebyokurya O
+by'okweririira O
+. O
+
+Ekigyendererwa O
+kibaire O
+kiri O
+okumanya O
+ahu O
+enkora O
+yaahika O
+. O
+
+Hariho O
+obutaikirizana O
+ahagati O
+y'abeebembezi O
+b'ebibiina O
+by'obutegyeki O
+ebirikuhabura O
+gavumenti O
+. O
+
+Ebikorwa O
+ebitahikire O
+biine O
+kwetantarwa O
+. O
+
+Abantu O
+bingi O
+bisirwe O
+. O
+
+Ekyoma O
+kikatongozebwa O
+aha O
+kigombe O
+kya O
+kokoro O
+ahabw'okujaguza O
+. O
+
+Omubare O
+gw'oburaingwa O
+bw'oruguuto O
+burikwingana O
+enkumi O
+itaano O
+bukatooranwa O
+kuteerwa O
+kooransi O
+. O
+
+Gavumenti O
+ekata O
+sente O
+omu O
+myoga O
+enkye O
+omu O
+kyaro O
+kyaitu O
+. O
+
+Aine O
+eyindi O
+mirimo O
+maingi O
+. O
+
+Hakaba O
+hatariho O
+muntu O
+weena O
+wokucunga O
+abavugi O
+. O
+
+Amarwariro O
+mingi O
+gombekirwe O
+omu O
+bicweka O
+bitari O
+bimwe O
+na O
+bimwe O
+by'eihanga O
+. O
+
+Akahimiza O
+abateezi O
+b'akaruuru O
+ngu O
+akaba O
+nayija O
+kuhikiriza O
+okuraganisa O
+kwe O
+. O
+
+Nibakozesa O
+obutamanya O
+bw'abashuubuzi O
+abarikugura O
+n'abarikuguza O
+ebintu O
+aheeru O
+y'eihanga O
+aha O
+bikwatireine O
+n'ebishemereire O
+kukorwa O
+waaba O
+nootaasya O
+omu O
+ihanga O
+ebintu O
+ebyaruga O
+aheeru O
+. O
+
+Bakahonaho O
+bo O
+rutaaro O
+nahati O
+bakyaturi O
+mubusasi O
+. O
+
+Biikirize O
+empinduka O
+? O
+
+Babiire O
+nibamukorera O
+kampiini O
+. O
+
+Omwebembezi O
+akahuumuza O
+bakuru O
+b'ebihome O
+atiine O
+Rusa O
+. O
+
+Omunyaishengyero O
+tarikirizaine O
+na O
+makuru O
+w'eihanga O
+aha O
+ncwamu O
+ye O
+y'okuhinguza O
+eiteeka O
+. O
+
+Ekibiina O
+tikirahangwire O
+omuzaano O
+gwena O
+mu O
+mizaano O
+y'okusingasingana O
+. O
+
+Akashanga O
+oruguuto O
+rw'egaari O
+y'omwika O
+omu O
+mbeera O
+mbi O
+. O
+
+Naateekwa O
+kuza O
+aha O
+pooriisi O
+buriijo O
+. O
+
+Tukaraba O
+aha O
+myanya O
+y'okushwijumiraho O
+eby'okwerinda O
+. O
+
+Abatembeyi O
+tibarikwikirizibwa O
+kuguza O
+airtime O
+. O
+
+Abantu O
+baingi O
+bari O
+aha O
+ruteeo O
+rw'okuferwa O
+amagara O
+gaabo O
+. O
+
+Ekintu O
+ky'entambura O
+nikyeyongyera O
+kuteeza O
+abebembezi O
+omutwe O
+. O
+
+Mukuru O
+w'eihanga O
+akahaburwa O
+kukyerereza O
+enteekateeka O
+yokumaraho O
+okubonereza O
+yokwihaho O
+eiteeka O
+ryokwita O
+. O
+
+Emyegyemure O
+ekasharaho O
+oruguuto O
+kandi O
+yaashiisha O
+ebintu O
+rwagati O
+y'orurembo O
+. O
+
+Omubazi O
+gw'okumaraho O
+oburemeezi O
+guzookire O
+. O
+
+Orubazo O
+rukaba O
+rugyenderire O
+omugigi O
+gwabaana O
+abaato O
+. O
+
+Tibarikuhurizana O
+gye O
+n'abantu O
+. O
+
+Abantu O
+barakwijukira O
+hi O
+? O
+
+Naaza O
+kucwerwa O
+orubanja O
+. O
+
+Akagamba O
+aha O
+bwijukyizo O
+ebiyakoziire O
+nomukundwa O
+we O
+. O
+
+Nomuhereza O
+wa O
+mahurire O
+aha O
+tiivi O
+yahakyaro O
+. O
+
+Akakomwa O
+ahabwokugira O
+omutwe O
+muhango O
+. O
+
+Obwahati O
+eihanga O
+riri O
+kubonaboona O
+ne O
+shonga O
+y'ibura O
+ry'eshagama O
+omu O
+marwariro O
+. O
+
+T'arahikize O
+sente O
+ou O
+zaabaire O
+zigyendereire O
+. O
+
+Hariho O
+obu O
+orikuteekateeka O
+ahari O
+nyensya O
+yaawe O
+? O
+
+Emihondano O
+y'itaka O
+niyo O
+erikukira O
+kureeta O
+entaro O
+omu O
+bantu O
+. O
+
+Abajwekyerwa O
+omu O
+ishengyero O
+tibashemereirwe O
+ahabw'okuronda O
+omwebembezi O
+. O
+
+Ab'anyeishengyero O
+abo O
+boona O
+nibaruga O
+omu O
+kicweka O
+kimwe O
+. O
+
+N'omwe O
+ahari O
+baakihababa O
+. O
+
+Okubingwa O
+kwe O
+omu O
+ishomero O
+kukareeta O
+ebibuuzo O
+bingi O
+. O
+
+Titurikumanya O
+oba O
+ekizimbe O
+kiriije O
+kuhwa O
+. O
+
+Basingire O
+omuzaano O
+na O
+goora O
+ishatu O
+zoonka O
+. O
+
+Turiyo O
+nituza O
+aha O
+rutaro O
+. O
+
+Eihanga O
+riine O
+omugisha O
+gw'ebintu O
+birungi O
+ebirikureeta O
+abarambuzi O
+. O
+
+Biigwire O
+omushango O
+aha O
+pooriisi O
+. O
+
+Nyetebekaniise O
+kushagika O
+enkora O
+. O
+
+Orukiiko O
+rw'abavugi O
+tirurahwaire O
+kurungi O
+. O
+
+Tarahikiriize O
+ebirikwetengwa O
+. O
+
+Abantu O
+abarikurenga O
+omuri O
+rukumi O
+nibateekwateekwa O
+kuba O
+baahungire O
+akaimukyero O
+. O
+
+Eka O
+yangye O
+eri O
+haihi O
+n'omwanya O
+. O
+
+Ak'ehakana O
+eky'okubonabonesa O
+abrikuteekateekwaho O
+. O
+
+Akakora O
+omurimo O
+murungi O
+omu O
+magara O
+g'ensi O
+. O
+
+Enkora O
+y'ekitongore O
+ekaba O
+etakaabaasa O
+kugyeragyeranisibwa O
+ne O
+kindi O
+kyona O
+. O
+
+Akaba O
+ari O
+ah'ekintu O
+kyabiire O
+. O
+
+Emirimo O
+misya O
+eronzirwe O
+kandi O
+erimu O
+neetandika O
+. O
+
+Orunaku O
+rw'okuhurira O
+orubanja O
+rwateebwaho O
+. O
+
+Embuga O
+z'amateeka O
+nizireetaho O
+oburingaaniza O
+omu O
+ihanga O
+. O
+
+Embaju O
+ibiri O
+tizikikirizine O
+aha O
+nshonga O
+. O
+
+Abeegi O
+bakaheebwa O
+ebigyezo O
+byona O
+eby'okuhandiika O
+n'okugamba O
+. O
+
+Abashomi O
+abamwe O
+barakozesebwa O
+kubi O
+omu O
+by'okuteerana O
+omu O
+mashomero O
+. O
+
+Akakozesa O
+kubi O
+ofiisi O
+ye O
+. O
+
+Abantu O
+nibaikirizibwa O
+kwegaita O
+aha O
+kibiina O
+ky'eby'obutegyeki O
+eki O
+barikwenda O
+. O
+
+Eihanga O
+ryaitu O
+ritandikire O
+kukora O
+amasimu O
+gaaryo O
+g'okubanza O
+aga O
+shondaho O
+. O
+
+Okuhinga O
+amagyani O
+nikwija O
+n'ebizibu O
+bingi O
+. O
+
+Abantu O
+bamwe O
+barahendera O
+bafereirwe O
+amagara O
+gaabo O
+omu O
+ndwano O
+ezitareetaagisa O
+. O
+
+Naayija O
+kutugambira O
+ebirikukiraho O
+aha O
+mukoro O
+. O
+
+Omushango O
+bakagureka O
+. O
+
+Muriranwa O
+waitu O
+ayine O
+abaana O
+makumi O
+mukaaga O
+. O
+
+Abakazi O
+bashemeriire O
+kwikirizibwa O
+kugira O
+ebintu O
+. O
+
+Bakabingwa O
+aha O
+eitaka O
+ryabo O
+. O
+
+Enshonga O
+bakakitwaza O
+obwegyendesereza O
+buta O
+? O
+
+N'efuuzi O
+. O
+
+Ninyija O
+kuba O
+niintuura O
+aha O
+kuhisya O
+pooriisi O
+aheriizire O
+. O
+
+Ekirango O
+kikakorwa O
+omwebebezi O
+w'ekitongore O
+ky'eby'obuhingi O
+n'obutungi O
+. O
+
+Ekitongore O
+kya O
+gavementi O
+ekirikukwatisa O
+ebiragiro O
+nikihereza O
+abantu O
+okwerinda O
+. O
+
+Akaba O
+yaahumwire O
+omu O
+bwire O
+obu O
+yaafeeriireho O
+. O
+
+Orikuhakaahakana O
+nawe O
+akagambwaho O
+munonga O
+. O
+
+Abanyayuganda O
+baingi O
+nibenda O
+ebirabo O
+bya O
+nohiiri O
+. O
+
+Empundu O
+enyingi O
+nizituura O
+omweirindiro O
+. O
+
+Abasirikare O
+bakaba O
+bamugambira O
+buri O
+ikuru O
+ryona O
+. O
+
+Atinisiriize O
+okushenya O
+enju O
+zaabo O
+. O
+
+Bakashaba O
+abantu O
+kukwatanisa O
+. O
+
+Ashazireho O
+kufuruka O
+akaza O
+omu O
+tauni O
+kuronda O
+omurimo O
+murungi O
+. O
+
+Hariho O
+ebitongore O
+by'amahurire O
+bingi O
+. O
+
+Ti O
+banyabuzaare O
+na O
+kamwe O
+. O
+
+Abasirikare O
+bakaba O
+nibakunda O
+tatento O
+munonga O
+. O
+
+Ebitongole O
+tibine O
+mani O
+gokuhaza O
+ebyetengo O
+by'abantu O
+. O
+
+Abeegi O
+baingi O
+nibagwa O
+aha O
+bw'obutakunda O
+kushoma O
+ebitabo O
+/ O
+ebihandiiko O
+. O
+
+Abaana O
+bingi O
+abarikutuura O
+aha O
+nguuto O
+ni O
+efuuzi O
+. O
+
+Nakunda O
+kuzaana O
+omu O
+bwire O
+bwe O
+. O
+
+Sente O
+ezo O
+zoona O
+oka O
+zikozesa O
+ota O
+. O
+
+Akaruru O
+akari O
+kwija O
+nakokubaho O
+njuba O
+. O
+
+Ari O
+omu O
+buhangaanguki O
+. O
+
+Bahandiikira O
+ebaruha O
+omwebembezi O
+wa O
+tiimu O
+. O
+
+Eirimbo O
+ry'abanyakaturiki O
+rikakozesebwa O
+nk'omwanya O
+gumwe O
+aha O
+ryegyo O
+ey'abahekyera O
+. O
+
+Omubiri O
+gw'omukazi O
+gukaba O
+gushazashazire O
+. O
+
+Ensi O
+neekyeyongyera O
+kufeerwa O
+sente O
+omu O
+buribw'engizi O
+. O
+
+Gavumenti O
+terikufa O
+aha O
+bantu O
+baayo O
+. O
+
+Taragire O
+mu O
+kushaba O
+kw'okwijuka O
+okufa O
+kwe O
+. O
+
+Akaramusya O
+buri O
+omwe O
+aha O
+mukoro O
+. O
+
+Akabinga O
+abakozi O
+emitwaro O
+etaano O
+omu O
+kitongore O
+. O
+
+Entebeekanisa O
+y'ab'ebyakareebi O
+eine O
+neteekwamu O
+amaani O
+. O
+
+Ekyetengo O
+ky'abantu O
+n'okuheebwa O
+obugabe O
+bwabo O
+. O
+
+Enteekateeka O
+erimu O
+neeshwijumwa O
+. O
+
+Okwombeka O
+kutandikire O
+aha O
+mwaro O
+. O
+
+Akakurira O
+omu O
+kicweeka O
+kyo O
+rurembo O
+ekirimu O
+abooro O
+. O
+
+Hakabaho O
+ekyetengo O
+ky'okuronda O
+abanyakakiiko O
+abasya O
+. O
+
+Etebekanisa O
+neeza O
+kuyamba O
+abantu O
+bingi O
+. O
+
+Abiisi O
+bakatebwa O
+omu O
+kihome O
+. O
+
+Bamwe O
+aha O
+bubarikutekateekaho O
+barekwirwe O
+, O
+aha O
+kiragiro O
+kya O
+kooti O
+. O
+
+Ekyoma O
+ky'omwika O
+gwa O
+Nitrogen O
+nikiija O
+kwongyera O
+omutindo O
+gw'amakyeberero O
+omu O
+ihanga O
+. O
+
+Enteekateeka O
+neeza O
+kuba O
+eri O
+ey'akabi O
+kahango O
+ku O
+eraateebwe O
+omu O
+nkora O
+. O
+
+Empiduka O
+ekozirwe O
+neyija O
+kuhwera O
+sekita O
+ya O
+gaasi O
+na O
+oyiro O
+. O
+
+Aba O
+nyeishengyero O
+bakagwanira O
+okwihaho O
+ekomo O
+aha O
+myaka O
+ya O
+mukuru O
+w'eihanga O
+. O
+
+Naija O
+kutunga O
+ebirikukiraho O
+kuruga O
+ow'omuhandiiki O
+wa O
+kampuni O
+. O
+
+Ekitongore O
+tikiine O
+bakozi O
+barikumara O
+. O
+
+Abaserukare O
+abamwe O
+ni O
+ba O
+bokitari O
+abatendeke O
+. O
+
+Tukyareeba O
+omu O
+mbeera O
+. O
+
+Akaba O
+aine O
+kutooranamu O
+omwe O
+ahari O
+bombi O
+. O
+
+Abavugi O
+nibiija O
+kuhakanisa O
+akakungu O
+. O
+
+Eshaha O
+y'amakuru O
+eri O
+haihi O
+kuhika O
+. O
+
+Bakagambirwa O
+kugaruriza O
+esente O
+mukama O
+waazo O
+. O
+
+Abakozi O
+tibari O
+kuheebwa O
+omuhimbo O
+. O
+
+Beerarikiriize O
+ahabwokweyongyera O
+kw'ebihagaro O
+. O
+
+Pooriisi O
+bagigaba O
+omu O
+myanya O
+.. O
+
+Ba O
+enginiya O
+abamwe O
+aha O
+purojekiti O
+bakaba O
+bari O
+ab'okwebuuzaho O
+. O
+
+Abebembezi O
+nibenda O
+kwesharinga O
+ahabw'enshashura O
+mbi O
+. O
+
+Ekihandiiko O
+kye O
+nikyecumintiriza O
+aha O
+hururu O
+y'okumaraho O
+oburi O
+bw'enguzi O
+. O
+
+Nibetenga O
+eitaka O
+ryingi O
+. O
+
+Aine O
+kugura O
+ingini O
+ensya O
+ey'emotoka O
+ye O
+. O
+
+Tiimu O
+ekatayayira O
+abaana O
+omu O
+kyaro O
+. O
+
+Eminyeeto O
+ehigirwe O
+kutuubya O
+aha O
+ibura O
+ry'emirimo O
+barikukozesa O
+oburyo O
+obundi O
+. O
+
+Boona O
+bakaheereza O
+orubazo O
+aha O
+mukoro O
+. O
+
+Omu O
+kubonereza O
+bakamurekura O
+kuruga O
+omu O
+kihome O
+. O
+
+Enyonyi O
+nebasa O
+kuretaho O
+embera O
+mbi O
+ahari O
+mukuru O
+w'eishengyero O
+hamwe O
+n'abebyokwerinda O
+. O
+
+Abeegi O
+baine O
+obuzibu O
+omu O
+kubara O
+. O
+
+Obugabe O
+bwabo O
+tiburaagambweho O
+. O
+
+Ninyenda O
+kuba O
+ceyamaani O
+w'ekyanga O
+kyaitu O
+orikukurataho O
+. O
+
+Kampuni O
+ekahandiikwaho O
+munonga O
+abanyamahurire O
+. O
+
+Otakataahire O
+omu O
+maka O
+g'omuntu O
+weena O
+, O
+oshemereire O
+kushaba O
+orusa O
+. O
+
+Omwojo O
+ateganisiibwe O
+endwara O
+. O
+
+Abanyeishengyero O
+bakabasharira O
+orwokurya O
+omu O
+nsi O
+yaabo O
+orukwe O
+. O
+
+Banywani O
+be O
+aha O
+giimu O
+bamusubirwe O
+munonga O
+. O
+
+Twine O
+tiimu O
+ekirikusingayo O
+kuzaana O
+tenesi O
+. O
+
+Orusa O
+niruheebwa O
+eihanga O
+. O
+
+Ndi O
+kutangara O
+aha O
+bwaki O
+ya O
+nzira O
+. O
+
+Tibakaikiriize O
+ebyarugiremu O
+. O
+
+Emirimo O
+y'abantu O
+endiijo O
+neeshisha O
+eby'obuhangwa O
+
+Akyari O
+omuny'eishengyero O
+w'ekyanga O
+ekyo O
+. O
+
+Omuzaano O
+gwaitu O
+gw'okubanza O
+gubaire O
+gutanguhi O
+. O
+
+Ebitongore O
+by'amahanga O
+g'aheeru O
+nibishashurira O
+emirimo O
+y'eby'obuhingi O
+omu O
+ihanga O
+ryaitu O
+. O
+
+Ekyanga O
+nikimanwa O
+abantu O
+bingi O
+. O
+
+Ebihagaro O
+byeyongyeire O
+omu O
+kyaro O
+kyaitu O
+. O
+
+Akashaba O
+abantu O
+kugamba O
+aha O
+nshonga O
+bataine O
+kwerarikirira O
+. O
+
+Barikugyezaho O
+kushisha O
+ekishushani O
+kyeitu O
+. O
+
+Ishe O
+akaba O
+naatwara O
+abamishanare O
+b'ekikurisitaayo O
+n'amahanga O
+amakubuuzi O
+nk'eky'okutinisiriza O
+. O
+
+Aba O
+poriisi O
+bakacaaka O
+enju O
+yangye O
+. O
+
+Akatebya O
+ekyareetsire O
+ekizibu O
+. O
+
+Akaba O
+omukazi O
+w'okubanza O
+kukora O
+omu O
+ntebe O
+egyo O
+. O
+
+Niwe O
+mukuru O
+w'eby'okwerinda O
+. O
+
+Niiwe O
+mukuru O
+w'amahe O
+. O
+
+Twagambaho O
+n'abantu O
+bamwe O
+aha O
+nshonga O
+y'amaizi O
+. O
+
+Omurimo O
+gugyenderire O
+kurinda O
+obuhangwa O
+. O
+
+Abantu O
+baingi O
+batiinire O
+. O
+
+Akozire O
+n'ab'ebyokwerinda O
+omu O
+magara O
+ge O
+goona O
+. O
+
+Ashabire O
+abantu O
+okusaasirwa O
+omu O
+iziina O
+rya O
+kampuni O
+ye O
+. O
+
+Member O
+wekigombe O
+nayetenga O
+kurinda O
+owagwagati O
+obutashara O
+omushororongo O
+. O
+
+Puroguramu O
+za O
+gavumenti O
+nizeteenga O
+okurebererwa O
+. O
+
+Gavumenti O
+ekaremeererwa O
+okushashura O
+ibanja O
+ryayo O
+. O
+
+Ninkunda O
+omuringo O
+abakazi O
+b'abasiramu O
+barikujwaramu O
+omu O
+mwezi O
+ogurikwera O
+. O
+
+Omugyenzi O
+naayija O
+kuguma O
+naayijukwa O
+ahabw'okwegyesa O
+abaana O
+be O
+emicwe O
+miruingi O
+. O
+
+Bakaba O
+bataine O
+maizi O
+n'ebyokurya O
+bikye O
+aha O
+mukoro O
+. O
+
+Owabiireho O
+omwebembezi O
+akaziikwa O
+omu O
+kituuro O
+kitari O
+ky'amaani O
+. O
+
+Nomuri O
+w'enguzi O
+. O
+
+Amarwariro O
+maingi O
+nig'etengwa O
+kukora O
+aha O
+barwaire O
+. O
+
+Akeeshaaringo O
+kakarugiiriramu O
+okufa O
+kw'omuntu O
+omwe O
+kandi O
+n'abandi O
+baagira O
+ebironda O
+. O
+
+Endagaano O
+ekikiriza O
+empungi O
+kugarurwa O
+omu O
+mahanga O
+gaabo O
+. O
+
+Akaba O
+ari O
+haihi O
+kwitwa O
+omu O
+kurwana O
+. O
+
+Nooba O
+oine O
+kwereebera O
+. O
+
+Abarwanirizi O
+b'obugabe O
+bw'abantu O
+nibaza O
+kureeba O
+ngu O
+abeebembezi O
+baakuratira O
+amazima O
+n'oburingaaniza O
+. O
+
+Tibarabaasa O
+kukanga O
+kanga O
+omwebembezi O
+. O
+
+Naagira O
+ngu O
+amahe O
+gakatwara O
+obuhereza O
+bw'abantu O
+obwabaire O
+butuura O
+omu O
+mikono O
+y'abantu O
+. O
+
+Obuzibu O
+bukareebwa O
+obu O
+bashohoza O
+ebigyezo O
+. O
+
+Gavumenti O
+eshemereire O
+kuta O
+ebikozeso O
+byona O
+omu O
+marwariro O
+g'abazaarisa O
+aga O
+gavumenti O
+. O
+
+Omwishiki O
+asingirwe O
+omu O
+muzaano O
+. O
+
+Noha O
+orikwebembera O
+akakungu O
+? O
+
+Gavumenti O
+enyimaho O
+ebaire O
+esharizemu O
+obwasiisi O
+. O
+
+Omwebembezi O
+ashoboreire O
+ahabwenki O
+abantu O
+abamwe O
+tibakikora O
+. O
+
+Akabuuzibwa O
+bwanyima O
+y'okwihwa O
+omu O
+butegyeki O
+. O
+
+Atandikire O
+eduuka O
+omu O
+tawuni O
+yaitu O
+. O
+
+Obugabe O
+bw'abaana O
+bushemeriire O
+kukuratirwa O
+. O
+
+Okusiiba O
+omu O
+bwire O
+bw'ekisiibo O
+nikiheereza O
+abasiramu O
+okwehayo O
+omu O
+nyikiriza O
+. O
+
+Pooriisi O
+ekahika O
+aha O
+myanya O
+ogwakoriirweho O
+ekihagaro O
+omu O
+bwire O
+. O
+
+Emitwe O
+y'abantu O
+ekamukuratira O
+omu O
+kampiini O
+yoona O
+. O
+
+Abantu O
+barabwire O
+aha O
+bintu O
+ebitahikire O
+. O
+
+Ebicweka O
+ebimwe O
+nibiza O
+kuboona O
+esente O
+eziri O
+kusinga O
+aha O
+zabandi O
+. O
+
+Ebiina O
+bikareetaho O
+zaabutandu O
+nyingi O
+aha O
+nkuuto O
+. O
+
+Hakabaho O
+okufeerwa O
+ebintu O
+. O
+
+Akazaara O
+omujigaijo O
+gwe O
+. O
+
+Ekikaari O
+kyetoriirwe O
+amahe O
+. O
+
+Okuhamba O
+eitaka O
+nikweyongyera O
+omu O
+ihanga O
+ryona O
+. O
+
+Omunyamahurire O
+waitu O
+omu O
+ihanga O
+eryo O
+akatuhereza O
+amakuru O
+. O
+
+Hariho O
+bingyi O
+ebyo O
+kutekatekaho O
+obu O
+turikuza O
+omu O
+karuru O
+. O
+
+Amahe O
+g'ihanga O
+nigariinda O
+omwatano O
+okutahirirwa O
+kuruga O
+aheeru O
+. O
+
+Ebyafaayo O
+bye O
+bishwijumirwe O
+ba O
+rooya O
+. O
+
+Niimanya O
+kwibira O
+. O
+
+Eki O
+nekihandiko O
+ky'amahurire O
+kijwire O
+. O
+
+Entegyeka O
+neza O
+kuyamba O
+eihanga O
+. O
+
+Ripoti O
+eyina O
+buri O
+kimwe O
+. O
+
+Mukuru O
+w'orurembo O
+amanyiise O
+abantu O
+be O
+naateekwa O
+kusinga O
+akaruuru O
+. O
+
+Bashemereire O
+kujanjabwa O
+abashaho O
+ba O
+gavumenti O
+. O
+
+N'oha O
+ohangwire O
+empaka O
+. O
+
+N'omwe O
+aha O
+bazaani O
+b'omupiira O
+abarungi O
+. O
+
+Ishento O
+akahandiika O
+ekitabo O
+aha O
+gavumenti O
+. O
+
+Ekerezia O
+ekaijura O
+abaziki O
+kujaguza O
+amagara O
+archbishop O
+owaafiire O
+. O
+
+Za O
+purojekiti O
+ensya O
+niziija O
+kuhereza O
+abantu O
+abandi O
+emirimo O
+. O
+
+Abaana O
+omu O
+ishomera O
+barabahangaana O
+okwetaba O
+omu O
+mizaano O
+. O
+
+Esente O
+z'okuhunduuza O
+enju O
+ni O
+nyingi O
+. O
+
+Abatuuragye O
+bashazireho O
+kwerwanisa O
+ahabwa O
+eby'obutegyeki O
+. O
+
+Akakiiko O
+kakateebwaho O
+. O
+
+Akazaara O
+akiri O
+muto O
+. O
+
+Kampuni O
+neeyija O
+kubashumbusha O
+. O
+
+Takyari O
+omukihome O
+. O
+
+Omushaho O
+atungire O
+bingi O
+omu O
+magara O
+ge O
+. O
+
+N'abeegi O
+bangahi O
+abari O
+kubasa O
+kuhika O
+omu O
+ekerezia O
+ya O
+yunivasite O
+? O
+
+Abashaabaazi O
+nibakunda O
+kwejunisa O
+pikipiki O
+kukira O
+motoka O
+. O
+
+Minisita O
+yaija O
+n'enteekateeka O
+endiijo O
+. O
+
+Minisita O
+akakomwa O
+. O
+
+Omu O
+biragiro O
+, O
+omwami O
+n'omushaija O
+abashweraine O
+omu O
+butongore O
+bashemereire O
+kutunga O
+ebaruha O
+y'obushwere O
+. O
+
+Oyesimbireho O
+ataine O
+kibiina O
+asingire O
+akaruuru O
+. O
+
+Naarya O
+ebyokurya O
+bingi O
+. O
+
+Orukiiko O
+rwine O
+ekigyendererwa O
+ky'okukorera O
+entunguuka O
+. O
+
+Nitushabira O
+abantu O
+boona O
+abagyemirwe O
+kuruga O
+omu O
+itaka O
+. O
+
+Okwiita O
+abantu O
+okutari O
+mubiragyiro O
+nokuhenda O
+amateeka O
+. O
+
+Kampuni O
+egi O
+etiire O
+sente O
+nyingi O
+omu O
+kugura O
+eitaka O
+. O
+
+Nenki O
+ekirikureeta O
+empandahinduka O
+y'amaani O
+y'obwire O
+? O
+
+Purogyekiti O
+t'eyine O
+kukwata O
+ahari O
+ogwe O
+oriije O
+omu O
+kubanza O
+. O
+
+Habireho O
+empindahinduka O
+omu O
+kakiiko O
+k'aba O
+minisita O
+. O
+
+Enshonga O
+ekaba O
+eri O
+ey'okugambwaho O
+omu O
+rukiiko O
+orwabiire O
+nirukurataho O
+. O
+
+Bakashendwashendwa O
+kuza O
+omu O
+muzaano O
+. O
+
+Amahe O
+gakareka O
+kukuratira O
+omuduumizi O
+. O
+
+Manegya O
+akeegaruriza O
+obwebembezi O
+bwa O
+depatimenti O
+ezirikukira O
+obwingi O
+. O
+
+Tihane O
+ekitarikufa O
+obuhangwa O
+bw'ensi O
+bwasiisikara O
+. O
+
+Ab'eby'okwerinda O
+bahaire O
+eshonga O
+ahabw'enki O
+baabaire O
+bamukwatsire O
+. O
+
+Gavumementi O
+eyine O
+ebi O
+erikutamu O
+sente O
+. O
+
+Ab'emyoga O
+bamwe O
+nibeeshumba O
+okushashura O
+emishoro O
+. O
+
+Ekiteiso O
+ky'okuhindura O
+engyenderwaho O
+ekyayihireho O
+emyaka O
+y'obwapurezidenti O
+kikaba O
+kitari O
+kirungi O
+. O
+
+Nibateekateeka O
+ngu O
+naija O
+kubiika O
+sente O
+. O
+
+Pooriisi O
+nibagijunana O
+okukorengana O
+n'abashuma O
+omu O
+kicweka O
+. O
+
