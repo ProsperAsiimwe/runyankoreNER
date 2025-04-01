@@ -1912,17 +1912,6 @@ rya I-ORG
 Murago I-ORG
 . O
 
-Abakuristaayo O
-nibikiririza O
-omu O
-kuzooka O
-n'okutemba O
-kwa O
-kristo B-PER
-. O
-
-
-
 Abamwe O
 nibatandika O
 emyoga O

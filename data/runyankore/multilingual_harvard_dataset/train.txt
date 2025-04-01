@@ -3798,8 +3798,6 @@ akatujuna O
 ebibi O
 . O
 
-
-
 Enshonga O
 t'ekakozirweho O
 . O
@@ -20515,3 +20513,11 @@ abapangisa O
 boona O
 . O
 
+Abakuristaayo O
+nibikiririza O
+omu O
+kuzooka O
+n'okutemba O
+kwa O
+kristo B-PER
+. O
