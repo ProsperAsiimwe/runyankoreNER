@@ -19205,8 +19205,6 @@ aha O
 rediyo O
 . O
 
-
-
 Gavumenti O
 eragiire O
 ebitongore O
@@ -116899,8 +116897,6 @@ akatujuna O
 ebibi O
 . O
 
-
-
 Enshonga O
 t'ekakozirweho O
 . O
@@ -135517,8 +135513,6 @@ Al B-ORG
 shabaab I-ORG
 . O
 
-
-
 Oruguuto O
 oru O
 niruza O
@@ -145710,8 +145704,6 @@ n'okutemba O
 kwa O
 kristo B-PER
 . O
-
-
 
 Abamwe O
 nibatandika O
