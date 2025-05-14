@@ -782,8 +782,8 @@ mutsya I-DATE
 
 Eirwariro O
 niribangirwa O
-minisiture B-DATE
-y'ebyamagara I-DATE
+minisiture B-ORG
+y'ebyamagara I-ORG
 . O
 
 Eishomero O

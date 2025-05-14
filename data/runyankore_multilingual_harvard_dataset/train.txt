@@ -582,8 +582,8 @@ baasi O
 etwaba O
 turikuza O
 omukyaro O
-buri O
-noiri B-DATE
+buri B-DATE
+noiri I-DATE
 . O
 
 Akaba O
@@ -914,8 +914,8 @@ ekaba O
 neeyorekwa O
 aha O
 tiivi O
-buri O
-Rwakabiri B-DATE
+buri B-DATE
+Rwakabiri I-DATE
 . O
 
 Bajeti O
@@ -1094,8 +1094,8 @@ buri B-DATE
 kwezi I-DATE
 . O
 
-Minisiture B-DATE
-y'eby'amagara I-DATE
+Minisiture B-ORG
+y'eby'amagara I-ORG
 ekozire O
 kihango O
 omu O
@@ -1891,8 +1891,8 @@ zamateeka O
 erizooba B-DATE
 . O
 
-Minisiture B-DATE
-y'eby'amagara I-DATE
+Minisiture B-ORG
+y'eby'amagara I-ORG
 etumire O
 abashaho O
 bataano O

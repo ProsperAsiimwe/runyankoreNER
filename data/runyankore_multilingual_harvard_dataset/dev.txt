@@ -8655,8 +8655,8 @@ kikumi O
 Ab'eby'okwerinda O
 bashemereire O
 kutendekwa O
-buri O
-mwaka O
+buri B-DATE
+mwaka I-DATE
 . O
 
 Ab'ebembezi O
