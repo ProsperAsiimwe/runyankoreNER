@@ -2,8 +2,8 @@
 
 # ========== EXPERIMENT CONFIGURATION ==========
 export DATA_DIR="data/COMBINED/"
-export OUTPUT_DIR="models/COMBINED/runyankore_xlmr"
-export HUGGINGFACE_MODEL_PATH="xlm-roberta-base"
+export OUTPUT_DIR="models/COMBINED/runyankore_mbert"
+export HUGGINGFACE_MODEL_PATH="bert-base-multilingual-cased"
 
 export MAX_LENGTH=164
 export BATCH_SIZE=32
@@ -15,7 +15,7 @@ export CUDA_VISIBLE_DEVICES=0  # Change if running on a different GPU
 # ========== RUN TRAINING ==========
 CUDA_VISIBLE_DEVICES=$CUDA_VISIBLE_DEVICES python3 code/train_ner.py \
   --data_dir "$DATA_DIR" \
-  --model_type xlmroberta \
+  --model_type bert \
   --model_name_or_path "$HUGGINGFACE_MODEL_PATH" \
   --output_dir "$OUTPUT_DIR" \
   --max_seq_length "$MAX_LENGTH" \

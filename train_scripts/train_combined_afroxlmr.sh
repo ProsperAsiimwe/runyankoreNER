@@ -2,8 +2,8 @@
 
 # ========== EXPERIMENT CONFIGURATION ==========
 export DATA_DIR="data/COMBINED/"
-export OUTPUT_DIR="models/COMBINED/runyankore_xlmr"
-export HUGGINGFACE_MODEL_PATH="xlm-roberta-base"
+export OUTPUT_DIR="models/COMBINED/runyankore_afroxlmr"
+export HUGGINGFACE_MODEL_PATH="Davlan/afro-xlmr-base"
 
 export MAX_LENGTH=164
 export BATCH_SIZE=32

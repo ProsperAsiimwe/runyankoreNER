@@ -3,7 +3,7 @@
 # ========== EXPERIMENT CONFIGURATION ==========
 export DATA_DIR="data/SALT/"
 export OUTPUT_DIR="models/SALT/runyankore_xlmr"
-export XLMR_MODEL="xlm-roberta-base"
+export HUGGINGFACE_MODEL_PATH="xlm-roberta-base"
 
 export MAX_LENGTH=164
 export BATCH_SIZE=32
@@ -16,7 +16,7 @@ export CUDA_VISIBLE_DEVICES=0  # Change if running on a different GPU
 CUDA_VISIBLE_DEVICES=$CUDA_VISIBLE_DEVICES python3 code/train_ner.py \
   --data_dir "$DATA_DIR" \
   --model_type xlmroberta \
-  --model_name_or_path "$XLMR_MODEL" \
+  --model_name_or_path "$HUGGINGFACE_MODEL_PATH" \
   --output_dir "$OUTPUT_DIR" \
   --max_seq_length "$MAX_LENGTH" \
   --num_train_epochs "$NUM_EPOCHS" \
