@@ -10,7 +10,7 @@ export BATCH_SIZE=32
 export NUM_EPOCHS=10
 export SAVE_STEPS=5000
 export SEED=1
-export CUDA_VISIBLE_DEVICES=0  # Change if running on a different GPU
+export CUDA_VISIBLE_DEVICES=1  # Change if running on a different GPU
 
 # ========== RUN TRAINING ==========
 CUDA_VISIBLE_DEVICES=$CUDA_VISIBLE_DEVICES python3 code/train_ner.py \
