@@ -6,6 +6,8 @@ Run this before training:
 
 source .env
 
+## git reset --hard
+
 <!-- export $(grep -v '^#' .env | xargs)
 echo "Loaded environment variables." -->
 
