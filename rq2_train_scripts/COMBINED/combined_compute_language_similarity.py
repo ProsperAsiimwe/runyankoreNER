@@ -103,27 +103,27 @@ def get_top_k_languages(df_sim, target_lang: str, k: int = 5):
 if __name__ == "__main__":
     # Example language file mapping (update with actual paths)
     language_files = {
-        "run": "../data/COMBINED/train.txt",
-        "bam": "../data/MasakhaNER2.0/bam/train.txt",
-        "bbj": "../data/MasakhaNER2.0/bbj/train.txt",     
-        "ewe": "../data/MasakhaNER2.0/ewe/train.txt",     
-        "fon": "../data/MasakhaNER2.0/fon/train.txt",     
-        "hau": "../data/MasakhaNER2.0/hau/train.txt",     
-        "ibo": "../data/MasakhaNER2.0/ibo/train.txt",    
-        "kin": "../data/MasakhaNER2.0/kin/train.txt",     
-        "lug": "../data/MasakhaNER2.0/lug/train.txt",     
-        "luo": "../data/MasakhaNER2.0/luo/train.txt",     
-        "mos": "../data/MasakhaNER2.0/mos/train.txt",     
-        "nya": "../data/MasakhaNER2.0/nya/train.txt",     
-        "pcm": "../data/MasakhaNER2.0/pcm/train.txt",     
-        "sna": "../data/MasakhaNER2.0/sna/train.txt",     
-        "swa": "../data/MasakhaNER2.0/swa/train.txt",     
-        "tsn": "../data/MasakhaNER2.0/tsn/train.txt",     
-        "twi": "../data/MasakhaNER2.0/twi/train.txt",     
-        "wol": "../data/MasakhaNER2.0/wol/train.txt",     
-        "xho": "../data/MasakhaNER2.0/xho/train.txt",     
-        "yor": "../data/MasakhaNER2.0/yor/train.txt",     
-        "zul": "../data/MasakhaNER2.0/zul/train.txt"     
+        "run": "../../data/COMBINED/train.txt",
+        "bam": "../../data/MasakhaNER2.0/bam/train.txt",
+        "bbj": "../../data/MasakhaNER2.0/bbj/train.txt",     
+        "ewe": "../../data/MasakhaNER2.0/ewe/train.txt",     
+        "fon": "../../data/MasakhaNER2.0/fon/train.txt",     
+        "hau": "../../data/MasakhaNER2.0/hau/train.txt",     
+        "ibo": "../../data/MasakhaNER2.0/ibo/train.txt",    
+        "kin": "../../data/MasakhaNER2.0/kin/train.txt",     
+        "lug": "../../data/MasakhaNER2.0/lug/train.txt",     
+        "luo": "../../data/MasakhaNER2.0/luo/train.txt",     
+        "mos": "../../data/MasakhaNER2.0/mos/train.txt",     
+        "nya": "../../data/MasakhaNER2.0/nya/train.txt",     
+        "pcm": "../../data/MasakhaNER2.0/pcm/train.txt",     
+        "sna": "../../data/MasakhaNER2.0/sna/train.txt",     
+        "swa": "../../data/MasakhaNER2.0/swa/train.txt",     
+        "tsn": "../../data/MasakhaNER2.0/tsn/train.txt",     
+        "twi": "../../data/MasakhaNER2.0/twi/train.txt",     
+        "wol": "../../data/MasakhaNER2.0/wol/train.txt",     
+        "xho": "../../data/MasakhaNER2.0/xho/train.txt",     
+        "yor": "../../data/MasakhaNER2.0/yor/train.txt",     
+        "zul": "../../data/MasakhaNER2.0/zul/train.txt"     
     }
 
     for model_type in ["xlmr", "mbert"]:
