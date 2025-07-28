@@ -6,6 +6,7 @@ from transformers import AutoTokenizer, AutoModel
 from tqdm import tqdm
 from sklearn.metrics.pairwise import cosine_similarity
 import matplotlib.pyplot as plt
+import random
 
 MODEL_NAME_MAP = {
     "xlmr": "xlm-roberta-base",
@@ -45,7 +46,10 @@ def load_model_and_tokenizer(model_type: str):
 def compute_mean_embedding(file_path: str, tokenizer, model, max_samples: int):
     embeddings = []
     sentences = extract_entity_only_sentences(file_path)
+
     if max_samples:
+        random.seed(42)  # for reproducibility
+        random.shuffle(sentences)
         sentences = sentences[:max_samples]
 
     for sentence in tqdm(sentences, desc=f"Embedding {os.path.basename(file_path)}"):
