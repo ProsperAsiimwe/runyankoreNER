@@ -103,7 +103,7 @@ def compute_mean_embedding(file_path: str, tokenizer, model, max_samples: int = 
 # RUNYANKORE VS ALL LANGUAGES
 # -----------------------------
 
-def compute_runyankore_similarity(language_files: dict, model_type: str, output_dir: str = "outputs_advanced_language_similarity", entity_only: bool = False):
+def compute_runyankore_similarity(language_files: dict, model_type: str, output_dir: str = "outputs_pairwise", entity_only: bool = False):
     """
     Compute similarity between Runyankore and other languages.
     Supports entity-only mode (BIO-based).
@@ -142,7 +142,7 @@ def compute_runyankore_similarity(language_files: dict, model_type: str, output_
 
     return df_sim
 
-def plot_runyankore_similarity(df_sim: pd.DataFrame, model_type: str, entity_only: bool = False, output_dir: str = "outputs_advanced_language_similarity"):
+def plot_runyankore_similarity(df_sim: pd.DataFrame, model_type: str, entity_only: bool = False, output_dir: str = "outputs_pairwise"):
     """Generate a bar plot for Runyankore vs other languages similarity."""
     plt.figure(figsize=(10, 6))
     plt.bar(df_sim["Language"], df_sim["Cosine_Similarity"])
