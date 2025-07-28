@@ -7,25 +7,6 @@ from tqdm import tqdm
 from sklearn.metrics.pairwise import cosine_similarity
 import matplotlib.pyplot as plt
 
-"""
-Runyankore Similarity with Sentence Logging:
-
-1. Saves all sentences used for similarity computation
-    - outputs_compute/xlmr_run_used_sentences.txt
-    - outputs_compute/xlmr_lug_used_sentences.txt, etc.
-
-2. Only computes Runyankore vs other languages
-    - Skips unnecessary comparisons (no full matrix).
-    - Produces a clean CSV
-    
-3. Generates a bar chart for quick visualization:
-    - outputs_compute/xlmr_run_similarity_bar.png
-    - outputs_compute/mbert_run_similarity_bar.png
-    
-4. Still prints Top-5 results in terminal.
-
-"""
-
 MODEL_NAME_MAP = {
     "xlmr": "xlm-roberta-base",
     "mbert": "bert-base-multilingual-cased"
@@ -33,10 +14,8 @@ MODEL_NAME_MAP = {
 
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 TARGET_LANG = "run"
-MAX_SAMPLES = 2000
 
-
-def extract_bio_sentences(file_path: str):
+def extract_entity_only_sentences(file_path: str):
     sentences = []
     current_tokens = []
     with open(file_path, "r", encoding="utf-8") as f:
@@ -50,11 +29,11 @@ def extract_bio_sentences(file_path: str):
                 parts = line.split()
                 if len(parts) == 2:
                     token, tag = parts
-                    current_tokens.append(token)
+                    if tag != "O":
+                        current_tokens.append(token)
     if current_tokens:
         sentences.append(" ".join(current_tokens))
     return sentences
-
 
 def load_model_and_tokenizer(model_type: str):
     assert model_type in MODEL_NAME_MAP, f"Model type must be one of {list(MODEL_NAME_MAP.keys())}"
@@ -63,10 +42,9 @@ def load_model_and_tokenizer(model_type: str):
     model.eval()
     return tokenizer, model
 
-
-def compute_mean_embedding(file_path: str, tokenizer, model, max_samples: int = MAX_SAMPLES):
+def compute_mean_embedding(file_path: str, tokenizer, model, max_samples: int):
     embeddings = []
-    sentences = extract_bio_sentences(file_path)
+    sentences = extract_entity_only_sentences(file_path)
     if max_samples:
         sentences = sentences[:max_samples]
 
@@ -79,12 +57,12 @@ def compute_mean_embedding(file_path: str, tokenizer, model, max_samples: int = 
 
     return np.mean(embeddings, axis=0), sentences
 
-
-def compute_runyankore_similarity(language_files: dict, model_type: str, output_dir: str = "outputs_compute"):
+def compute_runyankore_similarity(language_files: dict, model_type: str, max_samples: int, base_output_dir: str = "outputs_entity_only"):
+    output_dir = os.path.join(base_output_dir, str(max_samples))
     tokenizer, model = load_model_and_tokenizer(model_type)
     assert TARGET_LANG in language_files, f"{TARGET_LANG} must be in language_files!"
 
-    run_embedding, run_sentences = compute_mean_embedding(language_files[TARGET_LANG], tokenizer, model)
+    run_embedding, run_sentences = compute_mean_embedding(language_files[TARGET_LANG], tokenizer, model, max_samples)
     os.makedirs(output_dir, exist_ok=True)
     run_sentences_path = os.path.join(output_dir, f"{model_type}_{TARGET_LANG}_used_sentences.txt")
     with open(run_sentences_path, "w", encoding="utf-8") as sf:
@@ -95,7 +73,7 @@ def compute_runyankore_similarity(language_files: dict, model_type: str, output_
     for lang, file_path in language_files.items():
         if lang == TARGET_LANG:
             continue
-        embedding, sentences = compute_mean_embedding(file_path, tokenizer, model)
+        embedding, sentences = compute_mean_embedding(file_path, tokenizer, model, max_samples)
 
         sent_path = os.path.join(output_dir, f"{model_type}_{lang}_used_sentences.txt")
         with open(sent_path, "w", encoding="utf-8") as sf:
@@ -116,21 +94,20 @@ def compute_runyankore_similarity(language_files: dict, model_type: str, output_
 
     return df_sim
 
-
-def plot_runyankore_similarity(df_sim: pd.DataFrame, model_type: str, output_dir: str = "outputs_compute"):
+def plot_runyankore_similarity(df_sim: pd.DataFrame, model_type: str, max_samples: int, base_output_dir: str = "outputs_entity_only"):
+    output_dir = os.path.join(base_output_dir, str(max_samples))
     plt.figure(figsize=(10, 6))
     plt.bar(df_sim["Language"], df_sim["Cosine_Similarity"])
     plt.xticks(rotation=45)
     plt.ylabel("Cosine Similarity")
-    plt.title(f"Runyankore vs Other Languages Similarity ({model_type.upper()})")
+    plt.title(f"Runyankore vs Other Languages Similarity (Entities Only - {model_type.upper()} - {max_samples} Samples)")
     plt.tight_layout()
     plt.savefig(os.path.join(output_dir, f"{model_type}_{TARGET_LANG}_similarity_bar.png"))
     plt.close()
 
-
 if __name__ == "__main__":
     language_files = {
-        "run": "../../data/MPTC/train.txt",
+        "run": "../../data/COMBINED/train.txt",
         "bam": "../../data/MasakhaNER2.0/bam/train.txt",
         "bbj": "../../data/MasakhaNER2.0/bbj/train.txt",
         "ewe": "../../data/MasakhaNER2.0/ewe/train.txt",
@@ -153,7 +130,8 @@ if __name__ == "__main__":
         "zul": "../../data/MasakhaNER2.0/zul/train.txt"
     }
 
-    for model_type in ["xlmr", "mbert"]:
-        df_result = compute_runyankore_similarity(language_files, model_type)
-        plot_runyankore_similarity(df_result, model_type)
-        print(f"\nTop-5 similar languages to Runyankore ({model_type.upper()}):\n{df_result.head(5)}\n")
+    for max_samples in [2000, 2500, 3000, 3500, 4000, 4500, 5000]:
+        for model_type in ["xlmr", "mbert"]:
+            df_result = compute_runyankore_similarity(language_files, model_type, max_samples)
+            plot_runyankore_similarity(df_result, model_type, max_samples)
+            print(f"\nTop-5 similar languages to Runyankore ({model_type.upper()}, {max_samples} Samples - Entity Only):\n{df_result.head(5)}\n")
