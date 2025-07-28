@@ -75,6 +75,31 @@ def extract_sentences_from_bio(file_path: str):
 
     return entity_tokens
 
+def extract_full_sentences_from_bio(file_path: str):
+    """
+    Extract full sentences from BIO-formatted file.
+    """
+    sentences = []
+    current_sentence = []
+
+    with open(file_path, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                if current_sentence:
+                    sentences.append(" ".join(current_sentence))
+                    current_sentence = []
+            else:
+                parts = line.split()
+                if len(parts) == 2:
+                    token, tag = parts
+                    current_sentence.append(token)
+
+    if current_sentence:
+        sentences.append(" ".join(current_sentence))
+
+    return sentences
+
 def compute_mean_embedding(file_path: str, tokenizer, model, max_samples: int = MAX_SAMPLES, entity_only: bool = False):
     """
     Compute mean sentence embedding (full text or entity-only).
@@ -83,8 +108,7 @@ def compute_mean_embedding(file_path: str, tokenizer, model, max_samples: int = 
     if entity_only:
         sentences = extract_sentences_from_bio(file_path)
     else:
-        with open(file_path, "r", encoding="utf-8") as f:
-            sentences = [line.strip() for line in f if line.strip()]
+        sentences = extract_full_sentences_from_bio(file_path)
 
     if max_samples:
         sentences = sentences[:max_samples]
@@ -111,12 +135,10 @@ def compute_runyankore_similarity(language_files: dict, model_type: str, output_
     tokenizer, model = load_model_and_tokenizer(model_type)
     os.makedirs(output_dir, exist_ok=True)
 
-    # Compute Runyankore embedding
     run_embedding, run_sentences = compute_mean_embedding(language_files[TARGET_LANG], tokenizer, model, entity_only=entity_only)
     run_sentences_path = os.path.join(output_dir, f"{model_type}_{TARGET_LANG}_used_sentences{'_entityonly' if entity_only else ''}.txt")
     with open(run_sentences_path, "w", encoding="utf-8") as sf:
         sf.write("\n".join(run_sentences))
-    print(f"[INFO] Saved Runyankore sentences at {run_sentences_path}")
 
     similarities = {}
     for lang, file_path in language_files.items():
@@ -124,7 +146,6 @@ def compute_runyankore_similarity(language_files: dict, model_type: str, output_
             continue
         embedding, sentences = compute_mean_embedding(file_path, tokenizer, model, entity_only=entity_only)
 
-        # Save sentences used
         sent_path = os.path.join(output_dir, f"{model_type}_{lang}_used_sentences{'_entityonly' if entity_only else ''}.txt")
         with open(sent_path, "w", encoding="utf-8") as sf:
             sf.write("\n".join(sentences))
@@ -132,7 +153,6 @@ def compute_runyankore_similarity(language_files: dict, model_type: str, output_
         sim = cosine_similarity(run_embedding.reshape(1, -1), embedding.reshape(1, -1))[0][0]
         similarities[lang] = sim
 
-    # Save similarity CSV
     suffix = "_entityonly" if entity_only else ""
     df_sim = pd.DataFrame(similarities.items(), columns=["Language", "Cosine_Similarity"])
     df_sim = df_sim.sort_values(by="Cosine_Similarity", ascending=False).reset_index(drop=True)
@@ -143,7 +163,6 @@ def compute_runyankore_similarity(language_files: dict, model_type: str, output_
     return df_sim
 
 def plot_runyankore_similarity(df_sim: pd.DataFrame, model_type: str, entity_only: bool = False, output_dir: str = "outputs_pairwise"):
-    """Generate a bar plot for Runyankore vs other languages similarity."""
     plt.figure(figsize=(10, 6))
     plt.bar(df_sim["Language"], df_sim["Cosine_Similarity"])
     plt.xticks(rotation=45)
@@ -159,7 +178,6 @@ def plot_runyankore_similarity(df_sim: pd.DataFrame, model_type: str, entity_onl
 # -----------------------------
 
 def compare_two_languages(lang1: str, lang2: str, language_files: dict, model_type: str, entity_only: bool = False):
-    """Compare similarity between any two selected languages (debug mode)."""
     tokenizer, model = load_model_and_tokenizer(model_type)
 
     emb1, _ = compute_mean_embedding(language_files[lang1], tokenizer, model, entity_only=entity_only)
@@ -174,40 +192,36 @@ def compare_two_languages(lang1: str, lang2: str, language_files: dict, model_ty
 # MAIN USAGE
 # -----------------------------
 if __name__ == "__main__":
-    # Update with your actual file paths
     language_files = {
         "run": "../../data/SALT/train.txt",
         "bam": "../../data/MasakhaNER2.0/bam/train.txt",
-        "bbj": "../../data/MasakhaNER2.0/bbj/train.txt",     
-        "ewe": "../../data/MasakhaNER2.0/ewe/train.txt",     
-        "fon": "../../data/MasakhaNER2.0/fon/train.txt",     
-        "hau": "../../data/MasakhaNER2.0/hau/train.txt",     
-        "ibo": "../../data/MasakhaNER2.0/ibo/train.txt",    
-        "kin": "../../data/MasakhaNER2.0/kin/train.txt",     
-        "lug": "../../data/MasakhaNER2.0/lug/train.txt",     
-        "luo": "../../data/MasakhaNER2.0/luo/train.txt",     
-        "mos": "../../data/MasakhaNER2.0/mos/train.txt",     
-        "nya": "../../data/MasakhaNER2.0/nya/train.txt",     
-        "pcm": "../../data/MasakhaNER2.0/pcm/train.txt",     
-        "sna": "../../data/MasakhaNER2.0/sna/train.txt",     
-        "swa": "../../data/MasakhaNER2.0/swa/train.txt",     
-        "tsn": "../../data/MasakhaNER2.0/tsn/train.txt",     
-        "twi": "../../data/MasakhaNER2.0/twi/train.txt",     
-        "wol": "../../data/MasakhaNER2.0/wol/train.txt",     
-        "xho": "../../data/MasakhaNER2.0/xho/train.txt",     
-        "yor": "../../data/MasakhaNER2.0/yor/train.txt",     
-        "zul": "../../data/MasakhaNER2.0/zul/train.txt"     
+        "bbj": "../../data/MasakhaNER2.0/bbj/train.txt",
+        "ewe": "../../data/MasakhaNER2.0/ewe/train.txt",
+        "fon": "../../data/MasakhaNER2.0/fon/train.txt",
+        "hau": "../../data/MasakhaNER2.0/hau/train.txt",
+        "ibo": "../../data/MasakhaNER2.0/ibo/train.txt",
+        "kin": "../../data/MasakhaNER2.0/kin/train.txt",
+        "lug": "../../data/MasakhaNER2.0/lug/train.txt",
+        "luo": "../../data/MasakhaNER2.0/luo/train.txt",
+        "mos": "../../data/MasakhaNER2.0/mos/train.txt",
+        "nya": "../../data/MasakhaNER2.0/nya/train.txt",
+        "pcm": "../../data/MasakhaNER2.0/pcm/train.txt",
+        "sna": "../../data/MasakhaNER2.0/sna/train.txt",
+        "swa": "../../data/MasakhaNER2.0/swa/train.txt",
+        "tsn": "../../data/MasakhaNER2.0/tsn/train.txt",
+        "twi": "../../data/MasakhaNER2.0/twi/train.txt",
+        "wol": "../../data/MasakhaNER2.0/wol/train.txt",
+        "xho": "../../data/MasakhaNER2.0/xho/train.txt",
+        "yor": "../../data/MasakhaNER2.0/yor/train.txt",
+        "zul": "../../data/MasakhaNER2.0/zul/train.txt"
     }
 
     for model_type in ["xlmr", "mbert"]:
-        # === 1) RUNYANKORE FULL TEXT SIMILARITY ===
         df_full = compute_runyankore_similarity(language_files, model_type)
         plot_runyankore_similarity(df_full, model_type)
 
-        # === 2) RUNYANKORE ENTITY-ONLY SIMILARITY ===
         df_entity = compute_runyankore_similarity(language_files, model_type, entity_only=True)
         plot_runyankore_similarity(df_entity, model_type, entity_only=True)
 
-        # === 3) DEBUGGING: PAIRWISE COMPARISON ===
         compare_two_languages("lug", "xho", language_files, model_type)
         compare_two_languages("lug", "xho", language_files, model_type, entity_only=True)
