@@ -6,11 +6,11 @@ import pandas as pd
 TARGET_LANG = "run"  # Runyankore
 TOP_K = 5
 SIMILARITY_FILES = {
-    "xlmr": "./outputs/xlmr_similarity_matrix.csv",
-    "mbert": "./outputs/mbert_similarity_matrix.csv"
+    "xlmr": "./outputs_advanced/xlmr_similarity_matrix.csv",
+    "mbert": "./outputs_advanced/mbert_similarity_matrix.csv"
 }
 SAVE_TO_FILE = True
-OUTPUT_DIR = "outputs"
+OUTPUT_DIR = "outputs_advanced"
 
 # -----------------------------
 # FUNCTIONS
