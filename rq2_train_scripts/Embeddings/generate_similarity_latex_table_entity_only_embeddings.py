@@ -71,5 +71,5 @@ for emb_label, emb_filename in embedding_variants.items():
                 scores[lang][sample][dataset] = sim
                 languages.add(lang)
 
-    output_tex_file = f"cosine_similarity_table_{emb_label.lower().replace('-', '')}.tex"
+    output_tex_file = f"embeddings_only_cosine_similarity_table_{emb_label.lower().replace('-', '')}.tex"
     generate_latex_table(emb_label, scores, languages, output_tex_file)
