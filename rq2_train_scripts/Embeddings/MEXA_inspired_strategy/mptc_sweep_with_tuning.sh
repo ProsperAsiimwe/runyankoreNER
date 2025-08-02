@@ -27,7 +27,7 @@ for MODEL in "xlmr" "mbert"; do
     for CONTEXT_WINDOW in "${CONTEXT_WINDOWS[@]}"; do
       for MAX_TOKENS_PER_TYPE in "${TOKEN_LIMITS[@]}"; do
 
-        OUTDIR="outputs/mptc/${MODEL}/config_${i}_cls${USE_CLS}_ctx${USE_CONTEXT}_hyb${USE_HYBRID}/tokens_${MAX_TOKENS_PER_TYPE}_ctx${CONTEXT_WINDOW}"
+        OUTDIR="rq2_train_scripts/Embeddings/MEXA_inspired_strategy/outputs/mptc/${MODEL}/config_${i}_cls${USE_CLS}_ctx${USE_CONTEXT}_hyb${USE_HYBRID}/tokens_${MAX_TOKENS_PER_TYPE}_ctx${CONTEXT_WINDOW}"
         mkdir -p "$OUTDIR"
 
         echo ""
@@ -37,7 +37,7 @@ for MODEL in "xlmr" "mbert"; do
         echo "Saving to $OUTDIR"
         echo "==============================================="
 
-        CUDA_VISIBLE_DEVICES=$CUDA_VISIBLE_DEVICES python3 mptc.py \
+        CUDA_VISIBLE_DEVICES=$CUDA_VISIBLE_DEVICES python3 rq2_train_scripts/Embeddings/MEXA_inspired_strategy/mptc.py \
           --model_type "$MODEL" \
           $( [ "$USE_CLS" = true ] && echo "--use_cls" ) \
           $( [ "$USE_CONTEXT" = true ] && echo "--use_context" ) \
