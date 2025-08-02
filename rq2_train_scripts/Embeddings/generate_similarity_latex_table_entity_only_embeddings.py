@@ -28,7 +28,7 @@ def generate_latex_table(embedding_name, scores, languages, output_filename):
     table_lines.append("\\begin{table}[h!]")
     table_lines.append("\\centering")
     table_lines.append("\\footnotesize")
-    table_lines.append(f"\\caption{{Mean Cosine Similarity Scores Between Runyankore and Other Languages Across Datasets and Sentence Sample Sizes ({embedding_name}, Full-Text Embeddings)}}")
+    table_lines.append(f"\\caption{{Mean Cosine Similarity Scores Between Runyankore and Other Languages Across Datasets and Sentence Sample Sizes ({embedding_name}, Entity-Only Embeddings)}}")
     table_lines.append(f"\\label{{tab:cosine_similarity_comparison_{embedding_name.lower().replace('-', '')}}}")
     table_lines.append("\\begin{adjustbox}{max width=\\linewidth}")
     table_lines.append("\\begin{tabular}{" + "l" + "c" * total_cols + "}")
