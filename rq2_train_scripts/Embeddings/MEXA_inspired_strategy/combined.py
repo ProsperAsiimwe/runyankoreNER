@@ -161,7 +161,7 @@ def main():
                  f"use_hybrid={args.use_hybrid}, max_tokens_per_type={args.max_tokens_per_type}, "
                  f"output_dir={args.output_dir}")
 
-    BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../../../data"))
+    BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../../data"))
     language_files = {
         "run": os.path.join(BASE_DIR, "COMBINED/train.txt"),
         "bam": os.path.join(BASE_DIR, "MasakhaNER2.0/bam/train.txt"),
