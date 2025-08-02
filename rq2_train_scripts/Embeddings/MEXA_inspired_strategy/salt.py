@@ -79,7 +79,7 @@ def extract_entity_embeddings(file_path, tokenizer, model, entity_tags=ENTITY_TA
 
     return entity_embeddings
 
-def compute_language_prototypes(language_files, model_type, max_tokens_per_type=500, output_dir="outputs_prototypes",
+def compute_language_prototypes(language_files, model_type, max_tokens_per_type=500, output_dir="salt_outputs_prototypes",
                                 use_cls=False, use_context=False, context_window=2):
     tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME_MAP[model_type])
     model = AutoModel.from_pretrained(MODEL_NAME_MAP[model_type]).to(DEVICE)
@@ -102,7 +102,7 @@ def compute_language_prototypes(language_files, model_type, max_tokens_per_type=
 
     return all_prototypes
 
-def compute_similarity_to_target(all_prototypes, output_dir="outputs_prototypes", use_hybrid=False):
+def compute_similarity_to_target(all_prototypes, output_dir="salt_outputs_prototypes", use_hybrid=False):
     similarities = {}
     run_prototypes = all_prototypes[TARGET_LANG]
     for lang, prototypes in all_prototypes.items():
@@ -161,28 +161,29 @@ def main():
                  f"use_hybrid={args.use_hybrid}, max_tokens_per_type={args.max_tokens_per_type}, "
                  f"output_dir={args.output_dir}")
 
+    BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../../../data"))
     language_files = {
-        "run": "../../../data/SALT/train.txt",
-        "bam": "../../../data/MasakhaNER2.0/bam/train.txt",
-        "bbj": "../../../data/MasakhaNER2.0/bbj/train.txt",
-        "ewe": "../../../data/MasakhaNER2.0/ewe/train.txt",
-        "fon": "../../../data/MasakhaNER2.0/fon/train.txt",
-        "hau": "../../../data/MasakhaNER2.0/hau/train.txt",
-        "ibo": "../../../data/MasakhaNER2.0/ibo/train.txt",
-        "kin": "../../../data/MasakhaNER2.0/kin/train.txt",
-        "lug": "../../../data/MasakhaNER2.0/lug/train.txt",
-        "luo": "../../../data/MasakhaNER2.0/luo/train.txt",
-        "mos": "../../../data/MasakhaNER2.0/mos/train.txt",
-        "nya": "../../../data/MasakhaNER2.0/nya/train.txt",
-        "pcm": "../../../data/MasakhaNER2.0/pcm/train.txt",
-        "sna": "../../../data/MasakhaNER2.0/sna/train.txt",
-        "swa": "../../../data/MasakhaNER2.0/swa/train.txt",
-        "tsn": "../../../data/MasakhaNER2.0/tsn/train.txt",
-        "twi": "../../../data/MasakhaNER2.0/twi/train.txt",
-        "wol": "../../../data/MasakhaNER2.0/wol/train.txt",
-        "xho": "../../../data/MasakhaNER2.0/xho/train.txt",
-        "yor": "../../../data/MasakhaNER2.0/yor/train.txt",
-        "zul": "../../../data/MasakhaNER2.0/zul/train.txt"
+        "run": os.path.join(BASE_DIR, "SALT/train.txt"),
+        "bam": os.path.join(BASE_DIR, "MasakhaNER2.0/bam/train.txt"),
+        "bbj": os.path.join(BASE_DIR, "MasakhaNER2.0/bbj/train.txt"),
+        "ewe": os.path.join(BASE_DIR, "MasakhaNER2.0/ewe/train.txt"),
+        "fon": os.path.join(BASE_DIR, "MasakhaNER2.0/fon/train.txt"),
+        "hau": os.path.join(BASE_DIR, "MasakhaNER2.0/hau/train.txt"),
+        "ibo": os.path.join(BASE_DIR, "MasakhaNER2.0/ibo/train.txt"),
+        "kin": os.path.join(BASE_DIR, "MasakhaNER2.0/kin/train.txt"),
+        "lug": os.path.join(BASE_DIR, "MasakhaNER2.0/lug/train.txt"),
+        "luo": os.path.join(BASE_DIR, "MasakhaNER2.0/luo/train.txt"),
+        "mos": os.path.join(BASE_DIR, "MasakhaNER2.0/mos/train.txt"),
+        "nya": os.path.join(BASE_DIR, "MasakhaNER2.0/nya/train.txt"),
+        "pcm": os.path.join(BASE_DIR, "MasakhaNER2.0/pcm/train.txt"),
+        "sna": os.path.join(BASE_DIR, "MasakhaNER2.0/sna/train.txt"),
+        "swa": os.path.join(BASE_DIR, "MasakhaNER2.0/swa/train.txt"),
+        "tsn": os.path.join(BASE_DIR, "MasakhaNER2.0/tsn/train.txt"),
+        "twi": os.path.join(BASE_DIR, "MasakhaNER2.0/twi/train.txt"),
+        "wol": os.path.join(BASE_DIR, "MasakhaNER2.0/wol/train.txt"),
+        "xho": os.path.join(BASE_DIR, "MasakhaNER2.0/xho/train.txt"),
+        "yor": os.path.join(BASE_DIR, "MasakhaNER2.0/yor/train.txt"),
+        "zul": os.path.join(BASE_DIR, "MasakhaNER2.0/zul/train.txt"),
     }
 
     all_prototypes = compute_language_prototypes(
