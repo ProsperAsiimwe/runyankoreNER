@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export CUDA_VISIBLE_DEVICES=0
+export CUDA_VISIBLE_DEVICES=1
 export EARLY_STOPPING_PATIENCE=2  # Stop after 2 declines
 export METRIC_COLUMN="Mean"
 

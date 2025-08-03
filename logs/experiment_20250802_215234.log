@@ -1,0 +1,29 @@
+2025-08-02 21:52:34,652 - INFO - Experiment started with model_type=mbert, use_cls=False, use_context=False, context_window=3, use_hybrid=False, max_tokens_per_type=400, output_dir=rq2_train_scripts/Embeddings/MEXA_inspired_strategy/outputs/combined/mbert/config_0_clsfalse_ctxfalse_hybfalse/tokens_400_ctx3
+2025-08-02 21:52:35,852 - INFO - Processing run
+2025-08-02 21:52:39,005 - INFO - Processing bam
+2025-08-02 21:52:41,745 - INFO - Processing bbj
+2025-08-02 21:52:44,708 - INFO - Processing ewe
+2025-08-02 21:52:47,631 - INFO - Processing fon
+2025-08-02 21:52:50,589 - INFO - Processing hau
+2025-08-02 21:52:53,586 - INFO - Processing ibo
+2025-08-02 21:52:56,602 - INFO - Processing kin
+2025-08-02 21:52:59,585 - INFO - Processing lug
+2025-08-02 21:53:02,532 - INFO - Processing luo
+2025-08-02 21:53:05,502 - INFO - Processing mos
+2025-08-02 21:53:08,446 - INFO - Processing nya
+2025-08-02 21:53:11,404 - INFO - Processing pcm
+2025-08-02 21:53:14,323 - INFO - Processing sna
+2025-08-02 21:53:17,289 - INFO - Processing swa
+2025-08-02 21:53:20,228 - INFO - Processing tsn
+2025-08-02 21:53:23,148 - INFO - Processing twi
+2025-08-02 21:53:26,102 - INFO - Processing wol
+2025-08-02 21:53:29,074 - INFO - Processing xho
+2025-08-02 21:53:32,037 - INFO - Processing yor
+2025-08-02 21:53:35,063 - INFO - Processing zul
+2025-08-02 21:53:38,501 - INFO - Top 5 languages most similar to Runyankore:
+2025-08-02 21:53:38,502 - INFO - 1. lug - Mean Similarity: 0.9574
+2025-08-02 21:53:38,502 - INFO - 2. luo - Mean Similarity: 0.9466
+2025-08-02 21:53:38,502 - INFO - 3. kin - Mean Similarity: 0.9454
+2025-08-02 21:53:38,502 - INFO - 4. ibo - Mean Similarity: 0.9367
+2025-08-02 21:53:38,502 - INFO - 5. twi - Mean Similarity: 0.9351
+2025-08-02 21:53:38,502 - INFO - Experiment finished successfully.
