@@ -13,8 +13,8 @@ language_families = {
 }
 
 def extract_config_info(path):
-    # Example: salt/xlmr/config_5_clsfalse_ctxfalse_hybtrue/tokens_300_ctx2/
-    model_match = re.search(r"salt/([^/]+)/", path)
+    # Example: mptc/xlmr/config_5_clsfalse_ctxfalse_hybtrue/tokens_300_ctx2/
+    model_match = re.search(r"mptc/([^/]+)/", path)
     config_match = re.search(r"config_\d+_cls(.*?)_ctx(.*?)_hyb(.*?)/tokens_(\d+)_ctx(\d+)", path)
     if model_match and config_match:
         return {
@@ -27,7 +27,7 @@ def extract_config_info(path):
         }
     return None
 
-def compile_ranked_similarity(base_dir="MEXA_inspired_strategy/outputs/salt"):
+def compile_ranked_similarity(base_dir="MEXA_inspired_strategy/outputs/mptc"):
     all_rows = []
     for root, _, files in os.walk(base_dir):
         for file in files:
@@ -53,14 +53,14 @@ def format_inline_list(lang_scores):
 
 def generate_latex_landscape_table(df, model):
     model_df = df[df["Model"] == model]
-    output_dir = os.path.join("salt_latex_detailed", model, "landscape_tables")
+    output_dir = os.path.join("mptc_latex_detailed", model, "landscape_tables")
     os.makedirs(output_dir, exist_ok=True)
 
     config_groups = model_df.groupby(["CLS", "CTX", "HYB"])
     for (cls, ctx, hyb), group in config_groups:
         rows = []
-        caption = f"Similarity results for {model.upper()} with CLS={cls}, CTX={ctx}, HYB={hyb} on the SALT dataset."
-        label = f"tab:{model}_cls{cls}_ctx{ctx}_hyb{hyb}"
+        caption = f"Similarity results for {model.upper()} with CLS={cls}, CTX={ctx}, HYB={hyb} on the MPTC dataset."
+        label = f"tab:mptc_{model}_cls{cls}_ctx{ctx}_hyb{hyb}"
 
         for (tokens, window), subdf in group.groupby(["Tokens", "Window"]):
             mean_scores = subdf.groupby("Language")["MeanSim"].mean().sort_values(ascending=False)
