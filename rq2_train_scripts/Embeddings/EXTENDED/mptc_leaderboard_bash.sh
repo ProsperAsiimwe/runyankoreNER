@@ -9,4 +9,7 @@ OUT_CSV="${3:-rq2_train_scripts/Embeddings/EXTENDED/outputs/mptc_extended_leader
 python3 mptc_leaderboard.py \
   --base-dir "$BASE_DIR" \
   --metric-column "$METRIC_COLUMN" \
-  --out-csv "$OUT_CSV"
+  --out-csv "$OUT_CSV" \
+  --plot-topk 20 \
+  --plot-out rq2_train_scripts/Embeddings/EXTENDED/outputs/mptc_extended_leaderboard.png \
+  --plot-per-model
