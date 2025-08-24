@@ -4,7 +4,7 @@ set -euo pipefail
 # =========================
 # GLOBAL SETTINGS
 # =========================
-export CUDA_VISIBLE_DEVICES=${CUDA_VISIBLE_DEVICES:-0}
+export CUDA_VISIBLE_DEVICES=${CUDA_VISIBLE_DEVICES:-1}
 export EARLY_STOPPING_PATIENCE=${EARLY_STOPPING_PATIENCE:-2}   # Stop after 2 consecutive declines
 export METRIC_COLUMN="${METRIC_COLUMN:-Mean}"
 
