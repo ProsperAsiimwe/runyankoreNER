@@ -7,10 +7,13 @@ import numpy as np
 import matplotlib.pyplot as plt
 from typing import Optional, Dict, Any, List, Tuple
 
-# Files look like: pearson_to_run_layer12.csv
+# -------------------------
+# File pattern helpers
+# -------------------------
 LAYER_CSV_RE = re.compile(r"pearson_to_run_layer(\d+)\.csv$", re.IGNORECASE)
 
 def find_final_layer_csv(run_dir: str) -> Optional[Tuple[str, int]]:
+    """Return (path, layer_index) of the highest-layer CSV in run_dir."""
     best = (-1, None)
     try:
         for fname in os.listdir(run_dir):
@@ -25,6 +28,9 @@ def find_final_layer_csv(run_dir: str) -> Optional[Tuple[str, int]]:
         return None
     return best[1], best[0]
 
+# -------------------------
+# Metadata parsing from paths
+# -------------------------
 def parse_model_from_path(path_parts: List[str]) -> Optional[str]:
     # look for ".../outputs/salt_extended/<model>/..."
     for i in range(len(path_parts) - 1):
@@ -52,6 +58,9 @@ def parse_tokens_ctx_from_component(comp: str) -> Dict[str, Any]:
         info["context_window"] = int(m.group(2))
     return info
 
+# -------------------------
+# Scoring
+# -------------------------
 def score_csv(csv_path: str, metric_column: str = "Mean") -> float:
     df = pd.read_csv(csv_path)
     if metric_column not in df.columns:
@@ -63,14 +72,15 @@ def score_csv(csv_path: str, metric_column: str = "Mean") -> float:
     vals = pd.to_numeric(df[metric_column], errors="coerce")
     return float(vals.mean(skipna=True))
 
-def collect_runs(base_dir: str, metric_column: str) -> pd.DataFrame:
+# -------------------------
+# Collect runs (final-layer only)
+# -------------------------
+def collect_runs_final(base_dir: str, metric_column: str) -> pd.DataFrame:
     rows: List[Dict[str, Any]] = []
     for root, dirs, files in os.walk(base_dir):
-        # Consider a "run_dir" to be a directory that contains at least one pearson_to_run_layer*.csv
         csvs = [f for f in files if LAYER_CSV_RE.match(f)]
         if not csvs:
             continue
-
         final = find_final_layer_csv(root)
         if not final:
             continue
@@ -80,8 +90,7 @@ def collect_runs(base_dir: str, metric_column: str) -> pd.DataFrame:
         parts = os.path.normpath(root).split(os.sep)
         model = parse_model_from_path(parts)
 
-        config_info = {}
-        tokens_info = {}
+        config_info, tokens_info = {}, {}
         for comp in parts:
             if not config_info:
                 parsed = parse_config_from_component(comp)
@@ -92,7 +101,7 @@ def collect_runs(base_dir: str, metric_column: str) -> pd.DataFrame:
                 if parsed2.get("max_tokens_per_type") is not None:
                     tokens_info = parsed2
 
-        row = {
+        rows.append({
             "model": model,
             "config_id": config_info.get("config_id"),
             "use_cls": config_info.get("use_cls"),
@@ -100,131 +109,200 @@ def collect_runs(base_dir: str, metric_column: str) -> pd.DataFrame:
             "use_hybrid": config_info.get("use_hybrid"),
             "max_tokens_per_type": tokens_info.get("max_tokens_per_type"),
             "context_window": tokens_info.get("context_window"),
-            "final_layer": final_layer,
-            "score_mean_of_Mean": score,
+            "layer": final_layer,
+            "score": score,
             "run_dir": root,
-            "final_layer_csv": final_csv,
-        }
-        rows.append(row)
+            "csv_path": final_csv,
+            "scope": "final_layer_only",
+        })
 
-    columns = [
-        "model","config_id","use_cls","use_context","use_hybrid",
-        "max_tokens_per_type","context_window","final_layer",
-        "score_mean_of_Mean","run_dir","final_layer_csv"
-    ]
-    if not rows:
-        return pd.DataFrame(columns=columns)
-
-    df = pd.DataFrame(rows)
-    df = df.sort_values(["score_mean_of_Mean"], ascending=[False], na_position="last").reset_index(drop=True)
+    cols = ["model","config_id","use_cls","use_context","use_hybrid",
+            "max_tokens_per_type","context_window","layer","score","run_dir","csv_path","scope"]
+    df = pd.DataFrame(rows, columns=cols) if rows else pd.DataFrame(columns=cols)
+    df = df.sort_values(["score"], ascending=[False], na_position="last").reset_index(drop=True)
     return df
 
-# ---------- Plotting ----------
+# -------------------------
+# Collect runs (ALL layers)
+# -------------------------
+def collect_runs_all_layers(base_dir: str, metric_column: str) -> pd.DataFrame:
+    rows: List[Dict[str, Any]] = []
+    for root, dirs, files in os.walk(base_dir):
+        layer_files = [f for f in files if LAYER_CSV_RE.match(f)]
+        if not layer_files:
+            continue
 
+        parts = os.path.normpath(root).split(os.sep)
+        model = parse_model_from_path(parts)
+        config_info, tokens_info = {}, {}
+        for comp in parts:
+            if not config_info:
+                parsed = parse_config_from_component(comp)
+                if parsed.get("config_id") is not None:
+                    config_info = parsed
+            if not tokens_info:
+                parsed2 = parse_tokens_ctx_from_component(comp)
+                if parsed2.get("max_tokens_per_type") is not None:
+                    tokens_info = parsed2
+
+        for fname in layer_files:
+            m = LAYER_CSV_RE.match(fname)
+            if not m:
+                continue
+            layer = int(m.group(1))
+            csv_path = os.path.join(root, fname)
+            score = score_csv(csv_path, metric_column=metric_column)
+
+            rows.append({
+                "model": model,
+                "config_id": config_info.get("config_id"),
+                "use_cls": config_info.get("use_cls"),
+                "use_context": config_info.get("use_context"),
+                "use_hybrid": config_info.get("use_hybrid"),
+                "max_tokens_per_type": tokens_info.get("max_tokens_per_type"),
+                "context_window": tokens_info.get("context_window"),
+                "layer": layer,
+                "score": score,
+                "run_dir": root,
+                "csv_path": csv_path,
+                "scope": "all_layers",
+            })
+
+    cols = ["model","config_id","use_cls","use_context","use_hybrid",
+            "max_tokens_per_type","context_window","layer","score","run_dir","csv_path","scope"]
+    df = pd.DataFrame(rows, columns=cols) if rows else pd.DataFrame(columns=cols)
+    df = df.sort_values(["score"], ascending=[False], na_position="last").reset_index(drop=True)
+    return df
+
+# -------------------------
+# Plotting
+# -------------------------
 def _short_label(row: pd.Series) -> str:
-    # Compact but informative label for the y-axis
     return (f"{row['model']} | cfg={row['config_id']} | "
             f"cls={row['use_cls']} ctx={row['use_context']} hyb={row['use_hybrid']} | "
-            f"tok={row['max_tokens_per_type']} cw={row['context_window']} | L={row['final_layer']}")
+            f"tok={row['max_tokens_per_type']} cw={row['context_window']} | L={row['layer']}")
 
-def _barh_leaderboard(df: pd.DataFrame, out_png: str, out_svg: Optional[str] = None,
-                      topk: int = 20, title: str = "Leaderboard: Final-layer Pearson (mean of Mean)"):
-    if df.empty:
-        return
-    d = df[["score_mean_of_Mean","model","config_id","use_cls","use_context","use_hybrid",
-            "max_tokens_per_type","context_window","final_layer","run_dir"]].copy()
-    d = d.dropna(subset=["score_mean_of_Mean"])
+def _barh(df: pd.DataFrame, out_png: str, title: str, topk: int = 20, annotate=True, out_svg: bool = True):
+    d = df.dropna(subset=["score"]).head(min(topk, len(df))).iloc[::-1]
     if d.empty:
         return
-    d = d.head(min(topk, len(d))).iloc[::-1]  # reverse for barh (top at top after plotting)
     labels = d.apply(_short_label, axis=1)
-    scores = d["score_mean_of_Mean"].values
-
+    scores = d["score"].values
     plt.figure(figsize=(12, max(4, 0.45*len(d))))
     plt.barh(range(len(d)), scores)
     plt.yticks(range(len(d)), labels)
-    plt.xlabel("Final-layer Pearson score (mean over languages)")
+    plt.xlabel("Pearson score (mean over languages)")
     plt.title(title)
-    # annotate bars
-    for i, v in enumerate(scores):
-        plt.text(v, i, f" {v:.4f}", va="center")
+    if annotate:
+        for i, v in enumerate(scores):
+            plt.text(v, i, f" {v:.4f}", va="center")
     plt.tight_layout()
     os.makedirs(os.path.dirname(os.path.abspath(out_png)), exist_ok=True)
     plt.savefig(out_png, dpi=200)
     if out_svg:
-        plt.savefig(out_svg)
+        base, _ = os.path.splitext(out_png)
+        plt.savefig(base + ".svg")
     plt.close()
 
-def _per_model_charts(df: pd.DataFrame, out_dir: str, topk: int = 10):
-    if df.empty or "model" not in df.columns:
-        return
-    for model, sub in df.groupby("model"):
-        sub_sorted = sub.sort_values("score_mean_of_Mean", ascending=False)
-        out_png = os.path.join(out_dir, f"leaderboard_{model}.png")
-        out_svg = os.path.join(out_dir, f"leaderboard_{model}.svg")
-        _barh_leaderboard(sub_sorted, out_png, out_svg, topk,
-                          title=f"Leaderboard ({model}): Final-layer Pearson (mean of Mean)")
+def _per_model_best_per_layer_plots(df_all_layers: pd.DataFrame, out_dir: str):
+    """For each model: bar chart of best score per layer, annotated with cfg id."""
+    for model, sub in df_all_layers.groupby("model"):
+        # Best per layer for this model
+        idx = sub.groupby("layer")["score"].idxmax()
+        best_per_layer = sub.loc[idx].sort_values("layer")
+        out_png = os.path.join(out_dir, f"best_per_layer_{model}.png")
+        title = f"Best configuration per layer — {model}"
+        _barh(best_per_layer.sort_values("score", ascending=False), out_png, title, topk=len(best_per_layer))
 
-# ---------- CLI ----------
-
+# -------------------------
+# Main CLI
+# -------------------------
 def main():
-    ap = argparse.ArgumentParser(description="Summarize hyper-parameter runs, rank by final-layer Pearson mean, and plot leaderboards.")
+    ap = argparse.ArgumentParser(description="Summarize runs: final-layer leaderboard, best per layer, best overall across layers, with plots.")
     ap.add_argument("--base-dir", type=str, default="rq2_train_scripts/Embeddings/EXTENDED/outputs/salt_extended",
-                    help="Root of the outputs tree written by your grid runs.")
+                    help="Root outputs directory.")
     ap.add_argument("--metric-column", type=str, default="Mean",
                     help="Column to average within each per-layer CSV (default: 'Mean').")
     ap.add_argument("--out-csv", type=str, default=None,
-                    help="Optional path to save the leaderboard CSV.")
-    ap.add_argument("--per-model-topk", type=int, default=5,
-                    help="Also print top-k per model for a quick glance.")
+                    help="Path to save the final-layer leaderboard CSV.")
     ap.add_argument("--plot-topk", type=int, default=20,
                     help="How many top runs to include in the global leaderboard plot.")
-    ap.add_argument("--plot-out", type=str, default=None,
-                    help="Path to save the global leaderboard plot PNG (default: <base-dir>/leaderboard.png).")
     ap.add_argument("--plot-per-model", action="store_true",
-                    help="Also save per-model leaderboard plots.")
+                    help="Also save per-model leaderboard plots (final-layer).")
+    ap.add_argument("--analyze-all-layers", action="store_true",
+                    help="Also compute best configuration per layer and best overall across layers (per model), with CSVs and plots.")
     args = ap.parse_args()
 
-    df = collect_runs(args.base_dir, args.metric_column)
-    if df.empty:
+    # -------- Final-layer leaderboard (existing behavior) --------
+    df_final = collect_runs_final(args.base_dir, args.metric_column)
+    if df_final.empty:
         print(f"[WARN] No runs found under: {args.base_dir}")
-        return
+    else:
+        with pd.option_context("display.max_rows", 50, "display.max_columns", 20, "display.width", 160):
+            print("\n=== Global Leaderboard (FINAL layer; best to worst) ===")
+            print(df_final[[
+                "score","model","config_id","use_cls","use_context","use_hybrid",
+                "max_tokens_per_type","context_window","layer","run_dir"
+            ]].head(50))
 
-    # Print a compact leaderboard
-    with pd.option_context("display.max_rows", 50, "display.max_columns", 20, "display.width", 160):
-        print("\n=== Global Leaderboard (best to worst) ===")
-        print(df[[
-            "score_mean_of_Mean","model","config_id","use_cls","use_context","use_hybrid",
-            "max_tokens_per_type","context_window","final_layer","run_dir"
-        ]].head(50))
+        if args.out_csv:
+            os.makedirs(os.path.dirname(os.path.abspath(args.out_csv)), exist_ok=True)
+            df_final.to_csv(args.out_csv, index=False)
+            print(f"[INFO] Final-layer leaderboard saved to: {args.out_csv}")
 
-    # Optional save CSV
-    if args.out_csv:
-        os.makedirs(os.path.dirname(os.path.abspath(args.out_csv)), exist_ok=True)
-        df.to_csv(args.out_csv, index=False)
-        print(f"\n[INFO] Leaderboard saved to: {args.out_csv}")
+        # Global final-layer plot
+        plot_out = os.path.join(args.base_dir, "leaderboard_final_layer.png")
+        _barh(df_final, plot_out, "Leaderboard (FINAL layer): Pearson mean over languages", topk=args.plot_topk)
+        print(f"[INFO] Final-layer leaderboard plot saved to: {plot_out} and {os.path.splitext(plot_out)[0] + '.svg'}")
 
-    # Global leaderboard plot
-    plot_out = args.plot_out or os.path.join(args.base_dir, "leaderboard.png")
-    plot_svg = os.path.splitext(plot_out)[0] + ".svg"
-    _barh_leaderboard(df, plot_out, plot_svg, topk=args.plot_topk)
-    print(f"[INFO] Leaderboard plot saved to: {plot_out} and {plot_svg}")
+        # Optional per-model final-layer plots
+        if args.plot_per_model and "model" in df_final.columns:
+            for model, sub in df_final.groupby("model"):
+                out_png = os.path.join(args.base_dir, f"leaderboard_final_{model}.png")
+                _barh(sub, out_png, f"Leaderboard (FINAL layer) — {model}", topk=min(args.plot_topk, 10))
+            print(f"[INFO] Per-model final-layer leaderboard plots saved under: {args.base_dir}")
 
-    # Optional per-model plots
-    if args.plot_per_model:
-        _per_model_charts(df, args.base_dir, topk=min(args.plot_topk, 10))
-        print(f"[INFO] Per-model leaderboard plots saved under: {args.base_dir}")
+    # -------- All-layers analysis (answers your two questions) --------
+    if args.analyze_all_layers:
+        df_all = collect_runs_all_layers(args.base_dir, args.metric_column)
+        if df_all.empty:
+            print(f"[WARN] No per-layer CSVs found under: {args.base_dir}")
+            return
 
-    # Quick per-model Top-K to console
-    if args.per_model_topk and "model" in df.columns:
-        print("\n=== Per-model Top-K ===")
-        for model, sub in df.groupby("model"):
-            sub_sorted = sub.sort_values("score_mean_of_Mean", ascending=False)
-            print(f"\nModel: {model}")
-            print(sub_sorted[[
-                "score_mean_of_Mean","config_id","use_cls","use_context","use_hybrid",
-                "max_tokens_per_type","context_window","final_layer","run_dir"
-            ]].head(args.per_model_topk))
+        # (1) Best configuration per layer, per model
+        best_per_layer_rows = []
+        for model, sub in df_all.groupby("model"):
+            idx = sub.groupby("layer")["score"].idxmax()
+            best_per_layer = sub.loc[idx].copy()
+            best_per_layer["rank_within_layer"] = 1
+            best_per_layer_rows.append(best_per_layer)
+
+        df_best_per_layer = pd.concat(best_per_layer_rows, ignore_index=True) if best_per_layer_rows else pd.DataFrame()
+        df_best_per_layer = df_best_per_layer.sort_values(["model","layer"]).reset_index(drop=True)
+
+        out_csv_bpl = os.path.join(args.base_dir, "best_per_layer_per_model.csv")
+        df_best_per_layer.to_csv(out_csv_bpl, index=False)
+        print(f"[INFO] Best-per-layer (per model) saved to: {out_csv_bpl}")
+
+        # Plot: for each model, show best score per layer
+        _per_model_best_per_layer_plots(df_all, args.base_dir)
+        print(f"[INFO] Best-per-layer plots saved under: {args.base_dir}")
+
+        # (2) Best overall across all layers, per model
+        best_overall_rows = []
+        for model, sub in df_all.groupby("model"):
+            j = sub["score"].idxmax()
+            best_overall_rows.append(sub.loc[j])
+
+        df_best_overall = pd.DataFrame(best_overall_rows).reset_index(drop=True)
+        out_csv_bo = os.path.join(args.base_dir, "best_overall_across_layers_per_model.csv")
+        df_best_overall.to_csv(out_csv_bo, index=False)
+        print(f"[INFO] Best-overall-across-layers (per model) saved to: {out_csv_bo}")
+
+        # Plot: overall top-k across all (model, layer, config) triples
+        plot_out_all = os.path.join(args.base_dir, "leaderboard_all_layers.png")
+        _barh(df_all, plot_out_all, "Leaderboard (ALL layers): best configs mixed", topk=args.plot_topk)
+        print(f"[INFO] Global all-layers leaderboard plot saved to: {plot_out_all} and {os.path.splitext(plot_out_all)[0] + '.svg'}")
 
 if __name__ == "__main__":
     main()
