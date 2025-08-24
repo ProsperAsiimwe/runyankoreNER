@@ -1,0 +1,72 @@
+2025-08-24 11:39:25,830 - INFO - Start: model_type=mbert, run_both=False, use_cls=False, use_context=False, context_window=1, max_tokens_per_type=200, batch_size=32, seed=1, num_middle_layers=3, output_dir=rq2_train_scripts/Embeddings/EXTENDED/outputs/combined_extended/mbert/config_0_clsfalse_ctxfalse_hybfalse/tokens_200_ctx1
+2025-08-24 11:39:26,332 - INFO - mbert: selected layer indices (hidden_states) = [2, 3, 10, 12]
+2025-08-24 11:39:27,248 - INFO - Processing run
+2025-08-24 11:39:27,712 - INFO - Processing bam
+2025-08-24 11:39:27,794 - INFO - Processing bbj
+2025-08-24 11:39:27,876 - INFO - Processing ewe
+2025-08-24 11:39:27,980 - INFO - Processing fon
+2025-08-24 11:39:28,253 - INFO - Processing hau
+2025-08-24 11:39:28,532 - INFO - Processing ibo
+2025-08-24 11:39:28,722 - INFO - Processing kin
+2025-08-24 11:39:28,968 - INFO - Processing lug
+2025-08-24 11:39:29,183 - INFO - Processing luo
+2025-08-24 11:39:29,410 - INFO - Processing mos
+2025-08-24 11:39:29,668 - INFO - Processing nya
+2025-08-24 11:39:29,898 - INFO - Processing pcm
+2025-08-24 11:39:30,172 - INFO - Processing sna
+2025-08-24 11:39:30,317 - INFO - Processing swa
+2025-08-24 11:39:30,600 - INFO - Processing tsn
+2025-08-24 11:39:30,679 - INFO - Processing twi
+2025-08-24 11:39:30,959 - INFO - Processing wol
+2025-08-24 11:39:31,159 - INFO - Processing xho
+2025-08-24 11:39:31,454 - INFO - Processing yor
+2025-08-24 11:39:31,885 - INFO - Processing zul
+2025-08-24 11:39:32,380 - INFO - Layer 2 (mbert) — Top 5
+2025-08-24 11:39:32,381 - INFO - 1. lug: r=0.9306
+2025-08-24 11:39:32,381 - INFO - 2. luo: r=0.9242
+2025-08-24 11:39:32,381 - INFO - 3. twi: r=0.9228
+2025-08-24 11:39:32,381 - INFO - 4. kin: r=0.9161
+2025-08-24 11:39:32,381 - INFO - 5. nya: r=0.9150
+2025-08-24 11:39:32,381 - INFO - Layer 2 (mbert) — Worst 5
+2025-08-24 11:39:32,381 - INFO - 1. bbj: r=0.7739
+2025-08-24 11:39:32,381 - INFO - 2. yor: r=0.7983
+2025-08-24 11:39:32,381 - INFO - 3. fon: r=0.8293
+2025-08-24 11:39:32,381 - INFO - 4. bam: r=0.8568
+2025-08-24 11:39:32,381 - INFO - 5. ewe: r=0.8659
+2025-08-24 11:39:32,497 - INFO - Layer 3 (mbert) — Top 5
+2025-08-24 11:39:32,497 - INFO - 1. lug: r=0.9514
+2025-08-24 11:39:32,497 - INFO - 2. luo: r=0.9482
+2025-08-24 11:39:32,497 - INFO - 3. kin: r=0.9469
+2025-08-24 11:39:32,497 - INFO - 4. twi: r=0.9462
+2025-08-24 11:39:32,497 - INFO - 5. nya: r=0.9457
+2025-08-24 11:39:32,497 - INFO - Layer 3 (mbert) — Worst 5
+2025-08-24 11:39:32,497 - INFO - 1. bbj: r=0.8487
+2025-08-24 11:39:32,497 - INFO - 2. yor: r=0.8660
+2025-08-24 11:39:32,498 - INFO - 3. fon: r=0.8904
+2025-08-24 11:39:32,498 - INFO - 4. bam: r=0.8939
+2025-08-24 11:39:32,498 - INFO - 5. ewe: r=0.9023
+2025-08-24 11:39:32,616 - INFO - Layer 10 (mbert) — Top 5
+2025-08-24 11:39:32,616 - INFO - 1. lug: r=0.9877
+2025-08-24 11:39:32,616 - INFO - 2. luo: r=0.9843
+2025-08-24 11:39:32,616 - INFO - 3. twi: r=0.9839
+2025-08-24 11:39:32,616 - INFO - 4. kin: r=0.9829
+2025-08-24 11:39:32,616 - INFO - 5. swa: r=0.9815
+2025-08-24 11:39:32,616 - INFO - Layer 10 (mbert) — Worst 5
+2025-08-24 11:39:32,616 - INFO - 1. bbj: r=0.9444
+2025-08-24 11:39:32,616 - INFO - 2. yor: r=0.9546
+2025-08-24 11:39:32,616 - INFO - 3. pcm: r=0.9583
+2025-08-24 11:39:32,616 - INFO - 4. fon: r=0.9635
+2025-08-24 11:39:32,616 - INFO - 5. bam: r=0.9655
+2025-08-24 11:39:32,733 - INFO - Layer 12 (mbert) — Top 5
+2025-08-24 11:39:32,733 - INFO - 1. lug: r=0.9460
+2025-08-24 11:39:32,733 - INFO - 2. luo: r=0.9224
+2025-08-24 11:39:32,733 - INFO - 3. kin: r=0.9187
+2025-08-24 11:39:32,733 - INFO - 4. twi: r=0.9145
+2025-08-24 11:39:32,733 - INFO - 5. swa: r=0.9075
+2025-08-24 11:39:32,733 - INFO - Layer 12 (mbert) — Worst 5
+2025-08-24 11:39:32,733 - INFO - 1. bbj: r=0.8049
+2025-08-24 11:39:32,733 - INFO - 2. yor: r=0.8131
+2025-08-24 11:39:32,733 - INFO - 3. pcm: r=0.8334
+2025-08-24 11:39:32,733 - INFO - 4. xho: r=0.8513
+2025-08-24 11:39:32,733 - INFO - 5. mos: r=0.8614
+2025-08-24 11:39:32,734 - INFO - Experiment finished successfully.
