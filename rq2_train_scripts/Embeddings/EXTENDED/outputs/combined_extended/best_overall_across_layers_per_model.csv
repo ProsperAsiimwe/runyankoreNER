@@ -1,0 +1,3 @@
+model,config_id,use_cls,use_context,use_hybrid,max_tokens_per_type,context_window,layer,score,run_dir,csv_path,scope
+mbert,4,True,True,False,400,1,3,0.9999789757699051,rq2_train_scripts/Embeddings/EXTENDED/outputs/combined_extended/mbert/config_4_clstrue_ctxtrue_hybfalse/tokens_400_ctx1,rq2_train_scripts/Embeddings/EXTENDED/outputs/combined_extended/mbert/config_4_clstrue_ctxtrue_hybfalse/tokens_400_ctx1/pearson_to_run_layer3.csv,all_layers
+xlmr,4,True,True,False,500,1,10,0.9999978659185832,rq2_train_scripts/Embeddings/EXTENDED/outputs/combined_extended/xlmr/config_4_clstrue_ctxtrue_hybfalse/tokens_500_ctx1,rq2_train_scripts/Embeddings/EXTENDED/outputs/combined_extended/xlmr/config_4_clstrue_ctxtrue_hybfalse/tokens_500_ctx1/pearson_to_run_layer10.csv,all_layers
