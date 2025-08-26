@@ -1,0 +1,2 @@
+model,config,layer,layer_mean_cosine_over_languages
+xlmr,use1_use0_con4_max500_bat64,ALL,0.9999373554200458
