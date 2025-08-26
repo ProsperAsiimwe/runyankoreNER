@@ -65,7 +65,6 @@ echo "grid_use_context=${GRID_USE_CONTEXT}"
 echo "grid_context_window=${GRID_CONTEXT_WINDOW}"
 echo "grid_max_tokens_per_type=${GRID_MAX_TOKENS_PER_TYPE}"
 echo "grid_batch_size=${GRID_BATCH_SIZE}"
-echo "bootstrap_iters=${BOOTSTRAP_ITERS}"
 echo "====================================================="
 echo
 
@@ -80,7 +79,6 @@ if [[ "${RUN_BOTH}" == "true" ]]; then
     --run_both \
     --seed "${SEED}" \
     --output_dir "${BASE_OUTDIR}" \
-    --bootstrap_iters "${BOOTSTRAP_ITERS}" \
     --grid_use_cls "${GRID_USE_CLS}" \
     --grid_use_context "${GRID_USE_CONTEXT}" \
     --grid_context_window "${GRID_CONTEXT_WINDOW}" \
@@ -97,7 +95,6 @@ else
     --model_type "${MODEL}" \
     --seed "${SEED}" \
     --output_dir "${BASE_OUTDIR}" \
-    --bootstrap_iters "${BOOTSTRAP_ITERS}" \
     --grid_use_cls "${GRID_USE_CLS}" \
     --grid_use_context "${GRID_USE_CONTEXT}" \
     --grid_context_window "${GRID_CONTEXT_WINDOW}" \
