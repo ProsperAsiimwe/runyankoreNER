@@ -606,7 +606,7 @@ def main():
     # Data paths
     BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../../data"))
     language_files = {
-        "run": os.path.join(BASE_DIR, "SALT/train.txt"),
+        "run": os.path.join(BASE_DIR, "COMBINED/train.txt"),
         "bam": os.path.join(BASE_DIR, "MasakhaNER2.0/bam/train.txt"),
         "bbj": os.path.join(BASE_DIR, "MasakhaNER2.0/bbj/train.txt"),
         "ewe": os.path.join(BASE_DIR, "MasakhaNER2.0/ewe/train.txt"),
