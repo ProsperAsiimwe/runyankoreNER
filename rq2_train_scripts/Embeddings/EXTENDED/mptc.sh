@@ -4,7 +4,7 @@ set -euo pipefail
 # =========================
 # GLOBAL SETTINGS
 # =========================
-export CUDA_VISIBLE_DEVICES=${CUDA_VISIBLE_DEVICES:-0}
+export CUDA_VISIBLE_DEVICES=${CUDA_VISIBLE_DEVICES:-1}
 export SEED=${SEED:-42}
 
 # Path to your updated Python script (the one we just wrote)
