@@ -7,62 +7,42 @@ set -euo pipefail
 export CUDA_VISIBLE_DEVICES=${CUDA_VISIBLE_DEVICES:-0}
 export SEED=${SEED:-42}
 
-# Path to your updated Python script (the one we just wrote)
-# Change this if your file lives elsewhere.
+# Path to your updated Python script
 PY_SCRIPT="${PY_SCRIPT:-rq2_train_scripts/Embeddings/EXTENDED/salt.py}"
 
-# Base output directory (the Python script will create model/config subfolders)
+# Base output directory
 BASE_OUTDIR="${BASE_OUTDIR:-rq2_train_scripts/Embeddings/EXTENDED/outputs/salt_cosine}"
 
-# Models: set RUN_BOTH=true to evaluate both; otherwise set MODEL to one of: xlmr | mbert
+# Models
 RUN_BOTH="${RUN_BOTH:-true}"
 MODEL="${MODEL:-xlmr}"
+
+# (NEW) Optional bootstrap iterations for rho stability (0 disables)
+BOOTSTRAP_ITERS="${BOOTSTRAP_ITERS:-0}"
 
 # =========================
 # SWEEP SETTINGS
 # =========================
-# These arrays define the grid search values. Edit as desired.
-# (They will be converted into comma-separated lists for the Python --grid_* flags.)
-
-# Whether to use CLS pooling (0/1)
 USE_CLS_LIST=(${USE_CLS_LIST:-0 1})
-
-# Whether to include context around the entity (0/1)
 USE_CONTEXT_LIST=(${USE_CONTEXT_LIST:-0 1})
-
-# Context window sizes
 CONTEXT_WINDOWS=(${CONTEXT_WINDOWS:-0 2 4})
-
-# Max entity tokens per tag
 TOKEN_LIMITS=(${TOKEN_LIMITS:-250 500})
-
-# Batch sizes
 BATCH_SIZES=(${BATCH_SIZES:-32 64})
 
-# Single-run defaults (used by the Python script if a grid is empty;
-# we’ll pass both the defaults AND the grid below, so defaults are mostly informational here)
 DEFAULT_CONTEXT_WINDOW="${DEFAULT_CONTEXT_WINDOW:-2}"
 DEFAULT_MAX_TOKENS_PER_TYPE="${DEFAULT_MAX_TOKENS_PER_TYPE:-500}"
 DEFAULT_BATCH_SIZE="${DEFAULT_BATCH_SIZE:-64}"
-DEFAULT_USE_CLS="${DEFAULT_USE_CLS:-0}"        # 0/1
-DEFAULT_USE_CONTEXT="${DEFAULT_USE_CONTEXT:-0}" # 0/1
+DEFAULT_USE_CLS="${DEFAULT_USE_CLS:-0}"
+DEFAULT_USE_CONTEXT="${DEFAULT_USE_CONTEXT:-0}"
 
 # =========================
 # HELPERS
 # =========================
-join_by_comma () {
-  local IFS=','; echo "$*"
-}
-
+join_by_comma () { local IFS=','; echo "$*"; }
 to_bool () {
-  # Normalize to 0/1 for printing logs only
-  case "$1" in
-    1|true|TRUE|True|yes|y|Y) echo 1 ;;
-    *) echo 0 ;;
-  esac
+  case "$1" in 1|true|TRUE|True|yes|y|Y) echo 1 ;; *) echo 0 ;; esac
 }
 
-# Convert arrays to comma-separated lists for the Python --grid_* flags
 GRID_USE_CLS="$(join_by_comma "${USE_CLS_LIST[@]}")"
 GRID_USE_CONTEXT="$(join_by_comma "${USE_CONTEXT_LIST[@]}")"
 GRID_CONTEXT_WINDOW="$(join_by_comma "${CONTEXT_WINDOWS[@]}")"
@@ -80,15 +60,12 @@ if [[ "${RUN_BOTH}" == "true" ]]; then
 else
   echo "MODEL=${MODEL} (RUN_BOTH=false)"
 fi
-echo "Grid:"
-echo "  grid_use_cls            = ${GRID_USE_CLS}"
-echo "  grid_use_context        = ${GRID_USE_CONTEXT}"
-echo "  grid_context_window     = ${GRID_CONTEXT_WINDOW}"
-echo "  grid_max_tokens_per_type= ${GRID_MAX_TOKENS_PER_TYPE}"
-echo "  grid_batch_size         = ${GRID_BATCH_SIZE}"
-echo "Defaults (informational):"
-echo "  use_cls=${DEFAULT_USE_CLS} use_context=${DEFAULT_USE_CONTEXT} context_window=${DEFAULT_CONTEXT_WINDOW}"
-echo "  max_tokens_per_type=${DEFAULT_MAX_TOKENS_PER_TYPE} batch_size=${DEFAULT_BATCH_SIZE}"
+echo "grid_use_cls=${GRID_USE_CLS}"
+echo "grid_use_context=${GRID_USE_CONTEXT}"
+echo "grid_context_window=${GRID_CONTEXT_WINDOW}"
+echo "grid_max_tokens_per_type=${GRID_MAX_TOKENS_PER_TYPE}"
+echo "grid_batch_size=${GRID_BATCH_SIZE}"
+echo "bootstrap_iters=${BOOTSTRAP_ITERS}"
 echo "====================================================="
 echo
 
@@ -98,11 +75,12 @@ mkdir -p "${BASE_OUTDIR}"
 # RUN
 # =========================
 if [[ "${RUN_BOTH}" == "true" ]]; then
-  echo "[RUN] Both models (xlmr + mbert) with a single sweep call"
+  echo "[RUN] Both models (xlmr + mbert)"
   CUDA_VISIBLE_DEVICES=${CUDA_VISIBLE_DEVICES} python3 "${PY_SCRIPT}" \
     --run_both \
     --seed "${SEED}" \
     --output_dir "${BASE_OUTDIR}" \
+    --bootstrap_iters "${BOOTSTRAP_ITERS}" \
     --grid_use_cls "${GRID_USE_CLS}" \
     --grid_use_context "${GRID_USE_CONTEXT}" \
     --grid_context_window "${GRID_CONTEXT_WINDOW}" \
@@ -119,6 +97,7 @@ else
     --model_type "${MODEL}" \
     --seed "${SEED}" \
     --output_dir "${BASE_OUTDIR}" \
+    --bootstrap_iters "${BOOTSTRAP_ITERS}" \
     --grid_use_cls "${GRID_USE_CLS}" \
     --grid_use_context "${GRID_USE_CONTEXT}" \
     --grid_context_window "${GRID_CONTEXT_WINDOW}" \
@@ -132,26 +111,27 @@ else
 fi
 
 # =========================
-# OUTPUTS YOU’LL FIND
+# OUTPUTS YOU’LL FIND (updated)
 # =========================
-# For each model (xlmr/mbert), the Python script writes:
-#   ${BASE_OUTDIR}/<model>/
-#     aggregate_results_<model>.csv                 # per-config, per-layer means + ALL row (overall mean over layers)
-#     best_config_<model>.csv                       # single-row CSV: the best config (max overall mean)
-#     best_config_layers_<model>__<cfg_tag>.csv     # layer-by-layer means for the winning config
+# Per model (xlmr/mbert):
+#   ${BASE_OUTDIR}/<model>/best_layers_by_overlap_<model>.csv
+#     - one row per config: best_layer_by_overlap, best_layer_rho
 #
-# And for each config:
+# Per config:
 #   ${BASE_OUTDIR}/<model>/<cfg_tag>/
-#     cosine_to_run_layerL__<cfg_tag>.csv           # per-layer result CSVs (for ALL layers, L=1..num_layers)
+#     cosine_to_run_layerL__<cfg_tag>.csv         # weighted cosine per layer
 #     heatmap_cosine_layers_<model>__<cfg_tag>.png
-#     Cosine similarities vs run (<model>) — Layer X__<cfg_tag>.png (bar charts)
+#     Cosine similarities vs run (<model>) — Layer X__<cfg_tag>.png
 #     summary_top_worst_cosine_<model>__<cfg_tag>.csv
+#     entity_overlap_vs_run__<cfg_tag>.csv        # entity overlap vs target
+#     layer_rhos_vs_overlap__<cfg_tag>.csv        # Spearman rho per layer
+#     layer_rhos_bootstrap__<cfg_tag>.csv         # (present if BOOTSTRAP_ITERS>0)
 
 echo
-echo "[DONE] Sweep finished. See per-model aggregation in:"
+echo "[DONE] Sweep finished. See per-model summary in:"
 if [[ "${RUN_BOTH}" == "true" ]]; then
-  echo "  ${BASE_OUTDIR}/xlmr/aggregate_results_xlmr.csv"
-  echo "  ${BASE_OUTDIR}/mbert/aggregate_results_mbert.csv"
+  echo "  ${BASE_OUTDIR}/xlmr/best_layers_by_overlap_xlmr.csv"
+  echo "  ${BASE_OUTDIR}/mbert/best_layers_by_overlap_mbert.csv"
 else
-  echo "  ${BASE_OUTDIR}/${MODEL}/aggregate_results_${MODEL}.csv"
+  echo "  ${BASE_OUTDIR}/${MODEL}/best_layers_by_overlap_${MODEL}.csv"
 fi
