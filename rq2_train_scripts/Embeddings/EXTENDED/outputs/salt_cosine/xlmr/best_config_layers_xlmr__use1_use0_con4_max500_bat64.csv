@@ -1,0 +1,13 @@
+model,config,layer,layer_mean_cosine_over_languages
+xlmr,use1_use0_con4_max500_bat64,1,0.999720402825643
+xlmr,use1_use0_con4_max500_bat64,2,0.9999677690441219
+xlmr,use1_use0_con4_max500_bat64,3,0.9999896085284637
+xlmr,use1_use0_con4_max500_bat64,4,0.999993783406502
+xlmr,use1_use0_con4_max500_bat64,5,0.999989118233142
+xlmr,use1_use0_con4_max500_bat64,6,0.9999993282536884
+xlmr,use1_use0_con4_max500_bat64,7,0.9999969595977577
+xlmr,use1_use0_con4_max500_bat64,8,0.9999782841895201
+xlmr,use1_use0_con4_max500_bat64,9,0.9999936592054958
+xlmr,use1_use0_con4_max500_bat64,10,0.9999937354141449
+xlmr,use1_use0_con4_max500_bat64,11,0.9999809273366915
+xlmr,use1_use0_con4_max500_bat64,12,0.9996958400242049
