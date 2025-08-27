@@ -82,8 +82,8 @@ print(0 if a < b else 1)
 PY
 }
 
-# Wrapper to run a python script with common flags
-run_py() {
+# Convenience wrapper for scripts that accept common flags (and optionally title suffix)
+run_py_common() {
   local script="$1"; shift
   local model="$1"; shift
   local outdir="$1"; shift
@@ -91,24 +91,39 @@ run_py() {
   local use_ctx="$1"; shift
   local ctx_win="$1"; shift
   local max_tokens="$1"; shift
-  local title_suffix="$1"; shift
+  local with_title="$1"; shift       # "yes" or "no"
+  local title_suffix="$1"; shift     # ignored if with_title=no
 
   local CLS_FLAG=""; [[ "$use_cls" == "true" ]] && CLS_FLAG="--use_cls"
   local CTX_FLAG=""; [[ "$use_ctx" == "true" ]] && CTX_FLAG="--use_context"
   local FP16_FLAG=""; [[ "$USE_FP16" == "true" ]] && FP16_FLAG="--fp16"
 
-  CUDA_VISIBLE_DEVICES=$CUDA_VISIBLE_DEVICES python3 "$script" \
-    --model_type "$model" \
-    $CLS_FLAG \
-    $CTX_FLAG \
-    $FP16_FLAG \
-    --span_mode bio \
-    --pool mean \
-    --context_window "$ctx_win" \
-    --max_tokens_per_type "$max_tokens" \
-    --max_length "$MAX_LENGTH" \
-    --title_suffix "$title_suffix" \
-    --output_dir "$outdir"
+  if [[ "$with_title" == "yes" ]]; then
+    CUDA_VISIBLE_DEVICES=$CUDA_VISIBLE_DEVICES python3 "$script" \
+      --model_type "$model" \
+      $CLS_FLAG \
+      $CTX_FLAG \
+      $FP16_FLAG \
+      --span_mode bio \
+      --pool mean \
+      --context_window "$ctx_win" \
+      --max_tokens_per_type "$max_tokens" \
+      --max_length "$MAX_LENGTH" \
+      --title_suffix "$title_suffix" \
+      --output_dir "$outdir"
+  else
+    CUDA_VISIBLE_DEVICES=$CUDA_VISIBLE_DEVICES python3 "$script" \
+      --model_type "$model" \
+      $CLS_FLAG \
+      $CTX_FLAG \
+      $FP16_FLAG \
+      --span_mode bio \
+      --pool mean \
+      --context_window "$ctx_win" \
+      --max_tokens_per_type "$max_tokens" \
+      --max_length "$MAX_LENGTH" \
+      --output_dir "$outdir"
+  fi
 }
 
 # =========================
@@ -150,7 +165,7 @@ for MODEL in "xlmr" "mbert"; do
         TITLE_SUFFIX="L=all, tokens=${MAX_TOKENS_PER_TYPE}, ctx=${CONTEXT_WINDOW}, cls=${USE_CLS}, fp16=${USE_FP16}"
 
         # ---------------- Core (salt.py) ----------------
-        run_py "$PY_CORE" "$MODEL" "$OUTDIR_CORE" "$USE_CLS" "$USE_CONTEXT" "$CONTEXT_WINDOW" "$MAX_TOKENS_PER_TYPE" "$TITLE_SUFFIX"
+        run_py_common "$PY_CORE" "$MODEL" "$OUTDIR_CORE" "$USE_CLS" "$USE_CONTEXT" "$CONTEXT_WINDOW" "$MAX_TOKENS_PER_TYPE" "yes" "$TITLE_SUFFIX"
 
         # -------- Aggregate Early Stopping over layers (avg top-K) --------
         SCORES=()
@@ -191,28 +206,23 @@ for MODEL in "xlmr" "mbert"; do
         fi
 
         # ---------------- Side-by-side analyses ----------------
-        # Only run these if not early-stopped at this step (we still want their outputs for kept steps)
-        # Per-entity cosine
-        run_py "$PY_PER_ENTITY" "$MODEL" "$OUTDIR_PER" "$USE_CLS" "$USE_CONTEXT" "$CONTEXT_WINDOW" "$MAX_TOKENS_PER_TYPE" "$TITLE_SUFFIX"
 
-        # Alternative measures (Euclid, centered-cos, CKA)
-        run_py "$PY_ALT_MEAS" "$MODEL" "$OUTDIR_ALT" "$USE_CLS" "$USE_CONTEXT" "$CONTEXT_WINDOW" "$MAX_TOKENS_PER_TYPE" "$TITLE_SUFFIX"
+        # Per-entity cosine (no --title_suffix)
+        run_py_common "$PY_PER_ENTITY" "$MODEL" "$OUTDIR_PER" "$USE_CLS" "$USE_CONTEXT" "$CONTEXT_WINDOW" "$MAX_TOKENS_PER_TYPE" "no" ""
 
-        # Distribution distance (Sliced Wasserstein)
-        # These flags are independent if you want different sampling/projections — adjust below if needed.
+        # Alternative measures (Euclid, centered-cos, CKA) (no --title_suffix)
+        run_py_common "$PY_ALT_MEAS" "$MODEL" "$OUTDIR_ALT" "$USE_CLS" "$USE_CONTEXT" "$CONTEXT_WINDOW" "$MAX_TOKENS_PER_TYPE" "no" ""
+
+        # Distribution distance (SWD) — this script does NOT accept --use_cls/--use_context/--context_window/title_suffix
         CUDA_VISIBLE_DEVICES=$CUDA_VISIBLE_DEVICES python3 "$PY_SWD" \
           --model_type "$MODEL" \
-          $([ "$USE_CLS" = true ] && echo "--use_cls") \
-          $([ "$USE_CONTEXT" = true ] && echo "--use_context") \
           $([ "$USE_FP16" = true ] && echo "--fp16") \
           --span_mode bio \
           --pool mean \
-          --context_window "$CONTEXT_WINDOW" \
           --max_tokens_per_type "$MAX_TOKENS_PER_TYPE" \
           --max_length "$MAX_LENGTH" \
           --samples_per_tag 200 \
           --num_projections 256 \
-          --title_suffix "$TITLE_SUFFIX" \
           --output_dir "$OUTDIR_SWD"
 
         # ---------------- Early-stop decision ----------------
