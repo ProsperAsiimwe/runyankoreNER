@@ -6,7 +6,7 @@ set -euo pipefail
 # =========================
 export CUDA_VISIBLE_DEVICES=1
 
-# Early stop (for core salt.py only — uses avg top-K layer Means)
+# Early stop (for core mptc.py only — uses avg top-K layer Means)
 export EARLY_STOPPING_PATIENCE=2
 export METRIC_COLUMN="Mean"
 export WARMUP_STEPS=2
@@ -29,10 +29,10 @@ declare -a configs=(
 )
 
 # ---- Paths (adjust if needed) ----
-PY_CORE="rq2_train_scripts/Embeddings/CLEAN/salt.py"
-PY_PER_ENTITY="rq2_train_scripts/Embeddings/CLEAN/salt_per_entity_similarity.py"
-PY_ALT_MEAS="rq2_train_scripts/Embeddings/CLEAN/salt_alt_measures_similarity.py"
-PY_SWD="rq2_train_scripts/Embeddings/CLEAN/salt_distribution_distance.py"
+PY_CORE="rq2_train_scripts/Embeddings/CLEAN/mptc.py"
+PY_PER_ENTITY="rq2_train_scripts/Embeddings/CLEAN/mptc_per_entity_similarity.py"
+PY_ALT_MEAS="rq2_train_scripts/Embeddings/CLEAN/mptc_alt_measures_similarity.py"
+PY_SWD="rq2_train_scripts/Embeddings/CLEAN/mptc_distribution_distance.py"
 
 # Optional: override layers explicitly (comma list) e.g. "1,6,12"
 # If empty, layers are auto-detected from the model config (all layers).
@@ -58,7 +58,7 @@ print(",".join(str(i) for i in range(1, L+1)))
 PY
 }
 
-# Read the 'Mean' value from a layer CSV (core salt.py output)
+# Read the 'Mean' value from a layer CSV (core mptc.py output)
 read_layer_mean() {
   local csv_file="$1"; local col="$2"
   if [[ ! -f "$csv_file" ]]; then echo "NA"; return; fi
@@ -147,7 +147,7 @@ for MODEL in "xlmr" "mbert"; do
       for MAX_TOKENS_PER_TYPE in "${TOKEN_LIMITS[@]}"; do
 
         # Consistent folder tree
-        ROOT="rq2_train_scripts/Embeddings/CLEAN/outputs/salt/${MODEL}/config_${i}_cls${USE_CLS}_ctx${USE_CONTEXT}/tokens_${MAX_TOKENS_PER_TYPE}_ctx${CONTEXT_WINDOW}"
+        ROOT="rq2_train_scripts/Embeddings/CLEAN/outputs/mptc/${MODEL}/config_${i}_cls${USE_CLS}_ctx${USE_CONTEXT}/tokens_${MAX_TOKENS_PER_TYPE}_ctx${CONTEXT_WINDOW}"
         OUTDIR_CORE="${ROOT}/core"
         OUTDIR_PER="${ROOT}/per_entity"
         OUTDIR_ALT="${ROOT}/alt_measures"
@@ -164,7 +164,7 @@ for MODEL in "xlmr" "mbert"; do
 
         TITLE_SUFFIX="L=all, tokens=${MAX_TOKENS_PER_TYPE}, ctx=${CONTEXT_WINDOW}, cls=${USE_CLS}, fp16=${USE_FP16}"
 
-        # ---------------- Core (salt.py) ----------------
+        # ---------------- Core (mptc.py) ----------------
         run_py_common "$PY_CORE" "$MODEL" "$OUTDIR_CORE" "$USE_CLS" "$USE_CONTEXT" "$CONTEXT_WINDOW" "$MAX_TOKENS_PER_TYPE" "yes" "$TITLE_SUFFIX"
 
         # -------- Aggregate Early Stopping over layers (avg top-K) --------
