@@ -4,7 +4,7 @@ set -euo pipefail
 # =========================
 # Config
 # =========================
-export CUDA_VISIBLE_DEVICES=0
+export CUDA_VISIBLE_DEVICES=1
 
 # Early stop (for core salt.py only — uses avg top-K layer Means)
 export EARLY_STOPPING_PATIENCE=2
