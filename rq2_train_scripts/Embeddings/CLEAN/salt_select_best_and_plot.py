@@ -122,6 +122,7 @@ def load_alt_measures_metric(csv_path: str,
 
     elif metric in ("cos_mean", "ccos_mean", "euclid_mean"):
         suffix = "_cos" if metric == "cos_mean" else ("_ccos" if metric == "ccos_mean" else "_euclid")
+        cols = [f"{t}{suffix}" for t in df.columns for t in tags if f"{t}{suffix}" in df.columns]
         cols = [f"{t}{suffix}" for t in tags if f"{t}{suffix}" in df.columns]
         if not cols:
             raise ValueError(f"{csv_path} has no columns for {metric}")
@@ -160,18 +161,18 @@ def scan_best_by_layer_for_tech(
     options: dict
 ) -> Tuple[pd.DataFrame, pd.DataFrame, Dict[int, str], bool]:
     """
-    Explore all configs under <model_root>/<model>/config_*/tokens_*_ctx*/
+    Explore all configs under <model_root>/config_*/tokens_*_ctx*/
     For each layer: choose config maximizing (or minimizing) average metric over languages.
 
     Returns:
       values_by_layer: languages x layers (metric values) from best configs
       best_table:      rows=layers with columns describing winning configs & score
-      best_config_map: {layer -> config_root_path}
+      best_config_map: {layer -> config_id}
       lower_better:    bool for plotting guidance
     """
 
-    # Gather all config/tokens directories
-    model_dir = os.path.join(model_root, model)
+    # model_root already points to the model directory (e.g., .../salt/xlmr)
+    model_dir = model_root
     if not os.path.isdir(model_dir):
         raise FileNotFoundError(f"Missing model dir: {model_dir}")
 
