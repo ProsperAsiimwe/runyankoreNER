@@ -226,8 +226,10 @@ for MODEL in "xlmr" "mbert"; do
           --output_dir "$OUTDIR_SWD"
 
         # ---------------- Early-stop decision ----------------
-        if [[ "$steps" -gt "$WARMUP_STEPS" && "${!DECLINE_$KEY}" -ge "$EARLY_STOPPING_PATIENCE" ]]; then
-          echo "[EARLY STOP] $KEY hit ${!DECLINE_$KEY} declines. Skipping remaining TOKEN_LIMITS for this config/context."
+        declines="${!DECLINE_VAR}"   # safe because you initialized DECLINE_$KEY="0" earlier
+        
+        if [[ "$steps" -gt "$WARMUP_STEPS" && "$declines" -ge "$EARLY_STOPPING_PATIENCE" ]]; then
+          echo "[EARLY STOP] $KEY hit $declines declines. Skipping remaining TOKEN_LIMITS for this config/context."
           break
         fi
 
