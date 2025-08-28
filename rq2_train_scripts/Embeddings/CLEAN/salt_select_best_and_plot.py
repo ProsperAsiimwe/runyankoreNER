@@ -21,6 +21,8 @@ from typing import Dict, List, Tuple, Optional
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+from cycler import cycler
+import matplotlib.colors as mcolors
 
 
 # ------------------------------
@@ -59,6 +61,75 @@ def find_layer_from_filename(fn: str) -> Optional[int]:
 
 def ensure_dir(p: str):
     os.makedirs(p, exist_ok=True)
+
+# ------------------------------
+# Color utilities (new)
+# ------------------------------
+
+def _hexify(rgb):
+    # rgb in 0..1 to hex
+    return mcolors.to_hex(rgb, keep_alpha=False)
+
+def _rel_luminance(rgb):
+    # rgb in 0..1, WCAG relative luminance
+    def f(c):
+        return c/12.92 if c <= 0.04045 else ((c+0.055)/1.055)**2.4
+    r, g, b = rgb
+    R, G, B = f(r), f(g), f(b)
+    return 0.2126*R + 0.7152*G + 0.0722*B
+
+def _contrast_ratio(rgb, bg_rgb=(1.0, 1.0, 1.0)):
+    L1 = _rel_luminance(rgb)
+    L2 = _rel_luminance(bg_rgb)
+    L_light, L_dark = (L1, L2) if L1 > L2 else (L2, L1)
+    return (L_light + 0.05) / (L_dark + 0.05)
+
+def pick_colors(n: int, bg_rgb=(1.0, 1.0, 1.0), min_contrast: float = 3.0) -> List[str]:
+    """
+    Return n visually distinct, high-contrast colors (hex), with no repeats.
+    - bg_rgb: background color (default white)
+    - min_contrast: WCAG-ish contrast threshold (>= 3 is a solid baseline for lines on white)
+    """
+    # 1) Start with curated, high-contrast palettes good on white.
+    #    (tab10/tab20/Tableau + ColorBrewer 'Set1'/'Dark2')
+    curated = []
+    for name in ("tab10", "tab20", "Set1", "Dark2"):
+        cmap = plt.get_cmap(name)
+        if hasattr(cmap, "colors"):
+            curated.extend(list(cmap.colors))
+        else:
+            curated.extend([cmap(i/9.0) for i in range(10)])
+
+    # Deduplicate while preserving order
+    seen = set()
+    curated = [tuple(c[:3]) for c in curated]  # drop alpha if present
+    unique_curated = []
+    for c in curated:
+        if c not in seen:
+            seen.add(c)
+            unique_curated.append(c)
+
+    # Filter by contrast against background
+    good = [c for c in unique_curated if _contrast_ratio(c, bg_rgb) >= min_contrast]
+
+    # 2) If we still need more, synthesize HSV colors (evenly spaced hues)
+    #    tuned for white background (high value, decent saturation),
+    #    then filter by contrast as well.
+    i = 0
+    while len(good) < n and i < 1000:  # hard cap to avoid infinite loops
+        k = len(good) + i + 1
+        hue = ((k * 0.61803398875) % 1.0)  # golden ratio hop for nicer spacing
+        sat = 0.75
+        val = 0.9
+        rgb = mcolors.hsv_to_rgb((hue, sat, val))
+        if _contrast_ratio(rgb, bg_rgb) >= min_contrast and tuple(rgb) not in good:
+            good.append(tuple(rgb))
+        i += 1
+
+    # 3) Trim to n
+    good = good[:n]
+    return [_hexify(c) for c in good]
+
 
 # ------------------------------
 # Metric extraction per technique
@@ -238,26 +309,40 @@ def scan_best_by_layer_for_tech(model_root: str, model: str, technique: str, opt
 
 
 # ------------------------------
-# Plotting
+# Plotting (updated to enforce unique, high-contrast colors)
 # ------------------------------
 
 def plot_lines(values_df: pd.DataFrame, title: str, ylabel: str, out_png: str, invert_for_lower_better: bool):
     ensure_dir(os.path.dirname(out_png) or ".")
     plt.figure(figsize=(12, 7))
+
     X = values_df.columns.astype(int).tolist()
     Y = values_df.copy()
     if invert_for_lower_better:
         Y = -Y
         ylabel = f"{ylabel} (higher=closer; plotted as negative)"
-    for lang in Y.index:
+
+    langs: List[str] = list(Y.index)
+
+    # Build a unique, high-contrast palette the same length as the number of lines
+    palette = pick_colors(len(langs), bg_rgb=(1.0, 1.0, 1.0), min_contrast=3.0)
+
+    # Lock the cycle so each language gets exactly one unique color
+    ax = plt.gca()
+    ax.set_prop_cycle(cycler(color=palette))
+
+    for lang in langs:
         plt.plot(X, Y.loc[lang].values, label=lang)
+
     plt.xlabel("Layer"); plt.ylabel(ylabel); plt.title(title)
     plt.grid(True, alpha=0.3)
-    if len(Y.index) <= 12:
+
+    if len(langs) <= 12:
         plt.legend(loc="best", fontsize=9)
     else:
         plt.legend(bbox_to_anchor=(1.02, 1), loc="upper left", fontsize=8, ncol=1)
         plt.tight_layout(rect=[0, 0, 0.78, 1])
+
     plt.tight_layout()
     plt.savefig(out_png, dpi=220); plt.close()
 
