@@ -3,10 +3,11 @@ import shutil
 
 # === CONFIGURATION === #
 base_dir = os.path.join(os.path.dirname(__file__), "../")  # Adjust path as needed
-runyankore_sources = ["SALT", "MPTC", "COMBINED"]
-typological_aux_langs = ["lug", "swa", "sna"]
+# runyankore_sources = ["SALT", "MPTC", "COMBINED"]
+runyankore_sources = ["COMBINED"]
 masakha_dir = os.path.join(base_dir, "MasakhaNER2.0")
-output_dir = os.path.join(base_dir, "EmbeddingGroups/G9")
+output_dir = os.path.join(base_dir, "EmbeddingGroups/CROSS-LINGUAL/ewe_kin_twi")
+typological_aux_langs = ["ewe", "kin", "twi"]
 
 # === SCRIPT EXECUTION === #
 os.makedirs(output_dir, exist_ok=True)
@@ -18,7 +19,7 @@ for runyankore in runyankore_sources:
     run_test_path = os.path.join(base_dir, runyankore, "test.txt")
 
     # Output folder (combined with typological group)
-    out_folder = os.path.join(output_dir, f"G9_{runyankore}")
+    out_folder = os.path.join(output_dir, f"{runyankore}")
     os.makedirs(out_folder, exist_ok=True)
 
     # === Combine train.txt ===
@@ -34,9 +35,9 @@ for runyankore in runyankore_sources:
             with open(aux_train_path, "r", encoding="utf-8") as infile:
                 outfile.write(infile.read().strip() + "\n\n")
 
-    print(f"[✓] Created combined train.txt for G9_{runyankore}")
+    print(f"[✓] Created combined train.txt for {runyankore}")
 
     # === Copy dev and test from Runyankore ===
     shutil.copy(run_dev_path, os.path.join(out_folder, "dev.txt"))
     shutil.copy(run_test_path, os.path.join(out_folder, "test.txt"))
-    print(f"[✓] Copied dev.txt and test.txt for G9_{runyankore}")
+    print(f"[✓] Copied dev.txt and test.txt for {runyankore}")

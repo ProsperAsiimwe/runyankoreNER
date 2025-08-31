@@ -20,14 +20,15 @@ import json
 from datetime import datetime
 
 # === EDIT THESE === #
-OUTPUT_DIR = Path("../EmbeddingGroups/ZERO-SHOT/G9")  # <<< change to your desired output folder
-MASAKHA_LANGUAGES = ["lug", "swa", "sna"]               # <<< change languages here (order matters)
+OUTPUT_DIR = Path("../EmbeddingGroups/ZERO-SHOT/ewe_kin_twi")  # <<< change to your desired output folder
+MASAKHA_LANGUAGES = ["ewe", "kin", "twi"]               # <<< change languages here (order matters)
 # ================== #
 
 # You can tweak these if your repo layout differs
 BASE_DIR = Path(__file__).resolve().parent.parent        # repo root (contains MasakhaNER2.0, SALT, MPTC, COMBINED)
 MASAKHA_DIR = BASE_DIR / "MasakhaNER2.0"
-RUNYANKORE_SOURCES = ["SALT", "MPTC", "COMBINED"]
+# RUNYANKORE_SOURCES = ["SALT", "MPTC", "COMBINED"]
+RUNYANKORE_SOURCES = ["COMBINED"]
 ENCODING = "utf-8"
 FORCE_OVERWRITE = False      # set True to replace an existing OUTPUT_DIR
 SKIP_MISSING_LANGS = False   # set True to skip languages missing train/dev
