@@ -6,8 +6,8 @@ base_dir = os.path.join(os.path.dirname(__file__), "../")  # Adjust path as need
 # runyankore_sources = ["SALT", "MPTC", "COMBINED"]
 runyankore_sources = ["COMBINED"]
 masakha_dir = os.path.join(base_dir, "MasakhaNER2.0")
-output_dir = os.path.join(base_dir, "EmbeddingGroups/CROSS-LINGUAL/ewe_kin_twi")
-typological_aux_langs = ["ewe", "kin", "twi"]
+output_dir = os.path.join(base_dir, "EmbeddingGroups/CROSS-LINGUAL/twi_kin_ewe")
+typological_aux_langs = ["twi", "kin", "ewe"]
 
 # === SCRIPT EXECUTION === #
 os.makedirs(output_dir, exist_ok=True)
