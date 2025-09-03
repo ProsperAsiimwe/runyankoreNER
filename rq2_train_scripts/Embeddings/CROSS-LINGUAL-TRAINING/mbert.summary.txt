@@ -1,0 +1,437 @@
+CROSS-LINGUAL TRAINING LOGS FOR mBERT
+
+1. Group: "ewe, sna, twi"
+
+08/31/2025 18:07:00 - INFO - __main__ -   ***** Eval results  *****
+08/31/2025 18:07:00 - INFO - __main__ -     f1 = 0.8158263305322129
+08/31/2025 18:07:00 - INFO - __main__ -     loss = 0.07450526560478368
+08/31/2025 18:07:00 - INFO - __main__ -     precision = 0.8158263305322129
+08/31/2025 18:07:00 - INFO - __main__ -     recall = 0.8158263305322129
+08/31/2025 18:07:00 - INFO - __main__ -     report =               precision    recall  f1-score   support
+
+        DATE       0.75      0.74      0.74       437
+         LOC       0.87      0.88      0.87       715
+         ORG       0.74      0.73      0.74       162
+         PER       0.85      0.82      0.83       114
+
+
+2. Group: "hau, lug, sna"
+
+08/31/2025 20:35:54 - INFO - __main__ -   ***** Eval results  *****
+08/31/2025 20:35:54 - INFO - __main__ -     f1 = 0.8065086664308454
+08/31/2025 20:35:54 - INFO - __main__ -     loss = 0.04666218710512494
+08/31/2025 20:35:54 - INFO - __main__ -     precision = 0.8148677626876341
+08/31/2025 20:35:54 - INFO - __main__ -     recall = 0.7983193277310925
+08/31/2025 20:35:54 - INFO - __main__ -     report =               precision    recall  f1-score   support
+
+        DATE       0.78      0.71      0.74       437
+         LOC       0.84      0.88      0.86       715
+         ORG       0.79      0.67      0.72       162
+         PER       0.81      0.83      0.82       114
+
+
+3. Group: "ibo, xho, fon"
+
+09/01/2025 19:08:37 - INFO - __main__ -   ***** Eval results  *****
+09/01/2025 19:08:37 - INFO - __main__ -     f1 = 0.8174463594794231
+09/01/2025 19:08:37 - INFO - __main__ -     loss = 0.06375310614671062
+09/01/2025 19:08:37 - INFO - __main__ -     precision = 0.8212014134275618
+09/01/2025 19:08:37 - INFO - __main__ -     recall = 0.8137254901960784
+09/01/2025 19:08:37 - INFO - __main__ -     report =               precision    recall  f1-score   support
+
+        DATE       0.75      0.73      0.74       437
+         LOC       0.87      0.90      0.88       715
+         ORG       0.79      0.66      0.72       162
+         PER       0.80      0.85      0.83       114
+
+
+4. Group: "kin, lug, nya"
+
+
+08/31/2025 22:58:04 - INFO - __main__ -   ***** Eval results  *****
+08/31/2025 22:58:04 - INFO - __main__ -     f1 = 0.8229166666666669
+08/31/2025 22:58:04 - INFO - __main__ -     loss = 0.054973470636457224
+08/31/2025 22:58:04 - INFO - __main__ -     precision = 0.8161157024793388
+08/31/2025 22:58:04 - INFO - __main__ -     recall = 0.8298319327731093
+08/31/2025 22:58:04 - INFO - __main__ -     report =               precision    recall  f1-score   support
+
+        DATE       0.76      0.75      0.75       437
+         LOC       0.85      0.89      0.87       715
+         ORG       0.82      0.72      0.77       162
+         PER       0.80      0.89      0.84       114
+
+
+5. Group: "kin, luo, twi"
+
+
+08/31/2025 22:59:17 - INFO - __main__ -   ***** Eval results  *****
+08/31/2025 22:59:17 - INFO - __main__ -     f1 = 0.8095402696163152
+08/31/2025 22:59:17 - INFO - __main__ -     loss = 0.0650588576998327
+08/31/2025 22:59:17 - INFO - __main__ -     precision = 0.7993174061433447
+08/31/2025 22:59:17 - INFO - __main__ -     recall = 0.8200280112044818
+08/31/2025 22:59:17 - INFO - __main__ -     report =               precision    recall  f1-score   support
+
+        DATE       0.71      0.74      0.73       437
+         LOC       0.86      0.89      0.88       715
+         ORG       0.73      0.67      0.70       162
+         PER       0.83      0.89      0.86       114
+
+
+6. Group: "kin, nya, sna"
+
+
+09/01/2025 04:45:32 - INFO - __main__ -   ***** Eval results  *****
+09/01/2025 04:45:32 - INFO - __main__ -     f1 = 0.8182134167535627
+09/01/2025 04:45:32 - INFO - __main__ -     loss = 0.07029726887437049
+09/01/2025 04:45:32 - INFO - __main__ -     precision = 0.8122843340234644
+09/01/2025 04:45:32 - INFO - __main__ -     recall = 0.8242296918767507
+09/01/2025 04:45:32 - INFO - __main__ -     report =               precision    recall  f1-score   support
+
+        DATE       0.75      0.77      0.76       437
+         LOC       0.86      0.88      0.87       715
+         ORG       0.74      0.73      0.74       162
+         PER       0.86      0.85      0.85       114
+
+
+7. Group: "kin, sna, nya"
+
+
+09/01/2025 19:57:31 - INFO - __main__ -   ***** Eval results  *****
+09/01/2025 19:57:31 - INFO - __main__ -     f1 = 0.8122794636556104
+09/01/2025 19:57:31 - INFO - __main__ -     loss = 0.0604613982549351
+09/01/2025 19:57:31 - INFO - __main__ -     precision = 0.8186344238975818
+09/01/2025 19:57:31 - INFO - __main__ -     recall = 0.8060224089635855
+09/01/2025 19:57:31 - INFO - __main__ -     report =               precision    recall  f1-score   support
+
+        DATE       0.76      0.72      0.74       437
+         LOC       0.86      0.87      0.87       715
+         ORG       0.76      0.72      0.74       162
+         PER       0.83      0.84      0.84       114
+
+
+8. Group: "kin, sna, zul"
+
+
+09/01/2025 08:18:05 - INFO - __main__ -   ***** Eval results  *****
+09/01/2025 08:18:05 - INFO - __main__ -     f1 = 0.8202602884277171
+09/01/2025 08:18:05 - INFO - __main__ -     loss = 0.06905343919528947
+09/01/2025 08:18:05 - INFO - __main__ -     precision = 0.8240282685512368
+09/01/2025 08:18:05 - INFO - __main__ -     recall = 0.8165266106442577
+09/01/2025 08:18:05 - INFO - __main__ -     report =               precision    recall  f1-score   support
+
+        DATE       0.79      0.75      0.77       437
+         LOC       0.86      0.88      0.87       715
+         ORG       0.72      0.69      0.70       162
+         PER       0.86      0.84      0.85       114
+
+
+9. Group: "kin, twi, ibo"
+
+
+09/01/2025 20:45:38 - INFO - __main__ -   ***** Eval results  *****
+09/01/2025 20:45:38 - INFO - __main__ -     f1 = 0.8075976081603939
+09/01/2025 20:45:38 - INFO - __main__ -     loss = 0.05765510367807001
+09/01/2025 20:45:38 - INFO - __main__ -     precision = 0.8113074204946996
+09/01/2025 20:45:38 - INFO - __main__ -     recall = 0.803921568627451
+09/01/2025 20:45:38 - INFO - __main__ -     report =               precision    recall  f1-score   support
+
+        DATE       0.75      0.72      0.73       437
+         LOC       0.86      0.88      0.87       715
+         ORG       0.71      0.68      0.69       162
+         PER       0.86      0.84      0.85       114
+
+
+10. Group: "kin, twi, luo"
+
+
+09/01/2025 19:53:52 - INFO - __main__ -   ***** Eval results  *****
+09/01/2025 19:53:52 - INFO - __main__ -     f1 = 0.8153846153846155
+09/01/2025 19:53:52 - INFO - __main__ -     loss = 0.061835948589381226
+09/01/2025 19:53:52 - INFO - __main__ -     precision = 0.8142458100558659
+09/01/2025 19:53:52 - INFO - __main__ -     recall = 0.8165266106442577
+09/01/2025 19:53:52 - INFO - __main__ -     report =               precision    recall  f1-score   support
+
+        DATE       0.75      0.75      0.75       437
+         LOC       0.85      0.88      0.87       715
+         ORG       0.77      0.68      0.72       162
+         PER       0.87      0.87      0.87       114
+
+
+11. Group: "lug, hau, nya"
+
+
+09/01/2025 23:05:39 - INFO - __main__ -   ***** Eval results  *****
+09/01/2025 23:05:39 - INFO - __main__ -     f1 = 0.8106427090532136
+09/01/2025 23:05:39 - INFO - __main__ -     loss = 0.07428623029391677
+09/01/2025 23:05:39 - INFO - __main__ -     precision = 0.8001364256480218
+09/01/2025 23:05:39 - INFO - __main__ -     recall = 0.8214285714285714
+09/01/2025 23:05:39 - INFO - __main__ -     report =               precision    recall  f1-score   support
+
+        DATE       0.72      0.74      0.73       437
+         LOC       0.86      0.89      0.87       715
+         ORG       0.75      0.72      0.74       162
+         PER       0.79      0.88      0.83       114
+
+
+12. Group: "lug, kin, nya"
+
+
+09/01/2025 08:18:24 - INFO - __main__ -   ***** Eval results  *****
+09/01/2025 08:18:24 - INFO - __main__ -     f1 = 0.8149688149688149
+09/01/2025 08:18:24 - INFO - __main__ -     loss = 0.044348186523101185
+09/01/2025 08:18:24 - INFO - __main__ -     precision = 0.8065843621399177
+09/01/2025 08:18:24 - INFO - __main__ -     recall = 0.8235294117647058
+09/01/2025 08:18:24 - INFO - __main__ -     report =               precision    recall  f1-score   support
+
+        DATE       0.71      0.76      0.73       437
+         LOC       0.86      0.89      0.87       715
+         ORG       0.80      0.70      0.75       162
+         PER       0.86      0.85      0.85       114
+
+
+13. Group: "lug, sna, xho"
+
+
+09/01/2025 08:14:01 - INFO - __main__ -   ***** Eval results  *****
+09/01/2025 08:14:01 - INFO - __main__ -     f1 = 0.8058353594998264
+09/01/2025 08:14:01 - INFO - __main__ -     loss = 0.07001462952768761
+09/01/2025 08:14:01 - INFO - __main__ -     precision = 0.7994486560992419
+09/01/2025 08:14:01 - INFO - __main__ -     recall = 0.8123249299719888
+09/01/2025 08:14:01 - INFO - __main__ -     report =               precision    recall  f1-score   support
+
+        DATE       0.72      0.73      0.72       437
+         LOC       0.85      0.87      0.86       715
+         ORG       0.75      0.72      0.73       162
+         PER       0.85      0.87      0.86       114
+
+
+14. Group: "nya, sna, kin"
+
+
+09/01/2025 22:01:55 - INFO - __main__ -   ***** Eval results  *****
+09/01/2025 22:01:55 - INFO - __main__ -     f1 = 0.8125
+09/01/2025 22:01:55 - INFO - __main__ -     loss = 0.06130536496343409
+09/01/2025 22:01:55 - INFO - __main__ -     precision = 0.8057851239669421
+09/01/2025 22:01:55 - INFO - __main__ -     recall = 0.819327731092437
+09/01/2025 22:01:55 - INFO - __main__ -     report =               precision    recall  f1-score   support
+
+        DATE       0.73      0.74      0.73       437
+         LOC       0.86      0.88      0.87       715
+         ORG       0.74      0.72      0.73       162
+         PER       0.86      0.87      0.86       114
+
+
+15. Group: "pcm, sna, kin"
+
+
+
+09/01/2025 21:33:48 - INFO - __main__ -   ***** Eval results  *****
+09/01/2025 21:33:48 - INFO - __main__ -     f1 = 0.8193025713279324
+09/01/2025 21:33:48 - INFO - __main__ -     loss = 0.06473142757009309
+09/01/2025 21:33:48 - INFO - __main__ -     precision = 0.8242381289865344
+09/01/2025 21:33:48 - INFO - __main__ -     recall = 0.8144257703081232
+09/01/2025 21:33:48 - INFO - __main__ -     report =               precision    recall  f1-score   support
+
+        DATE       0.75      0.73      0.74       437
+         LOC       0.87      0.88      0.88       715
+         ORG       0.78      0.70      0.74       162
+         PER       0.86      0.86      0.86       114
+
+
+16. Group: "sna, ibo, wol"
+
+
+
+09/02/2025 12:43:13 - INFO - __main__ -   ***** Eval results  *****
+09/02/2025 12:43:13 - INFO - __main__ -     f1 = 0.8027923211169284
+09/02/2025 12:43:13 - INFO - __main__ -     loss = 0.05069776336574354
+09/02/2025 12:43:13 - INFO - __main__ -     precision = 0.8002783576896312
+09/02/2025 12:43:13 - INFO - __main__ -     recall = 0.8053221288515406
+09/02/2025 12:43:13 - INFO - __main__ -     report =               precision    recall  f1-score   support
+
+        DATE       0.72      0.71      0.72       437
+         LOC       0.87      0.89      0.88       715
+         ORG       0.70      0.68      0.69       162
+         PER       0.79      0.80      0.79       114
+
+
+17. Group: "sna, kin, lug"
+
+
+09/01/2025 23:32:51 - INFO - __main__ -   ***** Eval results  *****
+09/01/2025 23:32:51 - INFO - __main__ -     f1 = 0.8285312719606467
+09/01/2025 23:32:51 - INFO - __main__ -     loss = 0.061191435144859994
+09/01/2025 23:32:51 - INFO - __main__ -     precision = 0.8314527503526093
+09/01/2025 23:32:51 - INFO - __main__ -     recall = 0.8256302521008403
+09/01/2025 23:32:51 - INFO - __main__ -     report =               precision    recall  f1-score   support
+
+        DATE       0.80      0.75      0.77       437
+         LOC       0.86      0.89      0.87       715
+         ORG       0.79      0.72      0.75       162
+         PER       0.84      0.85      0.84       114
+
+
+
+18. Group: "sna, kin, twi"
+
+
+
+09/02/2025 12:42:26 - INFO - __main__ -   ***** Eval results  *****
+09/02/2025 12:42:26 - INFO - __main__ -     f1 = 0.8132867132867132
+09/02/2025 12:42:26 - INFO - __main__ -     loss = 0.06936830276912698
+09/02/2025 12:42:26 - INFO - __main__ -     precision = 0.8121508379888268
+09/02/2025 12:42:26 - INFO - __main__ -     recall = 0.8144257703081232
+09/02/2025 12:42:26 - INFO - __main__ -     report =               precision    recall  f1-score   support
+
+        DATE       0.77      0.75      0.76       437
+         LOC       0.87      0.88      0.87       715
+         ORG       0.69      0.70      0.70       162
+         PER       0.79      0.84      0.81       114
+
+
+19. Group: "sna, kin, xho"
+
+
+09/01/2025 23:36:19 - INFO - __main__ -   ***** Eval results  *****
+09/01/2025 23:36:19 - INFO - __main__ -     f1 = 0.806786703601108
+09/01/2025 23:36:19 - INFO - __main__ -     loss = 0.07419845483051637
+09/01/2025 23:36:19 - INFO - __main__ -     precision = 0.797945205479452
+09/01/2025 23:36:19 - INFO - __main__ -     recall = 0.8158263305322129
+09/01/2025 23:36:19 - INFO - __main__ -     report =               precision    recall  f1-score   support
+
+        DATE       0.72      0.76      0.74       437
+         LOC       0.87      0.87      0.87       715
+         ORG       0.69      0.70      0.70       162
+         PER       0.85      0.88      0.86       114
+
+
+
+20. Group: "sna, lug, kin"
+
+
+09/02/2025 10:24:23 - INFO - __main__ -   ***** Eval results  *****
+09/02/2025 10:24:23 - INFO - __main__ -     f1 = 0.8175079421108367
+09/02/2025 10:24:23 - INFO - __main__ -     loss = 0.0630459383299102
+09/02/2025 10:24:23 - INFO - __main__ -     precision = 0.8241992882562278
+09/02/2025 10:24:23 - INFO - __main__ -     recall = 0.8109243697478992
+09/02/2025 10:24:23 - INFO - __main__ -     report =               precision    recall  f1-score   support
+
+        DATE       0.77      0.72      0.75       437
+         LOC       0.87      0.89      0.88       715
+         ORG       0.77      0.67      0.72       162
+         PER       0.79      0.87      0.83       114
+
+
+21. Group: "sna, nya, lug"
+
+
+09/02/2025 10:22:16 - INFO - __main__ -   ***** Eval results  *****
+09/02/2025 10:22:16 - INFO - __main__ -     f1 = 0.8049122807017545
+09/02/2025 10:22:16 - INFO - __main__ -     loss = 0.055804627211853024
+09/02/2025 10:22:16 - INFO - __main__ -     precision = 0.8066104078762306
+09/02/2025 10:22:16 - INFO - __main__ -     recall = 0.8032212885154062
+09/02/2025 10:22:16 - INFO - __main__ -     report =               precision    recall  f1-score   support
+
+        DATE       0.73      0.71      0.72       437
+         LOC       0.86      0.88      0.87       715
+         ORG       0.74      0.67      0.71       162
+         PER       0.83      0.86      0.84       114
+
+
+22. Group: "twi, kin, ewe"
+
+
+09/02/2025 10:16:17 - INFO - __main__ -   ***** Eval results  *****
+09/02/2025 10:16:17 - INFO - __main__ -     f1 = 0.8162839248434237
+09/02/2025 10:16:17 - INFO - __main__ -     loss = 0.06587104329078484
+09/02/2025 10:16:17 - INFO - __main__ -     precision = 0.8112033195020747
+09/02/2025 10:16:17 - INFO - __main__ -     recall = 0.8214285714285714
+09/02/2025 10:16:17 - INFO - __main__ -     report =               precision    recall  f1-score   support
+
+        DATE       0.74      0.76      0.75       437
+         LOC       0.87      0.88      0.87       715
+         ORG       0.74      0.70      0.72       162
+         PER       0.83      0.88      0.85       114
+
+
+23. Group: "twi, kin, lug"
+
+
+09/02/2025 10:20:34 - INFO - __main__ -   ***** Eval results  *****
+09/02/2025 10:20:34 - INFO - __main__ -     f1 = 0.8115737473535639
+09/02/2025 10:20:34 - INFO - __main__ -     loss = 0.07192569405209777
+09/02/2025 10:20:34 - INFO - __main__ -     precision = 0.817923186344239
+09/02/2025 10:20:34 - INFO - __main__ -     recall = 0.8053221288515406
+09/02/2025 10:20:34 - INFO - __main__ -     report =               precision    recall  f1-score   support
+
+        DATE       0.76      0.71      0.73       437
+         LOC       0.86      0.88      0.87       715
+         ORG       0.78      0.67      0.72       162
+         PER       0.80      0.89      0.84       114
+
+
+
+24. Group: "twi, kin, luo"
+
+
+09/02/2025 01:51:24 - INFO - __main__ -   ***** Eval results  *****
+09/02/2025 01:51:24 - INFO - __main__ -     f1 = 0.8172641837800209
+09/02/2025 01:51:24 - INFO - __main__ -     loss = 0.06819771598849943
+09/02/2025 01:51:24 - INFO - __main__ -     precision = 0.8124567474048443
+09/02/2025 01:51:24 - INFO - __main__ -     recall = 0.8221288515406162
+09/02/2025 01:51:24 - INFO - __main__ -     report =               precision    recall  f1-score   support
+
+        DATE       0.73      0.76      0.74       437
+         LOC       0.86      0.88      0.87       715
+         ORG       0.78      0.71      0.74       162
+         PER       0.88      0.87      0.87       114
+
+
+
+25. Group: "twi, luo, lug"
+
+
+09/02/2025 01:43:51 - INFO - __main__ -   ***** Eval results  *****
+09/02/2025 01:43:51 - INFO - __main__ -     f1 = 0.8034662045060658
+09/02/2025 01:43:51 - INFO - __main__ -     loss = 0.07506482666297583
+09/02/2025 01:43:51 - INFO - __main__ -     precision = 0.7954701441317776
+09/02/2025 01:43:51 - INFO - __main__ -     recall = 0.811624649859944
+09/02/2025 01:43:51 - INFO - __main__ -     report =               precision    recall  f1-score   support
+
+        DATE       0.73      0.73      0.73       437
+         LOC       0.86      0.88      0.87       715
+         ORG       0.70      0.69      0.69       162
+         PER       0.78      0.89      0.83       114
+
+
+
+26. Group: "twi, swa, luo"
+
+
+09/02/2025 01:49:26 - INFO - __main__ -   ***** Eval results  *****
+09/02/2025 01:49:26 - INFO - __main__ -     f1 = 0.8150969529085873
+09/02/2025 01:49:26 - INFO - __main__ -     loss = 0.052944961821136775
+09/02/2025 01:49:26 - INFO - __main__ -     precision = 0.8061643835616439
+09/02/2025 01:49:26 - INFO - __main__ -     recall = 0.8242296918767507
+09/02/2025 01:49:26 - INFO - __main__ -     report =               precision    recall  f1-score   support
+
+        DATE       0.74      0.76      0.75       437
+         LOC       0.84      0.89      0.86       715
+         ORG       0.79      0.66      0.72       162
+         PER       0.88      0.88      0.88       114
+
+
+
+27. Group: "xho, ibo, lug"
+
+09/02/2025 01:51:36 - INFO - __main__ -   ***** Eval results  *****
+09/02/2025 01:51:36 - INFO - __main__ -     f1 = 0.8086568189625557
+09/02/2025 01:51:36 - INFO - __main__ -     loss = 0.07830200576233735
+09/02/2025 01:51:36 - INFO - __main__ -     precision = 0.7936614969656103
+09/02/2025 01:51:36 - INFO - __main__ -     recall = 0.8242296918767507
+09/02/2025 01:51:36 - INFO - __main__ -     report =               precision    recall  f1-score   support
+
+        DATE       0.70      0.75      0.72       437
+         LOC       0.86      0.89      0.87       715
+         ORG       0.75      0.71      0.73       162
+         PER       0.83      0.89      0.86       114
