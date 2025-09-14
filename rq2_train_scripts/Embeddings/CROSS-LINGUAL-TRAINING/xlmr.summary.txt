@@ -1,6 +1,6 @@
 CROSS-LINGUAL TRAINING LOGS FOR XLMR
 
-1. Group: "ewe, sna, twi"
+Group: "ewe, sna, twi"
 
 
 08/31/2025 18:47:19 - INFO - __main__ -   ***** Eval results  *****
@@ -16,7 +16,7 @@ CROSS-LINGUAL TRAINING LOGS FOR XLMR
          PER       0.87      0.86      0.86       114
 
 
-2. Group: "hau, lug, sna"
+Group: "hau, lug, sna"
 
 
 08/31/2025 21:18:53 - INFO - __main__ -   ***** Eval results  *****
@@ -32,7 +32,7 @@ CROSS-LINGUAL TRAINING LOGS FOR XLMR
          PER       0.81      0.87      0.84       114
 
 
-3. Group: "ibo, xho, fon"
+Group: "ibo, xho, fon"
 
 
 09/01/2025 19:30:18 - INFO - __main__ -   ***** Eval results  *****
@@ -48,7 +48,7 @@ CROSS-LINGUAL TRAINING LOGS FOR XLMR
          PER       0.87      0.82      0.85       114
 
 
-4. Group: "kin, lug, nya"
+Group: "kin, lug, nya"
 
 
 08/31/2025 23:41:46 - INFO - __main__ -   ***** Eval results  *****
@@ -64,7 +64,7 @@ CROSS-LINGUAL TRAINING LOGS FOR XLMR
          PER       0.79      0.87      0.82       114
 
 
-5. Group: "kin, luo, twi"
+Group: "kin, luo, twi"
 
 
 08/31/2025 23:44:20 - INFO - __main__ -   ***** Eval results  *****
@@ -80,7 +80,7 @@ CROSS-LINGUAL TRAINING LOGS FOR XLMR
          PER       0.81      0.87      0.84       114
 
 
-6. Group: "kin, nya, sna"
+Group: "kin, nya, sna"
 
 
 09/01/2025 05:30:16 - INFO - __main__ -   ***** Eval results  *****
@@ -96,7 +96,7 @@ CROSS-LINGUAL TRAINING LOGS FOR XLMR
          PER       0.82      0.86      0.84       114
 
 
-7. Group: "kin, sna, nya"
+Group: "kin, sna, nya"
 
 
 09/01/2025 20:42:14 - INFO - __main__ -   ***** Eval results  *****
@@ -113,7 +113,7 @@ CROSS-LINGUAL TRAINING LOGS FOR XLMR
 
 
 
-8. Group: "kin, sna, zul"
+Group: "kin, sna, zul"
 
 
 09/01/2025 08:55:27 - INFO - __main__ -   ***** Eval results  *****
@@ -130,7 +130,7 @@ CROSS-LINGUAL TRAINING LOGS FOR XLMR
 
 
 
-9. Group: "kin, twi, ibo"
+Group: "kin, twi, ibo"
 
 
 09/01/2025 21:39:37 - INFO - __main__ -   ***** Eval results  *****
@@ -146,7 +146,7 @@ CROSS-LINGUAL TRAINING LOGS FOR XLMR
          PER       0.77      0.84      0.81       114
 
 
-10. Group: "kin, twi, luo"
+Group: "kin, twi, luo"
 
 
 09/01/2025 20:38:43 - INFO - __main__ -   ***** Eval results  *****
@@ -162,7 +162,7 @@ CROSS-LINGUAL TRAINING LOGS FOR XLMR
          PER       0.84      0.90      0.87       114
 
 
-11. Group: "lug, hau, nya"
+Group: "lug, hau, nya"
 
 
 09/01/2025 23:26:43 - INFO - __main__ -   ***** Eval results  *****
@@ -178,7 +178,7 @@ CROSS-LINGUAL TRAINING LOGS FOR XLMR
          PER       0.85      0.87      0.86       114
 
 
-12. Group: "lug, kin, nya"
+Group: "lug, kin, nya"
 
 
 09/01/2025 09:01:34 - INFO - __main__ -   ***** Eval results  *****
@@ -194,7 +194,7 @@ CROSS-LINGUAL TRAINING LOGS FOR XLMR
          PER       0.78      0.89      0.83       114
 
 
-13. Group: "lug, sna, xho"
+Group: "lug, sna, xho"
 
 
 09/01/2025 08:58:14 - INFO - __main__ -   ***** Eval results  *****
@@ -210,7 +210,7 @@ CROSS-LINGUAL TRAINING LOGS FOR XLMR
          PER       0.78      0.86      0.82       114
 
 
-14. Group: "nya, sna, kin"
+Group: "nya, sna, kin"
 
 
 09/01/2025 22:46:44 - INFO - __main__ -   ***** Eval results  *****
@@ -226,7 +226,7 @@ CROSS-LINGUAL TRAINING LOGS FOR XLMR
          PER       0.85      0.87      0.86       114
 
 
-15. Group: "pcm, sna, kin"
+Group: "pcm, sna, kin"
 
 
 09/01/2025 21:56:41 - INFO - __main__ -   ***** Eval results  *****
@@ -243,7 +243,7 @@ CROSS-LINGUAL TRAINING LOGS FOR XLMR
 
 
 
-16. Group: "sna, ibo, wol"
+Group: "sna, ibo, wol"
 
 
 09/02/2025 13:27:36 - INFO - __main__ -   ***** Eval results  *****
@@ -260,7 +260,7 @@ CROSS-LINGUAL TRAINING LOGS FOR XLMR
 
 
 
-17. Group: "sna, kin, lug"
+Group: "sna, kin, lug"
 
 
 09/02/2025 00:19:41 - INFO - __main__ -   ***** Eval results  *****
@@ -277,7 +277,7 @@ CROSS-LINGUAL TRAINING LOGS FOR XLMR
 
 
 
-18. Group: "sna, kin, twi"
+Group: "sna, kin, twi"
 
 
 09/02/2025 13:27:05 - INFO - __main__ -   ***** Eval results  *****
@@ -294,7 +294,7 @@ CROSS-LINGUAL TRAINING LOGS FOR XLMR
 
 
 
-19. Group: "sna, kin, xho"
+Group: "sna, kin, xho"
 
 
 09/02/2025 00:21:52 - INFO - __main__ -   ***** Eval results  *****
@@ -311,7 +311,7 @@ CROSS-LINGUAL TRAINING LOGS FOR XLMR
 
 
 
-20. Group: "sna, lug, kin"
+Group: "sna, lug, kin"
 
 
 09/02/2025 11:03:36 - INFO - __main__ -   ***** Eval results  *****
@@ -327,7 +327,7 @@ CROSS-LINGUAL TRAINING LOGS FOR XLMR
          PER       0.86      0.85      0.85       114
 
 
-21. Group: "sna, nya, lug"
+Group: "sna, nya, lug"
 
 
 09/02/2025 11:06:02 - INFO - __main__ -   ***** Eval results  *****
@@ -343,7 +343,7 @@ CROSS-LINGUAL TRAINING LOGS FOR XLMR
          PER       0.79      0.88      0.83       114
 
 
-22. Group: "twi, kin, ewe"
+Group: "twi, kin, ewe"
 
 
 09/02/2025 10:57:38 - INFO - __main__ -   ***** Eval results  *****
@@ -359,7 +359,7 @@ CROSS-LINGUAL TRAINING LOGS FOR XLMR
          PER       0.83      0.88      0.85       114
 
 
-23. Group: "twi, kin, lug"
+Group: "twi, kin, lug"
 
 
 09/02/2025 11:05:00 - INFO - __main__ -   ***** Eval results  *****
@@ -376,7 +376,7 @@ CROSS-LINGUAL TRAINING LOGS FOR XLMR
 
 
 
-24. Group: "twi, kin, luo"
+Group: "twi, kin, luo"
 
 
 09/02/2025 02:34:15 - INFO - __main__ -   ***** Eval results  *****
@@ -393,7 +393,7 @@ CROSS-LINGUAL TRAINING LOGS FOR XLMR
 
 
 
-25. Group: "twi, luo, lug"
+Group: "twi, luo, lug"
 
 
 09/02/2025 02:23:43 - INFO - __main__ -   ***** Eval results  *****
@@ -410,7 +410,7 @@ CROSS-LINGUAL TRAINING LOGS FOR XLMR
 
 
 
-26. Group: "twi, swa, luo"
+Group: "twi, swa, luo"
 
 
 09/02/2025 02:32:33 - INFO - __main__ -   ***** Eval results  *****
@@ -427,7 +427,7 @@ CROSS-LINGUAL TRAINING LOGS FOR XLMR
 
 
 
-27. Group: "xho, ibo, lug"
+Group: "xho, ibo, lug"
 
 09/02/2025 02:29:49 - INFO - __main__ -   ***** Eval results  *****
 09/02/2025 02:29:49 - INFO - __main__ -     f1 = 0.8138075313807532
@@ -440,3 +440,19 @@ CROSS-LINGUAL TRAINING LOGS FOR XLMR
          LOC       0.86      0.88      0.87       715
          ORG       0.74      0.70      0.72       162
          PER       0.85      0.89      0.87       114
+
+
+Group: "twi, luo, kin"
+
+
+09/13/2025 09:40:20 - INFO - __main__ -   ***** Eval results  *****
+09/13/2025 09:40:20 - INFO - __main__ -     f1 = 0.8056318681318683
+09/13/2025 09:40:20 - INFO - __main__ -     loss = 0.06549422119507296
+09/13/2025 09:40:20 - INFO - __main__ -     precision = 0.7904312668463612
+09/13/2025 09:40:20 - INFO - __main__ -     recall = 0.8214285714285714
+09/13/2025 09:40:20 - INFO - __main__ -     report =               precision    recall  f1-score   support
+
+        DATE       0.69      0.75      0.72       437
+         LOC       0.86      0.88      0.87       715
+         ORG       0.75      0.72      0.73       162
+         PER       0.81      0.86      0.83       114

@@ -1,6 +1,6 @@
 ZERO-SHOT TRAINING LOGS FOR AFRO-XLMR
 
-1. Group: "ewe, sna, twi"
+Group: "ewe, sna, twi"
 
 09/02/2025 14:58:04 - INFO - __main__ -   ***** Eval results  *****
 09/02/2025 14:58:04 - INFO - __main__ -     f1 = 0.5703676197549202
@@ -15,7 +15,7 @@ ZERO-SHOT TRAINING LOGS FOR AFRO-XLMR
          PER       0.35      0.85      0.50       114
 
 
-2. Group: "hau, lug, sna"
+Group: "hau, lug, sna"
 
 
 09/03/2025 01:33:39 - INFO - __main__ -   ***** Eval results  *****
@@ -31,7 +31,7 @@ ZERO-SHOT TRAINING LOGS FOR AFRO-XLMR
          PER       0.32      0.92      0.48       114
 
 
-3. Group: "ibo, xho, fon"
+Group: "ibo, xho, fon"
 
 
 09/02/2025 15:06:07 - INFO - __main__ -   ***** Eval results  *****
@@ -47,7 +47,7 @@ ZERO-SHOT TRAINING LOGS FOR AFRO-XLMR
          PER       0.40      0.85      0.54       114
 
 
-4. Group: "kin, lug, nya"
+Group: "kin, lug, nya"
 
 
 09/02/2025 15:07:09 - INFO - __main__ -   ***** Eval results  *****
@@ -63,7 +63,7 @@ ZERO-SHOT TRAINING LOGS FOR AFRO-XLMR
          PER       0.39      0.92      0.55       114
 
 
-5. Group: "kin, luo, twi"
+Group: "kin, luo, twi"
 
 
 09/02/2025 15:08:25 - INFO - __main__ -   ***** Eval results  *****
@@ -79,7 +79,7 @@ ZERO-SHOT TRAINING LOGS FOR AFRO-XLMR
          PER       0.24      0.89      0.38       114
 
 
-6. Group: "kin, nya, sna"
+Group: "kin, nya, sna"
 
 
 09/03/2025 01:37:13 - INFO - __main__ -   ***** Eval results  *****
@@ -95,7 +95,7 @@ ZERO-SHOT TRAINING LOGS FOR AFRO-XLMR
          PER       0.36      0.89      0.51       114
 
 
-7. Group: "kin, sna, nya"
+Group: "kin, sna, nya"
 
 
 09/03/2025 01:23:29 - INFO - __main__ -   ***** Eval results  *****
@@ -111,7 +111,7 @@ ZERO-SHOT TRAINING LOGS FOR AFRO-XLMR
          PER       0.31      0.90      0.46       114
 
 
-8. Group: "kin, sna, zul"
+Group: "kin, sna, zul"
 
 
 09/03/2025 00:18:36 - INFO - __main__ -   ***** Eval results  *****
@@ -128,7 +128,7 @@ ZERO-SHOT TRAINING LOGS FOR AFRO-XLMR
 
 
 
-9. Group: "kin, twi, ibo"
+Group: "kin, twi, ibo"
 
 
 09/03/2025 00:17:56 - INFO - __main__ -   ***** Eval results  *****
@@ -145,7 +145,7 @@ ZERO-SHOT TRAINING LOGS FOR AFRO-XLMR
 
 
 
-10. Group: "kin, twi, luo"
+Group: "kin, twi, luo"
 
 
 09/03/2025 00:15:33 - INFO - __main__ -   ***** Eval results  *****
@@ -162,7 +162,7 @@ ZERO-SHOT TRAINING LOGS FOR AFRO-XLMR
 
 
 
-11. Group: "lug, hau, nya"
+Group: "lug, hau, nya"
 
 
 09/02/2025 23:01:36 - INFO - __main__ -   ***** Eval results  *****
@@ -178,7 +178,7 @@ ZERO-SHOT TRAINING LOGS FOR AFRO-XLMR
          PER       0.35      0.92      0.50       114
 
 
-12. Group: "lug, kin, nya"
+Group: "lug, kin, nya"
 
 
 09/02/2025 23:02:40 - INFO - __main__ -   ***** Eval results  *****
@@ -195,7 +195,7 @@ ZERO-SHOT TRAINING LOGS FOR AFRO-XLMR
 
 
 
-13. Group: "lug, sna, xho"
+Group: "lug, sna, xho"
 
 
 09/02/2025 23:00:17 - INFO - __main__ -   ***** Eval results  *****
@@ -211,7 +211,7 @@ ZERO-SHOT TRAINING LOGS FOR AFRO-XLMR
          PER       0.24      0.91      0.38       114
 
 
-14. Group: "nya, sna, kin"
+Group: "nya, sna, kin"
 
 
 09/02/2025 23:01:28 - INFO - __main__ -   ***** Eval results  *****
@@ -228,7 +228,7 @@ ZERO-SHOT TRAINING LOGS FOR AFRO-XLMR
 
 
 
-15. Group: "pcm, sna, kin"
+Group: "pcm, sna, kin"
 
 
 09/03/2025 00:17:16 - INFO - __main__ -   ***** Eval results  *****
@@ -245,7 +245,7 @@ ZERO-SHOT TRAINING LOGS FOR AFRO-XLMR
 
 
 
-16. Group: "sna, ibo, wol"
+Group: "sna, ibo, wol"
 
 
 09/02/2025 19:52:57 - INFO - __main__ -   ***** Eval results  *****
@@ -262,7 +262,7 @@ ZERO-SHOT TRAINING LOGS FOR AFRO-XLMR
 
 
 
-17. Group: "sna, kin, lug"
+Group: "sna, kin, lug"
 
 
 09/02/2025 19:54:12 - INFO - __main__ -   ***** Eval results  *****
@@ -279,7 +279,7 @@ ZERO-SHOT TRAINING LOGS FOR AFRO-XLMR
 
 
 
-18. Group: "sna, kin, twi"
+Group: "sna, kin, twi"
 
 
 09/02/2025 19:52:08 - INFO - __main__ -   ***** Eval results  *****
@@ -296,7 +296,7 @@ ZERO-SHOT TRAINING LOGS FOR AFRO-XLMR
 
 
 
-19. Group: "sna, kin, xho"
+Group: "sna, kin, xho"
 
 
 09/02/2025 19:54:21 - INFO - __main__ -   ***** Eval results  *****
@@ -313,7 +313,7 @@ ZERO-SHOT TRAINING LOGS FOR AFRO-XLMR
 
 
 
-20. Group: "sna, lug, kin"
+Group: "sna, lug, kin"
 
 
 09/02/2025 18:37:47 - INFO - __main__ -   ***** Eval results  *****
@@ -329,7 +329,7 @@ ZERO-SHOT TRAINING LOGS FOR AFRO-XLMR
          PER       0.30      0.91      0.46       114
 
 
-21. Group: "sna, nya, lug"
+Group: "sna, nya, lug"
 
 
 09/02/2025 18:36:29 - INFO - __main__ -   ***** Eval results  *****
@@ -345,7 +345,7 @@ ZERO-SHOT TRAINING LOGS FOR AFRO-XLMR
          PER       0.35      0.91      0.51       114
 
 
-22. Group: "twi, kin, ewe"
+Group: "twi, kin, ewe"
 
 
 09/02/2025 18:33:46 - INFO - __main__ -   ***** Eval results  *****
@@ -361,7 +361,7 @@ ZERO-SHOT TRAINING LOGS FOR AFRO-XLMR
          PER       0.28      0.89      0.42       114
 
 
-23. Group: "twi, kin, lug"
+Group: "twi, kin, lug"
 
 
 09/02/2025 18:36:22 - INFO - __main__ -   ***** Eval results  *****
@@ -378,7 +378,7 @@ ZERO-SHOT TRAINING LOGS FOR AFRO-XLMR
 
 
 
-24. Group: "twi, kin, luo"
+Group: "twi, kin, luo"
 
 
 09/02/2025 17:19:31 - INFO - __main__ -   ***** Eval results  *****
@@ -395,7 +395,7 @@ ZERO-SHOT TRAINING LOGS FOR AFRO-XLMR
 
 
 
-25. Group: "twi, luo, lug"
+Group: "twi, luo, lug"
 
 
 09/02/2025 17:15:15 - INFO - __main__ -   ***** Eval results  *****
@@ -412,7 +412,7 @@ ZERO-SHOT TRAINING LOGS FOR AFRO-XLMR
 
 
 
-26. Group: "twi, swa, luo"
+Group: "twi, swa, luo"
 
 
 09/02/2025 17:17:55 - INFO - __main__ -   ***** Eval results  *****
@@ -429,7 +429,7 @@ ZERO-SHOT TRAINING LOGS FOR AFRO-XLMR
 
 
 
-27. Group: "xho, ibo, lug"
+Group: "xho, ibo, lug"
 
 09/02/2025 17:20:02 - INFO - __main__ -   ***** Eval results  *****
 09/02/2025 17:20:02 - INFO - __main__ -     f1 = 0.6299852289512555
@@ -442,3 +442,20 @@ ZERO-SHOT TRAINING LOGS FOR AFRO-XLMR
          LOC       0.82      0.80      0.81       715
          ORG       0.71      0.43      0.54       162
          PER       0.33      0.86      0.47       114
+
+
+
+Group: "twi, luo, kin"
+
+
+09/13/2025 08:50:13 - INFO - __main__ -   ***** Eval results  *****
+09/13/2025 08:50:13 - INFO - __main__ -     f1 = 0.6141456582633054
+09/13/2025 08:50:13 - INFO - __main__ -     loss = 0.1849002682968054
+09/13/2025 08:50:13 - INFO - __main__ -     precision = 0.6141456582633054
+09/13/2025 08:50:13 - INFO - __main__ -     recall = 0.6141456582633054
+09/13/2025 08:50:13 - INFO - __main__ -     report =               precision    recall  f1-score   support
+
+        DATE       0.45      0.27      0.34       437
+         LOC       0.80      0.83      0.82       715
+         ORG       0.63      0.40      0.48       162
+         PER       0.31      0.87      0.46       114

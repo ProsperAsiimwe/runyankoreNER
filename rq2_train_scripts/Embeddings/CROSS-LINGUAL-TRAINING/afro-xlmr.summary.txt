@@ -1,6 +1,6 @@
 CROSS-LINGUAL TRAINING LOGS FOR AFRO-XLMR
 
-1. Group: "ewe, sna, twi"
+Group: "ewe, sna, twi"
 
 08/31/2025 17:32:17 - INFO - __main__ -   ***** Eval results  *****
 08/31/2025 17:32:17 - INFO - __main__ -     f1 = 0.8190343869399097
@@ -15,7 +15,7 @@ CROSS-LINGUAL TRAINING LOGS FOR AFRO-XLMR
          PER       0.89      0.84      0.86       114
 
 
-2. Group: "hau, lug, sna"
+Group: "hau, lug, sna"
 
 08/31/2025 19:58:50 - INFO - __main__ -   ***** Eval results  *****
 08/31/2025 19:58:50 - INFO - __main__ -     f1 = 0.8222298929927512
@@ -30,7 +30,7 @@ CROSS-LINGUAL TRAINING LOGS FOR AFRO-XLMR
          PER       0.79      0.89      0.83       114
 
 
-3. Group: "ibo, xho, fon"
+Group: "ibo, xho, fon"
 
 09/01/2025 18:49:55 - INFO - __main__ -   ***** Eval results  *****
 09/01/2025 18:49:55 - INFO - __main__ -     f1 = 0.8247206703910615
@@ -45,7 +45,7 @@ CROSS-LINGUAL TRAINING LOGS FOR AFRO-XLMR
          PER       0.84      0.83      0.84       114
 
 
-4. Group: "kin, lug, nya"
+Group: "kin, lug, nya"
 
 08/31/2025 22:18:45 - INFO - __main__ -   ***** Eval results  *****
 08/31/2025 22:18:45 - INFO - __main__ -     f1 = 0.8215395236451501
@@ -60,7 +60,7 @@ CROSS-LINGUAL TRAINING LOGS FOR AFRO-XLMR
          PER       0.82      0.89      0.85       114
 
 
-5. Group: "kin, luo, twi"
+Group: "kin, luo, twi"
 
 08/31/2025 22:20:22 - INFO - __main__ -   ***** Eval results  *****
 08/31/2025 22:20:22 - INFO - __main__ -     f1 = 0.8115942028985507
@@ -75,7 +75,7 @@ CROSS-LINGUAL TRAINING LOGS FOR AFRO-XLMR
          PER       0.84      0.85      0.85       114
 
 
-6. Group: "kin, nya, sna"
+Group: "kin, nya, sna"
 
 
 09/01/2025 04:04:44 - INFO - __main__ -   ***** Eval results  *****
@@ -91,7 +91,7 @@ CROSS-LINGUAL TRAINING LOGS FOR AFRO-XLMR
          PER       0.90      0.82      0.86       114
 
 
-7. Group: "kin, sna, nya"
+Group: "kin, sna, nya"
 
 
 09/01/2025 19:16:05 - INFO - __main__ -   ***** Eval results  *****
@@ -107,7 +107,7 @@ CROSS-LINGUAL TRAINING LOGS FOR AFRO-XLMR
          PER       0.84      0.89      0.86       114
 
 
-8. Group: "kin, sna, zul"
+Group: "kin, sna, zul"
 
 
 09/01/2025 07:37:50 - INFO - __main__ -   ***** Eval results  *****
@@ -123,7 +123,7 @@ CROSS-LINGUAL TRAINING LOGS FOR AFRO-XLMR
          PER       0.82      0.87      0.84       114
 
 
-9. Group: "kin, twi, ibo"
+Group: "kin, twi, ibo"
 
 
 09/01/2025 20:05:24 - INFO - __main__ -   ***** Eval results  *****
@@ -139,7 +139,7 @@ CROSS-LINGUAL TRAINING LOGS FOR AFRO-XLMR
          PER       0.83      0.88      0.85       114
 
 
-10. Group: "kin, twi, luo"
+Group: "kin, twi, luo"
 
 
 09/01/2025 19:15:18 - INFO - __main__ -   ***** Eval results  *****
@@ -155,7 +155,7 @@ CROSS-LINGUAL TRAINING LOGS FOR AFRO-XLMR
          PER       0.83      0.88      0.85       114
 
 
-11. Group: "lug, hau, nya"
+Group: "lug, hau, nya"
 
 
 09/01/2025 22:47:30 - INFO - __main__ -   ***** Eval results  *****
@@ -171,7 +171,7 @@ CROSS-LINGUAL TRAINING LOGS FOR AFRO-XLMR
          PER       0.83      0.89      0.86       114
 
 
-12. Group: "lug, kin, nya"
+Group: "lug, kin, nya"
 
 
 09/01/2025 07:38:22 - INFO - __main__ -   ***** Eval results  *****
@@ -187,7 +187,7 @@ CROSS-LINGUAL TRAINING LOGS FOR AFRO-XLMR
          PER       0.88      0.91      0.90       114
 
 
-13. Group: "lug, sna, xho"
+Group: "lug, sna, xho"
 
 
 09/01/2025 07:36:18 - INFO - __main__ -   ***** Eval results  *****
@@ -203,7 +203,7 @@ CROSS-LINGUAL TRAINING LOGS FOR AFRO-XLMR
          PER       0.86      0.86      0.86       114
 
 
-14. Group: "nya, sna, kin"
+Group: "nya, sna, kin"
 
 
 09/01/2025 21:41:59 - INFO - __main__ -   ***** Eval results  *****
@@ -219,7 +219,7 @@ CROSS-LINGUAL TRAINING LOGS FOR AFRO-XLMR
          PER       0.81      0.88      0.84       114
 
 
-15. Group: "pcm, sna, kin"
+Group: "pcm, sna, kin"
 
 
 09/01/2025 21:13:59 - INFO - __main__ -   ***** Eval results  *****
@@ -236,7 +236,7 @@ CROSS-LINGUAL TRAINING LOGS FOR AFRO-XLMR
 
 
 
-16. Group: "sna, ibo, wol"
+Group: "sna, ibo, wol"
 
 
 
@@ -253,7 +253,7 @@ CROSS-LINGUAL TRAINING LOGS FOR AFRO-XLMR
          PER       0.90      0.84      0.87       114
 
 
-17. Group: "sna, kin, lug"
+Group: "sna, kin, lug"
 
 
 09/01/2025 22:52:47 - INFO - __main__ -   ***** Eval results  *****
@@ -270,7 +270,7 @@ CROSS-LINGUAL TRAINING LOGS FOR AFRO-XLMR
 
 
 
-18. Group: "sna, kin, twi"
+Group: "sna, kin, twi"
 
 
 09/02/2025 12:04:04 - INFO - __main__ -   ***** Eval results  *****
@@ -287,7 +287,7 @@ CROSS-LINGUAL TRAINING LOGS FOR AFRO-XLMR
 
 
 
-19. Group: "sna, kin, xho"
+Group: "sna, kin, xho"
 
 
 09/01/2025 22:55:21 - INFO - __main__ -   ***** Eval results  *****
@@ -304,7 +304,7 @@ CROSS-LINGUAL TRAINING LOGS FOR AFRO-XLMR
 
 
 
-20. Group: "sna, lug, kin"
+Group: "sna, lug, kin"
 
 
 09/02/2025 09:45:02 - INFO - __main__ -   ***** Eval results  *****
@@ -320,7 +320,7 @@ CROSS-LINGUAL TRAINING LOGS FOR AFRO-XLMR
          PER       0.79      0.90      0.84       114
 
 
-21. Group: "sna, nya, lug"
+Group: "sna, nya, lug"
 
 
 09/02/2025 09:43:58 - INFO - __main__ -   ***** Eval results  *****
@@ -336,7 +336,7 @@ CROSS-LINGUAL TRAINING LOGS FOR AFRO-XLMR
          PER       0.85      0.88      0.87       114
 
 
-22. Group: "twi, kin, ewe"
+Group: "twi, kin, ewe"
 
 
 09/02/2025 09:40:22 - INFO - __main__ -   ***** Eval results  *****
@@ -352,7 +352,7 @@ CROSS-LINGUAL TRAINING LOGS FOR AFRO-XLMR
          PER       0.88      0.86      0.87       114
 
 
-23. Group: "twi, kin, lug"
+Group: "twi, kin, lug"
 
 
 
@@ -369,7 +369,7 @@ CROSS-LINGUAL TRAINING LOGS FOR AFRO-XLMR
          PER       0.80      0.89      0.85       114
 
 
-24. Group: "twi, kin, luo"
+Group: "twi, kin, luo"
 
 
 09/02/2025 01:13:11 - INFO - __main__ -   ***** Eval results  *****
@@ -386,7 +386,7 @@ CROSS-LINGUAL TRAINING LOGS FOR AFRO-XLMR
 
 
 
-25. Group: "twi, luo, lug"
+Group: "twi, luo, lug"
 
 
 
@@ -403,7 +403,7 @@ CROSS-LINGUAL TRAINING LOGS FOR AFRO-XLMR
          PER       0.85      0.91      0.88       114
 
 
-26. Group: "twi, swa, luo"
+Group: "twi, swa, luo"
 
 
 09/02/2025 01:12:17 - INFO - __main__ -   ***** Eval results  *****
@@ -420,7 +420,7 @@ CROSS-LINGUAL TRAINING LOGS FOR AFRO-XLMR
 
 
 
-27. Group: "xho, ibo, lug"
+Group: "xho, ibo, lug"
 
 09/02/2025 01:12:53 - INFO - __main__ -   ***** Eval results  *****
 09/02/2025 01:12:53 - INFO - __main__ -     f1 = 0.8179603202227637
@@ -433,3 +433,19 @@ CROSS-LINGUAL TRAINING LOGS FOR AFRO-XLMR
          LOC       0.87      0.89      0.88       715
          ORG       0.69      0.69      0.69       162
          PER       0.80      0.89      0.84       114
+
+
+Group: "twi, luo, kin"
+
+
+09/13/2025 09:00:23 - INFO - __main__ -   ***** Eval results  *****
+09/13/2025 09:00:23 - INFO - __main__ -     f1 = 0.8229598893499308
+09/13/2025 09:00:23 - INFO - __main__ -     loss = 0.06217378529653111
+09/13/2025 09:00:23 - INFO - __main__ -     precision = 0.8128415300546448
+09/13/2025 09:00:23 - INFO - __main__ -     recall = 0.8333333333333334
+09/13/2025 09:00:23 - INFO - __main__ -     report =               precision    recall  f1-score   support
+
+        DATE       0.75      0.77      0.76       437
+         LOC       0.86      0.90      0.88       715
+         ORG       0.70      0.69      0.70       162
+         PER       0.90      0.88      0.89       114

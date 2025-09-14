@@ -1,6 +1,6 @@
 ZERO-SHOT TRAINING LOGS FOR mBERT
 
-1. Group: "ewe, sna, twi"
+Group: "ewe, sna, twi"
 
 09/02/2025 15:14:14 - INFO - __main__ -   ***** Eval results  *****
 09/02/2025 15:14:14 - INFO - __main__ -     f1 = 0.45496618013527945
@@ -15,7 +15,7 @@ ZERO-SHOT TRAINING LOGS FOR mBERT
          PER       0.18      0.75      0.28       114
 
 
-2. Group: "hau, lug, sna"
+Group: "hau, lug, sna"
 
 
 09/03/2025 01:52:42 - INFO - __main__ -   ***** Eval results  *****
@@ -31,7 +31,7 @@ ZERO-SHOT TRAINING LOGS FOR mBERT
          PER       0.16      0.83      0.26       114
 
 
-3. Group: "ibo, xho, fon"
+Group: "ibo, xho, fon"
 
 
 09/02/2025 15:26:11 - INFO - __main__ -   ***** Eval results  *****
@@ -47,7 +47,7 @@ ZERO-SHOT TRAINING LOGS FOR mBERT
          PER       0.23      0.65      0.34       114
 
 
-4. Group: "kin, lug, nya"
+Group: "kin, lug, nya"
 
 
 09/02/2025 15:28:46 - INFO - __main__ -   ***** Eval results  *****
@@ -63,7 +63,7 @@ ZERO-SHOT TRAINING LOGS FOR mBERT
          PER       0.40      0.86      0.54       114
 
 
-5. Group: "kin, luo, twi"
+Group: "kin, luo, twi"
 
 
 09/02/2025 15:28:42 - INFO - __main__ -   ***** Eval results  *****
@@ -79,7 +79,7 @@ ZERO-SHOT TRAINING LOGS FOR mBERT
          PER       0.30      0.78      0.43       114
 
 
-6. Group: "kin, nya, sna"
+Group: "kin, nya, sna"
 
 
 09/03/2025 02:00:26 - INFO - __main__ -   ***** Eval results  *****
@@ -95,7 +95,7 @@ ZERO-SHOT TRAINING LOGS FOR mBERT
          PER       0.29      0.79      0.42       114
 
 
-7. Group: "kin, sna, nya"
+Group: "kin, sna, nya"
 
 
 09/03/2025 01:34:50 - INFO - __main__ -   ***** Eval results  *****
@@ -111,7 +111,7 @@ ZERO-SHOT TRAINING LOGS FOR mBERT
          PER       0.22      0.79      0.35       114
 
 
-8. Group: "kin, sna, zul"
+Group: "kin, sna, zul"
 
 
 09/03/2025 00:41:05 - INFO - __main__ -   ***** Eval results  *****
@@ -128,7 +128,7 @@ ZERO-SHOT TRAINING LOGS FOR mBERT
 
 
 
-9. Group: "kin, twi, ibo"
+Group: "kin, twi, ibo"
 
 
 09/03/2025 00:40:25 - INFO - __main__ -   ***** Eval results  *****
@@ -145,7 +145,7 @@ ZERO-SHOT TRAINING LOGS FOR mBERT
 
 
 
-10. Group: "kin, twi, luo"
+Group: "kin, twi, luo"
 
 
 09/03/2025 00:35:32 - INFO - __main__ -   ***** Eval results  *****
@@ -162,7 +162,7 @@ ZERO-SHOT TRAINING LOGS FOR mBERT
 
 
 
-11. Group: "lug, hau, nya"
+Group: "lug, hau, nya"
 
 
 09/02/2025 23:21:21 - INFO - __main__ -   ***** Eval results  *****
@@ -178,7 +178,7 @@ ZERO-SHOT TRAINING LOGS FOR mBERT
          PER       0.18      0.86      0.30       114
 
 
-12. Group: "lug, kin, nya"
+Group: "lug, kin, nya"
 
 
 09/02/2025 23:24:46 - INFO - __main__ -   ***** Eval results  *****
@@ -195,7 +195,7 @@ ZERO-SHOT TRAINING LOGS FOR mBERT
 
 
 
-13. Group: "lug, sna, xho"
+Group: "lug, sna, xho"
 
 
 09/02/2025 23:19:43 - INFO - __main__ -   ***** Eval results  *****
@@ -212,7 +212,7 @@ ZERO-SHOT TRAINING LOGS FOR mBERT
 
 
 
-14. Group: "nya, sna, kin"
+Group: "nya, sna, kin"
 
 
 09/02/2025 23:24:24 - INFO - __main__ -   ***** Eval results  *****
@@ -228,7 +228,7 @@ ZERO-SHOT TRAINING LOGS FOR mBERT
          PER       0.27      0.75      0.40       114
 
 
-15. Group: "pcm, sna, kin"
+Group: "pcm, sna, kin"
 
 
 09/03/2025 00:39:55 - INFO - __main__ -   ***** Eval results  *****
@@ -245,7 +245,7 @@ ZERO-SHOT TRAINING LOGS FOR mBERT
 
 
 
-16. Group: "sna, ibo, wol"
+Group: "sna, ibo, wol"
 
 
 
@@ -263,7 +263,7 @@ ZERO-SHOT TRAINING LOGS FOR mBERT
 
 
 
-17. Group: "sna, kin, lug"
+Group: "sna, kin, lug"
 
 
 09/02/2025 20:16:27 - INFO - __main__ -   ***** Eval results  *****
@@ -280,7 +280,7 @@ ZERO-SHOT TRAINING LOGS FOR mBERT
 
 
 
-18. Group: "sna, kin, twi"
+Group: "sna, kin, twi"
 
 
 
@@ -297,7 +297,7 @@ ZERO-SHOT TRAINING LOGS FOR mBERT
          PER       0.26      0.75      0.38       114
 
 
-19. Group: "sna, kin, xho"
+Group: "sna, kin, xho"
 
 
 09/02/2025 20:17:06 - INFO - __main__ -   ***** Eval results  *****
@@ -314,7 +314,7 @@ ZERO-SHOT TRAINING LOGS FOR mBERT
 
 
 
-20. Group: "sna, lug, kin"
+Group: "sna, lug, kin"
 
 
 09/02/2025 18:59:31 - INFO - __main__ -   ***** Eval results  *****
@@ -331,7 +331,7 @@ ZERO-SHOT TRAINING LOGS FOR mBERT
 
 
 
-21. Group: "sna, nya, lug"
+Group: "sna, nya, lug"
 
 
 09/02/2025 18:56:37 - INFO - __main__ -   ***** Eval results  *****
@@ -348,7 +348,7 @@ ZERO-SHOT TRAINING LOGS FOR mBERT
 
 
 
-22. Group: "twi, kin, ewe"
+Group: "twi, kin, ewe"
 
 
 09/02/2025 18:51:22 - INFO - __main__ -   ***** Eval results  *****
@@ -364,7 +364,7 @@ ZERO-SHOT TRAINING LOGS FOR mBERT
          PER       0.33      0.75      0.46       114
 
 
-23. Group: "twi, kin, lug"
+Group: "twi, kin, lug"
 
 
 
@@ -381,7 +381,7 @@ ZERO-SHOT TRAINING LOGS FOR mBERT
          PER       0.28      0.87      0.43       114
 
 
-24. Group: "twi, kin, luo"
+Group: "twi, kin, luo"
 
 
 09/02/2025 17:39:35 - INFO - __main__ -   ***** Eval results  *****
@@ -398,7 +398,7 @@ ZERO-SHOT TRAINING LOGS FOR mBERT
 
 
 
-25. Group: "twi, luo, lug"
+Group: "twi, luo, lug"
 
 
 09/02/2025 17:31:33 - INFO - __main__ -   ***** Eval results  *****
@@ -415,7 +415,7 @@ ZERO-SHOT TRAINING LOGS FOR mBERT
 
 
 
-26. Group: "twi, swa, luo"
+Group: "twi, swa, luo"
 
 
 09/02/2025 17:36:14 - INFO - __main__ -   ***** Eval results  *****
@@ -432,7 +432,7 @@ ZERO-SHOT TRAINING LOGS FOR mBERT
 
 
 
-27. Group: "xho, ibo, lug"
+Group: "xho, ibo, lug"
 
 09/02/2025 17:41:03 - INFO - __main__ -   ***** Eval results  *****
 09/02/2025 17:41:03 - INFO - __main__ -     f1 = 0.5513134851138355
@@ -445,3 +445,20 @@ ZERO-SHOT TRAINING LOGS FOR mBERT
          LOC       0.81      0.77      0.79       715
          ORG       0.72      0.43      0.53       162
          PER       0.19      0.84      0.31       114
+
+
+
+Group: "twi, luo, kin"
+
+
+09/13/2025 08:59:47 - INFO - __main__ -   ***** Eval results  *****
+09/13/2025 08:59:47 - INFO - __main__ -     f1 = 0.5399568034557235
+09/13/2025 08:59:47 - INFO - __main__ -     loss = 0.23551256888290592
+09/13/2025 08:59:47 - INFO - __main__ -     precision = 0.5555555555555556
+09/13/2025 08:59:47 - INFO - __main__ -     recall = 0.5252100840336135
+09/13/2025 08:59:47 - INFO - __main__ -     report =               precision    recall  f1-score   support
+
+        DATE       0.31      0.13      0.18       437
+         LOC       0.76      0.76      0.76       715
+         ORG       0.53      0.40      0.45       162
+         PER       0.25      0.74      0.38       114
