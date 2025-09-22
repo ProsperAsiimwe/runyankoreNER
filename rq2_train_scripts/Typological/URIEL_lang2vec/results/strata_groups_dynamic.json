@@ -1,0 +1,32 @@
+{
+  "High-A": [
+    "tsn",
+    "nya",
+    "lug",
+    "swa"
+  ],
+  "High-B": [
+    "kin",
+    "sna",
+    "xho",
+    "zul"
+  ],
+  "Intermediate": [
+    "luo",
+    "bbj",
+    "twi",
+    "ibo"
+  ],
+  "Low-A": [
+    "yor",
+    "fon",
+    "hau",
+    "pcm"
+  ],
+  "Low-B": [
+    "wol",
+    "ewe",
+    "mos",
+    "bam"
+  ]
+}
