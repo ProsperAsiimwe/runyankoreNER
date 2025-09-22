@@ -1,0 +1,1 @@
+2025-08-02 18:41:17,972 - INFO - Experiment started with model_type=xlmr, use_cls=False, use_context=False, context_window=0, use_hybrid=False, max_tokens_per_type=200, output_dir=rq2_train_scripts/Embeddings/MEXA_inspired_strategy/outputs/combined/xlmr/config_0_clsfalse_ctxfalse_hybfalse/tokens_200_ctx0
