@@ -1,0 +1,22 @@
+{
+  "target": "nyn",
+  "desired_group_size": 4,
+  "mode": "divisible_pair",
+  "cuts": [
+    7,
+    11
+  ],
+  "stratum_sizes": [
+    8,
+    4,
+    8
+  ],
+  "gap_values": [
+    0.03063470362816767,
+    0.038611120967862345
+  ],
+  "gap_ranks": [
+    2,
+    1
+  ]
+}

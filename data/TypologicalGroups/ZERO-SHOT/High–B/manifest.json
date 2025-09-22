@@ -1,0 +1,21 @@
+{
+  "created_at": "2025-09-22T11:54:51Z",
+  "base_dir": "/home/prosper/Desktop/ML/runyankoreNER/data",
+  "masakha_dir": "/home/prosper/Desktop/ML/runyankoreNER/data/MasakhaNER2.0",
+  "output_dir": "../EmbeddingGroups/ZERO-SHOT/High–B",
+  "languages": [
+    "kin",
+    "sna",
+    "xho",
+    "zul"
+  ],
+  "skipped_languages": [],
+  "sources": {
+    "COMBINED": {
+      "folder": "../EmbeddingGroups/ZERO-SHOT/High–B/COMBINED",
+      "train_lines": 509987,
+      "dev_lines": 73731,
+      "test_lines": 66934
+    }
+  }
+}
