@@ -1,0 +1,4 @@
+NumPy OLS fit (then clipped to >=0 and normalized):
+ raw coefficients (before clipping): 0.411792, -0.004261, 0.004608, -0.004312, -0.015261, 0.411792
+ learned weights (sum=1): script=0.4972, locale=0.0000, geo=0.0056, official=0.0000, pop=0.0000, endang=0.4972
+ samples=20, R^2=-1240.350
