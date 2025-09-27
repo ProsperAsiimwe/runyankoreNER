@@ -1,0 +1,21 @@
+{
+  "created_at": "2025-09-27T14:26:22Z",
+  "base_dir": "/home/prosper/Desktop/ML/runyankoreNER/data",
+  "masakha_dir": "/home/prosper/Desktop/ML/runyankoreNER/data/MasakhaNER2.0",
+  "output_dir": "../TypologicalGroups/ZERO-SHOT/LinguaMeta_Low-B",
+  "languages": [
+    "hau",
+    "zul",
+    "fon",
+    "ewe"
+  ],
+  "skipped_languages": [],
+  "sources": {
+    "COMBINED": {
+      "folder": "../TypologicalGroups/ZERO-SHOT/LinguaMeta_Low-B/COMBINED",
+      "train_lines": 441515,
+      "dev_lines": 64417,
+      "test_lines": 66934
+    }
+  }
+}

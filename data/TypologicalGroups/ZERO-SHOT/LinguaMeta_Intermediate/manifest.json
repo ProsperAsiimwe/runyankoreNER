@@ -1,0 +1,21 @@
+{
+  "created_at": "2025-09-27T14:22:58Z",
+  "base_dir": "/home/prosper/Desktop/ML/runyankoreNER/data",
+  "masakha_dir": "/home/prosper/Desktop/ML/runyankoreNER/data/MasakhaNER2.0",
+  "output_dir": "../TypologicalGroups/ZERO-SHOT/LinguaMeta_Intermediate",
+  "languages": [
+    "twi",
+    "nya",
+    "sna",
+    "bbj"
+  ],
+  "skipped_languages": [],
+  "sources": {
+    "COMBINED": {
+      "folder": "../TypologicalGroups/ZERO-SHOT/LinguaMeta_Intermediate/COMBINED",
+      "train_lines": 503253,
+      "dev_lines": 70493,
+      "test_lines": 66934
+    }
+  }
+}

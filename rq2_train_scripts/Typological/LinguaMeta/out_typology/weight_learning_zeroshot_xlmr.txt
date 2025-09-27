@@ -1,4 +1,2 @@
-NumPy OLS fit (then clipped to >=0 and normalized):
- raw coefficients (before clipping): 0.022885, 0.031937, 0.221812, -0.076946, 0.340722, 0.022885
- learned weights (sum=1): script=0.0357, locale=0.0499, geo=0.3465, official=0.0000, pop=0.5322, endang=0.0357
- samples=20, R^2=-4.029
+Fitted via NNLS on z-scored features (non-negative, sum=1).
+Fit diagnostics: R^2=-64.170, ρ=0.344 (p=0.137), r=0.581 (p=0.007)

@@ -8,7 +8,7 @@ with optional weight learning from *multiple* performance CSVs:
   zs_f1_mbert.csv  (Zero-shot, mBERT)
   zs_f1_xlmr.csv   (Zero-shot, XLM-R)
 
-Each file must have:
+Each perf file must have:
   language,f1
   bam,0.277
   ...
@@ -32,7 +32,7 @@ Outputs in --outdir:
 
 PLUS, integrated visualizations (PNG + SVG) written to --outdir/figures/:
   - fig1_bar_equal.[png|svg]                     (S_total ranking, equal)
-  - fig2_heatmap_features_equal.[png|svg]        (six feature scores)
+  - fig2_heatmap_features_equal.[png|svg]        (three feature scores)
   - fig3_scatter_s_total_vs_f1_{variant}.[png|svg]   (S_total vs F1, per variant if perf files given)
   - fig4_weights_{variant}.[png|svg]             (learned weights bar chart)
   - fig5_pca_groups_equal.[png|svg]              (2D PCA of features, equal groups)
@@ -40,6 +40,10 @@ PLUS, integrated visualizations (PNG + SVG) written to --outdir/figures/:
   - fig7_group_sizes_{tag}.[png|svg]             (cluster sizes, equal + per variant)
   - figures/tables_summary.csv                   (aux_code, S_total, group, F1s wide)
   - figures/thesis_figure_captions.md            (starter captions)
+
+(C) Optional: quick τ sensitivity in the report (no code change needed)
+
+Run with --tau 500, --tau 1000, --tau 2000 and confirm the top-k auxiliaries and groups are stable; report one sentence in the thesis.
 
 Example:
 python3 typology_similarity.py \
@@ -63,7 +67,8 @@ try:
 except Exception:
     HAS_MPL = False
 
-FEATURE_COLS = ["S_script","S_locale","S_geo","S_official","S_pop","S_endang"]
+# THREE features only
+FEATURE_COLS = ["S_script","S_locale","S_geo"]
 
 # -----------------------
 # Utility computations
@@ -79,21 +84,6 @@ def haversine_km(lat1, lon1, lat2, lon2):
     a = math.sin(dphi/2)**2 + math.cos(phi1)*math.cos(phi2)*math.sin(dlambda/2)**2
     return 2*R*math.asin(min(1, math.sqrt(a)))
 
-ENDANGER_MAP = {
-    "safe": 0, "not_endangered": 0,
-    "vulnerable": 1,
-    "definitely_endangered": 2,
-    "severely_endangered": 3,
-    "critically_endangered": 4,
-    "extinct": 5
-}
-OFFICIAL_MAP = {
-    "none": 0, "": 0, "nan": 0, np.nan: 0,
-    "regional": 1,
-    "de_facto": 2, "de facto": 2, "de-facto": 2,
-    "official": 3
-}
-
 def norm_text(x):
     if isinstance(x, str):
         return x.strip().lower()
@@ -102,7 +92,8 @@ def norm_text(x):
 def jaccard(a, b):
     A = set([norm_text(x) for x in a if norm_text(x)])
     B = set([norm_text(x) for x in b if norm_text(x)])
-    if not A and not B: return np.nan
+    if not A and not B:
+        return np.nan  # policy: no info -> no signal
     return len(A & B) / max(1, len(A | B))
 
 def exp_kernel(dist_km, tau=1000.0):
@@ -112,25 +103,12 @@ def exp_kernel(dist_km, tau=1000.0):
 def clip01(x):
     return max(0.0, min(1.0, x))
 
-def speakers_score(s_t, s_l):
-    if not s_t or not s_l: return np.nan
-    try:
-        lt, ll = math.log10(float(s_t)), math.log10(float(s_l))
-    except Exception:
-        return np.nan
-    return clip01(1 - abs(lt-ll)/4.0)
-
-def ordinal_score(vt, vl, max_gap):
-    if vt is None or vl is None: return np.nan
-    return clip01(1 - (abs(vt - vl) / max_gap))
-
 def script_score(s_t_primary, s_t_alts, s_l_primary, s_l_alts):
     stp = norm_text(s_t_primary); slp = norm_text(s_l_primary)
     t_alts = set([norm_text(x) for x in s_t_alts if norm_text(x)]) if s_t_alts else set()
     l_alts = set([norm_text(x) for x in s_l_alts if norm_text(x)]) if s_l_alts else set()
     if stp and slp and stp == slp: return 1.0
-    if (stp and stp in l_alts) or (slp and slp in t_alts):
-        return 0.5
+    if (stp and stp in l_alts) or (slp and slp in t_alts): return 0.5
     return 0.0
 
 # -----------------------
@@ -155,9 +133,6 @@ def read_features(path):
             "lon": pd.to_numeric(row["lon"], errors="coerce"),
             "script_primary": row["script_primary"],
             "script_alt": [x.strip() for x in str(row["script_alt"]).split(";") if str(x).strip()] if not pd.isna(row["script_alt"]) else [],
-            "official_status": OFFICIAL_MAP.get(norm_text(row["official_status"]), 0),
-            "speakers_total": pd.to_numeric(row["speakers_total"], errors="coerce"),
-            "endangerment": ENDANGER_MAP.get(norm_text(row["endangerment"]), None)
         }
     return feat
 
@@ -167,7 +142,7 @@ def read_features(path):
 
 def compute_scores(lang_df, feat, tau=1000.0, weights=None):
     if weights is None:
-        weights = dict(script=1, locale=1, geo=1, official=1, pop=1, endang=1)
+        weights = dict(script=1, locale=1, geo=1)
     s = sum(weights.values())
     weights = {k: v/s for k, v in weights.items()}
 
@@ -182,19 +157,17 @@ def compute_scores(lang_df, feat, tau=1000.0, weights=None):
     out = []
     for _, r in lang_df[lang_df["target"]==0].iterrows():
         code = r["code"]
-        if code not in feat:  # skip unknown
+        if code not in feat:
             continue
         L = feat[code]
         s_script = script_score(T["script_primary"], T["script_alt"], L["script_primary"], L["script_alt"])
         s_locale = jaccard(T["countries"], L["countries"])
         d_km = haversine_km(T["lat"], T["lon"], L["lat"], L["lon"])
         s_geo = exp_kernel(d_km, tau=tau) if not pd.isna(d_km) else np.nan
-        s_official = ordinal_score(T["official_status"], L["official_status"], 3)
-        s_pop = speakers_score(T["speakers_total"], L["speakers_total"])
-        s_end = ordinal_score(T["endangerment"], L["endangerment"], 5)
-        feats = {"S_script": s_script, "S_locale": s_locale, "S_geo": s_geo, "S_official": s_official, "S_pop": s_pop, "S_endang": s_end}
 
-        valid = {k:v for k,v in feats.items() if not pd.isna(v)}
+        feats = {"S_script": s_script, "S_locale": s_locale, "S_geo": s_geo}
+
+        valid = {k: v for k, v in feats.items() if not pd.isna(v)}
         if not valid:
             s_total = np.nan
         else:
@@ -202,15 +175,18 @@ def compute_scores(lang_df, feat, tau=1000.0, weights=None):
                 "S_script": weights["script"],
                 "S_locale": weights["locale"],
                 "S_geo": weights["geo"],
-                "S_official": weights["official"],
-                "S_pop": weights["pop"],
-                "S_endang": weights["endang"],
             }
-            # normalize over available
-            wsub = {k:v for k,v in wsub.items() if k in valid}
-            ws = sum(wsub.values())
-            wsub = {k: v/ws for k,v in wsub.items()}
-            s_total = sum(valid[k]*wsub[k] for k in valid)
+            wsub = {k: v for k, v in wsub.items() if k in valid}
+            if not wsub:
+                s_total = np.nan
+            else:
+                ws = sum(wsub.values())
+                if (ws is None) or (not np.isfinite(ws)) or (ws <= 0):
+                    wsub = {k: 1.0 / len(wsub) for k in wsub}  # uniform fallback
+                else:
+                    wsub = {k: v / ws for k, v in wsub.items()}
+                s_total = sum(valid[k] * wsub[k] for k in valid)
+
         out.append({
             "aux_code": code,
             "aux_name": r.get("name",""),
@@ -223,13 +199,6 @@ def compute_scores(lang_df, feat, tau=1000.0, weights=None):
 # -----------------------
 # Weight learning (pure NumPy OLS + non-negativity heuristic)
 # -----------------------
-
-def _r2_score(y_true, y_pred):
-    y_true = np.asarray(y_true, dtype=float)
-    y_pred = np.asarray(y_pred, dtype=float)
-    ss_res = np.sum((y_true - y_pred)**2)
-    ss_tot = np.sum((y_true - np.mean(y_true))**2)
-    return float(1 - ss_res/ss_tot) if ss_tot > 0 else 0.0
 
 def read_performance_files(perf_files):
     """
@@ -260,48 +229,57 @@ def read_performance_files(perf_files):
     return pd.concat(rows, ignore_index=True)
 
 def learn_weights_for_variant(scores_df, perf_df):
-    """Return normalized non-negative weights and diagnostics text (NumPy OLS)."""
+    """Return normalized non-negative weights and diagnostics text for the 3 features."""
     if perf_df.empty:
         return None, "No performance rows for this variant."
 
     merged = pd.merge(perf_df, scores_df, on="aux_code", how="inner")
-    if len(merged) < 3:
-        return None, "Not enough overlapping auxiliaries to learn weights."
+    if len(merged) < 5:
+        return None, "Not enough overlapping auxiliaries to learn weights (need ≥5)."
 
-    X = merged[["S_script","S_locale","S_geo","S_official","S_pop","S_endang"]].fillna(0.0).to_numpy(dtype=float)
+    Xdf = merged[["S_script","S_locale","S_geo"]]
     y = merged["f1"].astype(float).to_numpy()
 
-    # Ordinary least squares via NumPy
-    try:
-        coefs, *_ = np.linalg.lstsq(X, y, rcond=None)
-    except np.linalg.LinAlgError:
-        return None, "Linear algebra failed while fitting weights."
+    Xdf = Xdf.copy()
+    col_means = Xdf.mean(axis=0, skipna=True)
+    Xdf = Xdf.fillna(col_means)
 
-    coefs_raw = coefs.copy()
-    # Non-negativity heuristic
-    coefs = np.clip(coefs, 0, None)
-    if coefs.sum() == 0:
-        weights = {k:1/6 for k in ["script","locale","geo","official","pop","endang"]}
-    else:
-        coefs = coefs / coefs.sum()
-        weights = {
-            "script": float(coefs[0]),
-            "locale": float(coefs[1]),
-            "geo": float(coefs[2]),
-            "official": float(coefs[3]),
-            "pop": float(coefs[4]),
-            "endang": float(coefs[5]),
-        }
+    X = Xdf.to_numpy(dtype=float)
+    mu = X.mean(axis=0, keepdims=True)
+    sd = X.std(axis=0, ddof=0, keepdims=True); sd[sd == 0] = 1.0
+    Xz = (X - mu) / sd
 
-    y_pred = X @ np.array([weights["script"],weights["locale"],weights["geo"],
-                           weights["official"],weights["pop"],weights["endang"]])
-    r2 = _r2_score(y, y_pred)
-
+    order = ["script","locale","geo"]
+    weights = None
     diag = []
-    diag.append("NumPy OLS fit (then clipped to >=0 and normalized):")
-    diag.append(" raw coefficients (before clipping): " + ", ".join(f"{v:.6f}" for v in coefs_raw))
-    diag.append(" learned weights (sum=1): " + ", ".join(f"{k}={v:.4f}" for k,v in weights.items()))
-    diag.append(f" samples={len(y)}, R^2={r2:.3f}")
+    try:
+        from scipy.optimize import nnls
+        w_raw, _ = nnls(Xz, y)
+        w = w_raw / w_raw.sum() if w_raw.sum() != 0 else np.ones_like(w_raw)/len(w_raw)
+        weights = dict(zip(order, [float(v) for v in w]))
+        diag.append("Fitted via NNLS on z-scored features (non-negative, sum=1).")
+    except Exception:
+        coefs, *_ = np.linalg.lstsq(Xz, y, rcond=None)
+        coefs_raw = coefs.copy()
+        coefs = np.clip(coefs, 0, None)
+        coefs = coefs / coefs.sum() if coefs.sum() != 0 else np.ones_like(coefs)/len(coefs)
+        weights = dict(zip(order, [float(v) for v in coefs]))
+        diag.append("Fitted via OLS on z-scored features; clipped to ≥0 and normalized.")
+        diag.append("Raw (pre-clip) coefficients: " + ", ".join(f"{v:.4f}" for v in coefs_raw))
+
+    # Diagnostics (optional, no SciPy dependency)
+    try:
+        from scipy.stats import spearmanr, pearsonr
+        y_pred = Xz @ np.array([weights[k] for k in order])
+        rho, p_rho = spearmanr(y, y_pred)
+        r, p_r = pearsonr(y, y_pred)
+        ss_res = float(np.sum((y - y_pred)**2))
+        ss_tot = float(np.sum((y - float(np.mean(y)))**2))
+        r2 = 0.0 if ss_tot == 0 else 1 - ss_res/ss_tot
+        diag.append(f"Fit diagnostics: R^2={r2:.3f}, ρ={rho:.3f} (p={p_rho:.3f}), r={r:.3f} (p={p_r:.3f})")
+    except Exception:
+        pass
+
     return weights, "\n".join(diag)
 
 # -----------------------
@@ -338,7 +316,7 @@ def cluster_and_write(scores_df, out_csv, out_groups_csv, ks=(3,4,5)):
             sil = silhouette_score(X, labels)
             if (best is None) or (sil > best["sil"]):
                 best = {"k":k,"labels":labels,"sil":sil}
-        used_algo = f"KMedoids (sklearn-extra)"
+        used_algo = "KMedoids (sklearn-extra)"
     except Exception:
         try:
             from sklearn.cluster import KMeans
@@ -351,7 +329,7 @@ def cluster_and_write(scores_df, out_csv, out_groups_csv, ks=(3,4,5)):
                 sil = silhouette_score(X, labels)
                 if (best is None) or (sil > best["sil"]):
                     best = {"k":k,"labels":labels,"sil":sil}
-            used_algo = f"KMeans (sklearn)"
+            used_algo = "KMeans (sklearn)"
         except Exception:
             best = _quantile_bucket_groups(scores_df, ks)
             used_algo = "Quantile buckets over S_total (fallback)"
@@ -385,7 +363,7 @@ def merge_names(df, langs_df):
         df = df.merge(names[["aux_code","aux_name"]], on="aux_code", how="left")
     return df
 
-def plot_bar_ranking(df, outpath, title="Typology similarity (S_total) — equal weights"):
+def plot_bar_ranking(df, outpath, title="Typology similarity (S_total)  (equal weights)"):
     plt.figure(figsize=(8, 6))
     plotdf = df[["aux_code","S_total"]].sort_values("S_total", ascending=True)
     y = np.arange(len(plotdf))
@@ -441,14 +419,20 @@ def plot_s_total_vs_f1(df_scores, df_perf, variant, outpath):
         xs = np.linspace(float(merged["S_total"].min()), float(merged["S_total"].max()), 100)
         ys = m*xs + b
         plt.plot(xs, ys)
-        r = float(np.corrcoef(merged["S_total"], merged["f1"])[0,1])
-        plt.text(0.02, 0.98, f"r={r:.2f}", transform=plt.gca().transAxes, va="top")
+    # Try to annotate correlations
+    try:
+        from scipy.stats import spearmanr, pearsonr
+        r, _ = pearsonr(merged["S_total"].values, merged["f1"].values)
+        rho, _ = spearmanr(merged["S_total"].values, merged["f1"].values)
+        plt.text(0.02, 0.98, f"r={r:.2f}, ρ={rho:.2f}", transform=plt.gca().transAxes, va="top")
+    except Exception:
+        pass
     plt.tight_layout()
     savefig(outpath)
     plt.close()
 
 def plot_weights_bar(weights, outpath, title):
-    order = ["script","locale","geo","official","pop","endang"]
+    order = ["script","locale","geo"]
     vals = [float(weights.get(k, 0.0)) for k in order]
     plt.figure(figsize=(7,4))
     plt.bar(np.arange(len(order)), vals)
@@ -523,8 +507,8 @@ def main():
     langs = read_languages(args.languages)
     feat = read_features(args.features)
 
-    # 1) Equal-weight baseline
-    base_weights = dict(script=1, locale=1, geo=1, official=1, pop=1, endang=1)
+    # 1) Equal-weight baseline (3 features)
+    base_weights = dict(script=1, locale=1, geo=1)
     scores_equal = compute_scores(langs, feat, tau=args.tau, weights=base_weights)
     scores_equal.to_csv(os.path.join(args.outdir, "typology_similarity_scores.csv"), index=False)
 
@@ -538,11 +522,10 @@ def main():
         f.write(f"Algorithm: {algo}\n")
         f.write(f"Best k={k_best} with silhouette={sil_best}\n")
 
-    # Prepare performance data (if any) for plotting + weight learning
+    # 2) Optional: learn weights from multiple performance CSVs
     perf_all = read_performance_files(args.performance_files) if args.performance_files else pd.DataFrame(columns=["aux_code","f1","setup","model"])
-
-    # 2) Optional: learn weights from multiple performance CSVs (no external deps)
     variant_results = {}  # tag -> dict(df, weights)
+
     if not perf_all.empty:
         for (setup, model), df_subset in perf_all.groupby(["setup","model"]):
             weights, diag = learn_weights_for_variant(scores_equal, df_subset)
@@ -552,7 +535,6 @@ def main():
             if weights is None:
                 continue
 
-            # Re-score and re-cluster using learned weights
             scores_learned = compute_scores(langs, feat, tau=args.tau, weights=weights)
             scores_learned.to_csv(os.path.join(args.outdir, f"typology_similarity_scores_learned_{tag}.csv"), index=False)
 
@@ -612,10 +594,10 @@ def main():
                     f.write(
 """# Thesis Figure Captions (starter)
 - Fig. 1 — Typology similarity ranking (equal weights). Bars show S_total for each auxiliary language relative to Runyankore.
-- Fig. 2 — Feature heatmap (equal weights). Rows are auxiliaries; columns are six typology features used to compute S_total.
+- Fig. 2 — Feature heatmap (equal weights). Rows are auxiliaries; columns are three typology features used to compute S_total.
 - Fig. 3 — S_total vs F1 (per variant). Correlation between typology similarity and downstream NER F1 (co-train / zero-shot × model).
 - Fig. 4 — Learned feature weights (per variant). Data-driven weights that best align similarity with observed F1s.
-- Fig. 5/6 — PCA view of groups. 2D projection of the six-dimensional feature space with cluster labels.
+- Fig. 5/6 — PCA view of groups. 2D projection of the three-dimensional feature space with cluster labels.
 - Fig. 7 — Cluster sizes. Number of auxiliaries assigned to each typology cluster (equal or learned-weights).
 """
                     )

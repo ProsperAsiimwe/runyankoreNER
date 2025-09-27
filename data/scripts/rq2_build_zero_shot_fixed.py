@@ -20,8 +20,8 @@ import json
 from datetime import datetime
 
 # === EDIT THESE === #
-OUTPUT_DIR = Path("../EmbeddingGroups/ZERO-SHOT/2-A")  # <<< change to your desired output folder
-MASAKHA_LANGUAGES = ["lug", "pcm", "ewe", "zul"]               # <<< change languages here (order matters)
+OUTPUT_DIR = Path("../TypologicalGroups/ZERO-SHOT/LinguaMeta_Low-C")  # <<< change to your desired output folder
+MASAKHA_LANGUAGES = ["xho", "mos", "bam", "wol"]              # <<< change languages here (order matters)
 # ================== #
 
 # You can tweak these if your repo layout differs
