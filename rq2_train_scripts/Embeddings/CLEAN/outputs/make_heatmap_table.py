@@ -20,23 +20,23 @@ import matplotlib.pyplot as plt
 # CONFIGURATION SECTION
 # =======================
 
-CSV_PATH = "./combined/summary_best/xlmr/core/global_config/values_by_layer_core_xlmr.csv"          # Path to your CSV file
-OUT_PATH = "xlmr_combined_core_heatmap.png"   
-FIG_TITLE = "Layer-wise performance per language (Top 3 performing languages shown)"
+CSV_PATH = "./combined/summary_best/xlmr/swd/global_config/values_by_layer_swd_xlmr.csv"          # Path to your CSV file
+OUT_PATH = "xlmr_combined_swd_heatmap.png"   
+FIG_TITLE = "Layer-wise performance per language (Top 4 performing languages shown)"
 
 # If True, the colormap is reversed so LOWER values look visually better (brighter).
-LOWER_IS_BETTER = False
+LOWER_IS_BETTER = True
 
 # Row sorting for readability. Options: "none", "by_mean", "by_min", "by_max"
 SORT_MODE = "by_mean"
 
 # Optional numeric annotations inside cells (can get busy with many rows)
 ANNOTATE = False
-ANNOT_PRECISION = 3
+ANNOT_PRECISION = 4
 
 # Per-layer top-K ranking labels (e.g., 1/2/3). Ties receive the same rank label.
 SHOW_TOP_K_PER_LAYER = True
-TOP_K = 3                     # Mark top K per layer
+TOP_K = 4                     # Mark top K per layer
 RANK_FONT_SIZE = 8            # Font size for the "1/2/3" labels
 RANK_FONT_WEIGHT = "bold"     # "normal" or "bold"
 

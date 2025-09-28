@@ -1,0 +1,21 @@
+{
+  "created_at": "2025-09-28T10:57:38Z",
+  "base_dir": "/home/prosper/Desktop/ML/runyankoreNER/data",
+  "masakha_dir": "/home/prosper/Desktop/ML/runyankoreNER/data/MasakhaNER2.0",
+  "output_dir": "../EmbeddingGroups/ZERO-SHOT/kin_sna_zul_hau",
+  "languages": [
+    "kin",
+    "sna",
+    "zul",
+    "hau"
+  ],
+  "skipped_languages": [],
+  "sources": {
+    "COMBINED": {
+      "folder": "../EmbeddingGroups/ZERO-SHOT/kin_sna_zul_hau/COMBINED",
+      "train_lines": 576576,
+      "dev_lines": 81021,
+      "test_lines": 66934
+    }
+  }
+}
