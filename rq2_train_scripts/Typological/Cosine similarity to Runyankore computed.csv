@@ -1,0 +1,24 @@
+Cosine similarity to Runyankore (nyn) computed from concatenated URIEL/lang2Vec typological feature vectors (syntax, phonology, and phoneme inventory).
+
+aux_code,aux_name,country_spoken,cosine_similarity
+lug,Luganda,Uganda,0.888907875547203
+kin,Kinyarwanda,Rwanda,0.873156168099325
+swa,Swahili,Tanzania; Kenya; Democratic Republic of the Congo,0.875448689554435
+luo,Luo (Dholuo),Kenya,0.78258558087123
+twi,Twi,Ghana,0.777464431450237
+nya,Nyanja (Chichewa),Malawi; Zambia,0.899766708708725
+sna,Shona,Zimbabwe,0.870889633342024
+bbj,Ghomala,Cameroon,0.779872636117032
+ibo,Igbo,Nigeria,0.753858593782986
+tsn,Tswana (Setswana),Botswana; South Africa,0.90486457788236
+yor,Yoruba,Nigeria; Benin,0.715247472815124
+pcm,Nigerian Pidgin (Naija),Nigeria,0.705048241793293
+hau,Hausa,Nigeria; Niger,0.705222555474407
+zul,Zulu,South Africa,0.813220284499398
+fon,Fon,Benin,0.709218182664552
+ewe,Ewe,Ghana; Togo,0.673380498341435
+xho,Xhosa,South Africa,0.829700971170697
+mos,Mossi (Mooré),Burkina Faso,0.673380498341435
+bam,Bambara,Mali,0.671858012421143
+wol,Wolof,Senegal,0.693063545897262
+

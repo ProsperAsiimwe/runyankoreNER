@@ -1,0 +1,25 @@
+Overall typological similarity (S_total) to Runyankore (nyn) derived from the Linguameta features of: script match, shared country/region locale overlap, and geographic proximity based on latitude/longitude distance (1000 KM).
+
+
+aux_code,aux_name,country_spoken,cosine_similarity (S_total)
+lug,Luganda,Uganda,0.9346318870075324
+kin,Kinyarwanda,Rwanda,0.6177645379745957
+swa,Swahili,Tanzania; Kenya; Democratic Republic of the Congo,0.5691179406033241
+luo,Luo (Dholuo),Kenya,0.5477228865348017
+twi,Twi,Ghana,0.5
+nya,Nyanja (Chichewa),Malawi; Zambia,0.40490733238677074
+sna,Shona,Zimbabwe,0.3850194950219377
+bbj,Ghomala,Cameroon,0.3655923474929831
+ibo,Igbo,Nigeria,0.3568625141665606
+tsn,Tswana (Setswana),Botswana; South Africa,0.3530246324687298
+yor,Yoruba,Nigeria; Benin,0.3483644556732729
+pcm,Nigerian Pidgin (Naija),Nigeria,0.34798124570278943
+hau,Hausa,Nigeria; Niger,0.3468944720279423
+zul,Zulu,South Africa,0.3462622421217223
+fon,Fon,Benin,0.34545960056431874
+ewe,Ewe,Ghana; Togo,0.34435589612193435
+xho,Xhosa,South Africa,0.34434949523786257
+mos,Mossi (Mooré),Burkina Faso,0.34094667280721563
+bam,Bambara,Mali,0.33716468122345816
+wol,Wolof,Senegal,0.3349326278352129
+

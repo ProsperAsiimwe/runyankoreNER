@@ -1,6 +1,81 @@
 ZERO-SHOT TRAINING LOGS FOR XLMR
 
-1. Group: "tsn, nya, lug, swa" | Occurrences: URIEL/lang2Vec
+1. Group: "lug","kin", "swa", "luo" | Occurrences: LinguaMeta-High
+
+09/27/2025 19:27:22 - INFO - __main__ -   ***** Eval results  *****
+09/27/2025 19:27:22 - INFO - __main__ -     f1 = 0.6352530541012216
+09/27/2025 19:27:22 - INFO - __main__ -     loss = 0.1859045761463073
+09/27/2025 19:27:22 - INFO - __main__ -     precision = 0.6332637439109255
+09/27/2025 19:27:22 - INFO - __main__ -     recall = 0.6372549019607843
+09/27/2025 19:27:22 - INFO - __main__ -     report =               precision    recall  f1-score   support
+
+        DATE       0.56      0.33      0.41       437
+         LOC       0.84      0.83      0.84       715
+         ORG       0.69      0.43      0.53       162
+         PER       0.28      0.89      0.42       114
+
+
+2. Group:  "twi", "nya", "sna", "bbj" | Occurrences: LinguaMeta-Intermediate
+
+09/27/2025 19:13:24 - INFO - __main__ -   ***** Eval results  *****
+09/27/2025 19:13:24 - INFO - __main__ -     f1 = 0.4792696842906048
+09/27/2025 19:13:24 - INFO - __main__ -     loss = 0.28774924904335397
+09/27/2025 19:13:24 - INFO - __main__ -     precision = 0.5245628642797668
+09/27/2025 19:13:24 - INFO - __main__ -     recall = 0.4411764705882353
+09/27/2025 19:13:24 - INFO - __main__ -     report =               precision    recall  f1-score   support
+
+        DATE       0.24      0.01      0.02       437
+         LOC       0.78      0.66      0.72       715
+         ORG       0.35      0.42      0.38       162
+         PER       0.22      0.74      0.34       114
+
+
+3. Group: "ibo", "tsn", "yor", "pcm" | Occurrences: LinguaMeta-Low-A
+
+09/27/2025 21:32:19 - INFO - __main__ -   ***** Eval results  *****
+09/27/2025 21:32:19 - INFO - __main__ -     f1 = 0.3481518481518481
+09/27/2025 21:32:19 - INFO - __main__ -     loss = 0.4087633634905195
+09/27/2025 21:32:19 - INFO - __main__ -     precision = 0.2705745341614907
+09/27/2025 21:32:19 - INFO - __main__ -     recall = 0.4880952380952381
+09/27/2025 21:32:19 - INFO - __main__ -     report =               precision    recall  f1-score   support
+
+        DATE       0.12      0.01      0.02       437
+         LOC       0.71      0.80      0.75       715
+         ORG       0.59      0.30      0.40       162
+         PER       0.04      0.63      0.08       114
+
+
+4. Group: "hau", "zul", "fon", "ewe" | Occurrences: LinguaMeta-Low-B
+
+09/27/2025 19:14:22 - INFO - __main__ -   ***** Eval results  *****
+09/27/2025 19:14:22 - INFO - __main__ -     f1 = 0.4964314036478985
+09/27/2025 19:14:22 - INFO - __main__ -     loss = 0.2813062498611315
+09/27/2025 19:14:22 - INFO - __main__ -     precision = 0.5722120658135283
+09/27/2025 19:14:22 - INFO - __main__ -     recall = 0.438375350140056
+09/27/2025 19:14:22 - INFO - __main__ -     report =               precision    recall  f1-score   support
+
+        DATE       0.43      0.01      0.03       437
+         LOC       0.77      0.68      0.72       715
+         ORG       0.51      0.40      0.45       162
+         PER       0.21      0.61      0.32       114
+
+
+5. Group: "xho", "mos","bam", "wol" | Occurrences: LinguaMeta-Low-C
+
+09/27/2025 21:29:31 - INFO - __main__ -   ***** Eval results  *****
+09/27/2025 21:29:31 - INFO - __main__ -     f1 = 0.47740963855421686
+09/27/2025 21:29:31 - INFO - __main__ -     loss = 0.2751595068425215
+09/27/2025 21:29:31 - INFO - __main__ -     precision = 0.5162866449511401
+09/27/2025 21:29:31 - INFO - __main__ -     recall = 0.44397759103641454
+09/27/2025 21:29:31 - INFO - __main__ -     report =               precision    recall  f1-score   support
+
+        DATE       0.27      0.03      0.05       437
+         LOC       0.69      0.68      0.69       715
+         ORG       0.44      0.38      0.41       162
+         PER       0.21      0.62      0.32       114
+
+
+6. Group: "tsn", "nya", "lug", "swa" | Occurrences: URIEL/lang2Vec-High-A
 
 09/22/2025 22:17:06 - INFO - __main__ -   ***** Eval results  *****
 09/22/2025 22:17:06 - INFO - __main__ -     f1 = 0.5663299663299662
@@ -15,7 +90,7 @@ ZERO-SHOT TRAINING LOGS FOR XLMR
          PER       0.17      0.88      0.29       114
 
 
-2. Group: "kin, sna, xho, zul" | Occurrences: URIEL/lang2Vec
+7. Group: "kin", "sna", "xho", "zul" | Occurrences: URIEL/lang2Vec-High-B
 
 09/22/2025 22:38:26 - INFO - __main__ -   ***** Eval results  *****
 09/22/2025 22:38:26 - INFO - __main__ -     f1 = 0.5226244343891402
@@ -30,7 +105,7 @@ ZERO-SHOT TRAINING LOGS FOR XLMR
          PER       0.26      0.72      0.38       114
 
 
-3. Group: "luo, bbj, twi, ibo" | Occurrences: URIEL/lang2Vec
+8. Group: "luo", "bbj", "twi", "ibo" | Occurrences: URIEL/lang2Vec-Intermediate
 
 09/22/2025 23:06:48 - INFO - __main__ -   ***** Eval results  *****
 09/22/2025 23:06:48 - INFO - __main__ -     f1 = 0.37332619175147297
@@ -45,7 +120,7 @@ ZERO-SHOT TRAINING LOGS FOR XLMR
          PER       0.06      0.66      0.10       114
 
 
-4. Group: "yor, fon, hau, pcm" | Occurrences: URIEL/lang2Vec
+9. Group: "yor", "fon", "hau", "pcm" | Occurrences: URIEL/lang2Vec-Low-A
 
 09/22/2025 22:35:39 - INFO - __main__ -   ***** Eval results  *****
 09/22/2025 22:35:39 - INFO - __main__ -     f1 = 0.34354880247231523
@@ -60,8 +135,7 @@ ZERO-SHOT TRAINING LOGS FOR XLMR
          PER       0.05      0.63      0.09       114
 
 
-
-5. Group: "wol, ewe, mos, bam" | Occurrences: URIEL/lang2Vec
+10. Group: "wol", "ewe","mos", "bam" | Occurrences: URIEL/lang2Vec-Low-B
 
 09/22/2025 23:19:52 - INFO - __main__ -   ***** Eval results  *****
 09/22/2025 23:19:52 - INFO - __main__ -     f1 = 0.40823854903166307
@@ -74,29 +148,3 @@ ZERO-SHOT TRAINING LOGS FOR XLMR
          LOC       0.43      0.75      0.54       715
          ORG       0.47      0.37      0.41       162
          PER       0.16      0.58      0.25       114
-
-
-
-6. Group: "kin, swa, wol, nya" | Occurrences: LinguaMeta
-
-
-
-
-
-7. Group: "sna, tsn, xho, bam" | Occurrences: LinguaMeta
-
-
-
-
-8. Group: "twi, luo, fon, mos" | Occurrences: LinguaMeta
-
-
-
-
-9. Group: "bbj, ibo, yor, hau" | Occurrences: LinguaMeta
-
-
-
-
-
-10. Group: "lug, pcm, ewe, zul" | Occurrences: LinguaMeta
