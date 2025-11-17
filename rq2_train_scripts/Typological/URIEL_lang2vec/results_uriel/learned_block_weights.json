@@ -1,22 +1,18 @@
 {
   "Co-train mBERT": {
-    "syntax_knn": 0.6356309886728009,
-    "phonology_knn": 0.0,
-    "inventory_knn": 0.36436901132719907
+    "syntax_knn": 1.0,
+    "phonology_knn": 0.0
   },
   "Co-train XLM-R": {
-    "syntax_knn": 0.4950939688869896,
-    "phonology_knn": 0.05106944808073171,
-    "inventory_knn": 0.4538365830322787
+    "syntax_knn": 0.881587058211318,
+    "phonology_knn": 0.118412941788682
   },
   "Zero-shot mBERT": {
-    "syntax_knn": 0.5556375941824787,
-    "phonology_knn": 0.0,
-    "inventory_knn": 0.44436240581752123
+    "syntax_knn": 1.0,
+    "phonology_knn": 0.0
   },
   "Zero-shot XLM-R": {
     "syntax_knn": 1.0,
-    "phonology_knn": 0.0,
-    "inventory_knn": 0.0
+    "phonology_knn": 0.0
   }
 }
