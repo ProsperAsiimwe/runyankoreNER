@@ -13,12 +13,14 @@ What’s included:
 Example
 =======
 python typology_pipeline.py \
-  --features syntax_knn+phonology_knn+inventory_knn \
+  --features syntax_knn+phonology_knn \
   --langs_csv languages_masakha_run.csv \
   --ct_f1_mbert ct_f1_mbert.csv \
   --ct_f1_xlmr ct_f1_xlmr.csv \
+  --ct_f1_afroxlmr ct_f1_afroxlmr.csv \
   --zs_f1_mbert zs_f1_mbert.csv \
   --zs_f1_xlmr zs_f1_xlmr.csv \
+  --zs_f1_afroxlmr zs_f1_afroxlmr.csv \
   --out_dir results_uriel --target nyn --desired_group_size 4 \
   --learn_block_weights
 """
@@ -241,14 +243,16 @@ def main():
     ap.add_argument("--langs_csv", type=str, required=True, help="CSV with at least a 'code' column.")
     ap.add_argument("--ct_f1_mbert", type=str, required=True)
     ap.add_argument("--ct_f1_xlmr", type=str, required=True)
+    ap.add_argument("--ct_f1_afroxlmr", type=str, required=True)
     ap.add_argument("--zs_f1_mbert", type=str, required=True)
     ap.add_argument("--zs_f1_xlmr", type=str, required=True)
+    ap.add_argument("--zs_f1_afroxlmr", type=str, required=True)
     ap.add_argument("--out_dir", type=str, default="results")
     ap.add_argument("--target", type=str, default="nyn", help="Target code (e.g., 'nyn' or 'run').")
 
     # URIEL features (+ optional priors)
     ap.add_argument("--features", type=str,
-                    default="syntax_knn+phonology_knn+inventory_knn",
+                    default="syntax_knn+phonology_knn",
                     help="URIEL blocks joined by '+'. Supports 'genetic' and 'geo' as priors.")
 
     # Exploratory clusters (optional; not used in final experiments)
@@ -480,8 +484,10 @@ def main():
     pairs = [
         ("ct_f1_mbert", args.ct_f1_mbert, "Co-train mBERT"),
         ("ct_f1_xlmr", args.ct_f1_xlmr, "Co-train XLM-R"),
+        ("ct_f1_afroxlmr", args.ct_f1_afroxlmr, "Co-train AFRO-XLMR"),
         ("zs_f1_mbert", args.zs_f1_mbert, "Zero-shot mBERT"),
         ("zs_f1_xlmr", args.zs_f1_xlmr, "Zero-shot XLM-R"),
+        ("zs_f1_afroxlmr", args.zs_f1_afroxlmr, "Zero-shot AFRO-XLMR"),
     ]
     for _, path, label in pairs:
         f1_df = load_f1_csv(path)

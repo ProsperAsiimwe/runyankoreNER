@@ -3,10 +3,12 @@
 Typology-based similarity + grouping for Runyankore vs 20 auxiliaries,
 with optional weight learning from *multiple* performance CSVs:
 
-  ct_f1_mbert.csv  (Co-training, mBERT)
-  ct_f1_xlmr.csv   (Co-training, XLM-R)
-  zs_f1_mbert.csv  (Zero-shot, mBERT)
-  zs_f1_xlmr.csv   (Zero-shot, XLM-R)
+  ct_f1_mbert.csv       (Co-training, mBERT)
+  ct_f1_xlmr.csv        (Co-training, XLM-R)
+  ct_f1_afroxlmr.csv    (Co-training, AFRO-XLMR)
+  zs_f1_mbert.csv       (Zero-shot, mBERT)
+  zs_f1_xlmr.csv        (Zero-shot, XLM-R)
+  zs_f1_afroxlmr.csv    (Zero-shot, AFRO-XLMR)
 
 Each perf file must have:
   language,f1
@@ -14,8 +16,8 @@ Each perf file must have:
   ...
 
 We infer:
-  setup ∈ {co-train, zero-shot}  from filename prefix {ct, zs}
-  model ∈ {mbert, xlmr}          from filename suffix {mbert, xlmr}
+  setup ∈ {co-train, zero-shot}          from filename prefix {ct, zs}
+  model ∈ {mbert, xlmr, afroxlmr}        from filename suffix {mbert, xlmr, afroxlmr}
 
 Outputs in --outdir:
   - typology_similarity_scores.csv               (equal-weight baseline)
@@ -51,7 +53,7 @@ python3 typology_similarity.py \
   --features lingua_features.csv \
   --outdir out_typology \
   --k 3 4 5 6 \
-  --performance_files ct_f1_mbert.csv ct_f1_xlmr.csv zs_f1_mbert.csv zs_f1_xlmr.csv
+  --performance_files ct_f1_mbert.csv ct_f1_xlmr.csv ct_f1_afroxlmr.csv zs_f1_mbert.csv zs_f1_xlmr.csv zs_f1_afroxlmr.csv
 """
 
 import argparse, os, math, re
@@ -202,12 +204,16 @@ def compute_scores(lang_df, feat, tau=1000.0, weights=None):
 
 def read_performance_files(perf_files):
     """
-    Expect list like: ['ct_f1_mbert.csv','ct_f1_xlmr.csv','zs_f1_mbert.csv','zs_f1_xlmr.csv']
+    Expect list like:
+      ['ct_f1_mbert.csv','ct_f1_xlmr.csv','ct_f1_afroxlmr.csv',
+       'zs_f1_mbert.csv','zs_f1_xlmr.csv','zs_f1_afroxlmr.csv']
+
     Each file has: language,f1
     Infer (setup, model) from filename.
     """
     rows = []
-    pat = re.compile(r'(?P<setup>ct|zs).*?(?P<model>mbert|xlmr)', re.IGNORECASE)
+    # UPDATED: now also supports afroxlmr
+    pat = re.compile(r'(?P<setup>ct|zs).*?(?P<model>mbert|xlmr|afroxlmr)', re.IGNORECASE)
     for path in perf_files:
         fn = os.path.basename(path)
         m = pat.search(fn)
@@ -498,7 +504,12 @@ def main():
     ap.add_argument("--outdir", required=True)
     ap.add_argument("--tau", type=float, default=1000.0)
     ap.add_argument("--k", nargs="+", type=int, default=[3,4,5], help="candidate cluster sizes")
-    ap.add_argument("--performance_files", nargs="*", default=[], help="paths to ct/zs mbert/xlmr CSVs")
+    ap.add_argument(
+        "--performance_files",
+        nargs="*",
+        default=[],
+        help="paths to ct/zs mbert/xlmr/afroxlmr CSVs",
+    )
     ap.add_argument("--no_figures", action="store_true", help="skip figure generation")
     args = ap.parse_args()
 
@@ -529,8 +540,13 @@ def main():
     if not perf_all.empty:
         for (setup, model), df_subset in perf_all.groupby(["setup","model"]):
             weights, diag = learn_weights_for_variant(scores_equal, df_subset)
-            tag = f"{setup.replace('-','')}_{model}".lower()  # e.g., cotrain_mbert
+            tag = f"{setup.replace('-','')}_{model}".lower()  # e.g., cotrain_mbert, zeroshot_afroxlmr
             with open(os.path.join(args.outdir, f"weight_learning_{tag}.txt"), "w") as f:
+                f.write(
+                    "Learned weights (script, locale, geo): "
+                    + ", ".join(f"{k}={v:.4f}" for k, v in weights.items())
+                    +"\n"
+                )                
                 f.write(diag + "\n")
             if weights is None:
                 continue
@@ -570,14 +586,20 @@ def main():
             summary = df_equal_plot[["aux_code","aux_name","S_total","group"]].copy()
             if not perf_all.empty:
                 perf_tag = perf_all.copy()
-                perf_tag["variant"] = perf_tag.apply(lambda r: f"{'cotrain' if r['setup']=='co-train' else 'zeroshot'}_{r['model']}", axis=1)
+                perf_tag["variant"] = perf_tag.apply(
+                    lambda r: f"{'cotrain' if r['setup']=='co-train' else 'zeroshot'}_{r['model']}",
+                    axis=1
+                )
                 piv = perf_tag.pivot_table(index="aux_code", columns="variant", values="f1", aggfunc="mean").reset_index()
                 summary = summary.merge(piv, on="aux_code", how="left")
             summary.to_csv(os.path.join(figs_dir, "tables_summary.csv"), index=False)
 
             # Variant plots: scatter S_total vs F1, weights bar, PCA, sizes
             if not perf_all.empty:
-                perf_all["variant"] = perf_all.apply(lambda r: f"{'cotrain' if r['setup']=='co-train' else 'zeroshot'}_{r['model']}", axis=1)
+                perf_all["variant"] = perf_all.apply(
+                    lambda r: f"{'cotrain' if r['setup']=='co-train' else 'zeroshot'}_{r['model']}",
+                    axis=1
+                )
 
             for tag, pack in variant_results.items():
                 dfv = merge_names(pack["df"].sort_values("S_total", ascending=False), langs)

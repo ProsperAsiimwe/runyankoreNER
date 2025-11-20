@@ -1,0 +1,2 @@
+Algorithm: KMeans (sklearn)
+Best k=3 with silhouette=0.8018934829725589

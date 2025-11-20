@@ -7,11 +7,19 @@
     "syntax_knn": 0.881587058211318,
     "phonology_knn": 0.118412941788682
   },
+  "Co-train AFRO-XLMR": {
+    "syntax_knn": 1.0,
+    "phonology_knn": 0.0
+  },
   "Zero-shot mBERT": {
     "syntax_knn": 1.0,
     "phonology_knn": 0.0
   },
   "Zero-shot XLM-R": {
+    "syntax_knn": 1.0,
+    "phonology_knn": 0.0
+  },
+  "Zero-shot AFRO-XLMR": {
     "syntax_knn": 1.0,
     "phonology_knn": 0.0
   }

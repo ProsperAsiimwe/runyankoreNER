@@ -1,0 +1,3 @@
+Learned weights (script, locale, geo): script=0.0000, locale=1.0000, geo=0.0000
+Fitted via NNLS on z-scored features (non-negative, sum=1).
+Fit diagnostics: R^2=-54910.541, ρ=0.467 (p=0.038), r=0.467 (p=0.038)
