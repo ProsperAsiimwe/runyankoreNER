@@ -1,0 +1,21 @@
+{
+  "created_at": "2025-11-20T17:56:46Z",
+  "base_dir": "/home/prosper/Desktop/ML/runyankoreNER/data",
+  "masakha_dir": "/home/prosper/Desktop/ML/runyankoreNER/data/MasakhaNER2.0",
+  "output_dir": "../EmbeddingGroups/ZERO-SHOT/cosine_Low-B",
+  "languages": [
+    "bam",
+    "bbj",
+    "mos",
+    "yor"
+  ],
+  "skipped_languages": [],
+  "sources": {
+    "COMBINED": {
+      "folder": "../EmbeddingGroups/ZERO-SHOT/cosine_Low-B/COMBINED",
+      "train_lines": 473205,
+      "dev_lines": 65865,
+      "test_lines": 66934
+    }
+  }
+}

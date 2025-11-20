@@ -1,0 +1,21 @@
+{
+  "created_at": "2025-11-20T17:52:40Z",
+  "base_dir": "/home/prosper/Desktop/ML/runyankoreNER/data",
+  "masakha_dir": "/home/prosper/Desktop/ML/runyankoreNER/data/MasakhaNER2.0",
+  "output_dir": "../EmbeddingGroups/ZERO-SHOT/cosine_Mid-A",
+  "languages": [
+    "xho",
+    "zul",
+    "twi",
+    "hau"
+  ],
+  "skipped_languages": [],
+  "sources": {
+    "COMBINED": {
+      "folder": "../EmbeddingGroups/ZERO-SHOT/cosine_Mid-A/COMBINED",
+      "train_lines": 462922,
+      "dev_lines": 66906,
+      "test_lines": 66934
+    }
+  }
+}
