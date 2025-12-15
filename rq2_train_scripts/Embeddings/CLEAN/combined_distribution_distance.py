@@ -8,7 +8,11 @@ import numpy as np, pandas as pd, torch
 from transformers import AutoTokenizer, AutoModel
 from tqdm import tqdm
 
-MODEL_NAME_MAP={"xlmr":"xlm-roberta-base","mbert":"bert-base-multilingual-cased"}
+MODEL_NAME_MAP = {
+    "afroxlmr": "Davlan/afro-xlmr-base",
+    "xlmr": "xlm-roberta-base",
+    "mbert": "bert-base-multilingual-cased",
+}
 DEFAULT_ENTITY_TAGS={"PER","LOC","ORG","DATE"}
 DEVICE="cuda" if torch.cuda.is_available() else "cpu"
 TARGET_LANG="run"
@@ -163,7 +167,7 @@ def get_layers(model_type):
 def main():
     init_logger()
     ap=argparse.ArgumentParser("Distribution comparison via Sliced Wasserstein Distance (per tag, per layer)")
-    ap.add_argument("--model_type", choices=["xlmr","mbert"], default="xlmr")
+    ap.add_argument("--model_type", choices=list(MODEL_NAME_MAP.keys()), default="xlmr")
     ap.add_argument("--output_dir", default="outputs_swd")
     ap.add_argument("--langs", default="all"); ap.add_argument("--layers", default="all")
     ap.add_argument("--entity_tags", default="PER,LOC,ORG,DATE")
