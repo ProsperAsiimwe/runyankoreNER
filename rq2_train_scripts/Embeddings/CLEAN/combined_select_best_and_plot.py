@@ -477,8 +477,8 @@ def build_values_for_specific_config(model_root: str,
 def main():
     ap = argparse.ArgumentParser("Per-layer best + auto global-config selection")
     ap.add_argument("--root", default="outputs/combined",
-                    help="Root dir that contains model subdirs (xlmr/mbert/afro-xlmr) and config folders")
-    ap.add_argument("--models", default="xlmr,mbert,afro-xlmr", help="Comma-separated models to process")
+                    help="Root dir that contains model subdirs (xlmr/mbert/afroxlmr) and config folders")
+    ap.add_argument("--models", default="xlmr,mbert,afroxlmr", help="Comma-separated models to process")
     ap.add_argument("--techniques", default="core,per_entity,alt_measures,swd",
                     help="Comma-separated techniques to process")
 

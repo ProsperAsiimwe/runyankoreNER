@@ -53,7 +53,7 @@ from transformers import AutoModel
 MAP = {
     "xlmr": "xlm-roberta-base",
     "mbert": "bert-base-multilingual-cased",
-    "afro-xlmr": "Davlan/afro-xlmr-base",
+    "afroxlmr": "Davlan/afro-xlmr-base",
 }
 
 m = AutoModel.from_pretrained(MAP[sys.argv[1]])
@@ -117,7 +117,7 @@ run_py_common() {
 # Main grid
 # =========================
 
-for MODEL in "xlmr" "mbert" "afro-xlmr"; do
+for MODEL in "xlmr" "mbert" "afroxlmr"; do
   LAYERS_CSV="$(get_layers_csv "$MODEL")"
   IFS=',' read -r -a LAYERS <<< "$LAYERS_CSV"
 

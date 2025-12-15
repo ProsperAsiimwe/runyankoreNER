@@ -20,7 +20,7 @@ import matplotlib.pyplot as plt
 # CONFIGURATION SECTION
 # =======================
 
-CSV_PATH = "./combined/summary_best/afro-xlmr/swd/global_config/values_by_layer_swd_afro-xlmr.csv"          # Path to your CSV file
+CSV_PATH = "./combined/summary_best/afroxlmr/swd/global_config/values_by_layer_swd_afro-xlmr.csv"          # Path to your CSV file
 OUT_PATH = "afro-xlmr_combined_swd_heatmap.png"   
 FIG_TITLE = "Layer-wise performance per language (Top 4 performing languages shown)"
 

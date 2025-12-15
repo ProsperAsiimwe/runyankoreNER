@@ -39,9 +39,9 @@ DATA = {
         "zs_f1":    "./spearman_files/zs_f1_xlmr.csv",
         "ct_f1":    "./spearman_files/ct_f1_xlmr.csv",
     },
-    "afro-xlmr": {
-        "core_csv": "./combined/summary_best/afro-xlmr/core/global_config/values_by_layer_core_xlmr.csv",
-        "swd_csv":  "./combined/summary_best/afro-xlmr/swd/global_config/values_by_layer_swd_xlmr.csv",
+    "afroxlmr": {
+        "core_csv": "./combined/summary_best/afroxlmr/core/global_config/values_by_layer_core_xlmr.csv",
+        "swd_csv":  "./combined/summary_best/afroxlmr/swd/global_config/values_by_layer_swd_xlmr.csv",
         "zs_f1":    "./spearman_files/zs_f1_xlmr.csv",
         "ct_f1":    "./spearman_files/ct_f1_xlmr.csv",
     },
