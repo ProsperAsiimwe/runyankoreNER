@@ -40,6 +40,12 @@ EXPLICIT_LAYERS=""
 # Helpers
 # =========================
 
+# MAP = {
+#     "xlmr": "xlm-roberta-base",
+#     "mbert": "bert-base-multilingual-cased",
+#     "afroxlmr": "Davlan/afro-xlmr-base",
+# }
+
 # Return comma-separated hidden-layer indices (1..L)
 get_layers_csv() {
   local model_key="$1"
@@ -51,9 +57,7 @@ import sys
 from transformers import AutoModel
 
 MAP = {
-    "xlmr": "xlm-roberta-base",
-    "mbert": "bert-base-multilingual-cased",
-    "afroxlmr": "Davlan/afro-xlmr-base",
+    "afroxlmr": "Davlan/afro-xlmr-base"
 }
 
 m = AutoModel.from_pretrained(MAP[sys.argv[1]])
