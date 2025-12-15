@@ -20,8 +20,8 @@ import matplotlib.pyplot as plt
 # CONFIGURATION SECTION
 # =======================
 
-CSV_PATH = "./combined/summary_best/xlmr/swd/global_config/values_by_layer_swd_xlmr.csv"          # Path to your CSV file
-OUT_PATH = "xlmr_combined_swd_heatmap.png"   
+CSV_PATH = "./combined/summary_best/afro-xlmr/swd/global_config/values_by_layer_swd_afro-xlmr.csv"          # Path to your CSV file
+OUT_PATH = "afro-xlmr_combined_swd_heatmap.png"   
 FIG_TITLE = "Layer-wise performance per language (Top 4 performing languages shown)"
 
 # If True, the colormap is reversed so LOWER values look visually better (brighter).

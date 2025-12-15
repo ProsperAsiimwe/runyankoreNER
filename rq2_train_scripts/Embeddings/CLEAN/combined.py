@@ -23,6 +23,7 @@ import matplotlib.pyplot as plt
 MODEL_NAME_MAP = {
     "xlmr": "xlm-roberta-base",
     "mbert": "bert-base-multilingual-cased",
+    "afro-xlmr": "Davlan/afro-xlmr-base"
 }
 DEFAULT_ENTITY_TAGS: Set[str] = {"PER", "LOC", "ORG", "DATE"}
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
