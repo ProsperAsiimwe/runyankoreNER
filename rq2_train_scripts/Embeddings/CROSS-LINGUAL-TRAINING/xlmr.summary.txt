@@ -1,0 +1,152 @@
+CROSS-LINGUAL TRAINING LOGS FOR XLM-R
+
+1. Group alias: High | Auxiliary groups: "sna, lug, kin, nya" | Technique: Cosine similarity
+
+11/20/2025 21:04:18 - INFO - __main__ -   ***** Eval results  *****
+11/20/2025 21:04:18 - INFO - __main__ -     f1 = 0.8206579412805094
+11/20/2025 21:04:18 - INFO - __main__ -     loss = 0.04883151049814588
+11/20/2025 21:04:18 - INFO - __main__ -     precision = 0.8291636883488206
+11/20/2025 21:04:18 - INFO - __main__ -     recall = 0.8123249299719888
+11/20/2025 21:04:18 - INFO - __main__ -     report =               precision    recall  f1-score   support
+
+        DATE       0.80      0.71      0.75       437
+         LOC       0.87      0.89      0.88       715
+         ORG       0.72      0.70      0.71       162
+         PER       0.82      0.86      0.84       114
+
+
+2. Group alias: Mid-A | Auxiliary groups: "xho, zul, twi, hau" | Technique: Cosine similarity
+
+11/20/2025 21:01:49 - INFO - __main__ -   ***** Eval results  *****
+11/20/2025 21:01:49 - INFO - __main__ -     f1 = 0.8105482303955587
+11/20/2025 21:01:49 - INFO - __main__ -     loss = 0.06732062631242781
+11/20/2025 21:01:49 - INFO - __main__ -     precision = 0.8033012379642366
+11/20/2025 21:01:49 - INFO - __main__ -     recall = 0.8179271708683473
+11/20/2025 21:01:49 - INFO - __main__ -     report =               precision    recall  f1-score   support
+
+        DATE       0.71      0.74      0.73       437
+         LOC       0.86      0.89      0.87       715
+         ORG       0.76      0.70      0.73       162
+         PER       0.86      0.84      0.85       114
+
+
+3. Group alias: Mid-B | Auxiliary groups: "ibo, luo, pcm, tsn" | Technique: Cosine similarity
+
+11/20/2025 22:12:32 - INFO - __main__ -   ***** Eval results  *****
+11/20/2025 22:12:32 - INFO - __main__ -     f1 = 0.7938144329896908
+11/20/2025 22:12:32 - INFO - __main__ -     loss = 0.06301215414647703
+11/20/2025 22:12:32 - INFO - __main__ -     precision = 0.7793522267206477
+11/20/2025 22:12:32 - INFO - __main__ -     recall = 0.8088235294117647
+11/20/2025 22:12:32 - INFO - __main__ -     report =               precision    recall  f1-score   support
+
+        DATE       0.67      0.73      0.70       437
+         LOC       0.85      0.88      0.86       715
+         ORG       0.74      0.69      0.71       162
+         PER       0.83      0.81      0.82       114
+
+
+4. Group alias: Low-A | Auxiliary groups: "fon, swa, wol, ewe" | Technique: Cosine similarity
+
+11/20/2025 20:55:30 - INFO - __main__ -   ***** Eval results  *****
+11/20/2025 20:55:30 - INFO - __main__ -     f1 = 0.8040027605244997
+11/20/2025 20:55:30 - INFO - __main__ -     loss = 0.06390199418335492
+11/20/2025 20:55:30 - INFO - __main__ -     precision = 0.7925170068027211
+11/20/2025 20:55:30 - INFO - __main__ -     recall = 0.8158263305322129
+11/20/2025 20:55:30 - INFO - __main__ -     report =               precision    recall  f1-score   support
+
+        DATE       0.71      0.75      0.73       437
+         LOC       0.84      0.89      0.86       715
+         ORG       0.78      0.67      0.72       162
+         PER       0.81      0.85      0.83       114
+
+
+5. Group alias: Low-B | Auxiliary groups: "bam, bbj, mos, yor" | Technique: Cosine similarity
+
+11/20/2025 20:56:42 - INFO - __main__ -   ***** Eval results  *****
+11/20/2025 20:56:42 - INFO - __main__ -     f1 = 0.8147632311977716
+11/20/2025 20:56:42 - INFO - __main__ -     loss = 0.06264631815402578
+11/20/2025 20:56:42 - INFO - __main__ -     precision = 0.8102493074792244
+11/20/2025 20:56:42 - INFO - __main__ -     recall = 0.819327731092437
+11/20/2025 20:56:42 - INFO - __main__ -     report =               precision    recall  f1-score   support
+
+        DATE       0.74      0.76      0.75       437
+         LOC       0.86      0.88      0.87       715
+         ORG       0.73      0.70      0.71       162
+         PER       0.86      0.82      0.84       114
+
+
+6. Group alias: High | Auxiliary groups: "kin, twi, luo, ibo" | Technique: SWD
+
+11/21/2025 05:47:24 - INFO - __main__ -   ***** Eval results  *****
+11/21/2025 05:47:24 - INFO - __main__ -     f1 = 0.8096219931271477
+11/21/2025 05:47:24 - INFO - __main__ -     loss = 0.06595167556391025
+11/21/2025 05:47:24 - INFO - __main__ -     precision = 0.7948717948717948
+11/21/2025 05:47:24 - INFO - __main__ -     recall = 0.8249299719887955
+11/21/2025 05:47:24 - INFO - __main__ -     report =               precision    recall  f1-score   support
+
+        DATE       0.71      0.76      0.73       437
+         LOC       0.87      0.89      0.88       715
+         ORG       0.70      0.66      0.68       162
+         PER       0.80      0.89      0.84       114
+
+
+7. Group alias: Mid-A | Auxiliary groups: "lug, zul, nya, tsn" | Technique: SWD
+
+11/21/2025 05:29:08 - INFO - __main__ -   ***** Eval results  *****
+11/21/2025 05:29:08 - INFO - __main__ -     f1 = 0.8057751804743898
+11/21/2025 05:29:08 - INFO - __main__ -     loss = 0.06637450065829478
+11/21/2025 05:29:08 - INFO - __main__ -     precision = 0.7913571910871033
+11/21/2025 05:29:08 - INFO - __main__ -     recall = 0.8207282913165266
+11/21/2025 05:29:08 - INFO - __main__ -     report =               precision    recall  f1-score   support
+
+        DATE       0.71      0.75      0.73       437
+         LOC       0.87      0.89      0.88       715
+         ORG       0.67      0.70      0.68       162
+         PER       0.83      0.85      0.84       114
+
+
+8. Group alias: Mid-B | Auxiliary groups: "swa, ewe, sna, pcm" | Technique: SWD
+
+11/21/2025 07:41:56 - INFO - __main__ -   ***** Eval results  *****
+11/21/2025 07:41:56 - INFO - __main__ -     f1 = 0.8106591865357644
+11/21/2025 07:41:56 - INFO - __main__ -     loss = 0.0636675141839502
+11/21/2025 07:41:56 - INFO - __main__ -     precision = 0.8117977528089888
+11/21/2025 07:41:56 - INFO - __main__ -     recall = 0.8095238095238095
+11/21/2025 07:41:56 - INFO - __main__ -     report =               precision    recall  f1-score   support
+
+        DATE       0.75      0.74      0.75       437
+         LOC       0.86      0.88      0.87       715
+         ORG       0.72      0.67      0.69       162
+         PER       0.86      0.84      0.85       114
+
+
+9. Group alias: Low-A | Auxiliary groups: "bam, bbj, fon, hau" | Technique: SWD
+
+11/21/2025 05:25:00 - INFO - __main__ -   ***** Eval results  *****
+11/21/2025 05:25:00 - INFO - __main__ -     f1 = 0.8077893977641545
+11/21/2025 05:25:00 - INFO - __main__ -     loss = 0.05457658207400628
+11/21/2025 05:25:00 - INFO - __main__ -     precision = 0.8327137546468402
+11/21/2025 05:25:00 - INFO - __main__ -     recall = 0.7843137254901961
+11/21/2025 05:25:00 - INFO - __main__ -     report =               precision    recall  f1-score   support
+
+        DATE       0.80      0.67      0.73       437
+         LOC       0.84      0.89      0.86       715
+         ORG       0.83      0.62      0.71       162
+         PER       0.88      0.80      0.84       114
+
+
+10. Group alias: Low-B | Auxiliary groups: "mos, wol, xho, yor" | Technique: SWD
+
+11/21/2025 05:42:28 - INFO - __main__ -   ***** Eval results  *****
+11/21/2025 05:42:28 - INFO - __main__ -     f1 = 0.804920913884007
+11/21/2025 05:42:28 - INFO - __main__ -     loss = 0.05009141294652979
+11/21/2025 05:42:28 - INFO - __main__ -     precision = 0.808045165843331
+11/21/2025 05:42:28 - INFO - __main__ -     recall = 0.8018207282913166
+11/21/2025 05:42:28 - INFO - __main__ -     report =               precision    recall  f1-score   support
+
+        DATE       0.75      0.71      0.73       437
+         LOC       0.86      0.88      0.87       715
+         ORG       0.71      0.70      0.70       162
+         PER       0.86      0.83      0.84       114
+
+
