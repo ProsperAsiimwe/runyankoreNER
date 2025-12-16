@@ -40,10 +40,10 @@ DATA = {
         "ct_f1":    "./spearman_files/ct_f1_xlmr.csv",
     },
     "afroxlmr": {
-        "core_csv": "./combined/summary_best/afroxlmr/core/global_config/values_by_layer_core_xlmr.csv",
-        "swd_csv":  "./combined/summary_best/afroxlmr/swd/global_config/values_by_layer_swd_xlmr.csv",
-        "zs_f1":    "./spearman_files/zs_f1_xlmr.csv",
-        "ct_f1":    "./spearman_files/ct_f1_xlmr.csv",
+        "core_csv": "./combined/summary_best/afroxlmr/core/global_config/values_by_layer_core_afroxlmr.csv",
+        "swd_csv":  "./combined/summary_best/afroxlmr/swd/global_config/values_by_layer_swd_afroxlmr.csv",
+        "zs_f1":    "./spearman_files/zs_f1_afroxlmr.csv",
+        "ct_f1":    "./spearman_files/ct_f1_afroxlmr.csv",
     },
 }
 LANG_LIST = "./spearman_files/languages.txt"   # one code per line (e.g., kin, lug, nya, ...)

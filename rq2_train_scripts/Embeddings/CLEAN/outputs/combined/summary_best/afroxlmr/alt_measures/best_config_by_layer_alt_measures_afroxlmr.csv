@@ -1,0 +1,13 @@
+layer,best_config,tokens,ctx_window,score_mean_over_langs
+1,config_2_clsfalse_ctxtrue,500,3,0.858221560716629
+2,config_2_clsfalse_ctxtrue,500,3,0.8360519886016846
+3,config_2_clsfalse_ctxtrue,200,3,0.8611839950084687
+4,config_2_clsfalse_ctxtrue,200,3,0.8699964970350266
+5,config_3_clstrue_ctxtrue,500,2,0.9252777844667435
+6,config_2_clsfalse_ctxtrue,500,3,0.8872847080230712
+7,config_2_clsfalse_ctxtrue,500,3,0.8870645701885224
+8,config_2_clsfalse_ctxtrue,500,3,0.885454797744751
+9,config_2_clsfalse_ctxtrue,500,3,0.8964121878147125
+10,,,,
+11,,,,
+12,,,,
