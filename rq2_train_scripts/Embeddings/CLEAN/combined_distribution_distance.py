@@ -4,9 +4,11 @@
 import os, argparse, random, contextlib, logging
 from datetime import datetime
 from typing import Dict, List, Tuple, Optional, Set
+
 import numpy as np, pandas as pd, torch
 from transformers import AutoTokenizer, AutoModel
 from tqdm import tqdm
+import matplotlib.pyplot as plt  # NEW
 
 MODEL_NAME_MAP = {
     "afroxlmr": "Davlan/afro-xlmr-base",
@@ -99,7 +101,7 @@ def extract_embs(file_path, tokenizer, model, layer_indices, entity_tags,
             if use_cls:
                 embs=_unit_norm(T[:,0,:].detach().cpu().numpy())
                 for i,p in enumerate(payload):
-                    t=p["tag"]; 
+                    t=p["tag"]
                     if counts[t] >= max_tokens_per_type: continue
                     per_layer[li][t].append(embs[i].astype(np.float32)); counts[t]+=1
             else:
@@ -121,8 +123,11 @@ def extract_embs(file_path, tokenizer, model, layer_indices, entity_tags,
         if span_mode=="bio":
             for s,e,ent in _iter_bio_spans(toks,tg,entity_tags):
                 if counts[ent] >= max_tokens_per_type: continue
-                cs=max(0,s-ctx) if (ctx:=0) else s  # no context by default here
+
+                # Keep your original behavior: no context by default
+                cs=max(0,s-ctx) if (ctx:=0) else s
                 ce=min(len(toks),e+ctx) if ctx else e
+
                 rel=list(range(s-cs,e-cs))
                 payload.append({"span_tokens": toks[cs:ce], "rel_idx_list": rel, "tag": ent})
                 if len(payload)>=batch_size: flush()
@@ -132,7 +137,7 @@ def extract_embs(file_path, tokenizer, model, layer_indices, entity_tags,
                 if ent not in entity_tags or counts[ent]>=max_tokens_per_type: continue
                 payload.append({"span_tokens": [toks[i]], "rel_idx_list": [0], "tag": ent})
                 if len(payload)>=batch_size: flush()
-    flush(); 
+    flush()
     return per_layer, counts
 
 def sample_array_list(arr_list: List[np.ndarray], k: int, rng: np.random.Generator) -> np.ndarray:
@@ -163,6 +168,105 @@ def sliced_wasserstein(X: np.ndarray, Y: np.ndarray, num_proj=256, rng=None) -> 
 def get_layers(model_type):
     tmp=AutoModel.from_pretrained(MODEL_NAME_MAP[model_type]); L=tmp.config.num_hidden_layers; del tmp
     return list(range(1, L+1))
+
+# =========================
+# NEW: Visualization + summary (mirrors cosine structure)
+# =========================
+
+def _save_sorted_bar_swd(df: pd.DataFrame, layer_idx: int, output_dir: str, model_type: str, target_lang: str, top_k_annot: int = 5):
+    # For SWD: lower = closer/better → sort ascending
+    vals = pd.to_numeric(df["SWD_mean"], errors="coerce").dropna()
+    if vals.empty:
+        logging.warning(f"Layer {layer_idx}: no valid SWD_mean values; skipping bar plot.")
+        return
+    order = vals.sort_values(ascending=True)
+
+    plt.figure(figsize=(12, 6))
+    plt.bar(order.index, order.values)
+    plt.xticks(rotation=45, ha="right")
+    plt.ylabel("Sliced Wasserstein Distance (mean over tags)")
+    plt.title(f"SWD vs {target_lang} — {model_type} — Layer {layer_idx} (lower is closer)")
+    for i, (lang, val) in enumerate(order.head(top_k_annot).items()):
+        plt.text(i, val, f"{val:.3f}", ha="center", va="bottom", fontsize=8)
+    plt.tight_layout()
+    fname = os.path.join(output_dir, f"swd_vs_{target_lang}_{model_type}_layer{layer_idx}.png")
+    plt.savefig(fname, dpi=200)
+    plt.close()
+
+def _save_heatmap(language_order, layer_order, mat, output_path: str, title: str):
+    plt.figure(figsize=(1.2 + 0.5*len(layer_order), 0.6 + 0.4*len(language_order)))
+    im = plt.imshow(mat, aspect="auto", interpolation="nearest")
+    plt.colorbar(im, fraction=0.046, pad=0.04)
+    plt.yticks(range(len(language_order)), language_order)
+    plt.xticks(range(len(layer_order)), layer_order, rotation=45, ha="right")
+    plt.title(title)
+    plt.tight_layout()
+    plt.savefig(output_path, dpi=200)
+    plt.close()
+
+def create_visualizations_for_swd_tables(
+    swd_tables: Dict[int, pd.DataFrame],
+    output_dir: str,
+    model_type: str,
+    target_lang: str = TARGET_LANG,
+):
+    os.makedirs(output_dir, exist_ok=True)
+
+    layer_order = sorted(swd_tables.keys())
+    ref_layer = layer_order[-1]
+    base_df = swd_tables[ref_layer]
+
+    language_order = list(base_df.index)
+
+    mat = np.full((len(language_order), len(layer_order)), np.nan, dtype=float)
+    for j, li in enumerate(layer_order):
+        df = swd_tables[li].reindex(language_order)
+        mat[:, j] = pd.to_numeric(df["SWD_mean"], errors="coerce").values
+
+    heatmap_basename = f"heatmap_swd_layers_{model_type}"
+    heatmap_path = os.path.join(output_dir, f"{heatmap_basename}.png")
+    _save_heatmap(
+        language_order,
+        layer_order,
+        mat,
+        heatmap_path,
+        f"Runyankore distance (SWD mean) across layers — {model_type} (lower is closer)"
+    )
+    pd.DataFrame(mat, index=language_order, columns=layer_order).to_csv(
+        os.path.join(output_dir, f"{heatmap_basename}.csv")
+    )
+
+    summary_rows = []
+    for li in layer_order:
+        df = swd_tables[li]
+        _save_sorted_bar_swd(df, li, output_dir, model_type=model_type, target_lang=target_lang)
+
+        clean = pd.to_numeric(df["SWD_mean"], errors="coerce").dropna()
+        if clean.empty:
+            continue
+
+        # Mirror cosine naming: "top5" = best/closest (lowest SWD), "worst5" = largest SWD
+        top5 = clean.sort_values(ascending=True).head(5)
+        bot5 = clean.sort_values(ascending=False).head(5)
+
+        logging.info(f"=== Layer {li} ({model_type}) — Top 5 (lowest SWD) ===")
+        for rank, (lang, val) in enumerate(top5.items(), 1):
+            logging.info(f"{rank}. {lang}: swd={val:.6f}")
+
+        logging.info(f"=== Layer {li} ({model_type}) — Worst 5 (highest SWD) ===")
+        for rank, (lang, val) in enumerate(bot5.items(), 1):
+            logging.info(f"{rank}. {lang}: swd={val:.6f}")
+
+        for lang, val in top5.items():
+            summary_rows.append({"layer": li, "model": model_type, "rank_type": "top5", "language": lang, "swd_mean": float(val)})
+        for lang, val in bot5.items():
+            summary_rows.append({"layer": li, "model": model_type, "rank_type": "worst5", "language": lang, "swd_mean": float(val)})
+
+    if summary_rows:
+        pd.DataFrame(summary_rows).to_csv(
+            os.path.join(output_dir, f"summary_top_worst_swd_{model_type}.csv"),
+            index=False
+        )
 
 def main():
     init_logger()
@@ -211,7 +315,10 @@ def main():
         keep={s.strip() for s in args.langs.split(",") if s.strip()}
         language_files={k:v for k,v in language_files.items() if k in keep}
     language_files={k:v for k,v in language_files.items() if os.path.isfile(v)}
-    if TARGET_LANG not in language_files: logging.error("Target language not present"); return
+    if TARGET_LANG not in language_files:
+        logging.error("Target language not present")
+        return
+
     layers=get_layers(args.model_type) if args.layers=="all" else [int(x) for x in args.layers.split(",") if x.strip()]
     tags=[t.strip() for t in args.entity_tags.split(",") if t.strip()]
     out_dir=os.path.join(args.output_dir, args.model_type); os.makedirs(out_dir, exist_ok=True)
@@ -230,7 +337,8 @@ def main():
                                 use_amp=args.fp16, max_length=args.max_length)
         for li in layers: per_layer[li][lang]=layer2[li]
 
-    # compute SWD per tag vs target
+    # compute SWD per tag vs target + keep dfs for reporting
+    swd_tables: Dict[int, pd.DataFrame] = {}  # NEW
     for li in layers:
         rows={}
         for lang, tag2 in per_layer[li].items():
@@ -249,6 +357,19 @@ def main():
             rows[lang]=row
         df=pd.DataFrame.from_dict(rows, orient="index")
         df.to_csv(os.path.join(out_dir, f"swd_to_{TARGET_LANG}_layer{li}.csv"))
+        swd_tables[li] = df  # NEW
+
+    # NEW: visuals + summary in same run
+    if swd_tables:
+        create_visualizations_for_swd_tables(
+            swd_tables=swd_tables,
+            output_dir=out_dir,
+            model_type=args.model_type,
+            target_lang=TARGET_LANG,
+        )
+
+    logging.info("SWD experiment finished successfully.")
+    print("\nDone. Outputs in:", out_dir)
 
 if __name__=="__main__":
     main()
