@@ -1,20 +1,20 @@
 {
-  "created_at": "2025-11-20T17:52:40Z",
+  "created_at": "2025-12-16T19:12:26Z",
   "base_dir": "/home/prosper/Desktop/ML/runyankoreNER/data",
   "masakha_dir": "/home/prosper/Desktop/ML/runyankoreNER/data/MasakhaNER2.0",
   "output_dir": "../EmbeddingGroups/ZERO-SHOT/cosine_Mid-A",
   "languages": [
     "xho",
+    "ibo",
     "zul",
-    "twi",
-    "hau"
+    "twi"
   ],
   "skipped_languages": [],
   "sources": {
     "COMBINED": {
       "folder": "../EmbeddingGroups/ZERO-SHOT/cosine_Mid-A/COMBINED",
-      "train_lines": 462922,
-      "dev_lines": 66906,
+      "train_lines": 550385,
+      "dev_lines": 79153,
       "test_lines": 66934
     }
   }

@@ -1,78 +1,28 @@
 CROSS-LINGUAL TRAINING LOGS FOR AFRO-XLMR
 
-1. Group alias: High | Auxiliary groups: "sna, lug, kin, nya" | Technique: Cosine similarity
-
-11/20/2025 19:33:07 - INFO - __main__ -   ***** Eval results  *****
-11/20/2025 19:33:07 - INFO - __main__ -     f1 = 0.8200894392844857
-11/20/2025 19:33:07 - INFO - __main__ -     loss = 0.06888936496625417
-11/20/2025 19:33:07 - INFO - __main__ -     precision = 0.8059499661933739
-11/20/2025 19:33:07 - INFO - __main__ -     recall = 0.834733893557423
-11/20/2025 19:33:07 - INFO - __main__ -     report =               precision    recall  f1-score   support
-
-        DATE       0.71      0.77      0.74       437
-         LOC       0.88      0.89      0.89       715
-         ORG       0.72      0.72      0.72       162
-         PER       0.86      0.89      0.88       114
+1. Group alias: High | Auxiliary groups: "lug, sna, kin, nya" | Technique: Cosine similarity
 
 
-2. Group alias: Mid-A | Auxiliary groups: "xho, zul, twi, hau" | Technique: Cosine similarity
-
-11/20/2025 19:35:41 - INFO - __main__ -   ***** Eval results  *****
-11/20/2025 19:35:41 - INFO - __main__ -     f1 = 0.824469933958985
-11/20/2025 19:35:41 - INFO - __main__ -     loss = 0.0640287021974342
-11/20/2025 19:35:41 - INFO - __main__ -     precision = 0.8184955141476881
-11/20/2025 19:35:41 - INFO - __main__ -     recall = 0.8305322128851541
-11/20/2025 19:35:41 - INFO - __main__ -     report =               precision    recall  f1-score   support
-
-        DATE       0.75      0.77      0.76       437
-         LOC       0.86      0.89      0.88       715
-         ORG       0.74      0.71      0.73       162
-         PER       0.90      0.89      0.89       114
 
 
-3. Group alias: Mid-B | Auxiliary groups: "ibo, luo, pcm, tsn" | Technique: Cosine similarity
-
-11/20/2025 21:28:19 - INFO - __main__ -   ***** Eval results  *****
-11/20/2025 21:28:19 - INFO - __main__ -     f1 = 0.8123268698060941
-11/20/2025 21:28:19 - INFO - __main__ -     loss = 0.06221686513069778
-11/20/2025 21:28:19 - INFO - __main__ -     precision = 0.8034246575342465
-11/20/2025 21:28:19 - INFO - __main__ -     recall = 0.8214285714285714
-11/20/2025 21:28:19 - INFO - __main__ -     report =               precision    recall  f1-score   support
-
-        DATE       0.71      0.75      0.73       437
-         LOC       0.87      0.89      0.88       715
-         ORG       0.71      0.69      0.70       162
-         PER       0.90      0.83      0.86       114
+2. Group alias: Mid-A | Auxiliary groups: "xho, ibo, zul, twi" | Technique: Cosine similarity
 
 
-4. Group alias: Low-A | Auxiliary groups: "fon, swa, wol, ewe" | Technique: Cosine similarity
-
-11/20/2025 19:28:19 - INFO - __main__ -   ***** Eval results  *****
-11/20/2025 19:28:19 - INFO - __main__ -     f1 = 0.8287910552061497
-11/20/2025 19:28:19 - INFO - __main__ -     loss = 0.057324508810398044
-11/20/2025 19:28:19 - INFO - __main__ -     precision = 0.8270571827057183
-11/20/2025 19:28:19 - INFO - __main__ -     recall = 0.8305322128851541
-11/20/2025 19:28:19 - INFO - __main__ -     report =               precision    recall  f1-score   support
-
-        DATE       0.76      0.77      0.76       437
-         LOC       0.89      0.89      0.89       715
-         ORG       0.75      0.70      0.72       162
-         PER       0.83      0.88      0.85       114
 
 
-5. Group alias: Low-B | Auxiliary groups: "bam, bbj, mos, yor" | Technique: Cosine similarity
+3. Group alias: Mid-B | Auxiliary groups: "luo, hau, tsn, wol" | Technique: Cosine similarity
 
-11/20/2025 19:31:03 - INFO - __main__ -   ***** Eval results  *****
-11/20/2025 19:31:03 - INFO - __main__ -     f1 = 0.8171312032630864
-11/20/2025 19:31:03 - INFO - __main__ -     loss = 0.05178021343888137
-11/20/2025 19:31:03 - INFO - __main__ -     precision = 0.7939233817701453
-11/20/2025 19:31:03 - INFO - __main__ -     recall = 0.8417366946778712
-11/20/2025 19:31:03 - INFO - __main__ -     report =               precision    recall  f1-score   support
 
-        DATE       0.71      0.78      0.75       437
-         LOC       0.85      0.90      0.87       715
-         ORG       0.70      0.70      0.70       162
-         PER       0.92      0.86      0.89       114
+
+
+4. Group alias: Low-A | Auxiliary groups: "pcm, bam, ewe, fon" | Technique: Cosine similarity
+
+
+
+
+5. Group alias: Low-B | Auxiliary groups: "mos, yor, swa, bbj" | Technique: Cosine similarity
+
+
 
 
 6. Group alias: High | Auxiliary groups: "kin, twi, luo, ibo" | Technique: SWD
