@@ -1,0 +1,515 @@
+(runyankore-ner) prosper@badkamer:~/scratch/prosper/runyankoreNER$ ./rq2_train_scripts/Embeddings/ZERO-SHOT-TRAINING/cosine_High/train_all_PLMs_combined_dataset.sh
+Starting training with AfroXLMR...
+/home/prosper/miniconda3/envs/runyankore-ner/lib/python3.10/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Some weights of XLMRobertaForTokenClassification were not initialized from the model checkpoint at Davlan/afro-xlmr-base and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+12/17/2025 05:58:42 - INFO - __main__ -   Training/evaluation parameters Namespace(data_dir='data/EmbeddingGroups/ZERO-SHOT/cosine_High/COMBINED/', model_type='xlmroberta', model_name_or_path='Davlan/afro-xlmr-base', input_dir=None, output_dir='models/EmbeddingGroups/ZERO-SHOT/cosine_High/combined_afroxlmr', test_result_file='test_results.txt', test_prediction_file='test_predictions.txt', labels='', config_name='', tokenizer_name='', cache_dir='', max_seq_length=164, do_train=True, do_finetune=False, do_eval=True, do_predict=True, evaluate_during_training=False, do_lower_case=False, per_gpu_train_batch_size=32, per_gpu_eval_batch_size=8, gradient_accumulation_steps=1, learning_rate=5e-05, weight_decay=0.0, adam_epsilon=1e-08, max_grad_norm=1.0, num_train_epochs=10.0, max_steps=-1, warmup_steps=0, logging_steps=500, save_steps=5000, eval_all_checkpoints=False, no_cuda=False, overwrite_output_dir=True, overwrite_cache=False, seed=1, local_rank=-1, server_ip='', server_port='', n_gpu=1, device=device(type='cuda'))
+12/17/2025 05:58:42 - INFO - __main__ -   Loading features from cached file data/EmbeddingGroups/ZERO-SHOT/cosine_High/COMBINED/cached_train_afro-xlmr-base_164
+/home/prosper/miniconda3/envs/runyankore-ner/lib/python3.10/site-packages/transformers/optimization.py:588: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+12/17/2025 05:58:43 - INFO - __main__ -   ***** Running training *****
+12/17/2025 05:58:43 - INFO - __main__ -     Num examples = 25224
+12/17/2025 05:58:43 - INFO - __main__ -     Num Epochs = 10
+12/17/2025 05:58:43 - INFO - __main__ -     Instantaneous batch size per GPU = 32
+12/17/2025 05:58:43 - INFO - __main__ -     Total train batch size (w. parallel, distributed & accumulation) = 32
+12/17/2025 05:58:43 - INFO - __main__ -     Gradient Accumulation steps = 1
+12/17/2025 05:58:43 - INFO - __main__ -     Total optimization steps = 7890
+Epoch:   0%|                                                                                                                                                           | 0/10 [00:00<?, ?it/s/home/prosper/miniconda3/envs/runyankore-ner/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:182: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn(
+Iteration: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 789/789 [03:02<00:00,  4.33it/s]
+12/17/2025 06:01:45 - INFO - __main__ -   Loading features from cached file data/EmbeddingGroups/ZERO-SHOT/cosine_High/COMBINED/cached_dev_afro-xlmr-base_164 789/789 [03:02<00:00,  4.99it/s]
+12/17/2025 06:01:46 - INFO - __main__ -   ***** Running evaluation  *****
+12/17/2025 06:01:46 - INFO - __main__ -     Num examples = 3604
+12/17/2025 06:01:46 - INFO - __main__ -     Batch size = 8
+Evaluating: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 451/451 [00:11<00:00, 38.99it/s]
+eval result:  789 0.8762███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍| 449/451 [00:11<00:00, 39.36it/s]
+12/17/2025 06:01:59 - INFO - __main__ -   Saving model checkpoint to models/EmbeddingGroups/ZERO-SHOT/cosine_High/combined_afroxlmr
+Iteration: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 789/789 [03:02<00:00,  4.31it/s]
+12/17/2025 06:05:02 - INFO - __main__ -   Loading features from cached file data/EmbeddingGroups/ZERO-SHOT/cosine_High/COMBINED/cached_dev_afro-xlmr-base_164 789/789 [03:02<00:00,  4.98it/s]
+12/17/2025 06:05:02 - INFO - __main__ -   ***** Running evaluation  *****
+12/17/2025 06:05:02 - INFO - __main__ -     Num examples = 3604
+12/17/2025 06:05:02 - INFO - __main__ -     Batch size = 8
+Evaluating: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 451/451 [00:11<00:00, 38.88it/s]
+eval result:  1578 0.89632█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋| 450/451 [00:11<00:00, 39.08it/s]
+12/17/2025 06:05:15 - INFO - __main__ -   Saving model checkpoint to models/EmbeddingGroups/ZERO-SHOT/cosine_High/combined_afroxlmr
+Iteration: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 789/789 [02:58<00:00,  4.43it/s]
+12/17/2025 06:08:13 - INFO - __main__ -   Loading features from cached file data/EmbeddingGroups/ZERO-SHOT/cosine_High/COMBINED/cached_dev_afro-xlmr-base_164 789/789 [02:58<00:00,  5.05it/s]
+12/17/2025 06:08:13 - INFO - __main__ -   ***** Running evaluation  *****
+12/17/2025 06:08:13 - INFO - __main__ -     Num examples = 3604
+12/17/2025 06:08:13 - INFO - __main__ -     Batch size = 8
+Evaluating: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 451/451 [00:11<00:00, 38.91it/s]
+eval result:  2367 0.89864██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 451/451 [00:11<00:00, 39.24it/s]
+12/17/2025 06:08:27 - INFO - __main__ -   Saving model checkpoint to models/EmbeddingGroups/ZERO-SHOT/cosine_High/combined_afroxlmr
+Iteration: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 789/789 [03:02<00:00,  4.33it/s]
+12/17/2025 06:11:29 - INFO - __main__ -   Loading features from cached file data/EmbeddingGroups/ZERO-SHOT/cosine_High/COMBINED/cached_dev_afro-xlmr-base_164 789/789 [03:02<00:00,  5.05it/s]
+12/17/2025 06:11:29 - INFO - __main__ -   ***** Running evaluation  *****
+12/17/2025 06:11:29 - INFO - __main__ -     Num examples = 3604
+12/17/2025 06:11:29 - INFO - __main__ -     Batch size = 8
+Evaluating: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 451/451 [00:11<00:00, 38.91it/s]
+eval result:  3156 0.90467█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍| 449/451 [00:11<00:00, 38.79it/s]
+12/17/2025 06:11:43 - INFO - __main__ -   Saving model checkpoint to models/EmbeddingGroups/ZERO-SHOT/cosine_High/combined_afroxlmr
+Iteration: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 789/789 [03:03<00:00,  4.29it/s]
+12/17/2025 06:14:46 - INFO - __main__ -   Loading features from cached file data/EmbeddingGroups/ZERO-SHOT/cosine_High/COMBINED/cached_dev_afro-xlmr-base_164 789/789 [03:03<00:00,  4.97it/s]
+12/17/2025 06:14:47 - INFO - __main__ -   ***** Running evaluation  *****
+12/17/2025 06:14:47 - INFO - __main__ -     Num examples = 3604
+12/17/2025 06:14:47 - INFO - __main__ -     Batch size = 8
+Evaluating: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 451/451 [00:11<00:00, 39.04it/s]
+eval result:  3945 0.90865█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍| 449/451 [00:11<00:00, 39.34it/s]
+12/17/2025 06:15:00 - INFO - __main__ -   Saving model checkpoint to models/EmbeddingGroups/ZERO-SHOT/cosine_High/combined_afroxlmr
+Iteration: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 789/789 [02:59<00:00,  4.39it/s]
+12/17/2025 06:18:00 - INFO - __main__ -   Loading features from cached file data/EmbeddingGroups/ZERO-SHOT/cosine_High/COMBINED/cached_dev_afro-xlmr-base_164 789/789 [02:59<00:00,  4.97it/s]
+12/17/2025 06:18:00 - INFO - __main__ -   ***** Running evaluation  *****
+12/17/2025 06:18:00 - INFO - __main__ -     Num examples = 3604
+12/17/2025 06:18:00 - INFO - __main__ -     Batch size = 8
+Evaluating: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 451/451 [00:11<00:00, 38.93it/s]
+eval result:  4734 0.91254██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 451/451 [00:11<00:00, 39.19it/s]
+12/17/2025 06:18:13 - INFO - __main__ -   Saving model checkpoint to models/EmbeddingGroups/ZERO-SHOT/cosine_High/combined_afroxlmr
+Iteration: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 789/789 [02:45<00:00,  4.77it/s]
+12/17/2025 06:20:58 - INFO - __main__ -   Loading features from cached file data/EmbeddingGroups/ZERO-SHOT/cosine_High/COMBINED/cached_dev_afro-xlmr-base_164 788/789 [02:45<00:00,  6.12it/s]
+12/17/2025 06:20:59 - INFO - __main__ -   ***** Running evaluation  *****
+12/17/2025 06:20:59 - INFO - __main__ -     Num examples = 3604
+12/17/2025 06:20:59 - INFO - __main__ -     Batch size = 8
+Evaluating: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 451/451 [00:04<00:00, 92.79it/s]
+eval result:  5523 0.9058████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏  | 442/451 [00:04<00:00, 97.66it/s]
+Iteration: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 789/789 [02:48<00:00,  4.67it/s]
+12/17/2025 06:23:53 - INFO - __main__ -   Loading features from cached file data/EmbeddingGroups/ZERO-SHOT/cosine_High/COMBINED/cached_dev_afro-xlmr-base_164 789/789 [02:48<00:00,  5.08it/s]
+12/17/2025 06:23:53 - INFO - __main__ -   ***** Running evaluation  *****
+12/17/2025 06:23:53 - INFO - __main__ -     Num examples = 3604
+12/17/2025 06:23:53 - INFO - __main__ -     Batch size = 8
+Evaluating: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 451/451 [00:11<00:00, 39.49it/s]
+eval result:  6312 0.90371█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍| 449/451 [00:11<00:00, 39.71it/s]
+Iteration: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 789/789 [02:59<00:00,  4.40it/s]
+12/17/2025 06:27:04 - INFO - __main__ -   Loading features from cached file data/EmbeddingGroups/ZERO-SHOT/cosine_High/COMBINED/cached_dev_afro-xlmr-base_164 789/789 [02:59<00:00,  5.10it/s]
+12/17/2025 06:27:04 - INFO - __main__ -   ***** Running evaluation  *****
+12/17/2025 06:27:04 - INFO - __main__ -     Num examples = 3604
+12/17/2025 06:27:04 - INFO - __main__ -     Batch size = 8
+Evaluating: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 451/451 [00:11<00:00, 39.50it/s]
+eval result:  7101 0.90856█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ | 448/451 [00:11<00:00, 39.46it/s]
+Iteration: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 789/789 [02:54<00:00,  4.51it/s]
+12/17/2025 06:30:11 - INFO - __main__ -   Loading features from cached file data/EmbeddingGroups/ZERO-SHOT/cosine_High/COMBINED/cached_dev_afro-xlmr-base_164 789/789 [02:54<00:00,  5.03it/s]
+12/17/2025 06:30:11 - INFO - __main__ -   ***** Running evaluation  *****
+12/17/2025 06:30:11 - INFO - __main__ -     Num examples = 3604
+12/17/2025 06:30:11 - INFO - __main__ -     Batch size = 8
+Evaluating: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 451/451 [00:11<00:00, 39.41it/s]
+eval result:  7890 0.90975████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊ | 447/451 [00:11<00:00, 39.30it/s]
+Epoch: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [31:40<00:00, 190.01s/it]
+12/17/2025 06:30:23 - INFO - __main__ -   Loading features from cached file data/EmbeddingGroups/ZERO-SHOT/cosine_High/COMBINED/cached_dev_afro-xlmr-base_164
+12/17/2025 06:30:24 - INFO - __main__ -   ***** Running evaluation  *****
+12/17/2025 06:30:24 - INFO - __main__ -     Num examples = 3604
+12/17/2025 06:30:24 - INFO - __main__ -     Batch size = 8
+Evaluating: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 451/451 [00:11<00:00, 39.64it/s]
+12/17/2025 06:30:35 - INFO - __main__ -    global_step = 7890, average loss = 0.02226243294460453
+12/17/2025 06:30:36 - INFO - __main__ -   Evaluate the following checkpoints: ['models/EmbeddingGroups/ZERO-SHOT/cosine_High/combined_afroxlmr']
+12/17/2025 06:30:36 - INFO - __main__ -   Loading features from cached file data/EmbeddingGroups/ZERO-SHOT/cosine_High/COMBINED/cached_dev_afro-xlmr-base_164
+12/17/2025 06:30:36 - INFO - __main__ -   ***** Running evaluation  *****
+12/17/2025 06:30:36 - INFO - __main__ -     Num examples = 3604
+12/17/2025 06:30:36 - INFO - __main__ -     Batch size = 8
+Evaluating: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 451/451 [00:11<00:00, 39.51it/s]
+12/17/2025 06:30:48 - INFO - __main__ -   ***** Eval results  *****
+12/17/2025 06:30:48 - INFO - __main__ -     f1 = 0.9125389187659213
+12/17/2025 06:30:48 - INFO - __main__ -     loss = 0.09279679708981022
+12/17/2025 06:30:48 - INFO - __main__ -     precision = 0.9037140854940434
+12/17/2025 06:30:48 - INFO - __main__ -     recall = 0.9215378019151065
+12/17/2025 06:30:48 - INFO - __main__ -     report =               precision    recall  f1-score   support
+
+        DATE       0.79      0.82      0.80       996
+         LOC       0.91      0.92      0.91      1722
+         ORG       0.89      0.91      0.90      1771
+         PER       0.96      0.97      0.97      2508
+
+   micro avg       0.90      0.92      0.91      6997
+   macro avg       0.89      0.90      0.90      6997
+weighted avg       0.90      0.92      0.91      6997
+
+12/17/2025 06:30:49 - INFO - __main__ -   Loading features from cached file data/EmbeddingGroups/ZERO-SHOT/cosine_High/COMBINED/cached_test_afro-xlmr-base_164
+12/17/2025 06:30:49 - INFO - __main__ -   ***** Running evaluation  *****
+12/17/2025 06:30:49 - INFO - __main__ -     Num examples = 7508
+12/17/2025 06:30:49 - INFO - __main__ -     Batch size = 8
+Evaluating: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 939/939 [00:24<00:00, 38.74it/s]
+12/17/2025 06:31:14 - INFO - __main__ -   ***** Eval results  *****
+12/17/2025 06:31:14 - INFO - __main__ -     f1 = 0.6513599434828682
+12/17/2025 06:31:14 - INFO - __main__ -     loss = 0.14986435819925206
+12/17/2025 06:31:14 - INFO - __main__ -     precision = 0.6571632216678546
+12/17/2025 06:31:14 - INFO - __main__ -     recall = 0.6456582633053222
+12/17/2025 06:31:14 - INFO - __main__ -     report =               precision    recall  f1-score   support
+
+        DATE       0.60      0.36      0.45       437
+         LOC       0.84      0.83      0.84       715
+         ORG       0.73      0.44      0.55       162
+         PER       0.30      0.91      0.45       114
+
+   micro avg       0.66      0.65      0.65      1428
+   macro avg       0.62      0.63      0.57      1428
+weighted avg       0.71      0.65      0.65      1428
+
+Starting training with mBERT...
+/home/prosper/miniconda3/envs/runyankore-ner/lib/python3.10/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Some weights of BertForTokenClassification were not initialized from the model checkpoint at bert-base-multilingual-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+12/17/2025 06:31:17 - INFO - __main__ -   Training/evaluation parameters Namespace(data_dir='data/EmbeddingGroups/ZERO-SHOT/cosine_High/COMBINED/', model_type='bert', model_name_or_path='bert-base-multilingual-cased', input_dir=None, output_dir='models/EmbeddingGroups/ZERO-SHOT/cosine_High/combined_mbert', test_result_file='test_results.txt', test_prediction_file='test_predictions.txt', labels='', config_name='', tokenizer_name='', cache_dir='', max_seq_length=164, do_train=True, do_finetune=False, do_eval=True, do_predict=True, evaluate_during_training=False, do_lower_case=False, per_gpu_train_batch_size=32, per_gpu_eval_batch_size=8, gradient_accumulation_steps=1, learning_rate=5e-05, weight_decay=0.0, adam_epsilon=1e-08, max_grad_norm=1.0, num_train_epochs=10.0, max_steps=-1, warmup_steps=0, logging_steps=500, save_steps=5000, eval_all_checkpoints=False, no_cuda=False, overwrite_output_dir=True, overwrite_cache=False, seed=1, local_rank=-1, server_ip='', server_port='', n_gpu=1, device=device(type='cuda'))
+12/17/2025 06:31:17 - INFO - __main__ -   Loading features from cached file data/EmbeddingGroups/ZERO-SHOT/cosine_High/COMBINED/cached_train_bert-base-multilingual-cased_164
+/home/prosper/miniconda3/envs/runyankore-ner/lib/python3.10/site-packages/transformers/optimization.py:588: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+12/17/2025 06:31:19 - INFO - __main__ -   ***** Running training *****
+12/17/2025 06:31:19 - INFO - __main__ -     Num examples = 25224
+12/17/2025 06:31:19 - INFO - __main__ -     Num Epochs = 10
+12/17/2025 06:31:19 - INFO - __main__ -     Instantaneous batch size per GPU = 32
+12/17/2025 06:31:19 - INFO - __main__ -     Total train batch size (w. parallel, distributed & accumulation) = 32
+12/17/2025 06:31:19 - INFO - __main__ -     Gradient Accumulation steps = 1
+12/17/2025 06:31:19 - INFO - __main__ -     Total optimization steps = 7890
+Epoch:   0%|                                                                                                                                                           | 0/10 [00:00<?, ?it/s/home/prosper/miniconda3/envs/runyankore-ner/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:182: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn(
+Iteration: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 789/789 [02:31<00:00,  5.20it/s]
+12/17/2025 06:33:51 - INFO - __main__ -   Loading features from cached file data/EmbeddingGroups/ZERO-SHOT/cosine_High/COMBINED/cached_dev_bert-base-multilingual-cased_1641<00:00,  4.94it/s]
+12/17/2025 06:33:51 - INFO - __main__ -   ***** Running evaluation  *****
+12/17/2025 06:33:51 - INFO - __main__ -     Num examples = 3604
+12/17/2025 06:33:51 - INFO - __main__ -     Batch size = 8
+Evaluating: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 451/451 [00:11<00:00, 38.58it/s]
+eval result:  789 0.84668██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍| 449/451 [00:11<00:00, 35.34it/s]
+12/17/2025 06:34:03 - INFO - __main__ -   Saving model checkpoint to models/EmbeddingGroups/ZERO-SHOT/cosine_High/combined_mbert
+Iteration: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 789/789 [02:35<00:00,  5.07it/s]
+12/17/2025 06:36:39 - INFO - __main__ -   Loading features from cached file data/EmbeddingGroups/ZERO-SHOT/cosine_High/COMBINED/cached_dev_bert-base-multilingual-cased_1645<00:00,  4.96it/s]
+12/17/2025 06:36:39 - INFO - __main__ -   ***** Running evaluation  *****
+12/17/2025 06:36:39 - INFO - __main__ -     Num examples = 3604
+12/17/2025 06:36:39 - INFO - __main__ -     Batch size = 8
+Evaluating: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 451/451 [00:11<00:00, 39.79it/s]
+eval result:  1578 0.86355████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊ | 447/451 [00:11<00:00, 40.48it/s]
+12/17/2025 06:36:52 - INFO - __main__ -   Saving model checkpoint to models/EmbeddingGroups/ZERO-SHOT/cosine_High/combined_mbert
+Iteration: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 789/789 [02:35<00:00,  5.08it/s]
+12/17/2025 06:39:27 - INFO - __main__ -   Loading features from cached file data/EmbeddingGroups/ZERO-SHOT/cosine_High/COMBINED/cached_dev_bert-base-multilingual-cased_1645<00:00,  4.95it/s]
+12/17/2025 06:39:27 - INFO - __main__ -   ***** Running evaluation  *****
+12/17/2025 06:39:27 - INFO - __main__ -     Num examples = 3604
+12/17/2025 06:39:27 - INFO - __main__ -     Batch size = 8
+Evaluating: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 451/451 [00:11<00:00, 39.83it/s]
+eval result:  2367 0.87421████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊ | 447/451 [00:11<00:00, 40.24it/s]
+12/17/2025 06:39:40 - INFO - __main__ -   Saving model checkpoint to models/EmbeddingGroups/ZERO-SHOT/cosine_High/combined_mbert
+Iteration: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 789/789 [02:28<00:00,  5.30it/s]
+12/17/2025 06:42:09 - INFO - __main__ -   Loading features from cached file data/EmbeddingGroups/ZERO-SHOT/cosine_High/COMBINED/cached_dev_bert-base-multilingual-cased_1648<00:00,  6.63it/s]
+12/17/2025 06:42:09 - INFO - __main__ -   ***** Running evaluation  *****
+12/17/2025 06:42:09 - INFO - __main__ -     Num examples = 3604
+12/17/2025 06:42:09 - INFO - __main__ -     Batch size = 8
+Evaluating: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 451/451 [00:06<00:00, 75.02it/s]
+eval result:  3156 0.88526████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏ | 445/451 [00:05<00:00, 60.99it/s]
+12/17/2025 06:42:16 - INFO - __main__ -   Saving model checkpoint to models/EmbeddingGroups/ZERO-SHOT/cosine_High/combined_mbert
+Iteration: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 789/789 [02:15<00:00,  5.84it/s]
+12/17/2025 06:44:31 - INFO - __main__ -   Loading features from cached file data/EmbeddingGroups/ZERO-SHOT/cosine_High/COMBINED/cached_dev_bert-base-multilingual-cased_1645<00:00,  4.84it/s]
+12/17/2025 06:44:32 - INFO - __main__ -   ***** Running evaluation  *****
+12/17/2025 06:44:32 - INFO - __main__ -     Num examples = 3604
+12/17/2025 06:44:32 - INFO - __main__ -     Batch size = 8
+Evaluating: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 451/451 [00:12<00:00, 36.26it/s]
+eval result:  3945 0.88194█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍| 449/451 [00:12<00:00, 35.68it/s]
+Iteration: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 789/789 [02:36<00:00,  5.04it/s]
+12/17/2025 06:47:21 - INFO - __main__ -   Loading features from cached file data/EmbeddingGroups/ZERO-SHOT/cosine_High/COMBINED/cached_dev_bert-base-multilingual-cased_1646<00:00,  4.83it/s]
+12/17/2025 06:47:21 - INFO - __main__ -   ***** Running evaluation  *****
+12/17/2025 06:47:21 - INFO - __main__ -     Num examples = 3604
+12/17/2025 06:47:21 - INFO - __main__ -     Batch size = 8
+Evaluating: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 451/451 [00:12<00:00, 36.27it/s]
+eval result:  4734 0.89112█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ | 448/451 [00:12<00:00, 35.80it/s]
+12/17/2025 06:47:35 - INFO - __main__ -   Saving model checkpoint to models/EmbeddingGroups/ZERO-SHOT/cosine_High/combined_mbert
+Iteration: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 789/789 [02:35<00:00,  5.08it/s]
+12/17/2025 06:50:10 - INFO - __main__ -   Loading features from cached file data/EmbeddingGroups/ZERO-SHOT/cosine_High/COMBINED/cached_dev_bert-base-multilingual-cased_1645<00:00,  6.55it/s]
+12/17/2025 06:50:11 - INFO - __main__ -   ***** Running evaluation  *****
+12/17/2025 06:50:11 - INFO - __main__ -     Num examples = 3604
+12/17/2025 06:50:11 - INFO - __main__ -     Batch size = 8
+Evaluating: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 451/451 [00:08<00:00, 50.16it/s]
+eval result:  5523 0.89162█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋| 450/451 [00:08<00:00, 35.66it/s]
+12/17/2025 06:50:21 - INFO - __main__ -   Saving model checkpoint to models/EmbeddingGroups/ZERO-SHOT/cosine_High/combined_mbert
+Iteration: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 789/789 [02:37<00:00,  5.00it/s]
+12/17/2025 06:52:59 - INFO - __main__ -   Loading features from cached file data/EmbeddingGroups/ZERO-SHOT/cosine_High/COMBINED/cached_dev_bert-base-multilingual-cased_1647<00:00,  4.84it/s]
+12/17/2025 06:52:59 - INFO - __main__ -   ***** Running evaluation  *****
+12/17/2025 06:52:59 - INFO - __main__ -     Num examples = 3604
+12/17/2025 06:52:59 - INFO - __main__ -     Batch size = 8
+Evaluating: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 451/451 [00:12<00:00, 36.39it/s]
+eval result:  6312 0.89266█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍| 449/451 [00:12<00:00, 35.79it/s]
+12/17/2025 06:53:12 - INFO - __main__ -   Saving model checkpoint to models/EmbeddingGroups/ZERO-SHOT/cosine_High/combined_mbert
+Iteration: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 789/789 [02:37<00:00,  5.00it/s]
+12/17/2025 06:55:50 - INFO - __main__ -   Loading features from cached file data/EmbeddingGroups/ZERO-SHOT/cosine_High/COMBINED/cached_dev_bert-base-multilingual-cased_1647<00:00,  4.83it/s]
+12/17/2025 06:55:50 - INFO - __main__ -   ***** Running evaluation  *****
+12/17/2025 06:55:50 - INFO - __main__ -     Num examples = 3604
+12/17/2025 06:55:50 - INFO - __main__ -     Batch size = 8
+Evaluating: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 451/451 [00:12<00:00, 35.92it/s]
+eval result:  7101 0.89243█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ | 448/451 [00:12<00:00, 35.73it/s]
+Iteration: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 789/789 [02:37<00:00,  5.00it/s]
+12/17/2025 06:58:41 - INFO - __main__ -   Loading features from cached file data/EmbeddingGroups/ZERO-SHOT/cosine_High/COMBINED/cached_dev_bert-base-multilingual-cased_1647<00:00,  4.82it/s]
+12/17/2025 06:58:41 - INFO - __main__ -   ***** Running evaluation  *****
+12/17/2025 06:58:41 - INFO - __main__ -     Num examples = 3604
+12/17/2025 06:58:41 - INFO - __main__ -     Batch size = 8
+Evaluating: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 451/451 [00:12<00:00, 36.20it/s]
+eval result:  7890 0.89416█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ | 448/451 [00:12<00:00, 35.80it/s]
+12/17/2025 06:58:55 - INFO - __main__ -   Saving model checkpoint to models/EmbeddingGroups/ZERO-SHOT/cosine_High/combined_mbert
+Epoch: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [27:36<00:00, 165.64s/it]
+12/17/2025 06:58:55 - INFO - __main__ -   Loading features from cached file data/EmbeddingGroups/ZERO-SHOT/cosine_High/COMBINED/cached_dev_bert-base-multilingual-cased_164
+12/17/2025 06:58:55 - INFO - __main__ -   ***** Running evaluation  *****
+12/17/2025 06:58:55 - INFO - __main__ -     Num examples = 3604
+12/17/2025 06:58:55 - INFO - __main__ -     Batch size = 8
+Evaluating: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 451/451 [00:12<00:00, 36.40it/s]
+12/17/2025 06:59:08 - INFO - __main__ -    global_step = 7890, average loss = 0.025668552079917934
+12/17/2025 06:59:08 - INFO - __main__ -   Saving model checkpoint to models/EmbeddingGroups/ZERO-SHOT/cosine_High/combined_mbert
+12/17/2025 06:59:09 - INFO - __main__ -   Evaluate the following checkpoints: ['models/EmbeddingGroups/ZERO-SHOT/cosine_High/combined_mbert']
+12/17/2025 06:59:09 - INFO - __main__ -   Loading features from cached file data/EmbeddingGroups/ZERO-SHOT/cosine_High/COMBINED/cached_dev_bert-base-multilingual-cased_164
+12/17/2025 06:59:09 - INFO - __main__ -   ***** Running evaluation  *****
+12/17/2025 06:59:09 - INFO - __main__ -     Num examples = 3604
+12/17/2025 06:59:09 - INFO - __main__ -     Batch size = 8
+Evaluating: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 451/451 [00:12<00:00, 36.16it/s]
+12/17/2025 06:59:23 - INFO - __main__ -   ***** Eval results  *****
+12/17/2025 06:59:23 - INFO - __main__ -     f1 = 0.8941559360407528
+12/17/2025 06:59:23 - INFO - __main__ -     loss = 0.15590241148090964
+12/17/2025 06:59:23 - INFO - __main__ -     precision = 0.8853860165335575
+12/17/2025 06:59:23 - INFO - __main__ -     recall = 0.9031013291410604
+12/17/2025 06:59:23 - INFO - __main__ -     report =               precision    recall  f1-score   support
+
+        DATE       0.78      0.79      0.78       996
+         LOC       0.89      0.92      0.90      1722
+         ORG       0.87      0.90      0.88      1771
+         PER       0.94      0.94      0.94      2508
+
+   micro avg       0.89      0.90      0.89      6997
+   macro avg       0.87      0.89      0.88      6997
+weighted avg       0.89      0.90      0.89      6997
+
+12/17/2025 06:59:23 - INFO - __main__ -   Loading features from cached file data/EmbeddingGroups/ZERO-SHOT/cosine_High/COMBINED/cached_test_bert-base-multilingual-cased_164
+12/17/2025 06:59:23 - INFO - __main__ -   ***** Running evaluation  *****
+12/17/2025 06:59:23 - INFO - __main__ -     Num examples = 7508
+12/17/2025 06:59:23 - INFO - __main__ -     Batch size = 8
+Evaluating: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 939/939 [00:20<00:00, 46.10it/s]
+12/17/2025 06:59:44 - INFO - __main__ -   ***** Eval results  *****
+12/17/2025 06:59:44 - INFO - __main__ -     f1 = 0.6187522801897117
+12/17/2025 06:59:44 - INFO - __main__ -     loss = 0.20856203593961606
+12/17/2025 06:59:44 - INFO - __main__ -     precision = 0.6458492003046459
+12/17/2025 06:59:44 - INFO - __main__ -     recall = 0.5938375350140056
+12/17/2025 06:59:44 - INFO - __main__ -     report =               precision    recall  f1-score   support
+
+        DATE       0.57      0.27      0.37       437
+         LOC       0.79      0.78      0.79       715
+         ORG       0.72      0.45      0.55       162
+         PER       0.33      0.87      0.48       114
+
+   micro avg       0.65      0.59      0.62      1428
+   macro avg       0.60      0.59      0.55      1428
+weighted avg       0.68      0.59      0.61      1428
+
+Starting training with XLM-R...
+/home/prosper/miniconda3/envs/runyankore-ner/lib/python3.10/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Some weights of XLMRobertaForTokenClassification were not initialized from the model checkpoint at xlm-roberta-base and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+12/17/2025 06:59:48 - INFO - __main__ -   Training/evaluation parameters Namespace(data_dir='data/EmbeddingGroups/ZERO-SHOT/cosine_High/COMBINED/', model_type='xlmroberta', model_name_or_path='xlm-roberta-base', input_dir=None, output_dir='models/EmbeddingGroups/ZERO-SHOT/cosine_High/combined_xlmr', test_result_file='test_results.txt', test_prediction_file='test_predictions.txt', labels='', config_name='', tokenizer_name='', cache_dir='', max_seq_length=164, do_train=True, do_finetune=False, do_eval=True, do_predict=True, evaluate_during_training=False, do_lower_case=False, per_gpu_train_batch_size=32, per_gpu_eval_batch_size=8, gradient_accumulation_steps=1, learning_rate=5e-05, weight_decay=0.0, adam_epsilon=1e-08, max_grad_norm=1.0, num_train_epochs=10.0, max_steps=-1, warmup_steps=0, logging_steps=500, save_steps=5000, eval_all_checkpoints=False, no_cuda=False, overwrite_output_dir=True, overwrite_cache=False, seed=1, local_rank=-1, server_ip='', server_port='', n_gpu=1, device=device(type='cuda'))
+12/17/2025 06:59:48 - INFO - __main__ -   Loading features from cached file data/EmbeddingGroups/ZERO-SHOT/cosine_High/COMBINED/cached_train_xlm-roberta-base_164
+/home/prosper/miniconda3/envs/runyankore-ner/lib/python3.10/site-packages/transformers/optimization.py:588: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+12/17/2025 06:59:49 - INFO - __main__ -   ***** Running training *****
+12/17/2025 06:59:49 - INFO - __main__ -     Num examples = 25224
+12/17/2025 06:59:49 - INFO - __main__ -     Num Epochs = 10
+12/17/2025 06:59:49 - INFO - __main__ -     Instantaneous batch size per GPU = 32
+12/17/2025 06:59:49 - INFO - __main__ -     Total train batch size (w. parallel, distributed & accumulation) = 32
+12/17/2025 06:59:49 - INFO - __main__ -     Gradient Accumulation steps = 1
+12/17/2025 06:59:49 - INFO - __main__ -     Total optimization steps = 7890
+Epoch:   0%|                                                                                                                                                           | 0/10 [00:00<?, ?it/s/home/prosper/miniconda3/envs/runyankore-ner/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:182: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn(
+Iteration: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 789/789 [03:03<00:00,  4.30it/s]
+12/17/2025 07:02:52 - INFO - __main__ -   Creating features from dataset file at data/EmbeddingGroups/ZERO-SHOT/cosine_High/COMBINED/███████████████████████| 789/789 [03:03<00:00,  5.03it/s]
+12/17/2025 07:02:52 - INFO - utils_ner -   Writing example 0 of 3604
+12/17/2025 07:02:52 - INFO - utils_ner -   *** Example ***
+12/17/2025 07:02:52 - INFO - utils_ner -   guid: dev-1
+12/17/2025 07:02:52 - INFO - utils_ner -   tokens: <s> ▁Ne ▁b we ▁ki ba ▁nga ▁ya li mu ▁ , ▁l wa ki ▁ya li ▁aya gala ▁n ny o ▁o kwe wa ayo ▁mu ▁mus ango ▁gw ' oku ge za ako ▁oku te mula ▁og usi by a ▁om untu ▁mu ▁ kko mera ▁okuma la ▁em yaka ▁a biri ▁mu ▁South ▁Africa ▁ . </s>
+12/17/2025 07:02:52 - INFO - utils_ner -   input_ids: 0 799 876 1177 200 402 817 151 150 561 6 4 96 634 301 151 150 67071 20646 653 299 31 36 40935 634 9522 842 8014 27803 13303 25 38067 429 596 9737 14770 67 19908 60 8702 1272 11 171 65569 842 6 22207 27160 97405 143 352 122669 10 35653 842 25134 36941 6 5 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+12/17/2025 07:02:52 - INFO - utils_ner -   input_mask: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12/17/2025 07:02:52 - INFO - utils_ner -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12/17/2025 07:02:52 - INFO - utils_ner -   label_ids: -100 0 0 -100 0 -100 0 0 -100 -100 0 -100 0 -100 -100 0 -100 0 -100 0 -100 -100 0 -100 -100 -100 0 0 -100 0 -100 -100 -100 -100 -100 0 -100 -100 0 -100 -100 -100 0 -100 0 0 -100 -100 0 -100 1 -100 2 -100 0 7 8 0 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100
+12/17/2025 07:02:52 - INFO - utils_ner -   *** Example ***
+12/17/2025 07:02:52 - INFO - utils_ner -   guid: dev-2
+12/17/2025 07:02:52 - INFO - utils_ner -   tokens: <s> ▁Ga kwe rera ▁agam ba ▁ nti ▁embo o zi ▁ya ▁Bi ch isha ▁ya wu lik ika ▁ng ' e mpang iri re ▁ . </s>
+12/17/2025 07:02:52 - INFO - utils_ner -   input_ids: 0 2902 40935 98825 59232 402 6 3598 148696 31 708 151 1843 206 7230 151 16612 597 2959 234 25 13 58098 8133 107 6 5 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+12/17/2025 07:02:52 - INFO - utils_ner -   input_mask: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12/17/2025 07:02:52 - INFO - utils_ner -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12/17/2025 07:02:52 - INFO - utils_ner -   label_ids: -100 3 -100 -100 0 -100 0 -100 0 -100 -100 0 3 -100 -100 0 -100 -100 -100 0 -100 -100 -100 -100 -100 0 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100
+12/17/2025 07:02:52 - INFO - utils_ner -   *** Example ***
+12/17/2025 07:02:52 - INFO - utils_ner -   guid: dev-3
+12/17/2025 07:02:52 - INFO - utils_ner -   tokens: <s> ▁Bi ch isha ▁ya li ▁ako lera ▁ani ▁? </s>
+12/17/2025 07:02:52 - INFO - utils_ner -   input_ids: 0 1843 206 7230 151 150 922 40455 1866 705 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+12/17/2025 07:02:52 - INFO - utils_ner -   input_mask: 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12/17/2025 07:02:52 - INFO - utils_ner -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12/17/2025 07:02:52 - INFO - utils_ner -   label_ids: -100 3 -100 -100 0 -100 0 -100 0 0 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100
+12/17/2025 07:02:52 - INFO - utils_ner -   *** Example ***
+12/17/2025 07:02:52 - INFO - utils_ner -   guid: dev-4
+12/17/2025 07:02:52 - INFO - utils_ner -   tokens: <s> ▁A bak ugu ▁mu ▁by ok we rinda ▁bag amba ▁ nti ▁Bi ch isha ▁ay in za ▁ okuba ▁nga ▁ya li ▁asi mbi dda ▁poliisi ▁y ' e ▁South ▁Africa ▁oku funa ▁ama w ul ire ▁ku ▁bate e ber eze b wa ▁ab alala ▁ . </s>
+12/17/2025 07:02:52 - INFO - utils_ner -   input_ids: 0 62 10075 24031 842 390 685 1177 110835 6157 19057 6 3598 1843 206 7230 537 73 596 6 144907 817 151 150 5644 6332 15480 110360 113 25 13 25134 36941 14770 95635 2527 434 202 2149 228 57288 13 1297 6659 275 634 1563 82923 6 5 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+12/17/2025 07:02:52 - INFO - utils_ner -   input_mask: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12/17/2025 07:02:52 - INFO - utils_ner -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12/17/2025 07:02:52 - INFO - utils_ner -   label_ids: -100 0 -100 -100 0 0 -100 -100 -100 0 -100 0 -100 3 -100 -100 0 -100 -100 0 -100 0 0 -100 0 -100 -100 5 6 -100 -100 6 6 0 -100 0 -100 -100 -100 0 0 -100 -100 -100 -100 -100 0 -100 0 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100
+12/17/2025 07:02:52 - INFO - utils_ner -   *** Example ***
+12/17/2025 07:02:52 - INFO - utils_ner -   guid: dev-5
+12/17/2025 07:02:52 - INFO - utils_ner -   tokens: <s> ▁Na ye ▁wali wo ▁en ky uka ky uka ▁mu ▁mus ango ▁gwa ▁Kay umba ▁og w ' okuba ▁a mas asi ▁og ute eka ▁abo buy in za ▁ba ▁South ▁Africa ▁mu ▁buz ibu ▁bw ' ok we si gib wa ▁ . </s>
+12/17/2025 07:02:52 - INFO - utils_ner -   input_ids: 0 353 1033 13019 3613 22 1002 8654 1002 8654 842 8014 27803 39305 26125 29381 60 434 25 144907 10 1510 1544 60 6743 26228 63586 86527 73 596 961 25134 36941 842 57461 25708 90998 25 685 1177 172 91697 634 6 5 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+12/17/2025 07:02:52 - INFO - utils_ner -   input_mask: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12/17/2025 07:02:52 - INFO - utils_ner -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12/17/2025 07:02:52 - INFO - utils_ner -   label_ids: -100 0 -100 0 -100 0 -100 -100 -100 -100 0 0 -100 0 3 -100 0 -100 -100 -100 0 -100 -100 0 -100 -100 0 -100 -100 -100 0 7 8 0 0 -100 0 -100 -100 -100 -100 -100 -100 0 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100
+12/17/2025 07:02:53 - INFO - __main__ -   Saving features into cached file data/EmbeddingGroups/ZERO-SHOT/cosine_High/COMBINED/cached_dev_xlm-roberta-base_164
+12/17/2025 07:02:54 - INFO - __main__ -   ***** Running evaluation  *****
+12/17/2025 07:02:54 - INFO - __main__ -     Num examples = 3604
+12/17/2025 07:02:54 - INFO - __main__ -     Batch size = 8
+Evaluating: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 451/451 [00:11<00:00, 39.15it/s]
+eval result:  789 0.82982██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋| 450/451 [00:11<00:00, 39.42it/s]
+12/17/2025 07:03:07 - INFO - __main__ -   Saving model checkpoint to models/EmbeddingGroups/ZERO-SHOT/cosine_High/combined_xlmr
+Iteration: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 789/789 [03:03<00:00,  4.31it/s]
+12/17/2025 07:06:10 - INFO - __main__ -   Loading features from cached file data/EmbeddingGroups/ZERO-SHOT/cosine_High/COMBINED/cached_dev_xlm-roberta-base_16489/789 [03:03<00:00,  5.04it/s]
+12/17/2025 07:06:10 - INFO - __main__ -   ***** Running evaluation  *****
+12/17/2025 07:06:10 - INFO - __main__ -     Num examples = 3604
+12/17/2025 07:06:10 - INFO - __main__ -     Batch size = 8
+Evaluating: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 451/451 [00:11<00:00, 38.96it/s]
+eval result:  1578 0.85548█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍| 449/451 [00:11<00:00, 38.75it/s]
+12/17/2025 07:06:23 - INFO - __main__ -   Saving model checkpoint to models/EmbeddingGroups/ZERO-SHOT/cosine_High/combined_xlmr
+Iteration: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 789/789 [01:46<00:00,  7.42it/s]
+12/17/2025 07:08:10 - INFO - __main__ -   Loading features from cached file data/EmbeddingGroups/ZERO-SHOT/cosine_High/COMBINED/cached_dev_xlm-roberta-base_16488/789 [01:46<00:00,  9.07it/s]
+12/17/2025 07:08:10 - INFO - __main__ -   ***** Running evaluation  *****
+12/17/2025 07:08:10 - INFO - __main__ -     Num examples = 3604
+12/17/2025 07:08:10 - INFO - __main__ -     Batch size = 8
+Evaluating: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 451/451 [00:04<00:00, 112.65it/s]
+eval result:  2367 0.86728█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉   | 441/451 [00:03<00:00, 103.21it/s]
+12/17/2025 07:08:15 - INFO - __main__ -   Saving model checkpoint to models/EmbeddingGroups/ZERO-SHOT/cosine_High/combined_xlmr
+Iteration: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 789/789 [01:27<00:00,  9.05it/s]
+12/17/2025 07:09:43 - INFO - __main__ -   Loading features from cached file data/EmbeddingGroups/ZERO-SHOT/cosine_High/COMBINED/cached_dev_xlm-roberta-base_16488/789 [01:27<00:00,  9.02it/s]
+12/17/2025 07:09:43 - INFO - __main__ -   ***** Running evaluation  *****
+12/17/2025 07:09:43 - INFO - __main__ -     Num examples = 3604
+12/17/2025 07:09:43 - INFO - __main__ -     Batch size = 8
+Evaluating: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 451/451 [00:03<00:00, 113.04it/s]
+eval result:  3156 0.88474██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌  | 443/451 [00:03<00:00, 103.80it/s]
+12/17/2025 07:09:48 - INFO - __main__ -   Saving model checkpoint to models/EmbeddingGroups/ZERO-SHOT/cosine_High/combined_xlmr
+Iteration: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 789/789 [01:27<00:00,  9.05it/s]
+12/17/2025 07:11:16 - INFO - __main__ -   Loading features from cached file data/EmbeddingGroups/ZERO-SHOT/cosine_High/COMBINED/cached_dev_xlm-roberta-base_16488/789 [01:27<00:00,  9.06it/s]
+12/17/2025 07:11:16 - INFO - __main__ -   ***** Running evaluation  *****
+12/17/2025 07:11:16 - INFO - __main__ -     Num examples = 3604
+12/17/2025 07:11:16 - INFO - __main__ -     Batch size = 8
+Evaluating: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 451/451 [00:04<00:00, 112.50it/s]
+eval result:  3945 0.87834█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉   | 441/451 [00:03<00:00, 103.22it/s]
+Iteration: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 789/789 [01:27<00:00,  9.05it/s]
+12/17/2025 07:12:47 - INFO - __main__ -   Loading features from cached file data/EmbeddingGroups/ZERO-SHOT/cosine_High/COMBINED/cached_dev_xlm-roberta-base_16488/789 [01:27<00:00,  9.02it/s]
+12/17/2025 07:12:48 - INFO - __main__ -   ***** Running evaluation  *****
+12/17/2025 07:12:48 - INFO - __main__ -     Num examples = 3604
+12/17/2025 07:12:48 - INFO - __main__ -     Batch size = 8
+Evaluating: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 451/451 [00:03<00:00, 113.03it/s]
+eval result:  4734 0.88739██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏  | 442/451 [00:03<00:00, 103.91it/s]
+12/17/2025 07:12:53 - INFO - __main__ -   Saving model checkpoint to models/EmbeddingGroups/ZERO-SHOT/cosine_High/combined_xlmr
+Iteration: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 789/789 [01:27<00:00,  9.05it/s]
+12/17/2025 07:14:20 - INFO - __main__ -   Loading features from cached file data/EmbeddingGroups/ZERO-SHOT/cosine_High/COMBINED/cached_dev_xlm-roberta-base_16488/789 [01:27<00:00,  9.06it/s]
+12/17/2025 07:14:21 - INFO - __main__ -   ***** Running evaluation  *****
+12/17/2025 07:14:21 - INFO - __main__ -     Num examples = 3604
+12/17/2025 07:14:21 - INFO - __main__ -     Batch size = 8
+Evaluating: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 451/451 [00:04<00:00, 112.45it/s]
+eval result:  5523 0.88834█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉   | 441/451 [00:03<00:00, 103.29it/s]
+12/17/2025 07:14:26 - INFO - __main__ -   Saving model checkpoint to models/EmbeddingGroups/ZERO-SHOT/cosine_High/combined_xlmr
+Iteration: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 789/789 [01:27<00:00,  9.05it/s]
+12/17/2025 07:15:53 - INFO - __main__ -   Loading features from cached file data/EmbeddingGroups/ZERO-SHOT/cosine_High/COMBINED/cached_dev_xlm-roberta-base_16488/789 [01:27<00:00,  9.04it/s]
+12/17/2025 07:15:54 - INFO - __main__ -   ***** Running evaluation  *****
+12/17/2025 07:15:54 - INFO - __main__ -     Num examples = 3604
+12/17/2025 07:15:54 - INFO - __main__ -     Batch size = 8
+Evaluating: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 451/451 [00:03<00:00, 113.03it/s]
+eval result:  6312 0.89202█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉   | 441/451 [00:03<00:00, 103.97it/s]
+12/17/2025 07:15:59 - INFO - __main__ -   Saving model checkpoint to models/EmbeddingGroups/ZERO-SHOT/cosine_High/combined_xlmr
+Iteration: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 789/789 [01:27<00:00,  9.05it/s]
+12/17/2025 07:17:26 - INFO - __main__ -   Loading features from cached file data/EmbeddingGroups/ZERO-SHOT/cosine_High/COMBINED/cached_dev_xlm-roberta-base_16488/789 [01:27<00:00,  9.01it/s]
+12/17/2025 07:17:27 - INFO - __main__ -   ***** Running evaluation  *****
+12/17/2025 07:17:27 - INFO - __main__ -     Num examples = 3604
+12/17/2025 07:17:27 - INFO - __main__ -     Batch size = 8
+Evaluating: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 451/451 [00:03<00:00, 112.82it/s]
+eval result:  7101 0.89586█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉   | 441/451 [00:03<00:00, 103.57it/s]
+12/17/2025 07:17:32 - INFO - __main__ -   Saving model checkpoint to models/EmbeddingGroups/ZERO-SHOT/cosine_High/combined_xlmr
+Iteration: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 789/789 [01:27<00:00,  9.05it/s]
+12/17/2025 07:18:59 - INFO - __main__ -   Loading features from cached file data/EmbeddingGroups/ZERO-SHOT/cosine_High/COMBINED/cached_dev_xlm-roberta-base_16488/789 [01:27<00:00,  9.02it/s]
+12/17/2025 07:19:00 - INFO - __main__ -   ***** Running evaluation  *****
+12/17/2025 07:19:00 - INFO - __main__ -     Num examples = 3604
+12/17/2025 07:19:00 - INFO - __main__ -     Batch size = 8
+Evaluating: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 451/451 [00:03<00:00, 112.87it/s]
+eval result:  7890 0.89779█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉   | 441/451 [00:03<00:00, 103.76it/s]
+12/17/2025 07:19:05 - INFO - __main__ -   Saving model checkpoint to models/EmbeddingGroups/ZERO-SHOT/cosine_High/combined_xlmr
+Epoch: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [19:16<00:00, 115.64s/it]
+12/17/2025 07:19:05 - INFO - __main__ -   Loading features from cached file data/EmbeddingGroups/ZERO-SHOT/cosine_High/COMBINED/cached_dev_xlm-roberta-base_164
+12/17/2025 07:19:05 - INFO - __main__ -   ***** Running evaluation  *****
+12/17/2025 07:19:05 - INFO - __main__ -     Num examples = 3604
+12/17/2025 07:19:05 - INFO - __main__ -     Batch size = 8
+Evaluating: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 451/451 [00:03<00:00, 114.47it/s]
+12/17/2025 07:19:10 - INFO - __main__ -    global_step = 7890, average loss = 0.03517704534085926
+12/17/2025 07:19:10 - INFO - __main__ -   Saving model checkpoint to models/EmbeddingGroups/ZERO-SHOT/cosine_High/combined_xlmr
+12/17/2025 07:19:11 - INFO - __main__ -   Evaluate the following checkpoints: ['models/EmbeddingGroups/ZERO-SHOT/cosine_High/combined_xlmr']
+12/17/2025 07:19:12 - INFO - __main__ -   Loading features from cached file data/EmbeddingGroups/ZERO-SHOT/cosine_High/COMBINED/cached_dev_xlm-roberta-base_164
+12/17/2025 07:19:12 - INFO - __main__ -   ***** Running evaluation  *****
+12/17/2025 07:19:12 - INFO - __main__ -     Num examples = 3604
+12/17/2025 07:19:12 - INFO - __main__ -     Batch size = 8
+Evaluating: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 451/451 [00:03<00:00, 114.61it/s]
+12/17/2025 07:19:16 - INFO - __main__ -   ***** Eval results  *****
+12/17/2025 07:19:16 - INFO - __main__ -     f1 = 0.8977859517577987
+12/17/2025 07:19:16 - INFO - __main__ -     loss = 0.13826859731664942
+12/17/2025 07:19:16 - INFO - __main__ -     precision = 0.8887955182072829
+12/17/2025 07:19:16 - INFO - __main__ -     recall = 0.9069601257681864
+12/17/2025 07:19:16 - INFO - __main__ -     report =               precision    recall  f1-score   support
+
+        DATE       0.78      0.80      0.79       996
+         LOC       0.89      0.92      0.90      1722
+         ORG       0.88      0.90      0.89      1771
+         PER       0.94      0.95      0.95      2508
+
+   micro avg       0.89      0.91      0.90      6997
+   macro avg       0.87      0.89      0.88      6997
+weighted avg       0.89      0.91      0.90      6997
+
+12/17/2025 07:19:17 - INFO - __main__ -   Creating features from dataset file at data/EmbeddingGroups/ZERO-SHOT/cosine_High/COMBINED/
+12/17/2025 07:19:17 - INFO - utils_ner -   Writing example 0 of 7508
+12/17/2025 07:19:17 - INFO - utils_ner -   *** Example ***
+12/17/2025 07:19:17 - INFO - utils_ner -   guid: test-1
+12/17/2025 07:19:17 - INFO - utils_ner -   tokens: <s> ▁Ti imu ▁y ' em iza ano ▁e ya ▁di si turik iti ▁ , ▁e kah ika ▁a ha ▁kamar i rizo ▁om wa ka ▁og uh wa ire ▁ . </s>
+12/17/2025 07:19:17 - INFO - utils_ner -   input_ids: 0 2371 15608 113 25 195 7337 3922 28 395 45 172 101605 1890 6 4 28 6577 2959 10 528 21323 14 155946 171 634 161 60 5951 634 2149 6 5 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+12/17/2025 07:19:17 - INFO - utils_ner -   input_mask: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12/17/2025 07:19:17 - INFO - utils_ner -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12/17/2025 07:19:17 - INFO - utils_ner -   label_ids: -100 0 -100 0 -100 -100 -100 -100 0 -100 0 -100 -100 -100 0 -100 0 -100 -100 0 -100 0 -100 -100 1 -100 -100 2 -100 -100 -100 0 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100
+12/17/2025 07:19:17 - INFO - utils_ner -   *** Example ***
+12/17/2025 07:19:17 - INFO - utils_ner -   guid: test-2
+12/17/2025 07:19:17 - INFO - utils_ner -   tokens: <s> ▁Sh wen kuru ▁wang ye ▁aka fa ▁aine ▁em yaka ▁kina na ▁na ▁muna na ▁e y ' o buku ru ▁ . </s>
+12/17/2025 07:19:17 - INFO - utils_ner -   input_ids: 0 7525 11697 120209 37109 1033 15623 1021 59482 352 122669 24222 76 24 29279 76 28 53 25 31 107798 882 6 5 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+12/17/2025 07:19:17 - INFO - utils_ner -   input_mask: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12/17/2025 07:19:17 - INFO - utils_ner -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12/17/2025 07:19:17 - INFO - utils_ner -   label_ids: -100 0 -100 -100 0 -100 0 -100 0 1 -100 2 -100 2 2 -100 0 -100 -100 -100 -100 -100 0 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100
+12/17/2025 07:19:17 - INFO - utils_ner -   *** Example ***
+12/17/2025 07:19:17 - INFO - utils_ner -   guid: test-3
+12/17/2025 07:19:17 - INFO - utils_ner -   tokens: <s> ▁E bi kwa to ▁e biri mu ▁za ▁m izay iro ▁maku mi ▁a tano ▁e by agu zir we ▁kuru ga ▁China ▁bi kaa kii rwa ▁en kumi ▁i biri ▁i kumi ▁na ▁muna na ▁ . </s>
+12/17/2025 07:19:17 - INFO - utils_ner -   input_ids: 0 241 964 10521 188 28 35653 561 80 347 83571 8699 62332 266 10 35221 28 1272 26722 26679 1177 14178 208 9098 333 17227 7072 70627 22 87064 17 35653 17 87064 24 29279 76 6 5 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+12/17/2025 07:19:17 - INFO - utils_ner -   input_mask: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12/17/2025 07:19:17 - INFO - utils_ner -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12/17/2025 07:19:17 - INFO - utils_ner -   label_ids: -100 0 -100 -100 -100 0 -100 -100 0 0 -100 -100 0 -100 0 -100 0 -100 -100 -100 -100 0 -100 7 0 -100 -100 -100 1 -100 2 -100 2 -100 2 2 -100 0 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100
+12/17/2025 07:19:17 - INFO - utils_ner -   *** Example ***
+12/17/2025 07:19:17 - INFO - utils_ner -   guid: test-4
+12/17/2025 07:19:17 - INFO - utils_ner -   tokens: <s> ▁Aku ruga ▁om u ▁is home ro ▁aine ▁em yaka ▁i kumi ▁na ▁muka aga ▁ . </s>
+12/17/2025 07:19:17 - INFO - utils_ner -   input_ids: 0 8158 46892 171 34 83 29552 516 59482 352 122669 17 87064 24 14330 4729 6 5 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+12/17/2025 07:19:17 - INFO - utils_ner -   input_mask: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12/17/2025 07:19:17 - INFO - utils_ner -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12/17/2025 07:19:17 - INFO - utils_ner -   label_ids: -100 0 -100 0 -100 0 -100 -100 0 1 -100 2 -100 2 2 -100 0 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100
+12/17/2025 07:19:17 - INFO - utils_ner -   *** Example ***
+12/17/2025 07:19:17 - INFO - utils_ner -   guid: test-5
+12/17/2025 07:19:17 - INFO - utils_ner -   tokens: <s> ▁Ny om web az yo ▁ni b wo ▁ah iki ze ▁em yaka ▁i kumi ▁na ▁muna ana </s>
+12/17/2025 07:19:17 - INFO - utils_ner -   input_ids: 0 2949 306 14051 1828 1410 300 275 3613 1263 5898 731 352 122669 17 87064 24 29279 1500 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+12/17/2025 07:19:17 - INFO - utils_ner -   input_mask: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12/17/2025 07:19:17 - INFO - utils_ner -   segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12/17/2025 07:19:17 - INFO - utils_ner -   label_ids: -100 1 -100 -100 -100 -100 0 -100 -100 0 -100 -100 1 -100 2 -100 2 2 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100 -100
+12/17/2025 07:19:18 - INFO - __main__ -   Saving features into cached file data/EmbeddingGroups/ZERO-SHOT/cosine_High/COMBINED/cached_test_xlm-roberta-base_164
+12/17/2025 07:19:18 - INFO - __main__ -   ***** Running evaluation  *****
+12/17/2025 07:19:18 - INFO - __main__ -     Num examples = 7508
+12/17/2025 07:19:18 - INFO - __main__ -     Batch size = 8
+Evaluating: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 939/939 [00:09<00:00, 98.44it/s]
+12/17/2025 07:19:28 - INFO - __main__ -   ***** Eval results  *****
+12/17/2025 07:19:28 - INFO - __main__ -     f1 = 0.6533864541832668
+12/17/2025 07:19:28 - INFO - __main__ -     loss = 0.1777013493590468
+12/17/2025 07:19:28 - INFO - __main__ -     precision = 0.6766691672918229
+12/17/2025 07:19:28 - INFO - __main__ -     recall = 0.6316526610644257
+12/17/2025 07:19:28 - INFO - __main__ -     report =               precision    recall  f1-score   support
+
+        DATE       0.60      0.36      0.45       437
+         LOC       0.85      0.80      0.82       715
+         ORG       0.62      0.47      0.54       162
+         PER       0.35      0.83      0.49       114
+
+   micro avg       0.68      0.63      0.65      1428
+   macro avg       0.61      0.62      0.58      1428
+weighted avg       0.71      0.63      0.65      1428
+
+All training jobs completed.
