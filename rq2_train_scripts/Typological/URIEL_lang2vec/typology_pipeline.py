@@ -136,16 +136,46 @@ def plot_scatter(
     ylabel: str = "F1",
 ):
     merged = pd.concat([sim_ser.rename("sim"), f1_ser.rename("f1")], axis=1).dropna()
+
+    x = merged["sim"].values
+    y = merged["f1"].values
+
     plt.figure()
-    plt.scatter(merged["sim"].values, merged["f1"].values)
+    plt.scatter(x, y)
+
+    # Label each point with language code
     for lang, row in merged.iterrows():
-        plt.annotate(lang, (row["sim"], row["f1"]), fontsize=8, xytext=(3, 3), textcoords="offset points")
-    plt.title(title)
+        plt.annotate(
+            lang,
+            (row["sim"], row["f1"]),
+            fontsize=8,
+            xytext=(3, 3),
+            textcoords="offset points",
+        )
+
+    # --- Fit and plot linear regression line (OLS) ---
+    if len(x) >= 2:
+        a, b = np.polyfit(x, y, deg=1)  # slope, intercept
+        xs = np.linspace(x.min(), x.max(), 200)
+        ys = a * xs + b
+        plt.plot(xs, ys, linestyle="--", color="red", label=f"OLS fit (slope={a:.3f})")
+
+    # --- Spearman correlation for title ---
+    if len(x) >= 2:
+        from scipy.stats import spearmanr
+        rho, p = spearmanr(x, y)
+        n = len(x)
+        plt.title(f"{title}\nSpearman $\\rho={rho:.3f}$, $p={p:.4f}$, $n={n}$")
+        plt.legend()
+    else:
+        plt.title(title)
+
     plt.xlabel(xlabel)
     plt.ylabel(ylabel)
     plt.tight_layout()
     plt.savefig(out_path, dpi=180)
     plt.close()
+
 
 
 def load_f1_csv(path: str) -> pd.DataFrame:
