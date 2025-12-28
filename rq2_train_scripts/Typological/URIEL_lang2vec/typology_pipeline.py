@@ -37,7 +37,7 @@ import numpy as np
 import pandas as pd
 from sklearn.cluster import KMeans
 from sklearn.metrics.pairwise import cosine_distances, cosine_similarity
-from scipy.stats import spearmanr, zscore
+from scipy.stats import spearmanr, zscore, pearsonr
 import matplotlib.pyplot as plt
 
 
@@ -195,15 +195,40 @@ def correlate_with_similarity(
     f1_ser = f1_df.set_index("language")["f1"]
     merged = pd.concat([sim_to_target.rename("sim"), f1_ser.rename("f1")], axis=1)
     (out_dir / f"merged_{label}.csv").write_text(merged.to_csv())
-    rho, p, n = spearman_corr(merged["sim"], merged["f1"])
+    merged = merged.dropna()
+    n = merged.shape[0]
+
+    if n < 3:
+        rho = p_rho = r = p_r = float("nan")
+    else:
+        x = merged["sim"].values
+        y = merged["f1"].values
+        rho, p_rho = spearmanr(x, y)
+        r, p_r = pearsonr(x, y)
+
+    # scatter plot (can still mention Spearman in the title)
     plot_scatter(
         sim_ser=merged["sim"],
         f1_ser=merged["f1"],
         title=f"{label}: F1 vs. similarity",
         out_path=out_dir / f"scatter_{label}.png",
     )
-    (out_dir / f"spearman_{label}.txt").write_text(f"Spearman rho={rho:.4f}, p={p:.4g}, n={n}\n")
-    return {"label": label, "rho": rho, "p": p, "n": n}
+
+    # log both correlations
+    (out_dir / f"correlations_{label}.txt").write_text(
+        f"Spearman rho={rho:.4f}, p={p_rho:.4g}, n={n}\n"
+        f"Pearson r={r:.4f}, p={p_r:.4g}, n={n}\n"
+    )
+
+    return {
+        "label": label,
+        "rho": float(rho),
+        "p_rho": float(p_rho),
+        "r": float(r),
+        "p_r": float(p_r),
+        "n": int(n),
+    }
+
 
 
 # ---------- Build URIEL block vectors ----------
@@ -528,7 +553,7 @@ def main():
             out_dir=out,
         )
         summaries.append(summ)
-    pd.DataFrame(summaries).to_csv(out / "spearman_summary.csv", index=False)
+    pd.DataFrame(summaries).to_csv(out / "correlation_summary.csv", index=False)
 
     # ---------------- Ablations + learned weights (URIEL blocks) ----------------
     ab_summ_rows = []
