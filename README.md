@@ -42,24 +42,11 @@ RunyaNER is constructed from two publicly available parallel corpora:
   Extracted from the Multilingual Parallel Text Corpora (MPTC) for East African languages, providing shorter, cleaner sentence pairs.
 
 Together, these sources provide approximately **35,000 Runyankore sentences** prior to filtering.  
-Final splits are stratified into **train / dev / test** partitions.
+Final splits are stratified into **train / dev / test** partitions. 
 
-All datasets use the **CoNLL BIO format**, for example:
+In this repository, RunyaNER is given the alias **COMBINED**.
 
-Abahekyera O
-ba O
-Allied B-ORG
-Democratic I-ORG
-Forces I-ORG
-bakaba O
-nibaza O
-kurwanisa O
-gavumenti O
-ya O
-Museveni B-PER
-omuri O
-Kampala B-LOC
-. O
+All datasets use the **CoNLL BIO format**
 
 
 ## Annotation Pipeline
