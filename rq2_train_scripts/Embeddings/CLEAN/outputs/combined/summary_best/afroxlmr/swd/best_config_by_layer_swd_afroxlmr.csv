@@ -1,0 +1,13 @@
+layer,best_config,tokens,ctx_window,score_mean_over_langs
+1,config_0_clsfalse_ctxfalse,500,0,0.009971184674702675
+2,config_0_clsfalse_ctxfalse,500,0,0.006962118944844016
+3,config_0_clsfalse_ctxfalse,500,0,0.006492909228742809
+4,config_0_clsfalse_ctxfalse,500,0,0.007154608653837565
+5,config_0_clsfalse_ctxfalse,500,0,0.006930951966981474
+6,config_0_clsfalse_ctxfalse,500,0,0.0067063753165256795
+7,config_0_clsfalse_ctxfalse,500,0,0.006107637115294955
+8,config_0_clsfalse_ctxfalse,500,0,0.006445366000448816
+9,config_0_clsfalse_ctxfalse,400,0,0.006551536743298375
+10,config_0_clsfalse_ctxfalse,500,0,0.0066402069518592555
+11,config_0_clsfalse_ctxfalse,500,0,0.006261608920491759
+12,config_0_clsfalse_ctxfalse,500,0,0.007247105763341645

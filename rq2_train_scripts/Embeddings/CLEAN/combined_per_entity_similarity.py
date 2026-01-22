@@ -9,7 +9,12 @@ from transformers import AutoTokenizer, AutoModel
 from tqdm import tqdm
 
 # ------------------------ config ------------------------
-MODEL_NAME_MAP = {"xlmr": "xlm-roberta-base", "mbert": "bert-base-multilingual-cased"}
+MODEL_NAME_MAP = {
+    "afroxlmr": "Davlan/afro-xlmr-base",
+    "xlmr": "xlm-roberta-base",
+    "mbert": "bert-base-multilingual-cased",
+}
+
 DEFAULT_ENTITY_TAGS: Set[str] = {"PER", "LOC", "ORG", "DATE"}
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 TARGET_LANG = "run"
@@ -228,7 +233,7 @@ def get_all_layers(model_type: str) -> List[int]:
 def main():
     init_logger()
     ap = argparse.ArgumentParser("Per-entity cross-lingual similarity (cosine)")
-    ap.add_argument("--model_type", choices=["xlmr","mbert"], default="xlmr")
+    ap.add_argument("--model_type", choices=list(MODEL_NAME_MAP.keys()), default="xlmr")
     ap.add_argument("--output_dir", default="outputs_per_entity")
     ap.add_argument("--langs", default="all")
     ap.add_argument("--layers", default="all")

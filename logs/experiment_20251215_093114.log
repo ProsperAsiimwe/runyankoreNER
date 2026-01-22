@@ -1,0 +1,167 @@
+2025-12-15 09:31:14,962 - INFO - Start: model_type=afroxlmr, use_cls=True, use_context=False, context_window=1, max_tokens_per_type=400, batch_size=64, output_dir=rq2_train_scripts/Embeddings/CLEAN/outputs/combined/afroxlmr/config_1_clstrue_ctxfalse/tokens_400_ctx1/core, save_prototypes=False, seed=42, fp16=True, max_length=96, langs=all, layers=all, span_mode=bio, pool=mean, entity_tags={'LOC', 'PER', 'DATE', 'ORG'}, title_suffix='L=all, tokens=400, ctx=1, cls=true, fp16=true'
+2025-12-15 09:31:16,863 - INFO - Processing run
+2025-12-15 09:31:17,259 - INFO - Processing bam
+2025-12-15 09:31:17,307 - INFO - Processing bbj
+2025-12-15 09:31:17,349 - INFO - Processing ewe
+2025-12-15 09:31:17,392 - INFO - Processing fon
+2025-12-15 09:31:17,448 - INFO - Processing hau
+2025-12-15 09:31:17,514 - INFO - Processing ibo
+2025-12-15 09:31:17,597 - INFO - Processing kin
+2025-12-15 09:31:17,665 - INFO - Processing lug
+2025-12-15 09:31:17,716 - INFO - Processing luo
+2025-12-15 09:31:17,775 - INFO - Processing mos
+2025-12-15 09:31:17,845 - INFO - Processing nya
+2025-12-15 09:31:17,907 - INFO - Processing pcm
+2025-12-15 09:31:17,958 - INFO - Processing sna
+2025-12-15 09:31:18,014 - INFO - Processing swa
+2025-12-15 09:31:18,072 - INFO - Processing tsn
+2025-12-15 09:31:18,114 - INFO - Processing twi
+2025-12-15 09:31:18,168 - INFO - Processing wol
+2025-12-15 09:31:18,225 - INFO - Processing xho
+2025-12-15 09:31:18,267 - INFO - Processing yor
+2025-12-15 09:31:18,341 - INFO - Processing zul
+2025-12-15 09:31:18,789 - INFO - === Layer 1 (afroxlmr) — Top 5 (cosine) ===
+2025-12-15 09:31:18,789 - INFO - 1. luo: cos=0.9960
+2025-12-15 09:31:18,789 - INFO - 2. kin: cos=0.9957
+2025-12-15 09:31:18,789 - INFO - 3. twi: cos=0.9957
+2025-12-15 09:31:18,789 - INFO - 4. ibo: cos=0.9951
+2025-12-15 09:31:18,789 - INFO - 5. zul: cos=0.9946
+2025-12-15 09:31:18,789 - INFO - === Layer 1 (afroxlmr) — Worst 5 (cosine) ===
+2025-12-15 09:31:18,789 - INFO - 1. pcm: cos=0.9865
+2025-12-15 09:31:18,789 - INFO - 2. swa: cos=0.9869
+2025-12-15 09:31:18,789 - INFO - 3. hau: cos=0.9907
+2025-12-15 09:31:18,789 - INFO - 4. fon: cos=0.9911
+2025-12-15 09:31:18,789 - INFO - 5. xho: cos=0.9917
+2025-12-15 09:31:18,908 - INFO - === Layer 2 (afroxlmr) — Top 5 (cosine) ===
+2025-12-15 09:31:18,909 - INFO - 1. bam: cos=0.9998
+2025-12-15 09:31:18,909 - INFO - 2. ibo: cos=0.9998
+2025-12-15 09:31:18,909 - INFO - 3. zul: cos=0.9997
+2025-12-15 09:31:18,909 - INFO - 4. hau: cos=0.9997
+2025-12-15 09:31:18,909 - INFO - 5. yor: cos=0.9997
+2025-12-15 09:31:18,909 - INFO - === Layer 2 (afroxlmr) — Worst 5 (cosine) ===
+2025-12-15 09:31:18,909 - INFO - 1. pcm: cos=0.9974
+2025-12-15 09:31:18,909 - INFO - 2. swa: cos=0.9977
+2025-12-15 09:31:18,909 - INFO - 3. luo: cos=0.9993
+2025-12-15 09:31:18,909 - INFO - 4. bbj: cos=0.9994
+2025-12-15 09:31:18,909 - INFO - 5. lug: cos=0.9994
+2025-12-15 09:31:19,028 - INFO - === Layer 3 (afroxlmr) — Top 5 (cosine) ===
+2025-12-15 09:31:19,028 - INFO - 1. ibo: cos=1.0000
+2025-12-15 09:31:19,028 - INFO - 2. hau: cos=1.0000
+2025-12-15 09:31:19,028 - INFO - 3. bam: cos=1.0000
+2025-12-15 09:31:19,028 - INFO - 4. yor: cos=1.0000
+2025-12-15 09:31:19,028 - INFO - 5. zul: cos=1.0000
+2025-12-15 09:31:19,028 - INFO - === Layer 3 (afroxlmr) — Worst 5 (cosine) ===
+2025-12-15 09:31:19,028 - INFO - 1. pcm: cos=0.9999
+2025-12-15 09:31:19,028 - INFO - 2. swa: cos=0.9999
+2025-12-15 09:31:19,028 - INFO - 3. luo: cos=0.9999
+2025-12-15 09:31:19,028 - INFO - 4. bbj: cos=1.0000
+2025-12-15 09:31:19,028 - INFO - 5. xho: cos=1.0000
+2025-12-15 09:31:19,147 - INFO - === Layer 4 (afroxlmr) — Top 5 (cosine) ===
+2025-12-15 09:31:19,147 - INFO - 1. twi: cos=1.0000
+2025-12-15 09:31:19,147 - INFO - 2. lug: cos=1.0000
+2025-12-15 09:31:19,147 - INFO - 3. ibo: cos=1.0000
+2025-12-15 09:31:19,147 - INFO - 4. kin: cos=1.0000
+2025-12-15 09:31:19,147 - INFO - 5. bam: cos=1.0000
+2025-12-15 09:31:19,147 - INFO - === Layer 4 (afroxlmr) — Worst 5 (cosine) ===
+2025-12-15 09:31:19,147 - INFO - 1. pcm: cos=1.0000
+2025-12-15 09:31:19,147 - INFO - 2. swa: cos=1.0000
+2025-12-15 09:31:19,147 - INFO - 3. sna: cos=1.0000
+2025-12-15 09:31:19,147 - INFO - 4. bbj: cos=1.0000
+2025-12-15 09:31:19,147 - INFO - 5. xho: cos=1.0000
+2025-12-15 09:31:19,266 - INFO - === Layer 5 (afroxlmr) — Top 5 (cosine) ===
+2025-12-15 09:31:19,266 - INFO - 1. twi: cos=1.0000
+2025-12-15 09:31:19,266 - INFO - 2. nya: cos=1.0000
+2025-12-15 09:31:19,266 - INFO - 3. luo: cos=1.0000
+2025-12-15 09:31:19,266 - INFO - 4. ibo: cos=1.0000
+2025-12-15 09:31:19,266 - INFO - 5. lug: cos=1.0000
+2025-12-15 09:31:19,266 - INFO - === Layer 5 (afroxlmr) — Worst 5 (cosine) ===
+2025-12-15 09:31:19,266 - INFO - 1. hau: cos=1.0000
+2025-12-15 09:31:19,266 - INFO - 2. pcm: cos=1.0000
+2025-12-15 09:31:19,266 - INFO - 3. wol: cos=1.0000
+2025-12-15 09:31:19,266 - INFO - 4. bam: cos=1.0000
+2025-12-15 09:31:19,266 - INFO - 5. xho: cos=1.0000
+2025-12-15 09:31:19,385 - INFO - === Layer 6 (afroxlmr) — Top 5 (cosine) ===
+2025-12-15 09:31:19,385 - INFO - 1. twi: cos=1.0000
+2025-12-15 09:31:19,385 - INFO - 2. luo: cos=1.0000
+2025-12-15 09:31:19,385 - INFO - 3. ibo: cos=1.0000
+2025-12-15 09:31:19,385 - INFO - 4. nya: cos=1.0000
+2025-12-15 09:31:19,385 - INFO - 5. kin: cos=1.0000
+2025-12-15 09:31:19,385 - INFO - === Layer 6 (afroxlmr) — Worst 5 (cosine) ===
+2025-12-15 09:31:19,385 - INFO - 1. hau: cos=1.0000
+2025-12-15 09:31:19,385 - INFO - 2. pcm: cos=1.0000
+2025-12-15 09:31:19,385 - INFO - 3. xho: cos=1.0000
+2025-12-15 09:31:19,385 - INFO - 4. bam: cos=1.0000
+2025-12-15 09:31:19,385 - INFO - 5. wol: cos=1.0000
+2025-12-15 09:31:19,504 - INFO - === Layer 7 (afroxlmr) — Top 5 (cosine) ===
+2025-12-15 09:31:19,504 - INFO - 1. twi: cos=1.0000
+2025-12-15 09:31:19,504 - INFO - 2. tsn: cos=1.0000
+2025-12-15 09:31:19,504 - INFO - 3. luo: cos=1.0000
+2025-12-15 09:31:19,504 - INFO - 4. ibo: cos=1.0000
+2025-12-15 09:31:19,504 - INFO - 5. kin: cos=1.0000
+2025-12-15 09:31:19,504 - INFO - === Layer 7 (afroxlmr) — Worst 5 (cosine) ===
+2025-12-15 09:31:19,504 - INFO - 1. sna: cos=1.0000
+2025-12-15 09:31:19,504 - INFO - 2. nya: cos=1.0000
+2025-12-15 09:31:19,504 - INFO - 3. fon: cos=1.0000
+2025-12-15 09:31:19,504 - INFO - 4. wol: cos=1.0000
+2025-12-15 09:31:19,504 - INFO - 5. yor: cos=1.0000
+2025-12-15 09:31:19,686 - INFO - === Layer 8 (afroxlmr) — Top 5 (cosine) ===
+2025-12-15 09:31:19,686 - INFO - 1. luo: cos=0.9996
+2025-12-15 09:31:19,686 - INFO - 2. twi: cos=0.9995
+2025-12-15 09:31:19,686 - INFO - 3. kin: cos=0.9995
+2025-12-15 09:31:19,686 - INFO - 4. swa: cos=0.9994
+2025-12-15 09:31:19,686 - INFO - 5. bam: cos=0.9994
+2025-12-15 09:31:19,686 - INFO - === Layer 8 (afroxlmr) — Worst 5 (cosine) ===
+2025-12-15 09:31:19,686 - INFO - 1. yor: cos=0.9983
+2025-12-15 09:31:19,686 - INFO - 2. xho: cos=0.9984
+2025-12-15 09:31:19,686 - INFO - 3. wol: cos=0.9984
+2025-12-15 09:31:19,686 - INFO - 4. mos: cos=0.9985
+2025-12-15 09:31:19,686 - INFO - 5. bbj: cos=0.9986
+2025-12-15 09:31:19,805 - INFO - === Layer 9 (afroxlmr) — Top 5 (cosine) ===
+2025-12-15 09:31:19,805 - INFO - 1. luo: cos=0.9981
+2025-12-15 09:31:19,805 - INFO - 2. lug: cos=0.9978
+2025-12-15 09:31:19,805 - INFO - 3. bam: cos=0.9975
+2025-12-15 09:31:19,805 - INFO - 4. twi: cos=0.9972
+2025-12-15 09:31:19,805 - INFO - 5. kin: cos=0.9959
+2025-12-15 09:31:19,805 - INFO - === Layer 9 (afroxlmr) — Worst 5 (cosine) ===
+2025-12-15 09:31:19,805 - INFO - 1. tsn: cos=0.9811
+2025-12-15 09:31:19,805 - INFO - 2. yor: cos=0.9813
+2025-12-15 09:31:19,805 - INFO - 3. ewe: cos=0.9830
+2025-12-15 09:31:19,805 - INFO - 4. bbj: cos=0.9842
+2025-12-15 09:31:19,805 - INFO - 5. mos: cos=0.9853
+2025-12-15 09:31:19,925 - INFO - === Layer 10 (afroxlmr) — Top 5 (cosine) ===
+2025-12-15 09:31:19,925 - INFO - 1. lug: cos=0.9998
+2025-12-15 09:31:19,925 - INFO - 2. bam: cos=0.9992
+2025-12-15 09:31:19,925 - INFO - 3. fon: cos=0.9989
+2025-12-15 09:31:19,925 - INFO - 4. kin: cos=0.9989
+2025-12-15 09:31:19,925 - INFO - 5. ibo: cos=0.9988
+2025-12-15 09:31:19,925 - INFO - === Layer 10 (afroxlmr) — Worst 5 (cosine) ===
+2025-12-15 09:31:19,925 - INFO - 1. tsn: cos=0.9964
+2025-12-15 09:31:19,925 - INFO - 2. yor: cos=0.9964
+2025-12-15 09:31:19,925 - INFO - 3. ewe: cos=0.9965
+2025-12-15 09:31:19,925 - INFO - 4. swa: cos=0.9971
+2025-12-15 09:31:19,925 - INFO - 5. zul: cos=0.9971
+2025-12-15 09:31:20,045 - INFO - === Layer 11 (afroxlmr) — Top 5 (cosine) ===
+2025-12-15 09:31:20,045 - INFO - 1. ibo: cos=0.9968
+2025-12-15 09:31:20,045 - INFO - 2. hau: cos=0.9965
+2025-12-15 09:31:20,045 - INFO - 3. swa: cos=0.9964
+2025-12-15 09:31:20,045 - INFO - 4. twi: cos=0.9958
+2025-12-15 09:31:20,045 - INFO - 5. sna: cos=0.9957
+2025-12-15 09:31:20,045 - INFO - === Layer 11 (afroxlmr) — Worst 5 (cosine) ===
+2025-12-15 09:31:20,045 - INFO - 1. mos: cos=0.9868
+2025-12-15 09:31:20,045 - INFO - 2. wol: cos=0.9883
+2025-12-15 09:31:20,045 - INFO - 3. xho: cos=0.9894
+2025-12-15 09:31:20,045 - INFO - 4. bbj: cos=0.9897
+2025-12-15 09:31:20,045 - INFO - 5. fon: cos=0.9901
+2025-12-15 09:31:20,165 - INFO - === Layer 12 (afroxlmr) — Top 5 (cosine) ===
+2025-12-15 09:31:20,165 - INFO - 1. twi: cos=0.9598
+2025-12-15 09:31:20,165 - INFO - 2. kin: cos=0.9483
+2025-12-15 09:31:20,165 - INFO - 3. nya: cos=0.9397
+2025-12-15 09:31:20,165 - INFO - 4. tsn: cos=0.9388
+2025-12-15 09:31:20,165 - INFO - 5. pcm: cos=0.9376
+2025-12-15 09:31:20,165 - INFO - === Layer 12 (afroxlmr) — Worst 5 (cosine) ===
+2025-12-15 09:31:20,165 - INFO - 1. yor: cos=0.8386
+2025-12-15 09:31:20,165 - INFO - 2. xho: cos=0.8933
+2025-12-15 09:31:20,165 - INFO - 3. bam: cos=0.9026
+2025-12-15 09:31:20,165 - INFO - 4. bbj: cos=0.9040
+2025-12-15 09:31:20,165 - INFO - 5. hau: cos=0.9068
+2025-12-15 09:31:20,166 - INFO - Experiment finished successfully.

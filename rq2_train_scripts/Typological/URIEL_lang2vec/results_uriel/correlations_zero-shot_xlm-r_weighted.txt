@@ -1,0 +1,2 @@
+Spearman rho=0.3756, p=0.1027, n=20
+Pearson r=0.3364, p=0.147, n=20

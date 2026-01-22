@@ -375,10 +375,8 @@ def choose_global_config(best_df: pd.DataFrame, lower_better: bool) -> Tuple[str
       2) if tie, pick the one with the best 'score_mean_over_langs'
          among its occurrences (max if higher-better, min if lower-better).
     """
-    # Operate on full triple
     triples = best_df[["best_config", "tokens", "ctx_window", "score_mean_over_langs"]].copy()
 
-    # Count frequency
     freq = (triples
             .groupby(["best_config", "tokens", "ctx_window"])
             .size()
@@ -391,7 +389,6 @@ def choose_global_config(best_df: pd.DataFrame, lower_better: bool) -> Tuple[str
         cfg, tok, ctx = tied.iloc[0].tolist()
         return str(cfg), str(tok), str(ctx)
 
-    # Tie-break by best score across the layers where the triple occurs
     scores = (triples
               .groupby(["best_config", "tokens", "ctx_window"])["score_mean_over_langs"]
               .agg(lambda s: np.nanmax(s) if not lower_better else np.nanmin(s))
@@ -420,7 +417,6 @@ def build_values_for_specific_config(model_root: str,
     if not os.path.isdir(tech_dir):
         raise FileNotFoundError(f"Missing directory for chosen global config: {tech_dir}")
 
-    # Discover layers
     layer_set = set()
     for fn in os.listdir(tech_dir):
         if fn.endswith(".csv"):
@@ -431,7 +427,6 @@ def build_values_for_specific_config(model_root: str,
     if not layers:
         raise RuntimeError(f"No layer CSVs for global config under {tech_dir}")
 
-    # Helper to load a single layer series + lower-better
     def load_series_for_layer(L: int) -> Tuple[pd.Series, bool]:
         if technique == "core":
             fn = os.path.join(tech_dir, f"cosine_to_run_layer{L}.csv")
@@ -455,7 +450,6 @@ def build_values_for_specific_config(model_root: str,
             raise ValueError(f"Unknown technique: {technique}")
         return s, lb
 
-    # Load all layers
     values_by_layer = {}
     lower_better_overall = False
     langs_set = set()
@@ -483,12 +477,11 @@ def build_values_for_specific_config(model_root: str,
 def main():
     ap = argparse.ArgumentParser("Per-layer best + auto global-config selection")
     ap.add_argument("--root", default="outputs/combined",
-                    help="Root dir that contains model subdirs (xlmr/mbert) and config folders")
-    ap.add_argument("--models", default="xlmr,mbert", help="Comma-separated models to process")
+                    help="Root dir that contains model subdirs (xlmr/mbert/afroxlmr) and config folders")
+    ap.add_argument("--models", default="xlmr,mbert,afroxlmr", help="Comma-separated models to process")
     ap.add_argument("--techniques", default="core,per_entity,alt_measures,swd",
                     help="Comma-separated techniques to process")
 
-    # Technique-specific
     ap.add_argument("--core_metric", default="Mean")
     ap.add_argument("--per_entity_tags", default="PER,LOC,ORG,DATE")
     ap.add_argument("--per_entity_agg", default="mean", choices=["mean","median","topk"])
@@ -502,6 +495,10 @@ def main():
                     help="Where to save outputs (created under the resolved root)")
     args = ap.parse_args()
 
+    # Parse models EARLY
+    models = [m.strip() for m in args.models.split(",") if m.strip()]
+    techniques = [t.strip() for t in args.techniques.split(",") if t.strip()]
+
     # Resolve root robustly
     candidates = [
         args.root,
@@ -511,11 +508,14 @@ def main():
     ]
     root = None
     for cand in candidates:
-        if os.path.isdir(os.path.join(cand, "xlmr")) or os.path.isdir(os.path.join(cand, "mbert")):
-            root = os.path.normpath(cand); break
+        if any(os.path.isdir(os.path.join(cand, m)) for m in models):
+            root = os.path.normpath(cand)
+            break
     if root is None:
         msg = ("Could not locate outputs root. Tried:\n  - " +
                "\n  - ".join(os.path.normpath(c) for c in candidates) +
+               "\nExpected at least one of these model folders under the root:\n  - " +
+               "\n  - ".join(models) +
                "\nTip: run with e.g.  --root outputs/combined   from CLEAN/  (or the full absolute path).")
         raise FileNotFoundError(msg)
 
@@ -526,9 +526,6 @@ def main():
     if not os.path.isabs(outroot):
         outroot = os.path.join(root, args.outdir)
     ensure_dir(outroot)
-
-    models = [m.strip() for m in args.models.split(",") if m.strip()]
-    techniques = [t.strip() for t in args.techniques.split(",") if t.strip()]
 
     tech_opts = {
         "core": {"core_metric": args.core_metric},
@@ -601,9 +598,7 @@ def main():
             print(f"    Plot : {perlayer_png}")
             print(f"    Info : {readme}")
 
-            # ------------------------------
             # Global-config (auto) selection & outputs
-            # ------------------------------
             g_cfg, g_tok, g_ctx = choose_global_config(best_df, lower_better)
             print(f"    [GLOBAL] Selected config: {short_config_id(g_cfg, g_tok, g_ctx)}")
 
@@ -621,7 +616,6 @@ def main():
             g_title = (f"{tech} — {model} (single global config: "
                        f"{short_config_id(g_cfg, g_tok, g_ctx)})")
             g_png = os.path.join(g_out_dir, f"lines_{tech}_{model}.png")
-            # For the global plot, no per-layer labels (single config), but we can show a header
             plot_lines(g_values_df, title=g_title, ylabel=ylabel, out_png=g_png,
                        invert_for_lower_better=g_lower_better, best_df=None, show_config_labels=False)
 
