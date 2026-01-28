@@ -442,6 +442,80 @@ def merge_names(df, langs_df):
         df = df.merge(names[["aux_code", "aux_name"]], on="aux_code", how="left")
     return df
 
+def compute_and_write_correlations_metadata_vs_f1(df_scores_equal, perf_all, out_csv):
+    """
+    Writes a structured correlation table:
+      variant, setup, model, n, pearson_r, pearson_p, spearman_rho, spearman_p
+
+    - Uses canonical equal-weight S_total from df_scores_equal (as per supervisor expectation).
+    - Uses perf_all which must contain columns: aux_code, f1, setup, model, variant
+    """
+    if perf_all is None or perf_all.empty:
+        return
+
+    required = {"aux_code", "f1", "variant", "setup", "model"}
+    if not required.issubset(set(perf_all.columns)):
+        return
+
+    # Merge once to ensure consistent S_total per aux_code
+    base = df_scores_equal[["aux_code", "S_total"]].copy()
+
+    rows = []
+    for variant, dfv in perf_all.groupby("variant"):
+        merged = base.merge(dfv[["aux_code", "f1", "setup", "model"]], on="aux_code", how="inner")
+        merged = merged.dropna(subset=["S_total", "f1"])
+
+        n = int(len(merged))
+        if n < 3:
+            # not enough points for correlation
+            setup = str(dfv["setup"].iloc[0]) if "setup" in dfv.columns and len(dfv) else ""
+            model = str(dfv["model"].iloc[0]) if "model" in dfv.columns and len(dfv) else ""
+            rows.append({
+                "variant": variant,
+                "setup": setup,
+                "model": model,
+                "n": n,
+                "pearson_r": np.nan,
+                "pearson_p": np.nan,
+                "spearman_rho": np.nan,
+                "spearman_p": np.nan,
+            })
+            continue
+
+        setup = str(merged["setup"].iloc[0]) if "setup" in merged.columns else ""
+        model = str(merged["model"].iloc[0]) if "model" in merged.columns else ""
+
+        # Prefer SciPy if available (gives p-values). Fallback computes correlations without p-values.
+        try:
+            from scipy.stats import pearsonr, spearmanr
+            pr, pp = pearsonr(merged["S_total"].to_numpy(dtype=float), merged["f1"].to_numpy(dtype=float))
+            sr, sp = spearmanr(merged["S_total"].to_numpy(dtype=float), merged["f1"].to_numpy(dtype=float))
+        except Exception:
+            x = merged["S_total"].to_numpy(dtype=float)
+            y = merged["f1"].to_numpy(dtype=float)
+            # Pearson via numpy
+            pr = float(np.corrcoef(x, y)[0, 1])
+            # Spearman via ranking then Pearson
+            xr = pd.Series(x).rank(method="average").to_numpy(dtype=float)
+            yr = pd.Series(y).rank(method="average").to_numpy(dtype=float)
+            sr = float(np.corrcoef(xr, yr)[0, 1])
+            pp = np.nan
+            sp = np.nan
+
+        rows.append({
+            "variant": variant,
+            "setup": setup,
+            "model": model,
+            "n": n,
+            "pearson_r": float(pr),
+            "pearson_p": float(pp) if np.isfinite(pp) else np.nan,
+            "spearman_rho": float(sr),
+            "spearman_p": float(sp) if np.isfinite(sp) else np.nan,
+        })
+
+    out_df = pd.DataFrame(rows).sort_values(["setup", "model", "variant"])
+    out_df.to_csv(out_csv, index=False)
+
 def plot_bar_ranking(df, outpath, title="Typology similarity (S_total) — equal weights"):
     plt.figure(figsize=(8, 6))
     plotdf = df[["aux_code", "S_total"]].sort_values("S_total", ascending=True)
@@ -671,6 +745,12 @@ def main():
         perf_all["variant"] = perf_all.apply(
             lambda r: f"{'cotrain' if r['setup'] == 'co-train' else 'zeroshot'}_{r['model']}",
             axis=1
+        )
+        
+        compute_and_write_correlations_metadata_vs_f1(
+            df_scores_equal=scores_equal,
+            perf_all=perf_all,
+            out_csv=os.path.join(args.outdir, "correlations_metadata_vs_f1.csv")
         )
 
         for (setup, model), df_subset in perf_all.groupby(["setup", "model"]):
