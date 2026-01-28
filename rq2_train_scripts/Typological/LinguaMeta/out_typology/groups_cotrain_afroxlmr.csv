@@ -1,21 +1,21 @@
 aux_code,aux_name,group,S_total
-lug,Luganda,2,1.0
-swa,Swahili,1,0.2
-bam,Bambara,0,0.0
-bbj,Ghomala,0,0.0
-fon,Fon,0,0.0
-ewe,Ewe,0,0.0
-ibo,Igbo,0,0.0
-hau,Hausa,0,0.0
-luo,Luo (Dholuo),1,0.0
-mos,Mossi (Mooré),0,0.0
-pcm,Nigerian Pidgin (Naija),0,0.0
-kin,Kinyarwanda,1,0.0
-nya,Nyanja (Chichewa),0,0.0
-sna,Shona,0,0.0
-tsn,Tswana (Setswana),0,0.0
+kin,Kinyarwanda,1,0.9226019192447077
+lug,Luganda,1,0.8965409763638281
+luo,Luo (Dholuo),1,0.8117460211608639
+swa,Swahili,2,0.5038796654292377
+nya,Nyanja (Chichewa),0,0.11328116601221473
+sna,Shona,0,0.08180440858711206
+bbj,Ghomala,0,0.051056791387069575
+ibo,Igbo,0,0.03723996249127056
+tsn,Tswana (Setswana),0,0.031165693629716155
+yor,Yoruba,0,0.023789966854713983
+pcm,Nigerian Pidgin (Naija),0,0.02318345509264984
+hau,Hausa,0,0.02146340324831816
+zul,Zulu,0,0.020462764162734536
+fon,Fon,0,0.019192412181358542
+ewe,Ewe,0,0.01744556377523811
+xho,Xhosa,0,0.01743543300679217
+mos,Mossi (Mooré),0,0.012049738511946281
+bam,Bambara,0,0.006063927713019615
+wol,Wolof,0,0.0025312257015927962
 twi,Twi,0,0.0
-wol,Wolof,0,0.0
-xho,Xhosa,0,0.0
-yor,Yoruba,0,0.0
-zul,Zulu,0,0.0

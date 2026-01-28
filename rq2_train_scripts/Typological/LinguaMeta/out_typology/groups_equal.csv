@@ -1,8 +1,8 @@
 aux_code,aux_name,group,S_total
-lug,Luganda,2,0.9346318870075324
-kin,Kinyarwanda,1,0.6177645379745957
-swa,Swahili,1,0.5691179406033241
-luo,Luo (Dholuo),1,0.5477228865348017
+kin,Kinyarwanda,1,0.9510978713079291
+lug,Luganda,1,0.9346318870075324
+luo,Luo (Dholuo),1,0.8810562198681351
+swa,Swahili,2,0.6691179406033241
 twi,Twi,0,0.5
 nya,Nyanja (Chichewa),0,0.40490733238677074
 sna,Shona,0,0.3850194950219377
