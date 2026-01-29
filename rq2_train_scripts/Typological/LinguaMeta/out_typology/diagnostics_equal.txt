@@ -1,0 +1,31 @@
+Diagnostics — equal-weight typology similarity (macro-region locale)
+====================================================================
+
+Missingness per feature:
+- S_script: missing=0 / 20
+- S_locale: missing=0 / 20
+- S_geo: missing=1 / 20
+- S_total: missing=0 / 20
+- distance_km: missing=1 / 20
+
+Zero fractions (exact zeros) per feature (ignoring NaN):
+- S_script: frac_zero=0.000
+- S_locale: frac_zero=0.800
+- S_geo: frac_zero=0.000
+
+S_total summary:
+count    20.000000
+mean      0.461901
+std       0.213266
+min       0.334933
+10%       0.340568
+25%       0.345184
+50%       0.350695
+75%       0.428680
+90%       0.886414
+max       0.951098
+Name: S_total, dtype: float64
+
+Rows where only script is available (locale+geo missing): 0 / 20
+Rows where ALL features missing: 0 / 20
+

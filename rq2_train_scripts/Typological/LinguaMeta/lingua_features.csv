@@ -1,22 +1,22 @@
-code,countries,lat,lon,script_primary,script_alt,official_status,speakers_total,endangerment
-nyn,Uganda,-0.46364,30.548,latn,,none,2700000,safe
-bam,Mali,12.9,-7.65,latn,arab; nkoo,official,9000000,safe
-bbj,Cameroon,5.39619,10.352,latn,,none,390000,safe
-ewe,Ghana,6.355032,0.597805,latn,,regional,3200000,safe
-fon,Benin,7.15484,1.66495,latn,,none,3200000,safe
-hau,Ghana; Nigeria,10.6204045,3.821451,latn,,none,28250000,safe
-ibo,Nigeria,4.62705,7.23441,latn,,none,28000000,safe
-kin,Rwanda,-1.56771,29.6441,latn,,official,9800000,safe
-lug,Uganda,0.66884,32.15153,latn,,none,5600000,safe
-luo,Kenya,-0.93296,34.4896,latn,,none,5200000,safe
-mos,Burkina Faso,11.95,-1.32,latn,,none,8300000,safe
-pcm,Nigeria,9.65873,4.21068,latn,,none,45000000,safe
-nya,Malawi; Zimbabwe,-13.911259,33.83377,latn,,official,13000000,safe
-sna,Zimbabwe,-17.20849,29.75725,latn,,official,12000000,safe
-swa,"Congo, the Democratic Republic of the; Kenya; Rwanda; Tanzania, United Republic of; Uganda",-3.12,36.045,latn,arab,official,171000000,safe
-tsn,Botswana; South Africa; Zimbabwe,-25.2901715,24.791863,latn,,official,6000000,safe
-twi,Ghana,nan,nan,latn,,none,9000000,safe
-wol,Senegal,15.2534,-15.383,latn,,de_facto,11000000,safe
-xho,South Africa; Zimbabwe,-31.0389,28.0769,latn,,official,10000000,safe
-yor,Nigeria,7.15345,3.67225,latn,,none,28000000,safe
-zul,South Africa,-29.68,29.8,latn,,regional,14000000,safe
+code,countries,region,lat,lon,script_primary,script_alt,official_status,speakers_total,endangerment
+nyn,Uganda,East Africa,-0.46364,30.548,latn,,none,2700000,safe
+bam,Mali,West Africa,12.9,-7.65,latn,arab; nkoo,official,9000000,safe
+bbj,Cameroon,Central Africa,5.39619,10.352,latn,,none,390000,safe
+ewe,Ghana,West Africa,6.355032,0.597805,latn,,regional,3200000,safe
+fon,Benin,West Africa,7.15484,1.66495,latn,,none,3200000,safe
+hau,Ghana; Nigeria,West Africa,10.6204045,3.821451,latn,,none,28250000,safe
+ibo,Nigeria,West Africa,4.62705,7.23441,latn,,none,28000000,safe
+kin,Rwanda,East Africa,-1.56771,29.6441,latn,,official,9800000,safe
+lug,Uganda,East Africa,0.66884,32.15153,latn,,none,5600000,safe
+luo,Kenya,East Africa,-0.93296,34.4896,latn,,none,5200000,safe
+mos,Burkina Faso,West Africa,11.95,-1.32,latn,,none,8300000,safe
+pcm,Nigeria,West Africa,9.65873,4.21068,latn,,none,45000000,safe
+nya,Malawi; Zimbabwe,Southern Africa,-13.911259,33.83377,latn,,official,13000000,safe
+sna,Zimbabwe,Southern Africa,-17.20849,29.75725,latn,,official,12000000,safe
+swa,"Congo, the Democratic Republic of the; Kenya; Rwanda; Tanzania, United Republic of; Uganda",East Africa; Central Africa,-3.12,36.045,latn,arab,official,171000000,safe
+tsn,Botswana; South Africa; Zimbabwe,Southern Africa,-25.2901715,24.791863,latn,,official,6000000,safe
+twi,Ghana,West Africa,nan,nan,latn,,none,9000000,safe
+wol,Senegal,West Africa,15.2534,-15.383,latn,,de_facto,11000000,safe
+xho,South Africa; Zimbabwe,Southern Africa,-31.0389,28.0769,latn,,official,10000000,safe
+yor,Nigeria,West Africa,7.15345,3.67225,latn,,none,28000000,safe
+zul,South Africa,Southern Africa,-29.68,29.8,latn,,regional,14000000,safe
